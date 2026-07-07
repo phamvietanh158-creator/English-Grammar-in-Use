@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unit 1 – Present Continuous</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#f8f7f4;--surface:#fff;--border:#e5e3de;
+  --text:#1a1a18;--muted:#6b6960;--accent:#2d6a9f;
+  --accent-bg:#eef4fb;--accent-border:#b8d4ee;--accent-text:#1a4a7a;
+  --success-bg:#eefaf4;--success-border:#a8ddc2;--success-text:#1a6b42;
+  --danger-bg:#fef2f2;--danger-border:#f9b4b4;--danger-text:#991b1b;
+  --warn-bg:#fffbeb;--warn-border:#fcd34d;
+  --radius:10px;--font:system-ui,-apple-system,sans-serif
+}
+body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.6}
+
+/* NAV */
+nav{background:var(--surface);border-bottom:1px solid var(--border);padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem;position:sticky;top:0;z-index:20}
+.nav-back{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--accent);text-decoration:none;font-weight:500}
+.nav-back:hover{opacity:.75}
+.nav-title{font-size:14px;font-weight:600;color:var(--text)}
+.nav-sub{font-size:12px;color:var(--muted);margin-left:auto}
+
+/* LAYOUT */
+.wrap{max-width:820px;margin:0 auto;padding:1.5rem 1rem 4rem}
+
+/* THEORY */
+.theory-box{background:var(--accent-bg);border:1px solid var(--accent-border);border-radius:var(--radius);margin-bottom:1.5rem;overflow:hidden}
+.theory-head{padding:.9rem 1.25rem;display:flex;align-items:center;justify-content:space-between;cursor:pointer;user-select:none}
+.theory-head-label{font-size:14px;font-weight:600;color:var(--accent-text);display:flex;align-items:center;gap:8px}
+.theory-body{padding:0 1.25rem 1.25rem;display:none}
+.theory-body.open{display:block}
+.theory-body h3{font-size:14px;font-weight:600;color:var(--accent-text);margin:1rem 0 .4rem}
+.theory-body p{font-size:14px;color:var(--text);margin-bottom:.6rem}
+.theory-body .ex{background:var(--surface);border-left:3px solid var(--accent);padding:.5rem .8rem;border-radius:0 var(--radius) var(--radius) 0;font-size:13.5px;margin:.3rem 0}
+.theory-body .ex em{color:var(--muted);font-size:12px;font-style:normal}
+.form-table{width:100%;border-collapse:collapse;font-size:13.5px;margin:.5rem 0}
+.form-table th{background:var(--accent-bg);padding:6px 10px;text-align:left;font-weight:600;border:1px solid var(--accent-border);color:var(--accent-text)}
+.form-table td{padding:6px 10px;border:1px solid var(--border)}
+.speak-btn{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border:1px solid var(--border);background:var(--surface);border-radius:99px;font-size:12px;color:var(--muted);cursor:pointer;font-family:var(--font);transition:all .15s;margin-top:.5rem}
+.speak-btn:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-bg)}
+
+/* EXERCISE */
+.ex-block{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:1rem;overflow:hidden}
+.ex-head{padding:.9rem 1.25rem;border-bottom:1px solid var(--border);display:flex;align-items:flex-start;gap:.75rem}
+.ex-badge{background:var(--accent-bg);color:var(--accent-text);font-size:11px;font-weight:700;padding:3px 8px;border-radius:99px;border:1px solid var(--accent-border);white-space:nowrap;margin-top:1px}
+.ex-head-text{}
+.ex-title{font-size:14px;font-weight:600;color:var(--text)}
+.ex-instr{font-size:13px;color:var(--muted);margin-top:3px}
+.ex-body{padding:1rem 1.25rem}
+
+/* ITEMS */
+.item{padding:.75rem 0;border-bottom:1px solid var(--border);display:flex;flex-direction:column;gap:.4rem}
+.item:last-child{border-bottom:none;padding-bottom:0}
+.item-num{font-size:11px;font-weight:700;color:var(--muted);letter-spacing:.04em}
+.item-sent{font-size:14.5px;color:var(--text);line-height:1.65}
+.fill-wrap{display:inline-flex;flex-direction:column;gap:2px;vertical-align:middle;margin:0 2px}
+.fill-inp{border:none;border-bottom:2px solid var(--accent-border);background:transparent;color:var(--text);font-size:14.5px;font-family:var(--font);padding:1px 4px;width:130px;outline:none;transition:border-color .2s}
+.fill-inp:focus{border-bottom-color:var(--accent)}
+.fill-inp.ok{border-bottom-color:#16a34a;color:#15803d;font-weight:600}
+.fill-inp.ng{border-bottom-color:#dc2626;color:#dc2626}
+.hint{font-size:11px;color:var(--muted)}
+
+.choices{display:flex;flex-wrap:wrap;gap:7px;margin-top:4px}
+.ch{padding:5px 14px;border:1px solid var(--border);border-radius:99px;font-size:13.5px;cursor:pointer;background:var(--bg);color:var(--text);font-family:var(--font);transition:all .15s}
+.ch:hover{border-color:var(--accent);background:var(--accent-bg);color:var(--accent-text)}
+.ch.sel{border-color:var(--accent);background:var(--accent-bg);color:var(--accent-text)}
+.ch.ok{border-color:#16a34a;background:#dcfce7;color:#15803d;font-weight:600}
+.ch.ng{border-color:#dc2626;background:#fee2e2;color:#dc2626}
+
+/* MATCH */
+.match-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.match-col-head{font-size:12px;font-weight:600;color:var(--muted);margin-bottom:4px;text-transform:uppercase;letter-spacing:.04em}
+.match-item{display:flex;align-items:center;gap:8px;font-size:13.5px;padding:5px 0}
+.match-key{font-size:12px;font-weight:700;color:var(--accent-text);min-width:16px}
+.match-sel{border:1px solid var(--border);border-radius:var(--radius);padding:3px 8px;font-size:13px;background:var(--surface);color:var(--text);font-family:var(--font);cursor:pointer;min-width:44px}
+.match-sel.ok{border-color:#16a34a;background:#dcfce7;color:#15803d}
+.match-sel.ng{border-color:#dc2626;background:#fee2e2;color:#dc2626}
+
+/* FEEDBACK */
+.fb{margin-top:.5rem;font-size:13px;display:none;gap:6px;align-items:flex-start}
+.fb.show{display:flex}
+.fb-icon{font-size:15px;flex-shrink:0}
+.fb-body{}
+.fb.ok .fb-body{color:var(--success-text)}
+.fb.ng .fb-body{color:var(--danger-text)}
+.fb-ans{font-weight:600;margin-bottom:2px}
+.fb-exp{color:var(--muted);font-size:12px}
+
+/* ACTIONS */
+.actions{display:flex;gap:.75rem;margin:1.5rem 0 1rem}
+.btn-check{padding:9px 22px;background:var(--accent);color:#fff;border:none;border-radius:var(--radius);font-size:14px;font-weight:600;cursor:pointer;font-family:var(--font);transition:opacity .15s}
+.btn-check:hover{opacity:.85}
+.btn-reset{padding:9px 18px;background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:var(--radius);font-size:14px;cursor:pointer;font-family:var(--font)}
+.btn-reset:hover{background:var(--bg)}
+
+/* SCORE */
+.score-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;text-align:center;display:none}
+.score-card.show{display:block}
+.score-pct{font-size:48px;font-weight:700;color:var(--accent)}
+.score-msg{font-size:14px;color:var(--muted);margin-top:4px}
+.score-stars{font-size:32px;margin:.75rem 0}
+.score-row{display:flex;justify-content:center;gap:2rem;margin-top:.75rem}
+.score-stat{text-align:center}
+.score-stat-n{font-size:22px;font-weight:600}
+.score-stat-l{font-size:12px;color:var(--muted)}
+.ok-col{color:#16a34a}
+.ng-col{color:#dc2626}
+.done-notice{background:var(--success-bg);border:1px solid var(--success-border);border-radius:var(--radius);padding:.75rem 1rem;font-size:13px;color:var(--success-text);margin-top:.75rem;display:none}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-back">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+    Trang chủ
+  </a>
+  <div class="nav-title">Unit 1 · Present Continuous</div>
+  <div class="nav-sub">3 exercises · 22 items</div>
+</nav>
+
+<div class="wrap">
+
+<!-- THEORY -->
+<div class="theory-box">
+  <div class="theory-head" onclick="toggleTheory()">
+    <span class="theory-head-label">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+      Lý thuyết: Present Continuous (I am doing)
+    </span>
+    <svg id="tArrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="transition:transform .2s;flex-shrink:0"><polyline points="6 9 12 15 18 9"/></svg>
+  </div>
+  <div class="theory-body open" id="theoryBody">
+
+    <h3>A · Công thức</h3>
+    <table class="form-table">
+      <tr><th>Chủ ngữ</th><th>Dạng khẳng định</th><th>Dạng phủ định</th><th>Nghi vấn</th></tr>
+      <tr><td>I</td><td>am ('m) + V-ing</td><td>am not ('m not) + V-ing</td><td>Am I + V-ing?</td></tr>
+      <tr><td>he / she / it</td><td>is ('s) + V-ing</td><td>is not (isn't) + V-ing</td><td>Is he/she/it + V-ing?</td></tr>
+      <tr><td>we / you / they</td><td>are ('re) + V-ing</td><td>are not (aren't) + V-ing</td><td>Are we/you/they + V-ing?</td></tr>
+    </table>
+
+    <h3>B · Dùng khi nào?</h3>
+    <p><strong>1. Hành động đang xảy ra tại thời điểm nói:</strong></p>
+    <div class="ex">Please don't make so much noise. I'm <strong>trying</strong> to work. <em>(not "I try")</em></div>
+    <div class="ex">It <strong>isn't raining</strong> any more. Let's go out. <em>(not "It doesn't rain")</em></div>
+    <div class="ex">How's your new job? Are you <strong>enjoying</strong> it?</div>
+
+    <p><strong>2. Hành động đang diễn ra trong giai đoạn này (chưa xong):</strong></p>
+    <div class="ex">I'm <strong>reading</strong> a really good book at the moment. <em>(đang đọc dở, không phải ngay lúc này)</em></div>
+    <div class="ex">Kate is <strong>learning</strong> Italian. <em>(she started and hasn't finished)</em></div>
+
+    <p><strong>3. Dùng với today / this week / this year:</strong></p>
+    <div class="ex">You're <strong>working</strong> hard today. <em>(not "You work hard today")</em></div>
+    <div class="ex">The company <strong>isn't doing</strong> so well this year.</div>
+
+    <h3>D · Diễn tả sự thay đổi đang bắt đầu</h3>
+    <p>Các động từ thường gặp: <em>get, become, start, begin, change, improve, increase, rise, fall, grow</em></p>
+    <div class="ex">Is your English <strong>getting</strong> better? <em>(not "Does your English get better")</em></div>
+    <div class="ex">The population of the world <strong>is increasing</strong> very fast.</div>
+
+    <h3>Quy tắc thêm -ing</h3>
+    <p>• Hầu hết: thêm <strong>-ing</strong> (work→working, play→playing)<br>
+    • Tận cùng e câm: bỏ e + <strong>-ing</strong> (drive→driving, take→taking)<br>
+    • 1 âm tiết: phụ âm + nguyên âm + phụ âm → gấp đôi phụ âm (run→running, sit→sitting)<br>
+    • Ngoại lệ: travel→travelling, begin→beginning</p>
+
+    <button class="speak-btn" onclick="speak(&quot;I am driving to work. She is learning Italian. Is your English getting better? The population is increasing very fast.&quot;)">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+      Nghe ví dụ
+    </button>
+  </div>
+</div>
+
+<!-- EX 1.1 -->
+<div class="ex-block">
+  <div class="ex-head">
+    <span class="ex-badge">1.1</span>
+    <div class="ex-head-text">
+      <div class="ex-title">Choose the correct verb form for each picture</div>
+      <div class="ex-instr">Chọn động từ đúng điền vào chỗ trống. Dùng các động từ: <em>scratch, hide, tie, cross, talk, take</em></div>
+    </div>
+  </div>
+  <div class="ex-body">
+    <div id="ex1items"></div>
+  </div>
+</div>
+
+<!-- EX 1.2 -->
+<div class="ex-block">
+  <div class="ex-head">
+    <span class="ex-badge">1.2</span>
+    <div class="ex-head-text">
+      <div class="ex-title">Match the sentences</div>
+      <div class="ex-instr">Nối câu bên trái với câu bên phải phù hợp (gõ số 1–8)</div>
+    </div>
+  </div>
+  <div class="ex-body" id="ex2body"></div>
+</div>
+
+<!-- EX 1.3 -->
+<div class="ex-block">
+  <div class="ex-head">
+    <span class="ex-badge">1.3</span>
+    <div class="ex-head-text">
+      <div class="ex-title">Write questions using the present continuous</div>
+      <div class="ex-instr">Đặt câu hỏi theo gợi ý trong ngoặc</div>
+    </div>
+  </div>
+  <div class="ex-body" id="ex3body"></div>
+</div>
+
+<!-- EX 1.4 -->
+<div class="ex-block">
+  <div class="ex-head">
+    <span class="ex-badge">1.4</span>
+    <div class="ex-head-text">
+      <div class="ex-title">Positive or negative? Fill in the correct form</div>
+      <div class="ex-instr">Điền dạng đúng của động từ, khẳng định hoặc phủ định</div>
+    </div>
+  </div>
+  <div class="ex-body" id="ex4body"></div>
+</div>
+
+<div class="actions">
+  <button class="btn-check" onclick="checkAll()">Chấm điểm</button>
+  <button class="btn-reset" onclick="resetAll()">Làm lại</button>
+</div>
+
+<div class="score-card" id="scoreCard">
+  <div class="score-pct" id="scorePct">—</div>
+  <div class="score-msg" id="scoreMsg"></div>
+  <div class="score-stars" id="scoreStars"></div>
+  <div class="score-row">
+    <div class="score-stat"><div class="score-stat-n ok-col" id="scoreOk">0</div><div class="score-stat-l">Đúng</div></div>
+    <div class="score-stat"><div class="score-stat-n ng-col" id="scoreNg">0</div><div class="score-stat-l">Sai</div></div>
+    <div class="score-stat"><div class="score-stat-n" id="scoreTotal">0</div><div class="score-stat-l">Tổng</div></div>
+  </div>
+  <div class="done-notice" id="doneNotice">✓ Đã lưu tiến độ Unit 1!</div>
+  <div style="margin-top:1rem;display:flex;gap:.75rem;justify-content:center">
+    <button class="btn-reset" onclick="resetAll()">Làm lại</button>
+    <a href="index.html" style="padding:9px 18px;background:var(--accent);color:#fff;border-radius:var(--radius);font-size:14px;font-weight:600;text-decoration:none">← Về trang chủ</a>
+  </div>
+</div>
+
+</div><!-- /wrap -->
+
+<script>
+// ── DATA ──────────────────────────────────────────────
+const EX1 = [
+  {id:'e1_1', pre:'1 She\'s', suf:'a picture.', answer:'taking', hint:'take'},
+  {id:'e1_2', pre:'2 He', suf:'a shoelace.', answer:"is tying", hint:'tie'},
+  {id:'e1_3', pre:'3', suf:'the road.', answer:'is crossing', hint:'cross'},
+  {id:'e1_4', pre:'4', suf:'his head.', answer:'is scratching', hint:'scratch'},
+  {id:'e1_5', pre:'5', suf:'behind a tree.', answer:'is hiding', hint:'hide'},
+  {id:'e1_6', pre:'6', suf:'to somebody.', answer:'is talking', hint:'talk'},
+];
+
+const EX2_LEFT = [
+  {k:'a', txt:"I'm getting hungry."},
+  {k:'b', txt:"They're lying."},
+  {k:'c', txt:"It's starting to rain."},
+  {k:'d', txt:"They're trying to sell it."},
+  {k:'e', txt:"It's getting late."},
+  {k:'f', txt:"I'm trying to work."},
+  {k:'g', txt:"I'm staying with friends."},
+  {k:'h', txt:"The company is losing money."},
+];
+const EX2_RIGHT = [
+  {n:'1', txt:'Please be quiet.'},
+  {n:'2', txt:"They need to cut costs."},
+  {n:'3', txt:"I think I'll have something to eat."},
+  {n:'4', txt:"We'd better hurry."},
+  {n:'5', txt:"I don't have my own place at the moment."},
+  {n:'6', txt:"I hope they find a buyer."},
+  {n:'7', txt:"Don't forget your umbrella."},
+  {n:'8', txt:"Don't believe them."},
+];
+const EX2_ANS = {a:'3',b:'8',c:'7',d:'6',e:'4',f:'1',g:'5',h:'2'};
+
+const EX3 = [
+  {id:'e3_1', context:"What's all that noise?", hint:'what / happen?', answer:"What's happening?", exp:'what + is + happening?'},
+  {id:'e3_2', context:"What's the matter?", hint:'why / you / cry?', answer:'Why are you crying?', exp:'Why + are + you + crying?'},
+  {id:'e3_3', context:"Where's your mother?", hint:'she / work / today?', answer:'Is she working today?', exp:'Is + she + working + today?'},
+  {id:'e3_4', context:"I haven't seen you for ages.", hint:'what / you / do / these days?', answer:'What are you doing these days?', exp:'What + are + you + doing + these days?'},
+  {id:'e3_5', context:'Amy is a student.', hint:'what / she / study?', answer:'What is she studying?', exp:'What + is + she + studying?'},
+  {id:'e3_6', context:'Who are those people?', hint:'what / they / do?', answer:'What are they doing?', exp:'What + are + they + doing?'},
+  {id:'e3_7', context:'I heard you started a new job.', hint:'you / enjoy / it?', answer:'Are you enjoying it?', exp:'Are + you + enjoying + it?'},
+  {id:'e3_8', context:"We're not in a hurry.", hint:'why / you / walk / so fast?', answer:'Why are you walking so fast?', exp:'Why + are + you + walking + so fast?'},
+];
+
+const EX4 = [
+  {id:'e4_1',  pre:"Please don't make so much noise.", suf:'to work.', given:'I / try', answer:"I'm trying", exp:"Khẳng định: đang xảy ra lúc nói → I'm trying"},
+  {id:'e4_2',  pre:"Let's go out now.", suf:'any more.', given:'it / rain', answer:"it isn't raining", exp:"Phủ định: mưa đã dừng → it isn't raining"},
+  {id:'e4_3',  pre:'You can turn off the radio.', suf:'to it.', given:'I / listen', answer:"I'm not listening", exp:"Phủ định: không nghe nữa → I'm not listening"},
+  {id:'e4_4',  pre:'Kate phoned last night.', suf:"a great time and doesn't want to come back.", given:'She / have', answer:"She's having", exp:"Khẳng định: đang trong kỳ nghỉ → She's having"},
+  {id:'e4_5',  pre:'Andrew started evening classes recently.', suf:'Japanese.', given:'He / learn', answer:"He's learning", exp:"Khẳng định: đang học → He's learning"},
+  {id:'e4_6',  pre:'Paul and Sarah have had an argument and now', suf:'to one another.', given:'they / speak', answer:"they aren't speaking", exp:"Phủ định: không nói chuyện với nhau → they aren't speaking"},
+  {id:'e4_7',  pre:'The situation is already very bad and now', suf:'worse.', given:'it / get', answer:"it's getting", exp:"Khẳng định: thay đổi đang xảy ra → it's getting"},
+  {id:'e4_8',  pre:'Tim', suf:"today. He's taken the day off.", given:'work', answer:"isn't working", exp:"Phủ định: Tim nghỉ hôm nay → isn't working"},
+  {id:'e4_9',  pre:'', suf:'for Sophie. Do you know where she is?', given:'I / look', answer:"I'm looking", exp:"Khẳng định: đang tìm → I'm looking"},
+  {id:'e4_10', pre:'The washing machine has been repaired.', suf:'now.', given:'It / work', answer:"It's working", exp:"Khẳng định: đang hoạt động → It's working"},
+  {id:'e4_11', pre:'', suf:"a new hospital. It will be finished next year.", given:'They / build', answer:"They're building", exp:"Khẳng định: đang xây → They're building"},
+  {id:'e4_12', pre:"Ben is a student, but he's not very happy.", suf:'his course.', given:'He / enjoy', answer:"He isn't enjoying", exp:"Phủ định: không thích → He isn't enjoying"},
+  {id:'e4_13', pre:'', suf:'. Look at those clouds. I think it\'s going to rain.', given:'The weather / change', answer:"The weather is changing", exp:"Khẳng định: thay đổi đang bắt đầu → The weather is changing"},
+  {id:'e4_14', pre:'Dan has been in the same job for a long time.', suf:'to get bored with it.', given:'He / start', answer:"He's starting", exp:"Khẳng định: bắt đầu thay đổi → He's starting"},
+];
+
+// ── RENDER ────────────────────────────────────────────
+function buildEx1(){
+  document.getElementById('ex1items').innerHTML = EX1.map((it,i)=>`
+    <div class="item" id="card-${it.id}">
+      <div class="item-num">${i+1}</div>
+      <div class="item-sent">
+        ${it.pre} <span class="fill-wrap"><input class="fill-inp" id="inp-${it.id}" placeholder="${it.hint}…" autocomplete="off"></span> ${it.suf}
+      </div>
+      <button class="speak-btn" onclick="speak('${it.pre} ${it.answer} ${it.suf}')">🔊 Nghe</button>
+      <div class="fb" id="fb-${it.id}">
+        <span class="fb-icon" id="fbi-${it.id}"></span>
+        <div class="fb-body"><div class="fb-ans" id="fba-${it.id}"></div><div class="fb-exp" id="fbe-${it.id}"></div></div>
+      </div>
+    </div>`).join('');
+}
+
+function buildEx2(){
+  const right = EX2_RIGHT.map(r=>`<option value="${r.n}">${r.n}. ${r.txt}</option>`).join('');
+  document.getElementById('ex2body').innerHTML = `
+    <div class="match-grid">
+      <div>
+        <div class="match-col-head">Câu A</div>
+        ${EX2_LEFT.map(l=>`
+          <div class="match-item" id="mc-${l.k}">
+            <span class="match-key">${l.k}</span>
+            <span style="flex:1;font-size:13.5px">${l.txt}</span>
+            <select class="match-sel" id="ms-${l.k}">
+              <option value="">–</option>${right}
+            </select>
+            <span class="fb-icon" id="mfi-${l.k}" style="font-size:15px;min-width:16px"></span>
+          </div>`).join('')}
+      </div>
+      <div>
+        <div class="match-col-head">Câu B</div>
+        ${EX2_RIGHT.map(r=>`<div class="match-item"><span class="match-key">${r.n}</span><span style="font-size:13.5px">${r.txt}</span></div>`).join('')}
+      </div>
+    </div>`;
+}
+
+function buildEx3(){
+  document.getElementById('ex3body').innerHTML = EX3.map((it,i)=>`
+    <div class="item" id="card-${it.id}">
+      <div class="item-num">${i+1}</div>
+      <div class="item-sent" style="color:var(--muted);font-size:13px">${it.context} <em>(${it.hint})</em></div>
+      <input class="fill-inp" id="inp-${it.id}" placeholder="Write your question…" style="width:100%;max-width:420px" autocomplete="off">
+      <div class="fb" id="fb-${it.id}">
+        <span class="fb-icon" id="fbi-${it.id}"></span>
+        <div class="fb-body"><div class="fb-ans" id="fba-${it.id}"></div><div class="fb-exp" id="fbe-${it.id}"></div></div>
+      </div>
+    </div>`).join('');
+}
+
+function buildEx4(){
+  document.getElementById('ex4body').innerHTML = EX4.map((it,i)=>`
+    <div class="item" id="card-${it.id}">
+      <div class="item-num">${i+1} <span style="font-size:11px;color:var(--muted)">(${it.given})</span></div>
+      <div class="item-sent">
+        ${it.pre} <span class="fill-wrap"><input class="fill-inp" id="inp-${it.id}" placeholder="…" style="width:190px" autocomplete="off"></span> ${it.suf}
+      </div>
+      <div class="fb" id="fb-${it.id}">
+        <span class="fb-icon" id="fbi-${it.id}"></span>
+        <div class="fb-body"><div class="fb-ans" id="fba-${it.id}"></div><div class="fb-exp" id="fbe-${it.id}"></div></div>
+      </div>
+    </div>`).join('');
+}
+
+// ── CHECK ─────────────────────────────────────────────
+let checked=false;
+
+function normalize(s){return s.trim().toLowerCase().replace(/['']/g,"'")}
+
+function showFb(id, ok, ans, exp){
+  const fb=document.getElementById('fb-'+id);
+  const fbi=document.getElementById('fbi-'+id);
+  const fba=document.getElementById('fba-'+id);
+  const fbe=document.getElementById('fbe-'+id);
+  fb.className='fb show '+(ok?'ok':'ng');
+  fbi.textContent=ok?'✓':'✗';
+  fba.textContent=ok?'Đúng!':'Đáp án: '+ans;
+  if(fbe)fbe.textContent=exp||'';
+}
+
+function checkAll(){
+  checked=true;
+  let ok=0,total=0;
+
+  // Ex1
+  EX1.forEach(it=>{
+    total++;
+    const v=normalize(document.getElementById('inp-'+it.id).value);
+    const a=normalize(it.answer);
+    const correct=v===a||v===normalize(it.hint+'ing')||v===a.replace(/^is /,'');
+    if(correct)ok++;
+    const inp=document.getElementById('inp-'+it.id);
+    inp.className='fill-inp '+(correct?'ok':'ng');
+    showFb(it.id,correct,it.answer,'V-ing của "'+it.hint+'" → '+it.answer);
+  });
+
+  // Ex2
+  EX2_LEFT.forEach(l=>{
+    total++;
+    const sel=document.getElementById('ms-'+l.k);
+    const correct=sel.value===EX2_ANS[l.k];
+    if(correct)ok++;
+    sel.className='match-sel '+(correct?'ok':'ng');
+    document.getElementById('mfi-'+l.k).textContent=correct?'✓':'✗';
+  });
+
+  // Ex3
+  EX3.forEach(it=>{
+    total++;
+    const v=normalize(document.getElementById('inp-'+it.id).value);
+    const a=normalize(it.answer);
+    const correct=v===a;
+    if(correct)ok++;
+    const inp=document.getElementById('inp-'+it.id);
+    inp.className='fill-inp '+(correct?'ok':'ng');
+    showFb(it.id,correct,it.answer,it.exp);
+  });
+
+  // Ex4
+  EX4.forEach(it=>{
+    total++;
+    const v=normalize(document.getElementById('inp-'+it.id).value);
+    const a=normalize(it.answer);
+    // accept contractions variants
+    const variants=[a,a.replace("isn't","is not"),a.replace("aren't","are not"),a.replace("'m"," am"),a.replace("'re"," are"),a.replace("'s"," is")];
+    const correct=variants.some(x=>v===x);
+    if(correct)ok++;
+    const inp=document.getElementById('inp-'+it.id);
+    inp.className='fill-inp '+(correct?'ok':'ng');
+    showFb(it.id,correct,it.answer,it.exp);
+  });
+
+  const pct=Math.round(ok/total*100);
+  document.getElementById('scorePct').textContent=pct+'%';
+  document.getElementById('scoreOk').textContent=ok;
+  document.getElementById('scoreNg').textContent=total-ok;
+  document.getElementById('scoreTotal').textContent=total;
+  document.getElementById('scoreStars').textContent=pct>=90?'⭐⭐⭐':pct>=70?'⭐⭐':'⭐';
+  document.getElementById('scoreMsg').textContent=pct>=90?'Xuất sắc!':pct>=70?'Khá tốt, ôn lại phần sai nhé.':'Cần xem lại lý thuyết rồi thử lại!';
+  document.getElementById('scoreCard').className='score-card show';
+
+  // Save progress
+  try{
+    const d=JSON.parse(localStorage.getItem('egiu_done')||'[]');
+    if(pct>=50&&!d.includes(1)){d.push(1);localStorage.setItem('egiu_done',JSON.stringify(d));}
+    if(pct>=50){document.getElementById('doneNotice').style.display='block';}
+  }catch(e){}
+
+  document.getElementById('scoreCard').scrollIntoView({behavior:'smooth',block:'center'});
+}
+
+function resetAll(){
+  checked=false;
+  buildEx1();buildEx2();buildEx3();buildEx4();
+  document.getElementById('scoreCard').className='score-card';
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+function toggleTheory(){
+  const b=document.getElementById('theoryBody');
+  const a=document.getElementById('tArrow');
+  b.classList.toggle('open');
+  a.style.transform=b.classList.contains('open')?'':'rotate(-90deg)';
+}
+
+function speak(t){
+  if(!window.speechSynthesis)return;
+  const u=new SpeechSynthesisUtterance(t);
+  u.lang='en-US';u.rate=0.88;
+  window.speechSynthesis.cancel();
+  window.speechSynthesis.speak(u);
+}
+
+buildEx1();buildEx2();buildEx3();buildEx4();
+</script>
+</body>
+</html>

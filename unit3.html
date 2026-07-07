@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unit 3 – Present Continuous vs Simple 1</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#f8f7f4;--surface:#fff;--border:#e5e3de;--text:#1a1a18;--muted:#6b6960;--accent:#2d6a9f;--accent-bg:#eef4fb;--accent-border:#b8d4ee;--accent-text:#1a4a7a;--success-text:#1a6b42;--danger-text:#991b1b;--radius:10px;--font:system-ui,-apple-system,sans-serif}
+body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.6}
+nav{background:var(--surface);border-bottom:1px solid var(--border);padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem;position:sticky;top:0;z-index:20}
+.nav-back{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--accent);text-decoration:none;font-weight:500}
+.nav-title{font-size:14px;font-weight:600}.nav-sub{font-size:12px;color:var(--muted);margin-left:auto}
+.wrap{max-width:820px;margin:0 auto;padding:1.5rem 1rem 4rem}
+.theory-box{background:var(--accent-bg);border:1px solid var(--accent-border);border-radius:var(--radius);margin-bottom:1.5rem;overflow:hidden}
+.theory-head{padding:.9rem 1.25rem;display:flex;align-items:center;justify-content:space-between;cursor:pointer;user-select:none}
+.theory-head-label{font-size:14px;font-weight:600;color:var(--accent-text);display:flex;align-items:center;gap:8px}
+.theory-body{padding:0 1.25rem 1.25rem;display:none}.theory-body.open{display:block}
+.theory-body h3{font-size:14px;font-weight:600;color:var(--accent-text);margin:1rem 0 .4rem}
+.theory-body p{font-size:14px;margin-bottom:.5rem}
+.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:.5rem 0}
+.compare-col{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:.75rem 1rem}
+.compare-col h4{font-size:13px;font-weight:700;margin-bottom:.5rem;padding-bottom:.4rem;border-bottom:2px solid var(--accent);color:var(--accent-text)}
+.ex{background:var(--accent-bg);border-left:3px solid var(--accent);padding:.45rem .8rem;border-radius:0 var(--radius) var(--radius) 0;font-size:13.5px;margin:.3rem 0}
+.ex em{color:var(--muted);font-size:12px;font-style:normal}
+.speak-btn{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border:1px solid var(--border);background:var(--surface);border-radius:99px;font-size:12px;color:var(--muted);cursor:pointer;font-family:var(--font);transition:all .15s;margin-top:.5rem}
+.speak-btn:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-bg)}
+.ex-block{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:1rem;overflow:hidden}
+.ex-head{padding:.9rem 1.25rem;border-bottom:1px solid var(--border);display:flex;align-items:flex-start;gap:.75rem}
+.ex-badge{background:var(--accent-bg);color:var(--accent-text);font-size:11px;font-weight:700;padding:3px 8px;border-radius:99px;border:1px solid var(--accent-border);white-space:nowrap;margin-top:1px}
+.ex-title{font-size:14px;font-weight:600}.ex-instr{font-size:13px;color:var(--muted);margin-top:3px}
+.ex-body{padding:1rem 1.25rem}
+.item{padding:.75rem 0;border-bottom:1px solid var(--border)}.item:last-child{border-bottom:none;padding-bottom:0}
+.item-num{font-size:11px;font-weight:700;color:var(--muted);margin-bottom:3px}
+.item-sent{font-size:14.5px;line-height:1.65}
+.fill-inp{border:none;border-bottom:2px solid var(--accent-border);background:transparent;color:var(--text);font-size:14.5px;font-family:var(--font);padding:1px 4px;width:190px;outline:none;transition:border-color .2s;vertical-align:middle}
+.fill-inp:focus{border-bottom-color:var(--accent)}
+.fill-inp.ok{border-bottom-color:#16a34a;color:#15803d;font-weight:600}
+.fill-inp.ng{border-bottom-color:#dc2626;color:#dc2626}
+.ch-wrap{display:flex;flex-wrap:wrap;gap:6px;margin-top:5px}
+.ch{padding:5px 14px;border:1px solid var(--border);border-radius:99px;font-size:13.5px;cursor:pointer;background:var(--bg);color:var(--text);font-family:var(--font);transition:all .15s}
+.ch:hover{border-color:var(--accent);background:var(--accent-bg)}
+.ch.sel{border-color:var(--accent);background:var(--accent-bg);color:var(--accent-text)}
+.ch.ok{border-color:#16a34a;background:#dcfce7;color:#15803d;font-weight:600}
+.ch.ng{border-color:#dc2626;background:#fee2e2;color:#dc2626}
+.fb{margin-top:.5rem;font-size:13px;display:none;gap:6px;align-items:flex-start}
+.fb.show{display:flex}.fb-icon{font-size:15px;flex-shrink:0}
+.fb.ok .fb-body{color:var(--success-text)}.fb.ng .fb-body{color:var(--danger-text)}
+.fb-ans{font-weight:600;margin-bottom:2px}.fb-exp{color:var(--muted);font-size:12px}
+.actions{display:flex;gap:.75rem;margin:1.5rem 0 1rem}
+.btn-check{padding:9px 22px;background:var(--accent);color:#fff;border:none;border-radius:var(--radius);font-size:14px;font-weight:600;cursor:pointer;font-family:var(--font)}
+.btn-reset{padding:9px 18px;background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:var(--radius);font-size:14px;cursor:pointer;font-family:var(--font)}
+.score-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;text-align:center;display:none}
+.score-card.show{display:block}
+.score-pct{font-size:48px;font-weight:700;color:var(--accent)}.score-msg{font-size:14px;color:var(--muted);margin-top:4px}.score-stars{font-size:32px;margin:.75rem 0}
+.score-row{display:flex;justify-content:center;gap:2rem;margin-top:.75rem}
+.score-stat-n{font-size:22px;font-weight:600}.score-stat-l{font-size:12px;color:var(--muted)}
+.ok-col{color:#16a34a}.ng-col{color:#dc2626}
+.done-notice{background:#eefaf4;border:1px solid #a8ddc2;border-radius:var(--radius);padding:.75rem 1rem;font-size:13px;color:#1a6b42;margin-top:.75rem;display:none}
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-back">← Trang chủ</a>
+  <div class="nav-title">Unit 3 · Present Continuous vs Simple 1</div>
+  <div class="nav-sub">4 exercises · 24 items</div>
+</nav>
+<div class="wrap">
+
+<div class="theory-box">
+  <div class="theory-head" onclick="toggleT()">
+    <span class="theory-head-label">📖 Lý thuyết: Continuous vs Simple (so sánh)</span>
+    <svg id="tA" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="transition:transform .2s;flex-shrink:0"><polyline points="6 9 12 15 18 9"/></svg>
+  </div>
+  <div class="theory-body open" id="tB">
+    <div class="compare-grid">
+      <div class="compare-col">
+        <h4>Present Continuous (I am doing)</h4>
+        <p style="font-size:13px;color:var(--muted)">Hành động đang xảy ra lúc nói, hoặc trong giai đoạn này:</p>
+        <div class="ex">The water <strong>is boiling</strong>. Be careful.</div>
+        <div class="ex">She<strong>'s learning</strong> Italian. <em>(chưa xong)</em></div>
+        <div class="ex">I<strong>'m living</strong> with friends until I find a place. <em>(tạm thời)</em></div>
+        <div class="ex">You<strong>'re working</strong> hard today.</div>
+      </div>
+      <div class="compare-col">
+        <h4>Present Simple (I do)</h4>
+        <p style="font-size:13px;color:var(--muted)">Thói quen, sự thật, điều lâu dài:</p>
+        <div class="ex">Water <strong>boils</strong> at 100°C. <em>(luôn đúng)</em></div>
+        <div class="ex">Most people <strong>learn</strong> to swim as children. <em>(nói chung)</em></div>
+        <div class="ex">My parents <strong>live</strong> in London. <em>(lâu dài)</em></div>
+        <div class="ex">What <strong>do</strong> you usually <strong>do</strong> at weekends?</div>
+      </div>
+    </div>
+    <h3>⚠️ I always do vs I'm always doing</h3>
+    <div class="ex">I <strong>always go</strong> to work by car. <em>(thói quen bình thường)</em></div>
+    <div class="ex">I<strong>'m always losing</strong> my keys. <em>(xảy ra quá nhiều, thường mang nghĩa phàn nàn)</em></div>
+    <div class="ex">Paul <strong>is always complaining</strong>. <em>(= complains too much)</em></div>
+    <button class="speak-btn" onclick="speak('The water is boiling. Water boils at 100 degrees. I am always losing my keys. Paul is always complaining.')">🔊 Nghe ví dụ</button>
+  </div>
+</div>
+
+<!-- 3.1 -->
+<div class="ex-block">
+  <div class="ex-head"><span class="ex-badge">3.1</span><div><div class="ex-title">Are the underlined verbs OK? Correct where necessary.</div><div class="ex-instr">Gõ "OK" nếu đúng, hoặc gõ dạng đúng nếu sai</div></div></div>
+  <div class="ex-body" id="b31"></div>
+</div>
+
+<!-- 3.2 -->
+<div class="ex-block">
+  <div class="ex-head"><span class="ex-badge">3.2</span><div><div class="ex-title">Present continuous or present simple?</div><div class="ex-instr">Chia động từ đúng dạng theo ngữ cảnh</div></div></div>
+  <div class="ex-body" id="b32"></div>
+</div>
+
+<!-- 3.3 -->
+<div class="ex-block">
+  <div class="ex-head"><span class="ex-badge">3.3</span><div><div class="ex-title">Present continuous or present simple?</div><div class="ex-instr">Điền 2 chỗ trống trong câu</div></div></div>
+  <div class="ex-body" id="b33"></div>
+</div>
+
+<!-- 3.4 -->
+<div class="ex-block">
+  <div class="ex-head"><span class="ex-badge">3.4</span><div><div class="ex-title">Finish B's sentences using "always -ing"</div><div class="ex-instr">Dùng "always + V-ing" để diễn tả điều xảy ra quá thường xuyên</div></div></div>
+  <div class="ex-body" id="b34"></div>
+</div>
+
+<div class="actions">
+  <button class="btn-check" onclick="checkAll()">Chấm điểm</button>
+  <button class="btn-reset" onclick="resetAll()">Làm lại</button>
+</div>
+<div class="score-card" id="scoreCard">
+  <div class="score-pct" id="sPct">—</div><div class="score-msg" id="sMsg"></div><div class="score-stars" id="sStars"></div>
+  <div class="score-row">
+    <div class="score-stat"><div class="score-stat-n ok-col" id="sOk">0</div><div class="score-stat-l">Đúng</div></div>
+    <div class="score-stat"><div class="score-stat-n ng-col" id="sNg">0</div><div class="score-stat-l">Sai</div></div>
+    <div class="score-stat"><div class="score-stat-n" id="sTotal">0</div><div class="score-stat-l">Tổng</div></div>
+  </div>
+  <div class="done-notice" id="doneN">✓ Đã lưu tiến độ Unit 3!</div>
+  <div style="margin-top:1rem;display:flex;gap:.75rem;justify-content:center">
+    <button class="btn-reset" onclick="resetAll()">Làm lại</button>
+    <a href="index.html" style="padding:9px 18px;background:var(--accent);color:#fff;border-radius:var(--radius);font-size:14px;font-weight:600;text-decoration:none">← Về trang chủ</a>
+  </div>
+</div>
+</div>
+
+<script>
+const D31=[
+  {id:'a31',sent:'Water boils at 100 degrees Celsius.',ans:'OK',exp:'Sự thật khoa học → Present Simple ✓'},
+  {id:'b31',sent:'How often are you going to the cinema?',ans:'do you go',exp:'Hỏi tần suất → Present Simple: do you go'},
+  {id:'c31',sent:'Ben tries to find a job, but he hasn\'t had any luck yet.',ans:'is trying',exp:'Đang cố gắng lúc này → Continuous: is trying'},
+  {id:'d31',sent:'Martina is phoning her mother every day.',ans:'phones',exp:'"every day" → thói quen → Simple: phones'},
+  {id:'e31',sent:'The moon goes round the earth in about 27 days.',ans:'OK',exp:'Sự thật thiên văn → Simple ✓'},
+  {id:'f31',sent:'What do they talk about?',ans:'are they talking',exp:'Đang nói lúc này (hear) → Continuous: are they talking'},
+  {id:'g31',sent:'What do you do in your spare time?',ans:'OK',exp:'Hỏi thói quen → Simple ✓'},
+  {id:'h31',sent:'Sarah is a vegetarian. She doesn\'t eat meat.',ans:'OK',exp:'Sự thật lâu dài → Simple ✓'},
+  {id:'i31',sent:'I must go now. It gets late.',ans:'is getting',exp:'Đang thay đổi lúc này → Continuous: is getting'},
+  {id:'j31',sent:"'Come on! It's time to leave.' 'OK, I come.'",ans:"I'm coming",exp:'Hành động đang xảy ra ngay bây giờ → Continuous'},
+  {id:'k31',sent:"Paul is never late. He's always starting work on time.",ans:'OK',exp:'"always -ing" ở đây dùng được để nhấn mạnh (thói quen tốt) ✓'},
+  {id:'l31',sent:"They don't get on well. They're always arguing.",ans:'OK',exp:'"always -ing" → xảy ra quá nhiều (phàn nàn) ✓'},
+];
+const D32=[
+  {id:'a32',pre:'1a I usually',suf:'hungry in the afternoon.',hint:'I/usually/get',ans:'get',exp:'usually → thói quen → Simple'},
+  {id:'b32',pre:'1b',suf:"hungry. Let's go and eat something.",hint:'I/get',ans:"I'm getting",exp:'Đang xảy ra lúc nói → Continuous'},
+  {id:'c32',pre:"2a '",suf:"to the radio?' 'No, you can turn it off.'",hint:'you/listen',ans:'Are you listening',exp:'Hỏi hành động đang xảy ra → Continuous'},
+  {id:'d32',pre:"2b '",suf="to the radio a lot?' 'No, not very often.'",hint:'you/listen',ans:'Do you listen',exp:'"a lot" = tần suất → Simple'},
+  {id:'e32',pre:'3a The River Nile',suf:'into the Mediterranean.',hint:'flow',ans:'flows',exp:'Sự thật địa lý → Simple'},
+  {id:'f32',pre:'3b The river',suf:'very fast today.',hint:'flow',ans:'is flowing',exp:'"today" so với bình thường → Continuous'},
+  {id:'g32',pre:"4a I'm not very active. I",suf:'any sport.',hint:'not/do',ans:"don't do",exp:'Nói chung → Simple'},
+  {id:'h32',pre:'4b What',suf:'at weekends?',hint:'you/usually/do',ans:'do you usually do',exp:'"usually" + weekends → thói quen → Simple'},
+  {id:'i32',pre:'5a Rachel is in New York right now. She',suf:'at the Park Hotel.',hint:'stay',ans:'is staying',exp:'"right now" → Continuous'},
+  {id:'j32',pre:'5b She',suf:"there when she's in New York.",hint:'always/stay',ans:'always stays',exp:'"always" + hành động lặp lại → Simple'},
+];
+const D33=[
+  {id:'a33',pre:'I',suf='to drive.',hint:'I/learn',ans:"I'm learning",exp:'Đang học lúc này (chưa xong) → Continuous'},
+  {id:'b33',pre:'My father',suf='me.',hint:'teach',ans:'is teaching',exp:'Đang dạy trong giai đoạn này → Continuous'},
+];
+const D34=[
+  {id:'a34',context:'A: You\'re late again.',hint:'(always / be late)',ans:"You're always being late",exp:'"always -ing" = xảy ra quá thường xuyên, thường phàn nàn'},
+  {id:'b34',context:"A: You've lost your keys again.",hint:'(always / lose)',ans:"I'm always losing my keys",exp:'"always -ing" = lặp lại quá nhiều'},
+  {id:'c34',context:"A: You borrowed money from me again.",hint:'(always / borrow)',ans:"You're always borrowing money",exp:'"always -ing" = xảy ra quá thường xuyên'},
+];
+
+function build(){
+  document.getElementById('b31').innerHTML=D31.map((it,i)=>`
+    <div class="item" id="card-${it.id}">
+      <div class="item-num">${i+1}</div>
+      <div class="item-sent" style="color:var(--muted);font-size:13px">${it.sent}</div>
+      <input class="fill-inp" id="inp-${it.id}" placeholder='OK hoặc sửa lại…' style='width:100%;max-width:360px' autocomplete='off'>
+      <div class='fb' id='fb-${it.id}'><span class='fb-icon' id='fi-${it.id}'></span><div><div class='fb-ans' id='fa-${it.id}'></div><div class='fb-exp' id='fe-${it.id}'></div></div></div>
+    </div>`).join('');
+  document.getElementById('b32').innerHTML=D32.map((it,i)=>`
+    <div class="item" id="card-${it.id}">
+      <div class="item-num">${i+1} <span style="font-size:11px;color:var(--muted)">(${it.hint})</span></div>
+      <div class="item-sent">${it.pre} <input class="fill-inp" id="inp-${it.id}" placeholder="…" autocomplete="off"> ${it.suf}</div>
+      <div class='fb' id='fb-${it.id}'><span class='fb-icon' id='fi-${it.id}'></span><div><div class='fb-ans' id='fa-${it.id}'></div><div class='fb-exp' id='fe-${it.id}'></div></div></div>
+    </div>`).join('');
+  document.getElementById('b33').innerHTML=D33.map((it,i)=>`
+    <div class="item" id="card-${it.id}">
+      <div class="item-num">${i+1} <span style="font-size:11px;color:var(--muted)">(${it.hint})</span></div>
+      <div class="item-sent"><input class="fill-inp" id="inp-${it.id}" placeholder="…" autocomplete="off"> ${it.suf}</div>
+      <div class='fb' id='fb-${it.id}'><span class='fb-icon' id='fi-${it.id}'></span><div><div class='fb-ans' id='fa-${it.id}'></div><div class='fb-exp' id='fe-${it.id}'></div></div></div>
+    </div>`).join('');
+  document.getElementById('b34').innerHTML=D34.map((it,i)=>`
+    <div class="item" id="card-${it.id}">
+      <div class="item-num">${i+1}</div>
+      <div class="item-sent" style="color:var(--muted);font-size:13px">${it.context} <em>${it.hint}</em></div>
+      <input class="fill-inp" id="inp-${it.id}" placeholder="B says…" style="width:100%;max-width:420px" autocomplete="off">
+      <div class='fb' id='fb-${it.id}'><span class='fb-icon' id='fi-${it.id}'></span><div><div class='fb-ans' id='fa-${it.id}'></div><div class='fb-exp' id='fe-${it.id}'></div></div></div>
+    </div>`).join('');
+}
+function norm(s){return s.trim().toLowerCase().replace(/['']/g,"'").replace(/\s+/g,' ')}
+function showFb(id,ok,ans,exp){
+  document.getElementById('fb-'+id).className='fb show '+(ok?'ok':'ng');
+  document.getElementById('fi-'+id).textContent=ok?'✓':'✗';
+  document.getElementById('fa-'+id).textContent=ok?'Đúng!':'Đáp án: '+ans;
+  document.getElementById('fe-'+id).textContent=exp||'';
+}
+function checkAll(){
+  let ok=0,total=0;
+  const all=[...D31,...D32,...D33,...D34];
+  all.forEach(it=>{
+    total++;
+    const v=norm(document.getElementById('inp-'+it.id).value);
+    const a=norm(it.ans);
+    const variants=[a,a.replace("'m"," am"),a.replace("'re"," are"),a.replace("'s"," is"),a.replace("doesn't","does not"),a.replace("don't","do not")];
+    const correct=variants.some(x=>v===x);
+    if(correct)ok++;
+    document.getElementById('inp-'+it.id).className='fill-inp '+(correct?'ok':'ng');
+    showFb(it.id,correct,it.ans,it.exp);
+  });
+  const pct=Math.round(ok/total*100);
+  document.getElementById('sPct').textContent=pct+'%';
+  document.getElementById('sOk').textContent=ok;document.getElementById('sNg').textContent=total-ok;document.getElementById('sTotal').textContent=total;
+  document.getElementById('sStars').textContent=pct>=90?'⭐⭐⭐':pct>=70?'⭐⭐':'⭐';
+  document.getElementById('sMsg').textContent=pct>=90?'Xuất sắc!':pct>=70?'Khá tốt!':'Ôn lại cả 2 dạng rồi thử lại!';
+  document.getElementById('scoreCard').className='score-card show';
+  try{const d=JSON.parse(localStorage.getItem('egiu_done')||'[]');if(pct>=50&&!d.includes(3)){d.push(3);localStorage.setItem('egiu_done',JSON.stringify(d));document.getElementById('doneN').style.display='block';}}catch(e){}
+  document.getElementById('scoreCard').scrollIntoView({behavior:'smooth',block:'center'});
+}
+function resetAll(){build();document.getElementById('scoreCard').className='score-card';window.scrollTo({top:0,behavior:'smooth'});}
+function toggleT(){const b=document.getElementById('tB');const a=document.getElementById('tA');b.classList.toggle('open');a.style.transform=b.classList.contains('open')?'':'rotate(-90deg)';}
+function speak(t){if(!window.speechSynthesis)return;const u=new SpeechSynthesisUtterance(t);u.lang='en-US';u.rate=0.88;window.speechSynthesis.cancel();window.speechSynthesis.speak(u);}
+build();
+</script>
+</body>
+</html>

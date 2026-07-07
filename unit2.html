@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unit 2 – Present Simple</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#f8f7f4;--surface:#fff;--border:#e5e3de;--text:#1a1a18;--muted:#6b6960;--accent:#2d6a9f;--accent-bg:#eef4fb;--accent-border:#b8d4ee;--accent-text:#1a4a7a;--success-text:#1a6b42;--danger-text:#991b1b;--radius:10px;--font:system-ui,-apple-system,sans-serif}
+body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.6}
+nav{background:var(--surface);border-bottom:1px solid var(--border);padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem;position:sticky;top:0;z-index:20}
+.nav-back{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--accent);text-decoration:none;font-weight:500}
+.nav-title{font-size:14px;font-weight:600}
+.nav-sub{font-size:12px;color:var(--muted);margin-left:auto}
+.wrap{max-width:820px;margin:0 auto;padding:1.5rem 1rem 4rem}
+.theory-box{background:var(--accent-bg);border:1px solid var(--accent-border);border-radius:var(--radius);margin-bottom:1.5rem;overflow:hidden}
+.theory-head{padding:.9rem 1.25rem;display:flex;align-items:center;justify-content:space-between;cursor:pointer;user-select:none}
+.theory-head-label{font-size:14px;font-weight:600;color:var(--accent-text);display:flex;align-items:center;gap:8px}
+.theory-body{padding:0 1.25rem 1.25rem;display:none}
+.theory-body.open{display:block}
+.theory-body h3{font-size:14px;font-weight:600;color:var(--accent-text);margin:1rem 0 .4rem}
+.theory-body p{font-size:14px;color:var(--text);margin-bottom:.5rem}
+.ex{background:var(--surface);border-left:3px solid var(--accent);padding:.45rem .8rem;border-radius:0 var(--radius) var(--radius) 0;font-size:13.5px;margin:.3rem 0}
+.ex em{color:var(--muted);font-size:12px;font-style:normal}
+.form-table{width:100%;border-collapse:collapse;font-size:13.5px;margin:.5rem 0}
+.form-table th{background:var(--accent-bg);padding:6px 10px;text-align:left;font-weight:600;border:1px solid var(--accent-border);color:var(--accent-text)}
+.form-table td{padding:6px 10px;border:1px solid var(--border)}
+.speak-btn{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border:1px solid var(--border);background:var(--surface);border-radius:99px;font-size:12px;color:var(--muted);cursor:pointer;font-family:var(--font);transition:all .15s;margin-top:.5rem}
+.speak-btn:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-bg)}
+.ex-block{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:1rem;overflow:hidden}
+.ex-head{padding:.9rem 1.25rem;border-bottom:1px solid var(--border);display:flex;align-items:flex-start;gap:.75rem}
+.ex-badge{background:var(--accent-bg);color:var(--accent-text);font-size:11px;font-weight:700;padding:3px 8px;border-radius:99px;border:1px solid var(--accent-border);white-space:nowrap;margin-top:1px}
+.ex-title{font-size:14px;font-weight:600}
+.ex-instr{font-size:13px;color:var(--muted);margin-top:3px}
+.ex-body{padding:1rem 1.25rem}
+.item{padding:.75rem 0;border-bottom:1px solid var(--border)}
+.item:last-child{border-bottom:none;padding-bottom:0}
+.item-num{font-size:11px;font-weight:700;color:var(--muted);margin-bottom:3px}
+.item-sent{font-size:14.5px;line-height:1.65}
+.fill-inp{border:none;border-bottom:2px solid var(--accent-border);background:transparent;color:var(--text);font-size:14.5px;font-family:var(--font);padding:1px 4px;width:160px;outline:none;transition:border-color .2s;vertical-align:middle}
+.fill-inp:focus{border-bottom-color:var(--accent)}
+.fill-inp.ok{border-bottom-color:#16a34a;color:#15803d;font-weight:600}
+.fill-inp.ng{border-bottom-color:#dc2626;color:#dc2626}
+.fb{margin-top:.5rem;font-size:13px;display:none;gap:6px;align-items:flex-start}
+.fb.show{display:flex}
+.fb-icon{font-size:15px;flex-shrink:0}
+.fb.ok .fb-body{color:var(--success-text)}
+.fb.ng .fb-body{color:var(--danger-text)}
+.fb-ans{font-weight:600;margin-bottom:2px}
+.fb-exp{color:var(--muted);font-size:12px}
+.actions{display:flex;gap:.75rem;margin:1.5rem 0 1rem}
+.btn-check{padding:9px 22px;background:var(--accent);color:#fff;border:none;border-radius:var(--radius);font-size:14px;font-weight:600;cursor:pointer;font-family:var(--font)}
+.btn-check:hover{opacity:.85}
+.btn-reset{padding:9px 18px;background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:var(--radius);font-size:14px;cursor:pointer;font-family:var(--font)}
+.score-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;text-align:center;display:none}
+.score-card.show{display:block}
+.score-pct{font-size:48px;font-weight:700;color:var(--accent)}
+.score-msg{font-size:14px;color:var(--muted);margin-top:4px}
+.score-stars{font-size:32px;margin:.75rem 0}
+.score-row{display:flex;justify-content:center;gap:2rem;margin-top:.75rem}
+.score-stat-n{font-size:22px;font-weight:600}
+.score-stat-l{font-size:12px;color:var(--muted)}
+.ok-col{color:#16a34a}.ng-col{color:#dc2626}
+.done-notice{background:#eefaf4;border:1px solid #a8ddc2;border-radius:var(--radius);padding:.75rem 1rem;font-size:13px;color:#1a6b42;margin-top:.75rem;display:none}
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nav-back">← Trang chủ</a>
+  <div class="nav-title">Unit 2 · Present Simple (I do)</div>
+  <div class="nav-sub">5 exercises · 29 items</div>
+</nav>
+<div class="wrap">
+
+<div class="theory-box">
+  <div class="theory-head" onclick="toggleT()">
+    <span class="theory-head-label">📖 Lý thuyết: Present Simple (I do)</span>
+    <svg id="tA" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="transition:transform .2s;flex-shrink:0"><polyline points="6 9 12 15 18 9"/></svg>
+  </div>
+  <div class="theory-body open" id="tB">
+    <h3>A · Công thức</h3>
+    <table class="form-table">
+      <tr><th>Chủ ngữ</th><th>Khẳng định</th><th>Phủ định</th><th>Nghi vấn</th></tr>
+      <tr><td>I / we / you / they</td><td>work / drive</td><td>don't + V</td><td>Do + S + V?</td></tr>
+      <tr><td>he / she / it</td><td>works / drives</td><td>doesn't + V</td><td>Does + S + V?</td></tr>
+    </table>
+    <h3>B · Dùng khi nào?</h3>
+    <p><strong>1. Thói quen, hành động lặp lại:</strong></p>
+    <div class="ex">I usually <strong>go</strong> away at weekends.</div>
+    <div class="ex">Julie <strong>doesn't drink</strong> tea very often.</div>
+    <p><strong>2. Sự thật hiển nhiên, khoa học:</strong></p>
+    <div class="ex">The earth <strong>goes</strong> round the sun.</div>
+    <div class="ex">Rice <strong>doesn't grow</strong> in cold climates.</div>
+    <p><strong>3. Tần suất (how often):</strong></p>
+    <div class="ex">Robert usually <strong>goes</strong> away two or three times a year.</div>
+    <h3>D · Dấu hiệu nhận biết</h3>
+    <p>always · usually · often · sometimes · rarely · never · every day/week · on Sundays · twice a year</p>
+    <h3>E · Performative verbs (làm hành động bằng lời nói)</h3>
+    <div class="ex">I <strong>promise</strong> I won't be late. <em>(not "I'm promising")</em></div>
+    <div class="ex">I <strong>suggest</strong> that you try calling him tomorrow.</div>
+    <div class="ex">Các động từ tương tự: apologise · insist · agree · refuse · recommend · advise</div>
+    <button class="speak-btn" onclick="speak('The earth goes round the sun. I usually go away at weekends. I promise I will not be late.')">🔊 Nghe ví dụ</button>
+  </div>
+</div>
+
+<!-- 2.1 -->
+<div class="ex-block">
+  <div class="ex-head"><span class="ex-badge">2.1</span><div><div class="ex-title">Complete using the correct verb form</div><div class="ex-instr">Dùng các động từ: <em>cause, close, connect, go, live, speak, take</em></div></div></div>
+  <div class="ex-body" id="b21"></div>
+</div>
+
+<!-- 2.2 -->
+<div class="ex-block">
+  <div class="ex-head"><span class="ex-badge">2.2</span><div><div class="ex-title">Put the verb into the correct form</div><div class="ex-instr">Chia động từ trong ngoặc (khẳng định hoặc phủ định)</div></div></div>
+  <div class="ex-body" id="b22"></div>
+</div>
+
+<!-- 2.3 -->
+<div class="ex-block">
+  <div class="ex-head"><span class="ex-badge">2.3</span><div><div class="ex-title">Complete using these verbs. Sometimes negative.</div><div class="ex-instr">Dùng: <em>believe, eat, flow, go, grow, make, rise, tell, translate</em></div></div></div>
+  <div class="ex-body" id="b23"></div>
+</div>
+
+<!-- 2.4 -->
+<div class="ex-block">
+  <div class="ex-head"><span class="ex-badge">2.4</span><div><div class="ex-title">Write questions about Lisa and her family</div><div class="ex-instr">Đặt câu hỏi dựa theo gợi ý</div></div></div>
+  <div class="ex-body" id="b24"></div>
+</div>
+
+<!-- 2.5 -->
+<div class="ex-block">
+  <div class="ex-head"><span class="ex-badge">2.5</span><div><div class="ex-title">Complete using: I agree / I apologise / I insist / I promise / I recommend / I suggest</div><div class="ex-instr">Chọn đúng performative verb</div></div></div>
+  <div class="ex-body" id="b25"></div>
+</div>
+
+<div class="actions">
+  <button class="btn-check" onclick="checkAll()">Chấm điểm</button>
+  <button class="btn-reset" onclick="resetAll()">Làm lại</button>
+</div>
+<div class="score-card" id="scoreCard">
+  <div class="score-pct" id="sPct">—</div>
+  <div class="score-msg" id="sMsg"></div>
+  <div class="score-stars" id="sStars"></div>
+  <div class="score-row">
+    <div class="score-stat"><div class="score-stat-n ok-col" id="sOk">0</div><div class="score-stat-l">Đúng</div></div>
+    <div class="score-stat"><div class="score-stat-n ng-col" id="sNg">0</div><div class="score-stat-l">Sai</div></div>
+    <div class="score-stat"><div class="score-stat-n" id="sTotal">0</div><div class="score-stat-l">Tổng</div></div>
+  </div>
+  <div class="done-notice" id="doneN">✓ Đã lưu tiến độ Unit 2!</div>
+  <div style="margin-top:1rem;display:flex;gap:.75rem;justify-content:center">
+    <button class="btn-reset" onclick="resetAll()">Làm lại</button>
+    <a href="index.html" style="padding:9px 18px;background:var(--accent);color:#fff;border-radius:var(--radius);font-size:14px;font-weight:600;text-decoration:none">← Về trang chủ</a>
+  </div>
+</div>
+</div>
+
+<script>
+const D21=[
+  {id:'a',pre:'1 Tanya',suf:'German very well.',ans:'speaks',exp:'Ngôi 3 số ít + speak → speaks'},
+  {id:'b',pre:'2 Ben and Jack',suf:'to the same school.',ans:'go',exp:'they/we/you → go (nguyên mẫu)'},
+  {id:'c',pre:'3 Bad driving',suf:'many accidents.',ans:'causes',exp:'Ngôi 3 số ít + cause → causes'},
+  {id:'d',pre:'4 The museum',suf:'at 4 o\'clock on Sundays.',ans:'closes',exp:'Ngôi 3 số ít + close → closes'},
+  {id:'e',pre:'5 My parents',suf:'in a very small flat.',ans:'live',exp:'they → live (nguyên mẫu)'},
+  {id:'f',pre:'6 The Olympic Games',suf:'place every four years.',ans:'take',exp:'they → take (nguyên mẫu)'},
+  {id:'g',pre:'7 The Panama Canal',suf:'the Atlantic and Pacific oceans.',ans:'connects',exp:'Ngôi 3 số ít + connect → connects'},
+];
+const D22=[
+  {id:'h',pre:'1 Julia',suf:'tea very often.',given:'not / drink',ans:"doesn't drink",exp:'Ngôi 3 số ít phủ định → doesn\'t + V'},
+  {id:'i',pre:'2 What time',suf:'here?',given:'the banks / close',ans:'do the banks close',exp:'Nghi vấn they → Do + they + V'},
+  {id:'j',pre:'3 I have a car, but I',suf:'it much.',given:'not / use',ans:"don't use",exp:'Ngôi 1 phủ định → don\'t + V'},
+  {id:'k',pre:'4 Where',suf:'? Is she Spanish?',given:'Maria / come',ans:'does Maria come',exp:'Ngôi 3 nghi vấn → Does + S + V'},
+  {id:'l',pre:"5 'What",suf:"?' 'I'm an electrician.'",given:'you / do',ans:'do you do',exp:'Nghi vấn you → Do + you + V'},
+  {id:'m',pre:'6 What',suf:'?',given:'this word / mean',ans:'does this word mean',exp:'Ngôi 3 nghi vấn → Does + S + V'},
+  {id:'n',pre:"7 David isn't very fit. He",suf:'any sport.',given:'not / do',ans:"doesn't do",exp:'Ngôi 3 phủ định → doesn\'t + V'},
+  {id:'o',pre:'8 It',suf:'me an hour to get to work.',given:'take',ans:'takes',exp:'Ngôi 3 → takes'},
+];
+const D23=[
+  {id:'p',pre:'1 The earth',suf:'round the sun.',ans:'goes',exp:'Sự thật khoa học → goes (ngôi 3)'},
+  {id:'q',pre:'2 Rice',suf:'in cold climates.',ans:"doesn't grow",exp:'Phủ định sự thật → doesn\'t grow'},
+  {id:'r',pre:'3 The sun',suf:'in the east.',ans:'rises',exp:'Sự thật → rises'},
+  {id:'s',pre:'4 Bees',suf:'honey.',ans:'make',exp:'they → make'},
+  {id:'t',pre:'5 Vegetarians',suf:'meat.',ans:"don't eat",exp:'Phủ định → don\'t eat'},
+  {id:'u',pre:'6 An atheist',suf:'in God.',ans:"doesn't believe",exp:'Ngôi 3 phủ định → doesn\'t believe'},
+  {id:'v',pre:'7 An interpreter',suf:'from one language into another.',ans:'translates',exp:'Ngôi 3 → translates'},
+  {id:'w',pre:'8 Liars are people who',suf:'the truth.',ans:"don't tell",exp:'who → they → don\'t tell'},
+  {id:'x',pre:'9 The River Amazon',suf:'into the Atlantic Ocean.',ans:'flows',exp:'Ngôi 3 → flows'},
+];
+const D24=[
+  {id:'y',context:'Lisa speaks German and Italian.',hint:'(how many languages / she / speak?)',ans:'How many languages does she speak?',exp:'Nghi vấn ngôi 3 → Does + she + V'},
+  {id:'z',context:'She works in a publishing company.',hint:'(where / she / work?)',ans:'Where does she work?',exp:'Where + does + she + work?'},
+  {id:'aa',context:'She goes to work by train every day.',hint:'(how / she / get to work?)',ans:'How does she get to work?',exp:'How + does + she + get + to work?'},
+  {id:'ab',context:'Her parents live in Rome.',hint:'(where / her parents / live?)',ans:'Where do her parents live?',exp:'Nghi vấn ngôi nhiều → do + they + V'},
+];
+const D25=[
+  {id:'ac',pre:'1 You must try calling him tomorrow.',ans:'I suggest',exp:'"suggest" → gợi ý, đề xuất'},
+  {id:'ad',pre:"2 I won't tell anybody what you said.",ans:'I promise',exp:'"promise" → hứa'},
+  {id:'ae',pre:'3 You must let me pay for the meal.',ans:'I insist',exp:'"insist" → khăng khăng, nhất quyết'},
+  {id:'af',pre:'4 ....for what I said. I shouldn\'t have said it.',ans:'I apologise',exp:'"apologise" → xin lỗi'},
+  {id:'ag',pre:'5 The new restaurant in Baker Street is very good.',ans:'I recommend',exp:'"recommend" → giới thiệu, đề xuất'},
+  {id:'ah',pre:"6 I think you're absolutely right.",ans:'I agree',exp:'"agree" → đồng ý'},
+];
+
+function mkItems(data, container, type='fill'){
+  document.getElementById(container).innerHTML = data.map((it,i)=>{
+    const num=i+1;
+    if(type==='q') return `<div class="item" id="card-${it.id}">
+      <div class="item-num">${num}</div>
+      <div class="item-sent" style="color:var(--muted);font-size:13px">${it.context} <em>${it.hint}</em></div>
+      <input class="fill-inp" id="inp-${it.id}" placeholder="Write question…" style="width:100%;max-width:420px" autocomplete="off">
+      <div class="fb" id="fb-${it.id}"><span class="fb-icon" id="fi-${it.id}"></span><div><div class="fb-ans" id="fa-${it.id}"></div><div class="fb-exp" id="fe-${it.id}"></div></div></div>
+    </div>`;
+    if(type==='pv') return `<div class="item" id="card-${it.id}">
+      <div class="item-num">${num}</div>
+      <div class="item-sent"><input class="fill-inp" id="inp-${it.id}" placeholder="I …" style="width:160px;vertical-align:middle" autocomplete="off"> ${it.pre}</div>
+      <div class="fb" id="fb-${it.id}"><span class="fb-icon" id="fi-${it.id}"></span><div><div class="fb-ans" id="fa-${it.id}"></div><div class="fb-exp" id="fe-${it.id}"></div></div></div>
+    </div>`;
+    return `<div class="item" id="card-${it.id}">
+      <div class="item-num">${num}${it.given?' <span style="font-size:11px;color:var(--muted)">('+it.given+')</span>':''}</div>
+      <div class="item-sent">${it.pre} <input class="fill-inp" id="inp-${it.id}" placeholder="…" autocomplete="off"> ${it.suf||''}</div>
+      <div class="fb" id="fb-${it.id}"><span class="fb-icon" id="fi-${it.id}"></span><div><div class="fb-ans" id="fa-${it.id}"></div><div class="fb-exp" id="fe-${it.id}"></div></div></div>
+    </div>`;
+  }).join('');
+}
+
+function build(){
+  mkItems(D21,'b21');mkItems(D22,'b22');mkItems(D23,'b23');
+  mkItems(D24,'b24','q');mkItems(D25,'b25','pv');
+}
+
+function norm(s){return s.trim().toLowerCase().replace(/['']/g,"'").replace(/\s+/g,' ')}
+function showFb(id,ok,ans,exp){
+  const fb=document.getElementById('fb-'+id);
+  fb.className='fb show '+(ok?'ok':'ng');
+  document.getElementById('fi-'+id).textContent=ok?'✓':'✗';
+  document.getElementById('fa-'+id).textContent=ok?'Đúng!':'Đáp án: '+ans;
+  document.getElementById('fe-'+id).textContent=exp||'';
+}
+
+let checked=false;
+function checkAll(){
+  checked=true;let ok=0,total=0;
+  const all=[...D21,...D22,...D23,...D24,...D25];
+  all.forEach(it=>{
+    total++;
+    const v=norm(document.getElementById('inp-'+it.id).value);
+    const a=norm(it.ans);
+    const variants=[a,a.replace("doesn't","does not"),a.replace("don't","do not"),a.replace("'s"," is")];
+    const correct=variants.some(x=>v===x);
+    if(correct)ok++;
+    document.getElementById('inp-'+it.id).className='fill-inp '+(correct?'ok':'ng');
+    showFb(it.id,correct,it.ans,it.exp);
+  });
+  const pct=Math.round(ok/total*100);
+  document.getElementById('sPct').textContent=pct+'%';
+  document.getElementById('sOk').textContent=ok;
+  document.getElementById('sNg').textContent=total-ok;
+  document.getElementById('sTotal').textContent=total;
+  document.getElementById('sStars').textContent=pct>=90?'⭐⭐⭐':pct>=70?'⭐⭐':'⭐';
+  document.getElementById('sMsg').textContent=pct>=90?'Xuất sắc!':pct>=70?'Khá tốt!':'Xem lại lý thuyết rồi thử lại nhé!';
+  document.getElementById('scoreCard').className='score-card show';
+  try{const d=JSON.parse(localStorage.getItem('egiu_done')||'[]');if(pct>=50&&!d.includes(2)){d.push(2);localStorage.setItem('egiu_done',JSON.stringify(d));document.getElementById('doneN').style.display='block';}}catch(e){}
+  document.getElementById('scoreCard').scrollIntoView({behavior:'smooth',block:'center'});
+}
+function resetAll(){checked=false;build();document.getElementById('scoreCard').className='score-card';window.scrollTo({top:0,behavior:'smooth'});}
+function toggleT(){const b=document.getElementById('tB');const a=document.getElementById('tA');b.classList.toggle('open');a.style.transform=b.classList.contains('open')?'':'rotate(-90deg)';}
+function speak(t){if(!window.speechSynthesis)return;const u=new SpeechSynthesisUtterance(t);u.lang='en-US';u.rate=0.88;window.speechSynthesis.cancel();window.speechSynthesis.speak(u);}
+build();
+</script>
+</body>
+</html>
