@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Unit 12 · for and since / when and how long</title>
+<style>*{box-sizing:border-box;margin:0;padding:0}:root{--bg:#f8f7f4;--surface:#fff;--border:#e5e3de;--text:#1a1a18;--muted:#6b6960;--accent:#2d6a9f;--accent-bg:#eef4fb;--accent-border:#b8d4ee;--accent-text:#1a4a7a;--ok:#16a34a;--ng:#dc2626;--radius:10px;--font:system-ui,-apple-system,sans-serif}
+body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.6}
+nav{background:var(--surface);border-bottom:1px solid var(--border);padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem;position:sticky;top:0;z-index:20}
+.nb{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--accent);text-decoration:none;font-weight:500}.nt{font-size:14px;font-weight:600}.ns{font-size:12px;color:var(--muted);margin-left:auto}
+.wrap{max-width:820px;margin:0 auto;padding:1.5rem 1rem 4rem}
+.tb{background:var(--accent-bg);border:1px solid var(--accent-border);border-radius:var(--radius);margin-bottom:1.5rem;overflow:hidden}
+.th{padding:.9rem 1.25rem;display:flex;align-items:center;justify-content:space-between;cursor:pointer;user-select:none}.thl{font-size:14px;font-weight:600;color:var(--accent-text)}
+.td{padding:0 1.25rem 1.25rem;display:none}.td.open{display:block}
+.td h3{font-size:14px;font-weight:600;color:var(--accent-text);margin:1rem 0 .4rem}.td p{font-size:14px;margin-bottom:.5rem}
+.eg{background:var(--surface);border-left:3px solid var(--accent);padding:.4rem .8rem;border-radius:0 var(--radius) var(--radius) 0;font-size:13.5px;margin:.3rem 0}.eg em{color:var(--muted);font-size:12px;font-style:normal}
+.cg{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:.75rem 0}
+.cc{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:.75rem 1rem}
+.cc h4{font-size:13px;font-weight:700;margin-bottom:.5rem;padding-bottom:.35rem;border-bottom:2px solid var(--accent);color:var(--accent-text)}
+.sb{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border:1px solid var(--border);background:var(--surface);border-radius:99px;font-size:12px;color:var(--muted);cursor:pointer;font-family:var(--font);margin-top:.5rem}.sb:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-bg)}
+.eb{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:1rem;overflow:hidden}
+.eh{padding:.9rem 1.25rem;border-bottom:1px solid var(--border);display:flex;align-items:flex-start;gap:.75rem}
+.ebg{background:var(--accent-bg);color:var(--accent-text);font-size:11px;font-weight:700;padding:3px 8px;border-radius:99px;border:1px solid var(--accent-border);white-space:nowrap;margin-top:1px}
+.etl{font-size:14px;font-weight:600}.ei{font-size:13px;color:var(--muted);margin-top:3px}.ebody{padding:1rem 1.25rem}
+.it{padding:.75rem 0;border-bottom:1px solid var(--border)}.it:last-child{border-bottom:none;padding-bottom:0}
+.in{font-size:11px;font-weight:700;color:var(--muted);margin-bottom:3px}.is{font-size:14.5px;line-height:1.65}
+.fi{border:none;border-bottom:2px solid var(--accent-border);background:transparent;color:var(--text);font-size:14.5px;font-family:var(--font);padding:1px 4px;width:190px;outline:none;transition:border-color .2s;vertical-align:middle}
+.fi:focus{border-bottom-color:var(--accent)}.fi.ok{border-bottom-color:var(--ok);color:var(--ok);font-weight:600}.fi.ng{border-bottom-color:var(--ng);color:var(--ng)}
+.fb{margin-top:.5rem;font-size:13px;display:none;gap:6px;align-items:flex-start}.fb.show{display:flex}.fb-i{font-size:15px;flex-shrink:0}.fb.ok .fb-b{color:#1a6b42}.fb.ng .fb-b{color:#991b1b}.fb-a{font-weight:600;margin-bottom:2px}.fb-e{color:var(--muted);font-size:12px}
+.acts{display:flex;gap:.75rem;margin:1.5rem 0 1rem}.bck{padding:9px 22px;background:var(--accent);color:#fff;border:none;border-radius:var(--radius);font-size:14px;font-weight:600;cursor:pointer;font-family:var(--font)}.bck:hover{opacity:.85}
+.brs{padding:9px 18px;background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:var(--radius);font-size:14px;cursor:pointer;font-family:var(--font)}
+.sc{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;text-align:center;display:none}.sc.show{display:block}
+.sp{font-size:48px;font-weight:700;color:var(--accent)}.sm{font-size:14px;color:var(--muted);margin-top:4px}.ss{font-size:32px;margin:.75rem 0}
+.sr{display:flex;justify-content:center;gap:2rem;margin-top:.75rem}.sn{font-size:22px;font-weight:600}.sl{font-size:12px;color:var(--muted)}.ok-c{color:var(--ok)}.ng-c{color:var(--ng)}
+.dn{background:#eefaf4;border:1px solid #a8ddc2;border-radius:var(--radius);padding:.75rem 1rem;font-size:13px;color:#1a6b42;margin-top:.75rem;display:none}</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nb">← Trang chủ</a>
+  <div class="nt">Unit 12 · for and since / when and how long</div>
+  <div class="ns">4 exercises · 24 items</div>
+</nav>
+<div class="wrap" id="app"></div>
+<script>
+const UNIT=12;
+const DATA={
+theory:{
+  title:"for and since — when ...? and how long ...?",
+  sections:[
+    {h:"A · for = khoảng thời gian / since = mốc thời gian",items:[
+      "<strong>for</strong>: two hours · 20 minutes · five days · six months · a long time · ages · years",
+      "<strong>since</strong>: 8 o'clock · Monday · April · 2001 · Christmas · we arrived · I got up",
+      "Sally has been working here <strong>for six months</strong>. <em>(not 'since six months')</em>",
+      "I haven't seen Tom <strong>since Monday</strong>. <em>(Monday = mốc cụ thể)</em>",
+    ]},
+    {h:"B · Lưu ý quan trọng",items:[
+      "They've been married <strong>for</strong> ten years. <em>or</em> They've been married ten years. <em>(for có thể bỏ)</em>",
+      "They haven't had a holiday <strong>for</strong> ten years. <em>(phủ định: phải có for)</em>",
+      "I've lived here <strong>all my life</strong>. <em>(not 'for all my life')</em>",
+      "Có thể dùng <strong>in</strong> thay for trong câu phủ định: haven't had a holiday <strong>in</strong> ten years.",
+    ]},
+    {h:"C · when → Past Simple / how long → Present Perfect",items:[
+      "<strong>When</strong> did it start raining? → It started raining an hour ago. <em>(Past Simple)</em>",
+      "<strong>How long</strong> has it been raining? → It's been raining <strong>for</strong> an hour. <em>(Perfect)</em>",
+      "<strong>When</strong> did they first meet? → They first met a long time ago.",
+      "<strong>How long</strong> have they known each other? → For a long time / since they were at school.",
+    ]},
+    {h:"D · It's ... since / It's been ... since",items:[
+      "It's <strong>two years since</strong> I last saw Joe. <em>(= I haven't seen Joe for two years)</em>",
+      "It's <strong>ages since</strong> we went to the cinema.",
+      "How long <strong>is it since</strong> Mrs Hill died? <em>(= when did she die?)</em>",
+    ]},
+  ],
+  eg:[
+    "Sally has been working here for six months.",
+    "I haven't seen Tom since Monday.",
+    "How long have they known each other?",
+  ],
+},
+exs:[
+  {id:"12.1",title:"Write for or since",instr:"for = khoảng thời gian / since = mốc thời gian cụ thể",type:"fill",items:[
+    {id:"a121",pre:"1 It's been raining",suf:"lunchtime.",ans:"since",exp:"lunchtime = mốc thời gian → since"},
+    {id:"b121",pre:"2 Paul has lived in Brazil",suf:"ten years.",ans:"for",exp:"ten years = khoảng thời gian → for"},
+    {id:"c121",pre:"3 We've been sitting here",suf:"an hour.",ans:"for",exp:"an hour = khoảng thời gian → for"},
+    {id:"d121",pre:"4 Kevin has been looking for a job",suf:"he left school.",ans:"since",exp:"he left school = mốc → since"},
+    {id:"e121",pre:"5 I haven't been to a party",suf:"ages.",ans:"for",exp:"ages = khoảng thời gian → for"},
+    {id:"f121",pre:"6 I haven't seen him",suf:"last week.",ans:"since",exp:"last week = mốc → since"},
+    {id:"g121",pre:"7 Jane has been away",suf:"Friday.",ans:"since",exp:"Friday = mốc → since"},
+    {id:"h121",pre:"8 It hasn't rained",suf:"a few weeks.",ans:"for",exp:"a few weeks = khoảng thời gian → for"},
+  ]},
+  {id:"12.2",title:"Choose the right question for each answer",instr:"Gõ chữ A hoặc B — chọn câu hỏi đúng",type:"fill",items:[
+    {id:"a122",context:"Answer: Ten years ago.\nA: How long have they been married?\nB: When did they get married?",pre:"Câu đúng:",suf:"",ans:"B",exp:"Ten years ago = thời điểm xác định → When + Past Simple"},
+    {id:"b122",context:"Answer: About five years.\nA: How long have you had this car?\nB: When did you buy this car?",pre:"Câu đúng:",suf:"",ans:"A",exp:"About five years = khoảng thời gian → How long + Perfect"},
+    {id:"c122",context:"Answer: Only a few minutes.\nA: How long have you been waiting?\nB: When did you get here?",pre:"Câu đúng:",suf:"",ans:"A",exp:"A few minutes = khoảng thời gian → How long"},
+    {id:"d122",context:"Answer: September.\nA: How long have you been doing your course?\nB: When did your course start?",pre:"Câu đúng:",suf:"",ans:"B",exp:"September = mốc thời gian → When + Past Simple"},
+    {id:"e122",context:"Answer: Last week.\nA: How long has Anna been in London?\nB: When did Anna arrive in London?",pre:"Câu đúng:",suf:"",ans:"B",exp:"Last week = mốc → When + Past Simple"},
+    {id:"f122",context:"Answer: A long time.\nA: How long have you known each other?\nB: When did you first meet?",pre:"Câu đúng:",suf:"",ans:"A",exp:"A long time = khoảng thời gian → How long + Perfect"},
+  ]},
+  {id:"12.3",title:"Read the situations and complete the sentences",instr:"Chuyển đổi giữa for/since và Past Simple",type:"full",items:[
+    {id:"a123",context:"1 It's been raining since lunchtime.",pre:"It",suf:"at lunchtime.",ans:"started raining",exp:"Chuyển Perfect → Past Simple: started"},
+    {id:"b123",context:"2 Ann and Jess first met years ago.",pre:"They've",suf:"for years.",ans:"known each other",exp:"know each other + for years → Perfect"},
+    {id:"c123",context:"3 Mark became ill on Sunday.",pre:"He has been ill",suf:".",ans:"since Sunday",exp:"Mốc Sunday → since Sunday"},
+    {id:"d123",context:"4 Sarah has been married for a year.",pre:"She got",suf:"a year ago.",ans:"married",exp:"Chuyển Perfect → Past Simple: got married"},
+    {id:"e123",context:"5 You have had a headache since you woke up.",pre:"I've had a headache since",suf:".",ans:"I woke up",exp:"since + mệnh đề → since I woke up"},
+    {id:"f123",context:"6 The meeting has been going on since 9 o'clock.",pre:"The meeting",suf:"at 9 o'clock.",ans:"started",exp:"Past Simple: started at 9"},
+    {id:"g123",context:"7 You started working at the hotel six months ago.",pre:"I've been working",suf:".",ans:"here for six months",exp:"for six months → khoảng thời gian"},
+  ]},
+  {id:"12.4",title:"Complete B's sentences. Use for ... / since ... or It's ... since",instr:"Hai cách diễn đạt cùng ý nghĩa",type:"full",items:[
+    {id:"a124",context:"Have you seen Lisa recently? — No,",pre:"",suf:"",ans:"I haven't seen her for three months.",exp:"haven't seen + for + khoảng thời gian"},
+    {id:"b124",context:"Do you still go swimming? — No,",pre:"",suf:"",ans:"I haven't been swimming for about a month.",exp:"haven't been + for"},
+    {id:"c124",context:"Do you still ride a bike? — No,",pre:"",suf:"",ans:"I haven't ridden a bike for a long time.",exp:"haven't ridden + for a long time"},
+    {id:"d124",context:"Do you still have holidays? — No,",pre:"",suf:"",ans:"I haven't had a holiday for five years.",exp:"haven't had + for"},
+    {id:"e124",context:"Now use 'It's ... since': (1) No, it's five years since I last had a holiday. Write (2):",pre:"",suf:"",ans:"It's about a month since I last went swimming.",exp:"It's + time + since + Past Simple"},
+  ]},
+]};
+
+
+function norm(s){return s.trim().toLowerCase().replace(/['\u2019]/g,"'").replace(/\s+/g,' ');}
+function showFb(id,ok,ans,exp){
+  document.getElementById('fb-'+id).className='fb show '+(ok?'ok':'ng');
+  var fi=document.getElementById('fi-'+id);if(fi)fi.textContent=ok?'✓':'✗';
+  document.getElementById('fa-'+id).textContent=ok?'Đúng!':'Đáp án: '+ans;
+  document.getElementById('fe-'+id).textContent=exp||'';
+}
+function renderTheory(){
+  var t=DATA.theory;
+  var secs=t.sections.map(function(s){return '<h3>'+s.h+'</h3>'+s.items.map(function(i){return '<div class="eg">'+i+'</div>';}).join('');}).join('');
+  var egs=t.eg.map(function(e){return '<div class="eg">'+e+'</div>';}).join('');
+  var cmp='';
+  if(t.compare){cmp='<div class="cg">'+t.compare.map(function(c){return '<div class="cc"><h4>'+c.h+'</h4>'+c.items.map(function(i){return '<div class="eg">'+i+'</div>';}).join('')+'</div>';}).join('')+'</div>';}
+  return '<div class="tb"><div class="th" onclick="toggleT()"><span class="thl">📖 Lý thuyết: '+t.title+'</span><svg id="tA" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="transition:transform .2s;flex-shrink:0"><polyline points="6 9 12 15 18 9"/></svg></div><div class="td open" id="tB">'+secs+cmp+'<h3>Ví dụ từ sách</h3>'+egs+'<button class="sb" onclick="speak(\''+t.eg[0].replace(/'/g,' ')+'\')" >🔊 Nghe ví dụ</button></div></div>';
+}
+function renderEx(ex){
+  var items=ex.items.map(function(it,i){
+    var w=(ex.type==='fill')?'190px':'100%';
+    var mw=(ex.type==='fill')?'':'max-width:500px;';
+    var ph=(ex.type==='fill')?'…':'Write here…';
+    var inp='<input class="fi" id="inp-'+it.id+'" placeholder="'+ph+'" style="width:'+w+';'+mw+'" autocomplete="off">';
+    var hint=it.hint?'<span style="font-size:11px;color:var(--muted)">'+it.hint+'</span>':'';
+    var pre=it.pre?(it.pre+' '):'';
+    var suf=it.suf||'';
+    var ctx=it.context?'<div style="font-size:13px;color:var(--muted);margin-bottom:4px">'+it.context+'</div>':'';
+    return '<div class="it" id="card-'+it.id+'"><div class="in">'+(i+1)+' '+hint+'</div>'+ctx+'<div class="is">'+pre+inp+' '+suf+'</div><div class="fb" id="fb-'+it.id+'"><span class="fb-i" id="fi-'+it.id+'"></span><div class="fb-b"><div class="fb-a" id="fa-'+it.id+'"></div><div class="fb-e" id="fe-'+it.id+'"></div></div></div></div>';
+  }).join('');
+  return '<div class="eb"><div class="eh"><span class="ebg">'+ex.id+'</span><div><div class="etl">'+ex.title+'</div><div class="ei">'+ex.instr+'</div></div></div><div class="ebody">'+items+'</div></div>';
+}
+function build(){
+  var score='<div class="acts"><button class="bck" onclick="checkAll()">Chấm điểm</button><button class="brs" onclick="resetAll()">Làm lại</button></div>'
+    +'<div class="sc" id="sc"><div class="sp" id="sp">—</div><div class="sm" id="sm"></div><div class="ss" id="ss"></div>'
+    +'<div class="sr"><div><div class="sn ok-c" id="so">0</div><div class="sl">Đúng</div></div><div><div class="sn ng-c" id="sng">0</div><div class="sl">Sai</div></div><div><div class="sn" id="st">0</div><div class="sl">Tổng</div></div></div>'
+    +'<div class="dn" id="dn">✓ Đã lưu tiến độ Unit '+UNIT+'!</div>'
+    +'<div style="margin-top:1rem;display:flex;gap:.75rem;justify-content:center"><button class="brs" onclick="resetAll()">Làm lại</button><a href="index.html" style="padding:9px 18px;background:var(--accent);color:#fff;border-radius:var(--radius);font-size:14px;font-weight:600;text-decoration:none">← Về trang chủ</a></div></div>';
+  document.getElementById('app').innerHTML=renderTheory()+DATA.exs.map(renderEx).join('')+score;
+}
+function checkAll(){
+  var ok=0,total=0;
+  DATA.exs.forEach(function(ex){ex.items.forEach(function(it){
+    total++;
+    var v=norm(document.getElementById('inp-'+it.id).value);
+    var a=norm(it.ans);
+    var vars=[a,
+      a.replace("haven't","have not"),a.replace("hasn't","has not"),
+      a.replace("didn't","did not"),a.replace("wasn't","was not"),a.replace("weren't","were not"),
+      a.replace("don't","do not"),a.replace("doesn't","does not"),
+      a.replace("'ve"," have"),a.replace("'s"," has"),a.replace("'d"," had"),
+      a.replace("i've","i have"),a.replace("i'd","i had"),
+      a.replace("hadn't","had not")];
+    var correct=vars.some(function(x){return v===x;});
+    if(correct)ok++;
+    document.getElementById('inp-'+it.id).className='fi '+(correct?'ok':'ng');
+    showFb(it.id,correct,it.ans,it.exp);
+  });});
+  var pct=Math.round(ok/total*100);
+  document.getElementById('sp').textContent=pct+'%';
+  document.getElementById('so').textContent=ok;
+  document.getElementById('sng').textContent=total-ok;
+  document.getElementById('st').textContent=total;
+  document.getElementById('ss').textContent=pct>=90?'⭐⭐⭐':pct>=70?'⭐⭐':'⭐';
+  document.getElementById('sm').textContent=pct>=90?'Xuất sắc!':pct>=70?'Khá tốt!':'Xem lại lý thuyết rồi thử lại!';
+  document.getElementById('sc').className='sc show';
+  try{var d=JSON.parse(localStorage.getItem('egiu_done')||'[]');if(pct>=50&&d.indexOf(UNIT)===-1){d.push(UNIT);localStorage.setItem('egiu_done',JSON.stringify(d));document.getElementById('dn').style.display='block';}}catch(e){}
+  document.getElementById('sc').scrollIntoView({behavior:'smooth',block:'center'});
+}
+function resetAll(){build();document.getElementById('sc').className='sc';window.scrollTo({top:0,behavior:'smooth'});}
+function toggleT(){var b=document.getElementById('tB');var a=document.getElementById('tA');if(b){b.classList.toggle('open');a.style.transform=b.classList.contains('open')?'':'rotate(-90deg)';}}
+function speak(t){if(!window.speechSynthesis)return;var u=new SpeechSynthesisUtterance(t);u.lang='en-US';u.rate=0.88;window.speechSynthesis.cancel();window.speechSynthesis.speak(u);}
+build();
+
+</script>
+</body>
+</html>
