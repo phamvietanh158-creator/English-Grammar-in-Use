@@ -1,1 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>English Grammar in Use – Raymond Murphy</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#f8f7f4;--surface:#fff;--border:#e5e3de;
+  --text:#1a1a18;--muted:#6b6960;--accent:#2d6a9f;
+  --accent-bg:#eef4fb;--accent-border:#b8d4ee;
+  --done-bg:#eefaf4;--done-border:#a8ddc2;--done-text:#1a6b42;
+  --radius:10px;--font:system-ui,-apple-system,sans-serif
+}
+body{font-family:var(--font);background:var(--bg);color:var(--text);min-height:100vh}
 
+header{background:var(--surface);border-bottom:1px solid var(--border);padding:1.5rem 2rem;position:sticky;top:0;z-index:10}
+.header-inner{max-width:960px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.book-title{font-size:17px;font-weight:600;color:var(--text)}
+.book-sub{font-size:13px;color:var(--muted);margin-top:2px}
+.stats{display:flex;gap:1rem;font-size:13px;color:var(--muted)}
+.stat{display:flex;align-items:center;gap:5px}
+.stat-num{font-weight:600;color:var(--text)}
+
+.main{max-width:960px;margin:0 auto;padding:2rem}
+
+.search-bar{position:relative;margin-bottom:1.5rem}
+.search-bar input{width:100%;padding:10px 16px 10px 40px;border:1px solid var(--border);border-radius:var(--radius);font-size:14px;background:var(--surface);color:var(--text);font-family:var(--font);outline:none}
+.search-bar input:focus{border-color:var(--accent)}
+.search-icon{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:var(--muted);pointer-events:none}
+
+.section{margin-bottom:2rem}
+.section-title{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:.75rem;padding-bottom:.5rem;border-bottom:1px solid var(--border)}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:8px}
+
+.unit-card{display:block;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:.75rem 1rem;text-decoration:none;color:var(--text);transition:border-color .15s,background .15s;cursor:pointer;position:relative}
+.unit-card:hover{border-color:var(--accent);background:var(--accent-bg)}
+.unit-card.done{background:var(--done-bg);border-color:var(--done-border)}
+.unit-num{font-size:11px;font-weight:600;color:var(--muted);margin-bottom:3px}
+.unit-title{font-size:13px;line-height:1.45;color:var(--text)}
+.unit-card.done .unit-title{color:var(--done-text)}
+.check-badge{position:absolute;top:8px;right:8px;width:16px;height:16px;background:var(--done-text);border-radius:50%;display:none;align-items:center;justify-content:center}
+.unit-card.done .check-badge{display:flex}
+.check-badge svg{width:10px;height:10px;stroke:#fff;stroke-width:2.5;fill:none}
+.unit-card.unavailable{opacity:.45;cursor:default;pointer-events:none}
+.unit-card.available{border-color:var(--accent-border);background:var(--accent-bg)}
+.available-tag{font-size:10px;color:var(--accent);font-weight:600;margin-top:5px}
+
+.progress-wrap{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1rem 1.25rem;margin-bottom:1.5rem;display:flex;align-items:center;gap:1.25rem}
+.progress-bar{flex:1;height:6px;background:var(--border);border-radius:3px;overflow:hidden}
+.progress-fill{height:100%;background:var(--accent);border-radius:3px;transition:width .4s}
+.progress-label{font-size:13px;color:var(--muted);white-space:nowrap}
+
+footer{text-align:center;padding:2rem;font-size:12px;color:var(--muted)}
+
+.hidden{display:none!important}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div>
+      <div class="book-title">English Grammar in Use</div>
+      <div class="book-sub">Raymond Murphy · Fifth Edition · 145 units</div>
+    </div>
+    <div class="stats">
+      <div class="stat">Đã làm: <span class="stat-num" id="doneCount">0</span>/145</div>
+      <div class="stat">Đang có: <span class="stat-num" id="availCount">1</span> bài</div>
+    </div>
+  </div>
+</header>
+
+<div class="main">
+
+  <div class="progress-wrap">
+    <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+    <div class="progress-label" id="progressLabel">0% hoàn thành</div>
+  </div>
+
+  <div class="search-bar">
+    <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input type="text" id="searchInput" placeholder="Tìm unit... (vd: present, modal, preposition)" oninput="filterUnits()">
+  </div>
+
+  <div id="sections"></div>
+</div>
+
+<footer>English Grammar in Use © Cambridge University Press · App học tập cá nhân</footer>
+
+<script>
+const UNITS = [
+  // Present and past
+  {s:'Present and past',id:1,t:'Present continuous (I am doing)',file:'unit1.html',avail:true},
+  {s:'Present and past',id:2,t:'Present simple (I do)',file:'unit2.html',avail:true},
+  {s:'Present and past',id:3,t:'Present continuous and present simple 1',file:'unit3.html',avail:true},
+  {s:'Present and past',id:4,t:'Present continuous and present simple 2',file:'unit4.html',avail:true},
+  {s:'Present and past',id:5,t:'Past simple (I did)',file:'unit5.html',avail:true},
+  {s:'Present and past',id:6,t:'Past continuous (I was doing)',file:'unit6.html',avail:true},
+  // Present perfect and past
+  {s:'Present perfect and past',id:7,t:'Present perfect 1 (I have done)',file:'unit7.html',avail:true},
+  {s:'Present perfect and past',id:8,t:'Present perfect 2 (I have done)',file:'unit8.html',avail:true},
+  {s:'Present perfect and past',id:9,t:'Present perfect continuous (I have been doing)',file:'unit9.html',avail:true},
+  {s:'Present perfect and past',id:10,t:'Present perfect continuous and simple',file:'unit10.html',avail:true},
+  {s:'Present perfect and past',id:11,t:'how long have you (been) ... ?',file:'unit11.html',avail:false},
+  {s:'Present perfect and past',id:12,t:'for and since / when and how long',file:'unit12.html',avail:false},
+  {s:'Present perfect and past',id:13,t:'Present perfect and past 1',file:'unit13.html',avail:false},
+  {s:'Present perfect and past',id:14,t:'Present perfect and past 2',file:'unit14.html',avail:false},
+  {s:'Present perfect and past',id:15,t:'Past perfect (I had done)',file:'unit15.html',avail:false},
+  {s:'Present perfect and past',id:16,t:'Past perfect continuous (I had been doing)',file:'unit16.html',avail:false},
+  {s:'Present perfect and past',id:17,t:'have and have got',file:'unit17.html',avail:false},
+  {s:'Present perfect and past',id:18,t:'used to (do)',file:'unit18.html',avail:false},
+  // Future
+  {s:'Future',id:19,t:'Present tenses for the future',file:'unit19.html',avail:false},
+  {s:'Future',id:20,t:"I'm going to (do)",file:'unit20.html',avail:false},
+  {s:'Future',id:21,t:'will and shall 1',file:'unit21.html',avail:false},
+  {s:'Future',id:22,t:'will and shall 2',file:'unit22.html',avail:false},
+  {s:'Future',id:23,t:'I will and I\'m going to',file:'unit23.html',avail:false},
+  {s:'Future',id:24,t:'will be doing and will have done',file:'unit24.html',avail:false},
+  {s:'Future',id:25,t:'when I do and when I\'ve done / if and when',file:'unit25.html',avail:false},
+  // Modals
+  {s:'Modals',id:26,t:'can, could and (be) able to',file:'unit26.html',avail:false},
+  {s:'Modals',id:27,t:'could (do) and could have (done)',file:'unit27.html',avail:false},
+  {s:'Modals',id:28,t:"must and can't",file:'unit28.html',avail:false},
+  {s:'Modals',id:29,t:'may and might 1',file:'unit29.html',avail:false},
+  {s:'Modals',id:30,t:'may and might 2',file:'unit30.html',avail:false},
+  {s:'Modals',id:31,t:'have to and must',file:'unit31.html',avail:false},
+  {s:'Modals',id:32,t:"must mustn't needn't",file:'unit32.html',avail:false},
+  {s:'Modals',id:33,t:'should 1',file:'unit33.html',avail:false},
+  {s:'Modals',id:34,t:'should 2',file:'unit34.html',avail:false},
+  {s:'Modals',id:35,t:"I'd better / it's time",file:'unit35.html',avail:false},
+  {s:'Modals',id:36,t:'would',file:'unit36.html',avail:false},
+  {s:'Modals',id:37,t:'can/could/would you ...? (Requests, offers)',file:'unit37.html',avail:false},
+  // if and wish
+  {s:'if and wish',id:38,t:'if I do ... and if I did ...',file:'unit38.html',avail:false},
+  {s:'if and wish',id:39,t:'if I knew ... / I wish I knew ...',file:'unit39.html',avail:false},
+  {s:'if and wish',id:40,t:'if I had known ... / I wish I had known ...',file:'unit40.html',avail:false},
+  {s:'if and wish',id:41,t:'wish',file:'unit41.html',avail:false},
+  // Passive
+  {s:'Passive',id:42,t:'Passive 1 (is done / was done)',file:'unit42.html',avail:false},
+  {s:'Passive',id:43,t:'Passive 2 (be done / been done / being done)',file:'unit43.html',avail:false},
+  {s:'Passive',id:44,t:'Passive 3',file:'unit44.html',avail:false},
+  {s:'Passive',id:45,t:'it is said that ... / he is said to ...',file:'unit45.html',avail:false},
+  {s:'Passive',id:46,t:'have something done',file:'unit46.html',avail:false},
+  // Reported speech
+  {s:'Reported speech',id:47,t:'Reported speech 1 (he said that ...)',file:'unit47.html',avail:false},
+  {s:'Reported speech',id:48,t:'Reported speech 2',file:'unit48.html',avail:false},
+  // Questions
+  {s:'Questions and auxiliary verbs',id:49,t:'Questions 1',file:'unit49.html',avail:false},
+  {s:'Questions and auxiliary verbs',id:50,t:'Questions 2 (do you know where ...?)',file:'unit50.html',avail:false},
+  {s:'Questions and auxiliary verbs',id:51,t:'Auxiliary verbs / I think so etc.',file:'unit51.html',avail:false},
+  {s:'Questions and auxiliary verbs',id:52,t:'Question tags',file:'unit52.html',avail:false},
+  // -ing and to
+  {s:'-ing and to ...',id:53,t:'Verb + -ing (enjoy doing / stop doing)',file:'unit53.html',avail:false},
+  {s:'-ing and to ...',id:54,t:'Verb + to ... (decide to / forget to)',file:'unit54.html',avail:false},
+  {s:'-ing and to ...',id:55,t:'Verb + object + to ... (I want you to ...)',file:'unit55.html',avail:false},
+  {s:'-ing and to ...',id:56,t:'Verb + -ing or to ... 1 (remember, regret)',file:'unit56.html',avail:false},
+  {s:'-ing and to ...',id:57,t:'Verb + -ing or to ... 2 (try, need, help)',file:'unit57.html',avail:false},
+  {s:'-ing and to ...',id:58,t:'Verb + -ing or to ... 3 (like / would like)',file:'unit58.html',avail:false},
+  {s:'-ing and to ...',id:59,t:'prefer and would rather',file:'unit59.html',avail:false},
+  {s:'-ing and to ...',id:60,t:'Preposition + -ing',file:'unit60.html',avail:false},
+  {s:'-ing and to ...',id:61,t:"be/get used to ... (I'm used to ...)",file:'unit61.html',avail:false},
+  {s:'-ing and to ...',id:62,t:'Verb + preposition + -ing',file:'unit62.html',avail:false},
+  {s:'-ing and to ...',id:63,t:"there's no point in -ing / it's worth -ing",file:'unit63.html',avail:false},
+  {s:'-ing and to ...',id:64,t:'to ..., for ... and so that ...',file:'unit64.html',avail:false},
+  {s:'-ing and to ...',id:65,t:'Adjective + to ...',file:'unit65.html',avail:false},
+  {s:'-ing and to ...',id:66,t:'afraid to do and afraid of -ing',file:'unit66.html',avail:false},
+  {s:'-ing and to ...',id:67,t:'see somebody do and see somebody doing',file:'unit67.html',avail:false},
+  {s:'-ing and to ...',id:68,t:'-ing clauses',file:'unit68.html',avail:false},
+  // Articles and nouns
+  {s:'Articles and nouns',id:69,t:'Countable and uncountable 1',file:'unit69.html',avail:false},
+  {s:'Articles and nouns',id:70,t:'Countable and uncountable 2',file:'unit70.html',avail:false},
+  {s:'Articles and nouns',id:71,t:'Countable nouns with a/an and some',file:'unit71.html',avail:false},
+  {s:'Articles and nouns',id:72,t:'a/an and the',file:'unit72.html',avail:false},
+  {s:'Articles and nouns',id:73,t:'the 1',file:'unit73.html',avail:false},
+  {s:'Articles and nouns',id:74,t:'the 2 (school / the school)',file:'unit74.html',avail:false},
+  {s:'Articles and nouns',id:75,t:'the 3 (children / the children)',file:'unit75.html',avail:false},
+  {s:'Articles and nouns',id:76,t:'the 4 (the giraffe / the old)',file:'unit76.html',avail:false},
+  {s:'Articles and nouns',id:77,t:'Names with and without the 1',file:'unit77.html',avail:false},
+  {s:'Articles and nouns',id:78,t:'Names with and without the 2',file:'unit78.html',avail:false},
+  {s:'Articles and nouns',id:79,t:'Singular and plural',file:'unit79.html',avail:false},
+  {s:'Articles and nouns',id:80,t:'Noun + noun (a bus driver / a headache)',file:'unit80.html',avail:false},
+  {s:'Articles and nouns',id:81,t:"-'s and of ...",file:'unit81.html',avail:false},
+  // Pronouns
+  {s:'Pronouns and determiners',id:82,t:'myself/yourself/themselves',file:'unit82.html',avail:false},
+  {s:'Pronouns and determiners',id:83,t:'a friend of mine / my own house',file:'unit83.html',avail:false},
+  {s:'Pronouns and determiners',id:84,t:'there ... and it ...',file:'unit84.html',avail:false},
+  {s:'Pronouns and determiners',id:85,t:'some and any',file:'unit85.html',avail:false},
+  {s:'Pronouns and determiners',id:86,t:'no/none/any / nothing/nobody',file:'unit86.html',avail:false},
+  {s:'Pronouns and determiners',id:87,t:'much, many, little, few, a lot, plenty',file:'unit87.html',avail:false},
+  {s:'Pronouns and determiners',id:88,t:'all / most / no / none of etc.',file:'unit88.html',avail:false},
+  {s:'Pronouns and determiners',id:89,t:'both / neither / either of',file:'unit89.html',avail:false},
+  {s:'Pronouns and determiners',id:90,t:'all every whole',file:'unit90.html',avail:false},
+  {s:'Pronouns and determiners',id:91,t:'each and every',file:'unit91.html',avail:false},
+  // Relative clauses
+  {s:'Relative clauses',id:92,t:'Relative clauses 1: who/that/which',file:'unit92.html',avail:false},
+  {s:'Relative clauses',id:93,t:'Relative clauses 2: with and without who/that/which',file:'unit93.html',avail:false},
+  {s:'Relative clauses',id:94,t:'Relative clauses 3: whose/whom/where',file:'unit94.html',avail:false},
+  {s:'Relative clauses',id:95,t:'Relative clauses 4: extra information (1)',file:'unit95.html',avail:false},
+  {s:'Relative clauses',id:96,t:'Relative clauses 5: extra information (2)',file:'unit96.html',avail:false},
+  {s:'Relative clauses',id:97,t:'-ing and -ed clauses',file:'unit97.html',avail:false},
+  // Adjectives and adverbs
+  {s:'Adjectives and adverbs',id:98,t:'Adjectives ending in -ing and -ed',file:'unit98.html',avail:false},
+  {s:'Adjectives and adverbs',id:99,t:'Adjectives: a nice new house / you look tired',file:'unit99.html',avail:false},
+  {s:'Adjectives and adverbs',id:100,t:'Adjectives and adverbs 1 (quick/quickly)',file:'unit100.html',avail:false},
+  {s:'Adjectives and adverbs',id:101,t:'Adjectives and adverbs 2 (well, fast, late, hard)',file:'unit101.html',avail:false},
+  {s:'Adjectives and adverbs',id:102,t:'so and such',file:'unit102.html',avail:false},
+  {s:'Adjectives and adverbs',id:103,t:'enough and too',file:'unit103.html',avail:false},
+  {s:'Adjectives and adverbs',id:104,t:'quite, pretty, rather and fairly',file:'unit104.html',avail:false},
+  {s:'Adjectives and adverbs',id:105,t:'Comparative 1 (cheaper, more expensive)',file:'unit105.html',avail:false},
+  {s:'Adjectives and adverbs',id:106,t:'Comparative 2 (much better / any better)',file:'unit106.html',avail:false},
+  {s:'Adjectives and adverbs',id:107,t:'Comparative 3 (as ... as / than)',file:'unit107.html',avail:false},
+  {s:'Adjectives and adverbs',id:108,t:'Superlative (the longest, the most enjoyable)',file:'unit108.html',avail:false},
+  {s:'Adjectives and adverbs',id:109,t:'Word order 1: verb + object; place and time',file:'unit109.html',avail:false},
+  {s:'Adjectives and adverbs',id:110,t:'Word order 2: adverbs with the verb',file:'unit110.html',avail:false},
+  {s:'Adjectives and adverbs',id:111,t:'still / any more / yet / already',file:'unit111.html',avail:false},
+  {s:'Adjectives and adverbs',id:112,t:'even',file:'unit112.html',avail:false},
+  // Conjunctions
+  {s:'Conjunctions and prepositions',id:113,t:'although / in spite of / despite',file:'unit113.html',avail:false},
+  {s:'Conjunctions and prepositions',id:114,t:'in case',file:'unit114.html',avail:false},
+  {s:'Conjunctions and prepositions',id:115,t:'unless / as long as / provided',file:'unit115.html',avail:false},
+  {s:'Conjunctions and prepositions',id:116,t:'as (as I walked ... / as I was ...)',file:'unit116.html',avail:false},
+  {s:'Conjunctions and prepositions',id:117,t:'like and as',file:'unit117.html',avail:false},
+  {s:'Conjunctions and prepositions',id:118,t:'like / as if',file:'unit118.html',avail:false},
+  {s:'Conjunctions and prepositions',id:119,t:'during / for / while',file:'unit119.html',avail:false},
+  {s:'Conjunctions and prepositions',id:120,t:'by and until / by the time ...',file:'unit120.html',avail:false},
+  // Prepositions
+  {s:'Prepositions',id:121,t:'at/on/in (time)',file:'unit121.html',avail:false},
+  {s:'Prepositions',id:122,t:'on time and in time / at the end and in the end',file:'unit122.html',avail:false},
+  {s:'Prepositions',id:123,t:'in/at/on (position) 1',file:'unit123.html',avail:false},
+  {s:'Prepositions',id:124,t:'in/at/on (position) 2',file:'unit124.html',avail:false},
+  {s:'Prepositions',id:125,t:'in/at/on (position) 3',file:'unit125.html',avail:false},
+  {s:'Prepositions',id:126,t:'to, at, in and into',file:'unit126.html',avail:false},
+  {s:'Prepositions',id:127,t:'in/on/at (other uses)',file:'unit127.html',avail:false},
+  {s:'Prepositions',id:128,t:'by',file:'unit128.html',avail:false},
+  {s:'Prepositions',id:129,t:'Noun + preposition (reason for, cause of)',file:'unit129.html',avail:false},
+  {s:'Prepositions',id:130,t:'Adjective + preposition 1',file:'unit130.html',avail:false},
+  {s:'Prepositions',id:131,t:'Adjective + preposition 2',file:'unit131.html',avail:false},
+  {s:'Prepositions',id:132,t:'Verb + preposition 1 (to and at)',file:'unit132.html',avail:false},
+  {s:'Prepositions',id:133,t:'Verb + preposition 2 (about/for/of/after)',file:'unit133.html',avail:false},
+  {s:'Prepositions',id:134,t:'Verb + preposition 3 (about and of)',file:'unit134.html',avail:false},
+  {s:'Prepositions',id:135,t:'Verb + preposition 4 (of/for/from/on)',file:'unit135.html',avail:false},
+  {s:'Prepositions',id:136,t:'Verb + preposition 5 (in/into/with/to/on)',file:'unit136.html',avail:false},
+  // Phrasal verbs
+  {s:'Phrasal verbs',id:137,t:'Phrasal verbs 1 (on/off/up/down)',file:'unit137.html',avail:false},
+  {s:'Phrasal verbs',id:138,t:'Phrasal verbs 2 (in/out)',file:'unit138.html',avail:false},
+  {s:'Phrasal verbs',id:139,t:'Phrasal verbs 3 (out)',file:'unit139.html',avail:false},
+  {s:'Phrasal verbs',id:140,t:'Phrasal verbs 4 (on/off)',file:'unit140.html',avail:false},
+  {s:'Phrasal verbs',id:141,t:'Phrasal verbs 5 (up/down)',file:'unit141.html',avail:false},
+  {s:'Phrasal verbs',id:142,t:'Phrasal verbs 6 (up)',file:'unit142.html',avail:false},
+  {s:'Phrasal verbs',id:143,t:'Phrasal verbs 7 (up)',file:'unit143.html',avail:false},
+  {s:'Phrasal verbs',id:144,t:'Phrasal verbs 8 (away/back)',file:'unit144.html',avail:false},
+  {s:'Phrasal verbs',id:145,t:'Phrasal verbs 9 (away/back)',file:'unit145.html',avail:false},
+];
+
+const STORAGE_KEY = 'egiu_done';
+function getDone(){try{return JSON.parse(localStorage.getItem(STORAGE_KEY)||'[]')}catch{return[]}}
+function setDone(arr){localStorage.setItem(STORAGE_KEY,JSON.stringify(arr))}
+function markDone(id){const d=getDone();if(!d.includes(id)){d.push(id);setDone(d)}updateStats();renderAll()}
+
+let done = getDone();
+
+function updateStats(){
+  done = getDone();
+  const n = done.length;
+  const pct = Math.round(n/145*100);
+  document.getElementById('doneCount').textContent = n;
+  document.getElementById('progressFill').style.width = pct+'%';
+  document.getElementById('progressLabel').textContent = pct+'% hoàn thành';
+  document.getElementById('availCount').textContent = UNITS.filter(u=>u.avail).length;
+}
+
+function renderAll(filter=''){
+  const sections = {};
+  UNITS.forEach(u=>{
+    if(filter && !u.t.toLowerCase().includes(filter) && !String(u.id).includes(filter)) return;
+    if(!sections[u.s]) sections[u.s]=[];
+    sections[u.s].push(u);
+  });
+
+  const container = document.getElementById('sections');
+  container.innerHTML = '';
+  for(const [sec, units] of Object.entries(sections)){
+    const div = document.createElement('div');
+    div.className='section';
+    div.innerHTML = `<div class="section-title">${sec}</div><div class="grid">${
+      units.map(u=>{
+        const isDone = done.includes(u.id);
+        const cls = u.avail ? 'unit-card available' : isDone ? 'unit-card done' : 'unit-card unavailable';
+        const href = u.avail ? `href="${u.file}"` : '';
+        const tag = u.avail ? '<div class="available-tag">▶ Có sẵn</div>' : '';
+        return `<a ${href} class="${cls}" ${u.avail?'':'title="Chưa có bài này"'}>
+          <div class="unit-num">Unit ${u.id}</div>
+          <div class="unit-title">${u.t}</div>
+          ${tag}
+          <div class="check-badge"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></div>
+        </a>`;
+      }).join('')
+    }</div>`;
+    container.appendChild(div);
+  }
+}
+
+function filterUnits(){
+  renderAll(document.getElementById('searchInput').value.toLowerCase());
+}
+
+updateStats();
+renderAll();
+
+// Lắng nghe khi user quay lại từ unit page
+window.addEventListener('focus', ()=>{done=getDone();updateStats();renderAll()});
+</script>
+</body>
+</html>
