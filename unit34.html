@@ -1,0 +1,156 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Unit 34 · should 2</title><style>*{box-sizing:border-box;margin:0;padding:0}:root{--bg:#f8f7f4;--surface:#fff;--border:#e5e3de;--text:#1a1a18;--muted:#6b6960;--accent:#2d6a9f;--accent-bg:#eef4fb;--accent-border:#b8d4ee;--accent-text:#1a4a7a;--ok:#16a34a;--ng:#dc2626;--radius:10px;--font:system-ui,-apple-system,sans-serif}
+body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.6}
+nav{background:var(--surface);border-bottom:1px solid var(--border);padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem;position:sticky;top:0;z-index:20}
+.nb{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--accent);text-decoration:none;font-weight:500}.nt{font-size:14px;font-weight:600}.ns{font-size:12px;color:var(--muted);margin-left:auto}
+.wrap{max-width:820px;margin:0 auto;padding:1.5rem 1rem 4rem}
+.tb{background:var(--accent-bg);border:1px solid var(--accent-border);border-radius:var(--radius);margin-bottom:1.5rem;overflow:hidden}
+.th{padding:.9rem 1.25rem;display:flex;align-items:center;justify-content:space-between;cursor:pointer;user-select:none}.thl{font-size:14px;font-weight:600;color:var(--accent-text)}
+.td{padding:0 1.25rem 1.25rem;display:none}.td.open{display:block}
+.td h3{font-size:14px;font-weight:600;color:var(--accent-text);margin:1rem 0 .4rem}
+.eg{background:var(--surface);border-left:3px solid var(--accent);padding:.4rem .8rem;border-radius:0 var(--radius) var(--radius) 0;font-size:13.5px;margin:.3rem 0}.eg em{color:var(--muted);font-size:12px;font-style:normal}
+.cg{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:.75rem 0}
+.cc{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:.75rem 1rem}
+.cc h4{font-size:13px;font-weight:700;margin-bottom:.5rem;padding-bottom:.35rem;border-bottom:2px solid var(--accent);color:var(--accent-text)}
+.sb{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border:1px solid var(--border);background:var(--surface);border-radius:99px;font-size:12px;color:var(--muted);cursor:pointer;font-family:var(--font);margin-top:.5rem}.sb:hover{border-color:var(--accent);color:var(--accent)}
+.eb{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:1rem;overflow:hidden}
+.eh{padding:.9rem 1.25rem;border-bottom:1px solid var(--border);display:flex;align-items:flex-start;gap:.75rem}
+.ebg{background:var(--accent-bg);color:var(--accent-text);font-size:11px;font-weight:700;padding:3px 8px;border-radius:99px;border:1px solid var(--accent-border);white-space:nowrap;margin-top:1px}
+.etl{font-size:14px;font-weight:600}.ei{font-size:13px;color:var(--muted);margin-top:3px}.ebody{padding:1rem 1.25rem}
+.it{padding:.75rem 0;border-bottom:1px solid var(--border)}.it:last-child{border-bottom:none;padding-bottom:0}
+.in{font-size:11px;font-weight:700;color:var(--muted);margin-bottom:3px}.is{font-size:14.5px;line-height:1.65}
+.fi{border:none;border-bottom:2px solid var(--accent-border);background:transparent;color:var(--text);font-size:14.5px;font-family:var(--font);padding:1px 4px;width:200px;outline:none;transition:border-color .2s;vertical-align:middle}
+.fi:focus{border-bottom-color:var(--accent)}.fi.ok{border-bottom-color:var(--ok);color:var(--ok);font-weight:600}.fi.ng{border-bottom-color:var(--ng);color:var(--ng)}
+.fb{margin-top:.5rem;font-size:13px;display:none;gap:6px;align-items:flex-start}.fb.show{display:flex}.fb-i{font-size:15px;flex-shrink:0}.fb.ok .fb-b{color:#1a6b42}.fb.ng .fb-b{color:#991b1b}.fb-a{font-weight:600;margin-bottom:2px}.fb-e{color:var(--muted);font-size:12px}
+.acts{display:flex;gap:.75rem;margin:1.5rem 0 1rem}.bck{padding:9px 22px;background:var(--accent);color:#fff;border:none;border-radius:var(--radius);font-size:14px;font-weight:600;cursor:pointer;font-family:var(--font)}.bck:hover{opacity:.85}
+.brs{padding:9px 18px;background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:var(--radius);font-size:14px;cursor:pointer;font-family:var(--font)}
+.sc{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;text-align:center;display:none}.sc.show{display:block}
+.sp{font-size:48px;font-weight:700;color:var(--accent)}.sm{font-size:14px;color:var(--muted);margin-top:4px}.ss{font-size:32px;margin:.75rem 0}
+.sr{display:flex;justify-content:center;gap:2rem;margin-top:.75rem}.sn{font-size:22px;font-weight:600}.sl{font-size:12px;color:var(--muted)}.ok-c{color:var(--ok)}.ng-c{color:var(--ng)}
+.dn{background:#eefaf4;border:1px solid #a8ddc2;border-radius:var(--radius);padding:.75rem 1rem;font-size:13px;color:#1a6b42;margin-top:.75rem;display:none}</style></head><body>
+<nav><a href="index.html" class="nb">← Trang chủ</a><div class="nt">Unit 34 · should 2</div><div class="ns">5 exercises · 22 items</div></nav>
+<div class="wrap" id="app"></div>
+<script>const UNIT=34;
+const DATA={
+theory:{title:"should 2 — sau insist/suggest/recommend; if should; I should (advice)",
+sections:[
+  {h:"A · should sau: insist / demand / recommend / suggest / propose",items:[
+    "I <strong>insisted</strong> that he <strong>should apologise</strong>.",
+    "Doctors <strong>recommend</strong> that everyone <strong>should eat</strong> plenty of fruit.",
+    "What do you <strong>suggest</strong> we <strong>should do</strong>?",
+    "It's essential that everyone <strong>should be</strong> here on time.",
+  ]},
+  {h:"B · Có thể bỏ should → dùng dạng subjunctive (V nguyên mẫu)",items:[
+    "I insisted that he <strong>apologise</strong>. <em>(= should apologise)</em>",
+    "It's essential that everyone <strong>be</strong> here on time.",
+    "What do you suggest we <strong>do</strong>?",
+    "⚠️ Sau suggest KHÔNG dùng to: <em>not 'I suggest you to do'</em>",
+  ]},
+  {h:"C · should sau tính từ: strange / odd / typical / surprising / natural",items:[
+    "It's <strong>strange</strong> that he <strong>should be</strong> late. He's usually on time.",
+    "I was <strong>surprised</strong> that he <strong>should say</strong> such a thing.",
+  ]},
+  {h:"D · If ... should / Should ... (khả năng nhỏ)",items:[
+    "If the situation <strong>should change</strong>, we will contact you. <em>(= less likely than 'if it changes')</em>",
+    "<strong>Should</strong> the situation change, we will contact you. <em>(formal inversion)</em>",
+  ]},
+  {h:"E · I should / I shouldn't = lời khuyên cho người đang hỏi",items:[
+    "'Shall I leave now?' 'No, I <strong>should wait</strong> a bit.' <em>(= I advise you to wait)</em>",
+    "'Is it cold outside?' 'Yes, I <strong>should wear</strong> a coat.'",
+  ]},
+],
+eg:["I insisted that he should apologise.","It's strange that he should be late.","Should the situation change, we'll contact you."]},
+exs:[
+  {id:"34.1",title:"Complete the second sentence — same meaning",instr:"Dùng should hoặc subjunctive sau insist/suggest/recommend",type:"full",items:[
+    {id:"a341",context:"2 'You really must stay a little longer,' she said to me.",pre:"She insisted that I",suf:"",ans:"should stay a little longer.",exp:"insist that + should + V"},
+    {id:"b341",context:"3 'Why don't you visit the museum after lunch?' I said to them.",pre:"I suggested that",suf:"",ans:"they should visit the museum after lunch.",exp:"suggest that + should + V"},
+    {id:"c341",context:"5 'Let's go to the cinema,' Chris said to me.",pre:"Chris suggested that",suf:"",ans:"we should go to the cinema.",exp:"suggest that + should + V"},
+  ]},
+  {id:"34.2",title:"Two sentences are not correct — find and fix them",instr:"Gõ OK hoặc sửa lại",type:"full",items:[
+    {id:"a342",context:"1 Tom suggested that I look for another job.",pre:"",suf:"",ans:"OK",exp:"suggest + subjunctive (look) → OK ✓"},
+    {id:"b342",context:"2 I called Tina and suggested that we meet for coffee.",pre:"",suf:"",ans:"OK",exp:"suggest that + we meet → OK ✓"},
+    {id:"c342",context:"3 What do you suggest me to do?",pre:"",suf:"",ans:"What do you suggest I should do?",exp:"Sau suggest KHÔNG dùng 'me to do' → suggest I should do"},
+    {id:"d342",context:"4 What sort of car do you suggest I should buy?",pre:"",suf:"",ans:"OK",exp:"suggest I should buy → OK ✓"},
+    {id:"e342",context:"5 I suggest you to read this book.",pre:"",suf:"",ans:"I suggest that you read this book.",exp:"suggest + that + S + V (không dùng 'to')"},
+    {id:"f342",context:"6 I suggested that Anna learn to drive.",pre:"",suf:"",ans:"OK",exp:"subjunctive: Anna learn (= should learn) → OK ✓"},
+  ]},
+  {id:"34.3",title:"Complete using should + verb",instr:"Chọn: ask / be / be done / leave / say / vote / worry",type:"fill",items:[
+    {id:"a343",pre:"2 It's funny that you",suf:"that. I was thinking the same thing.",ans:"should say",exp:"funny that + should say"},
+    {id:"b343",pre:"3 It's only natural that parents",suf:"about their children.",ans:"should worry",exp:"natural that + should worry"},
+    {id:"c343",pre:"4 Isn't it typical of Joe that he",suf:"without saying goodbye?",ans:"should leave",exp:"typical that + should leave"},
+    {id:"d343",pre:"5 I was surprised that they",suf:"me for advice.",ans:"should ask",exp:"surprised that + should ask"},
+    {id:"e343",pre:"6 It's important that you",suf:"in this election.",ans:"should vote",exp:"important that + should vote"},
+    {id:"f343",pre:"7 The bridge needs repair. It's essential that the work",suf:"as soon as possible.",ans:"should be done",exp:"essential that + should be done (passive)"},
+  ]},
+  {id:"34.4",title:"Complete using If ... should ... or Should ...",instr:"Dùng: anyone/ask, it/rain, there/any problems, the situation/change",type:"full",items:[
+    {id:"a344",context:"2 I've hung out the washing. If it rains, bring it inside.",pre:"",suf:"",ans:"If it should rain, can you bring the washing inside?",exp:"If + should + V → khả năng nhỏ"},
+    {id:"b344",context:"3 I think everything will be OK, but if there are problems...",pre:"",suf:"",ans:"Should there be any problems, I'm sure we'll solve them.",exp:"Should + S + V (inversion, formal)"},
+    {id:"c344",context:"4 I don't want anyone to know where I'm going.",pre:"",suf:"",ans:"If anyone should ask, say you don't know.",exp:"If + anyone + should ask"},
+    {id:"d344",context:"Same as 2 but with Should...:",pre:"",suf:"",ans:"Should it rain, can you bring the washing inside?",exp:"Should + it + rain (inversion)"},
+  ]},
+  {id:"34.5",title:"Complete using I should + verb",instr:"I should = lời khuyên (= I advise you to...)",type:"fill",items:[
+    {id:"a345",pre:"2 'Shall I throw these things away?' 'No, I",suf:"them. You may need them.'",ans:"should keep",exp:"I should keep = lời khuyên giữ lại"},
+    {id:"b345",pre:"3 'Shall I go and see Paul?' 'Yes, but I",suf="him first.'",ans:"should call",exp:"I should call = nên gọi trước"},
+    {id:"c345",pre:"4 'Is it worth getting this computer repaired?' 'No, I",suf="a new one.'",ans:"should get",exp:"I should get = nên mua cái mới"},
+  ]},
+]};
+
+function norm(s){return s.trim().toLowerCase().replace(/['\u2019]/g,"'").replace(/\s+/g,' ');}
+function showFb(id,ok,ans,exp){
+  document.getElementById('fb-'+id).className='fb show '+(ok?'ok':'ng');
+  var fi=document.getElementById('fi-'+id);if(fi)fi.textContent=ok?'✓':'✗';
+  document.getElementById('fa-'+id).textContent=ok?'Đúng!':'Đáp án: '+ans;
+  document.getElementById('fe-'+id).textContent=exp||'';
+}
+function renderTheory(){
+  var t=DATA.theory;
+  var secs=(t.sections||[]).map(function(s){return '<h3>'+s.h+'</h3>'+s.items.map(function(i){return '<div class="eg">'+i+'</div>';}).join('');}).join('');
+  var cmp='';
+  if(t.compare){cmp='<div class="cg">'+t.compare.map(function(c){return '<div class="cc"><h4>'+c.h+'</h4>'+c.items.map(function(i){return '<div class="eg">'+i+'</div>';}).join('')+'</div>';}).join('')+'</div>';}
+  var egs=(t.eg||[]).map(function(e){return '<div class="eg">'+e+'</div>';}).join('');
+  var spk=t.eg&&t.eg[0]?t.eg[0].replace(/['"<>&]/g,' '):'';
+  return '<div class="tb"><div class="th" onclick="toggleT()"><span class="thl">📖 Lý thuyết: '+t.title+'</span><svg id="tA" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="transition:transform .2s;flex-shrink:0"><polyline points="6 9 12 15 18 9"/></svg></div><div class="td open" id="tB">'+secs+cmp+'<h3>Ví dụ từ sách</h3>'+egs+'<button class="sb" onclick="speak(\''+spk+'\')">🔊 Nghe ví dụ</button></div></div>';
+}
+function renderEx(ex){
+  var items=ex.items.map(function(it,i){
+    var w=ex.type==='fill'?'190px':'100%';var mw=ex.type==='fill'?'':'max-width:500px;';
+    var inp='<input class="fi" id="inp-'+it.id+'" placeholder="'+(ex.type==='fill'?'…':'Write…')+'" style="width:'+w+';'+mw+'" autocomplete="off">';
+    var ctx=it.context?'<div style="font-size:13px;color:var(--muted);margin-bottom:4px">'+it.context+'</div>':'';
+    var hint=it.hint?'<span style="font-size:11px;color:var(--muted)"> '+it.hint+'</span>':'';
+    return '<div class="it" id="card-'+it.id+'"><div class="in">'+(i+1)+hint+'</div>'+ctx+'<div class="is">'+(it.pre?it.pre+' ':'')+inp+' '+(it.suf||'')+'</div><div class="fb" id="fb-'+it.id+'"><span class="fb-i" id="fi-'+it.id+'"></span><div class="fb-b"><div class="fb-a" id="fa-'+it.id+'"></div><div class="fb-e" id="fe-'+it.id+'"></div></div></div></div>';
+  }).join('');
+  return '<div class="eb"><div class="eh"><span class="ebg">'+ex.id+'</span><div><div class="etl">'+ex.title+'</div><div class="ei">'+ex.instr+'</div></div></div><div class="ebody">'+items+'</div></div>';
+}
+function build(){
+  var sc='<div class="acts"><button class="bck" onclick="checkAll()">✔ Chấm điểm</button><button class="brs" onclick="resetAll()">Làm lại</button></div><div class="sc" id="sc"><div class="sp" id="sp">—</div><div class="sm" id="sm"></div><div class="ss" id="ss"></div><div class="sr"><div><div class="sn ok-c" id="so">0</div><div class="sl">Đúng</div></div><div><div class="sn ng-c" id="sng">0</div><div class="sl">Sai</div></div><div><div class="sn" id="st">0</div><div class="sl">Tổng</div></div></div><div class="dn" id="dn">✓ Đã lưu Unit '+UNIT+'!</div><div style="margin-top:1rem;display:flex;gap:.75rem;justify-content:center"><button class="brs" onclick="resetAll()">Làm lại</button><a href="index.html" style="padding:9px 18px;background:var(--accent);color:#fff;border-radius:var(--radius);font-size:14px;font-weight:600;text-decoration:none">← Trang chủ</a></div></div>';
+  document.getElementById('app').innerHTML=renderTheory()+DATA.exs.map(renderEx).join('')+sc;
+}
+function checkAll(){
+  var ok=0,total=0;
+  DATA.exs.forEach(function(ex){ex.items.forEach(function(it){
+    total++;var v=norm(document.getElementById('inp-'+it.id).value);var a=norm(it.ans);
+    var alts=(it.alts||[]).map(norm);
+    var base=[a];
+    var contractions={"won't":"will not","can't":"cannot","couldn't":"could not","mustn't":"must not","shouldn't":"should not","wouldn't":"would not","needn't":"need not","haven't":"have not","hasn't":"has not","didn't":"did not","don't":"do not","doesn't":"does not","isn't":"is not","aren't":"are not","wasn't":"was not","weren't":"were not","hadn't":"had not","mightn't":"might not","'ll":" will","'ve":" have","'s":" is","'d":" had","'m":" am","'re":" are","'d better":"had better"};
+    var expanded=a;
+    for(var k in contractions)expanded=expanded.replace(k,contractions[k]);
+    if(expanded!==a)base.push(expanded);
+    var vars=base.concat(alts);
+    var correct=vars.some(function(x){return v===x;});
+    if(correct)ok++;
+    document.getElementById('inp-'+it.id).className='fi '+(correct?'ok':'ng');
+    showFb(it.id,correct,it.ans,it.exp);
+  });});
+  var pct=Math.round(ok/total*100);
+  document.getElementById('sp').textContent=pct+'%';document.getElementById('so').textContent=ok;document.getElementById('sng').textContent=total-ok;document.getElementById('st').textContent=total;
+  document.getElementById('ss').textContent=pct>=90?'⭐⭐⭐':pct>=70?'⭐⭐':'⭐';
+  document.getElementById('sm').textContent=pct>=90?'Xuất sắc!':pct>=70?'Khá tốt!':'Xem lại lý thuyết rồi thử lại!';
+  document.getElementById('sc').className='sc show';
+  try{var d=JSON.parse(localStorage.getItem('egiu_done')||'[]');if(pct>=50&&d.indexOf(UNIT)===-1){d.push(UNIT);localStorage.setItem('egiu_done',JSON.stringify(d));document.getElementById('dn').style.display='block';}}catch(e){}
+  document.getElementById('sc').scrollIntoView({behavior:'smooth',block:'center'});
+}
+function resetAll(){build();document.getElementById('sc').className='sc';window.scrollTo({top:0,behavior:'smooth'});}
+function toggleT(){var b=document.getElementById('tB');var a=document.getElementById('tA');if(b){b.classList.toggle('open');a.style.transform=b.classList.contains('open')?'':'rotate(-90deg)';}}
+function speak(t){if(!window.speechSynthesis)return;var u=new SpeechSynthesisUtterance(t);u.lang='en-US';u.rate=0.88;window.speechSynthesis.cancel();window.speechSynthesis.speak(u);}
+build();
+</script></body></html>

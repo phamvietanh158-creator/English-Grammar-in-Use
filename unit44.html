@@ -1,0 +1,157 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Unit 44 · Passive 3</title><style>*{box-sizing:border-box;margin:0;padding:0}:root{--bg:#f8f7f4;--surface:#fff;--border:#e5e3de;--text:#1a1a18;--muted:#6b6960;--accent:#2d6a9f;--accent-bg:#eef4fb;--accent-border:#b8d4ee;--accent-text:#1a4a7a;--ok:#16a34a;--ng:#dc2626;--radius:10px;--font:system-ui,-apple-system,sans-serif}
+body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:1.6}
+nav{background:var(--surface);border-bottom:1px solid var(--border);padding:.75rem 1.5rem;display:flex;align-items:center;gap:1rem;position:sticky;top:0;z-index:20}
+.nb{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--accent);text-decoration:none;font-weight:500}.nt{font-size:14px;font-weight:600}.ns{font-size:12px;color:var(--muted);margin-left:auto}
+.wrap{max-width:820px;margin:0 auto;padding:1.5rem 1rem 4rem}
+.tb{background:var(--accent-bg);border:1px solid var(--accent-border);border-radius:var(--radius);margin-bottom:1.5rem;overflow:hidden}
+.th{padding:.9rem 1.25rem;display:flex;align-items:center;justify-content:space-between;cursor:pointer;user-select:none}.thl{font-size:14px;font-weight:600;color:var(--accent-text)}
+.td{padding:0 1.25rem 1.25rem;display:none}.td.open{display:block}
+.td h3{font-size:14px;font-weight:600;color:var(--accent-text);margin:1rem 0 .4rem}
+.eg{background:var(--surface);border-left:3px solid var(--accent);padding:.4rem .8rem;border-radius:0 var(--radius) var(--radius) 0;font-size:13.5px;margin:.3rem 0}.eg em{color:var(--muted);font-size:12px;font-style:normal}
+.cg{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:.75rem 0}
+.cc{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:.75rem 1rem}
+.cc h4{font-size:13px;font-weight:700;margin-bottom:.5rem;padding-bottom:.35rem;border-bottom:2px solid var(--accent);color:var(--accent-text)}
+.sb{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border:1px solid var(--border);background:var(--surface);border-radius:99px;font-size:12px;color:var(--muted);cursor:pointer;font-family:var(--font);margin-top:.5rem}.sb:hover{border-color:var(--accent);color:var(--accent)}
+.eb{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:1rem;overflow:hidden}
+.eh{padding:.9rem 1.25rem;border-bottom:1px solid var(--border);display:flex;align-items:flex-start;gap:.75rem}
+.ebg{background:var(--accent-bg);color:var(--accent-text);font-size:11px;font-weight:700;padding:3px 8px;border-radius:99px;border:1px solid var(--accent-border);white-space:nowrap;margin-top:1px}
+.etl{font-size:14px;font-weight:600}.ei{font-size:13px;color:var(--muted);margin-top:3px}.ebody{padding:1rem 1.25rem}
+.it{padding:.75rem 0;border-bottom:1px solid var(--border)}.it:last-child{border-bottom:none;padding-bottom:0}
+.in{font-size:11px;font-weight:700;color:var(--muted);margin-bottom:3px}.is{font-size:14.5px;line-height:1.65}
+.fi{border:none;border-bottom:2px solid var(--accent-border);background:transparent;color:var(--text);font-size:14.5px;font-family:var(--font);padding:1px 4px;width:200px;outline:none;transition:border-color .2s;vertical-align:middle}
+.fi:focus{border-bottom-color:var(--accent)}.fi.ok{border-bottom-color:var(--ok);color:var(--ok);font-weight:600}.fi.ng{border-bottom-color:var(--ng);color:var(--ng)}
+.fb{margin-top:.5rem;font-size:13px;display:none;gap:6px;align-items:flex-start}.fb.show{display:flex}.fb-i{font-size:15px;flex-shrink:0}.fb.ok .fb-b{color:#1a6b42}.fb.ng .fb-b{color:#991b1b}.fb-a{font-weight:600;margin-bottom:2px}.fb-e{color:var(--muted);font-size:12px}
+.acts{display:flex;gap:.75rem;margin:1.5rem 0 1rem}.bck{padding:9px 22px;background:var(--accent);color:#fff;border:none;border-radius:var(--radius);font-size:14px;font-weight:600;cursor:pointer;font-family:var(--font)}.bck:hover{opacity:.85}
+.brs{padding:9px 18px;background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:var(--radius);font-size:14px;cursor:pointer;font-family:var(--font)}
+.sc{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;text-align:center;display:none}.sc.show{display:block}
+.sp{font-size:48px;font-weight:700;color:var(--accent)}.sm{font-size:14px;color:var(--muted);margin-top:4px}.ss{font-size:32px;margin:.75rem 0}
+.sr{display:flex;justify-content:center;gap:2rem;margin-top:.75rem}.sn{font-size:22px;font-weight:600}.sl{font-size:12px;color:var(--muted)}.ok-c{color:var(--ok)}.ng-c{color:var(--ng)}
+.dn{background:#eefaf4;border:1px solid #a8ddc2;border-radius:var(--radius);padding:.75rem 1rem;font-size:13px;color:#1a6b42;margin-top:.75rem;display:none}</style></head><body>
+<nav><a href="index.html" class="nb">← Trang chủ</a><div class="nt">Unit 44 · Passive 3</div><div class="ns">4 exercises · 22 items</div></nav>
+<div class="wrap" id="app"></div>
+<script>const UNIT=44;
+const DATA={
+theory:{title:"Passive 3 — I was offered / being done / get / was born",
+sections:[
+  {h:"A · Two-object verbs: give/offer/show/tell/ask/pay",items:[
+    "My grandfather gave me this watch.",
+    "→ <strong>I was given</strong> this watch. <em>or</em> This watch was given <strong>to me</strong>.",
+    "<strong>I've been offered</strong> the job, but I don't think I want it.",
+    "<strong>You will be given</strong> plenty of time to decide.",
+    "<strong>I was shown</strong> a copy of the document.",
+    "Tim <strong>is paid</strong> a lot of money to do very little.",
+  ]},
+  {h:"B · I don't like being ... (passive -ing)",items:[
+    "I don't like <strong>being told</strong> what to do.",
+    "I remember <strong>being taken</strong> to the zoo as a child.",
+    "Steve hates <strong>being kept</strong> waiting.",
+    "We climbed over the wall without <strong>being seen</strong>.",
+  ]},
+  {h:"C · was born (không dùng am born cho quá khứ)",items:[
+    "I <strong>was born</strong> in Chicago. <em>(past — not 'am born')</em>",
+    "Where <strong>were</strong> you <strong>born</strong>? <em>(always past tense)</em>",
+    "How many babies <strong>are born</strong> every day? <em>(present — general fact)</em>",
+  ]},
+  {h:"D · get (passive informal)",items:[
+    "Nobody <strong>got hurt</strong>. <em>(= was hurt)</em>",
+    "I don't <strong>get invited</strong> to many parties.",
+    "I'm surprised she didn't <strong>get offered</strong> the job.",
+    "⚠️ get chỉ cho sự kiện xảy ra (not states): Jessica <strong>is liked</strong> by everybody. <em>(not gets liked)</em>",
+  ]},
+],
+eg:["I was offered the job but didn't want it.","I hate being kept waiting.","Where were you born?"]},
+exs:[
+  {id:"44.1",title:"Complete using the correct passive form",instr:"Hai-tân-ngữ bị động: was given/told/shown etc.",type:"fill",items:[
+    {id:"a441",pre:"2 Amy retired. She",suf:"a present by her colleagues.",ans:"was given",exp:"was given = bị động quá khứ (give)"},
+    {id:"b441",pre:"3 I didn't know there was a meeting yesterday. I",suf:"about it.",ans:"wasn't told",exp:"wasn't told = bị động phủ định (tell)"},
+    {id:"c441",pre:"4 Sarah's salary is very low. I don't understand why she",suf:"so little.",ans:"is paid",exp:"is paid = bị động hiện tại (pay)"},
+    {id:"d441",pre:"5 You'll need to use this machine. Have you",suf:"how it works?",ans:"been shown",exp:"have you been shown = Perfect Passive (show)"},
+    {id:"e441",pre:"6 I had an interview. I",suf:"some very hard questions.",ans:"was asked",exp:"was asked = bị động quá khứ (ask)"},
+    {id:"f441",pre:"7 They didn't tell us much about the project. We",suf:"enough information.",ans:"weren't given",exp:"weren't given = bị động phủ định (give)"},
+    {id:"g441",pre:"8 I was surprised to get the job. I didn't expect",suf:"it.",ans:"to be offered",exp:"to be offered = passive infinitive (offer)"},
+  ]},
+  {id:"44.2",title:"Complete using being + verb",instr:"Dùng: bite/give/invite/keep/knock down/stick/treat",type:"fill",items:[
+    {id:"a442",pre:"2 We went to the wedding without",suf:"",ans:"being invited",exp:"without being invited = không được mời"},
+    {id:"b442",pre:"3 I like giving presents and I also like",suf:"them.",ans:"being given",exp:"I like being given = thích được nhận"},
+    {id:"c442",pre:"4 I don't like crossing that road. I'm afraid of",suf:"",ans:"being knocked down",exp:"afraid of being knocked down"},
+    {id:"d442",pre:"5 How do you avoid",suf:"by mosquitoes?",ans:"being bitten",exp:"avoid being bitten = tránh bị cắn"},
+    {id:"e442",pre:"6 I'm an adult. I don't like",suf:"like a child.",ans:"being treated",exp:"being treated = bị đối xử"},
+    {id:"f442",pre:"7 You can't do anything about",suf:"in a traffic jam.",ans:"being stuck",exp:"being stuck = bị kẹt"},
+  ]},
+  {id:"44.3",title:"Complete using get/got + verb",instr:"Passive informal với get — dùng: ask/break/hurt/pay/steal/sting/stop/use",type:"fill",items:[
+    {id:"a443",pre:"2 Alex",suf:"by a bee in the garden.",ans:"got stung",exp:"got stung = bị ong đốt"},
+    {id:"b443",pre:"3 These tennis courts don't",suf:"very often.",ans:"get used",exp:"don't get used = không được dùng"},
+    {id:"c443",pre:"4 I used to have a bike, but it",suf:"a few months ago.",ans:"got stolen",exp:"got stolen = bị trộm"},
+    {id:"d443",pre:"5 Rachel works hard, but she doesn't",suf:"very much.",ans:"get paid",exp:"doesn't get paid = không được trả nhiều"},
+    {id:"e443",pre:"6 Please pack these carefully. I don't want anything to",suf:"",ans:"get broken",exp:"get broken = bị vỡ"},
+    {id:"f443",pre:"7 People often ask what my job is. I",suf:"that question a lot.",ans:"get asked",exp:"get asked = thường được hỏi"},
+    {id:"g443",pre:"8 Last night I",suf="by the police as I was driving home.",ans:"got stopped",exp:"got stopped = bị cảnh sát dừng"},
+  ]},
+  {id:"44.4",title:"Complete the sentences",instr:"Điền đúng dạng bị động",type:"fill",items:[
+    {id:"a444",pre:"3 Which year",suf:"you born in?",ans:"were",exp:"were born (quá khứ — Where were you born?)"},
+    {id:"b444",pre:"4 I haven't been",suf:"any information yet.",ans:"given",exp:"haven't been given = Perfect Passive"},
+    {id:"c444",pre:"5 I didn't know the way, so I got",suf:"",ans:"lost",exp:"got lost = bị lạc đường (expression)"},
+    {id:"d444",pre:"6 He doesn't like",suf:"interrupted when he's speaking.",ans:"being",exp:"doesn't like being interrupted"},
+    {id:"e444",pre:"7 How did the window",suf:"broken? What happened?",ans:"get",exp:"get broken = bị vỡ"},
+    {id:"f444",pre:"8 She's a voluntary worker. She doesn't",suf:"paid.",ans:"get",exp:"doesn't get paid = không được trả"},
+    {id:"g444",pre:"9 I",suf:"born in a small town in the north.",ans:"was",exp:"I was born = bị động quá khứ"},
+    {id:"h444",pre:"10 We had to do what we did. We",suf:"given any choice.",ans:"weren't",exp:"weren't given any choice = không được lựa chọn"},
+  ]},
+]};
+
+function norm(s){return s.trim().toLowerCase().replace(/['\u2019]/g,"'").replace(/\s+/g,' ');}
+function showFb(id,ok,ans,exp){
+  document.getElementById('fb-'+id).className='fb show '+(ok?'ok':'ng');
+  var fi=document.getElementById('fi-'+id);if(fi)fi.textContent=ok?'✓':'✗';
+  document.getElementById('fa-'+id).textContent=ok?'Đúng!':'Đáp án: '+ans;
+  document.getElementById('fe-'+id).textContent=exp||'';
+}
+function renderTheory(){
+  var t=DATA.theory;
+  var secs=(t.sections||[]).map(function(s){return '<h3>'+s.h+'</h3>'+s.items.map(function(i){return '<div class="eg">'+i+'</div>';}).join('');}).join('');
+  var cmp='';
+  if(t.compare){cmp='<div class="cg">'+t.compare.map(function(c){return '<div class="cc"><h4>'+c.h+'</h4>'+c.items.map(function(i){return '<div class="eg">'+i+'</div>';}).join('')+'</div>';}).join('')+'</div>';}
+  var egs=(t.eg||[]).map(function(e){return '<div class="eg">'+e+'</div>';}).join('');
+  var spk=t.eg&&t.eg[0]?t.eg[0].replace(/['"<>&]/g,' '):'';
+  return '<div class="tb"><div class="th" onclick="toggleT()"><span class="thl">📖 Lý thuyết: '+t.title+'</span><svg id="tA" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="transition:transform .2s;flex-shrink:0"><polyline points="6 9 12 15 18 9"/></svg></div><div class="td open" id="tB">'+secs+cmp+'<h3>Ví dụ từ sách</h3>'+egs+'<button class="sb" onclick="speak(\''+spk+'\')">🔊 Nghe ví dụ</button></div></div>';
+}
+function renderEx(ex){
+  var items=ex.items.map(function(it,i){
+    var w=ex.type==='fill'?'190px':'100%';var mw=ex.type==='fill'?'':'max-width:520px;';
+    var inp='<input class="fi" id="inp-'+it.id+'" placeholder="'+(ex.type==='fill'?'…':'Write…')+'" style="width:'+w+';'+mw+'" autocomplete="off">';
+    var ctx=it.context?'<div style="font-size:13px;color:var(--muted);margin-bottom:4px">'+it.context+'</div>':'';
+    var hint=it.hint?'<span style="font-size:11px;color:var(--muted)"> '+it.hint+'</span>':'';
+    return '<div class="it" id="card-'+it.id+'"><div class="in">'+(i+1)+hint+'</div>'+ctx+'<div class="is">'+(it.pre?it.pre+' ':'')+inp+' '+(it.suf||'')+'</div><div class="fb" id="fb-'+it.id+'"><span class="fb-i" id="fi-'+it.id+'"></span><div class="fb-b"><div class="fb-a" id="fa-'+it.id+'"></div><div class="fb-e" id="fe-'+it.id+'"></div></div></div></div>';
+  }).join('');
+  return '<div class="eb"><div class="eh"><span class="ebg">'+ex.id+'</span><div><div class="etl">'+ex.title+'</div><div class="ei">'+ex.instr+'</div></div></div><div class="ebody">'+items+'</div></div>';
+}
+function build(){
+  var sc='<div class="acts"><button class="bck" onclick="checkAll()">✔ Chấm điểm</button><button class="brs" onclick="resetAll()">Làm lại</button></div><div class="sc" id="sc"><div class="sp" id="sp">—</div><div class="sm" id="sm"></div><div class="ss" id="ss"></div><div class="sr"><div><div class="sn ok-c" id="so">0</div><div class="sl">Đúng</div></div><div><div class="sn ng-c" id="sng">0</div><div class="sl">Sai</div></div><div><div class="sn" id="st">0</div><div class="sl">Tổng</div></div></div><div class="dn" id="dn">✓ Đã lưu Unit '+UNIT+'!</div><div style="margin-top:1rem;display:flex;gap:.75rem;justify-content:center"><button class="brs" onclick="resetAll()">Làm lại</button><a href="index.html" style="padding:9px 18px;background:var(--accent);color:#fff;border-radius:var(--radius);font-size:14px;font-weight:600;text-decoration:none">← Trang chủ</a></div></div>';
+  document.getElementById('app').innerHTML=renderTheory()+DATA.exs.map(renderEx).join('')+sc;
+}
+function checkAll(){
+  var ok=0,total=0;
+  DATA.exs.forEach(function(ex){ex.items.forEach(function(it){
+    total++;var v=norm(document.getElementById('inp-'+it.id).value);var a=norm(it.ans);
+    var alts=(it.alts||[]).map(norm);
+    var expanded=a.replace("wouldn't","would not").replace("couldn't","could not").replace("didn't","did not").replace("hadn't","had not").replace("wasn't","was not").replace("weren't","were not").replace("haven't","have not").replace("hasn't","has not").replace("won't","will not").replace("can't","cannot").replace("don't","do not").replace("doesn't","does not").replace("isn't","is not").replace("aren't","are not").replace("'d have","would have").replace("'d"," would").replace("'ve"," have").replace("'s been"," has been").replace("'s"," is").replace("'m"," am").replace("'re"," are").replace("mustn't","must not").replace("needn't","need not").replace("shouldn't","should not").replace("mightn't","might not");
+    var vars=[a,expanded].concat(alts);
+    var correct=vars.some(function(x){return v===x;});
+    if(correct)ok++;
+    document.getElementById('inp-'+it.id).className='fi '+(correct?'ok':'ng');
+    showFb(it.id,correct,it.ans,it.exp);
+  });});
+  var pct=Math.round(ok/total*100);
+  document.getElementById('sp').textContent=pct+'%';document.getElementById('so').textContent=ok;document.getElementById('sng').textContent=total-ok;document.getElementById('st').textContent=total;
+  document.getElementById('ss').textContent=pct>=90?'⭐⭐⭐':pct>=70?'⭐⭐':'⭐';
+  document.getElementById('sm').textContent=pct>=90?'Xuất sắc!':pct>=70?'Khá tốt!':'Xem lại lý thuyết rồi thử lại!';
+  document.getElementById('sc').className='sc show';
+  try{var d=JSON.parse(localStorage.getItem('egiu_done')||'[]');if(pct>=50&&d.indexOf(UNIT)===-1){d.push(UNIT);localStorage.setItem('egiu_done',JSON.stringify(d));document.getElementById('dn').style.display='block';}}catch(e){}
+  document.getElementById('sc').scrollIntoView({behavior:'smooth',block:'center'});
+}
+function resetAll(){build();document.getElementById('sc').className='sc';window.scrollTo({top:0,behavior:'smooth'});}
+function toggleT(){var b=document.getElementById('tB');var a=document.getElementById('tA');if(b){b.classList.toggle('open');a.style.transform=b.classList.contains('open')?'':'rotate(-90deg)';}}
+function speak(t){if(!window.speechSynthesis)return;var u=new SpeechSynthesisUtterance(t);u.lang='en-US';u.rate=0.88;window.speechSynthesis.cancel();window.speechSynthesis.speak(u);}
+build();
+</script></body></html>
