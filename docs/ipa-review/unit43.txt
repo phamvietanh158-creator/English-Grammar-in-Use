@@ -1,0 +1,124 @@
+# unit43: IPA tự động (espeak en-GB → Cambridge). Soát nhanh các từ dưới đây.
+
+a	/ə/
+about	/əˌbaʊt/
+across	/əˌkrɒs/
+ages	/ˈeɪdʒɪz/
+always	/ˈɔːlweɪz/
+anything	/ˈenɪˌθɪŋ/
+are	/ɑː/
+around	/əˈraʊnd/
+arrive	/əˈraɪv/
+arrived	/əˈraɪvd/
+at	/æt/
+b	/ˈbiː/
+be	/biː/
+been	/ˌbiːn/
+before	/bɪˌfɔːr/
+being	/ˌbiːɪŋ/
+bitten	/ˈbɪtən/
+bridge	/ˈbrɪdʒ/
+built	/ˈbɪlt/
+by	/baɪ/
+city	/ˈsɪti/
+cleaned	/ˈkliːnd/
+conversation	/kɒnvəˈseɪʃən/
+decision	/dɪˈsɪʒən/
+delayed	/dɪˈleɪd/
+didn't	/ˈdɪdnt/
+documents	/ˈdɒkjuːmənts/
+dog	/ˈdɒg/
+done	/ˈdʌn/
+election	/ɪˈlekʃən/
+ever	/ˈevə/
+followed	/ˈfɒləʊd/
+for	/fɔːr/
+found	/ˈfaʊnd/
+going	/ˌgəʊɪŋ/
+hadn't	/ˈhædənt/
+hasn't	/ˈhæzənt/
+have	/hæv/
+haven't	/ˈhævənt/
+he	/hiː/
+houses	/ˈhaʊzɪz/
+i	/aɪ/
+i'll	/aɪl/
+i'm	/aɪm/
+important	/ɪmˈpɔːtənt/
+in	/ɪn/
+invited	/ɪnˈvaɪtɪd/
+is	/ɪz/
+it	/ɪt/
+it's	/ɪts/
+kept	/ˈkept/
+know	/ˈnəʊ/
+known	/ˈnəʊn/
+last	/lɑːst/
+late	/ˈleɪt/
+made	/ˌmeɪd/
+may	/ˈmeɪ/
+meeting	/ˈmiːtɪŋ/
+moment	/ˈməʊmənt/
+must	/ˈmʌst/
+new	/ˈnjuː/
+next	/ˈnekst/
+no	/ˈnəʊ/
+not	/ˌnɒt/
+on	/ˌɒn/
+our	/ˌaʊə/
+party	/ˈpɑːti/
+place	/ˈpleɪs/
+problem	/ˈprɒbləm/
+recorded	/rɪˈkɔːdɪd/
+repaired	/rɪˈpeəd/
+results	/rɪˈzʌlts/
+river	/ˈrɪvə/
+road	/ˈrəʊd/
+room	/ˈruːm/
+safe	/ˈseɪf/
+seen	/ˈsiːn/
+should	/ˌʃʊd/
+since	/ˈsɪns/
+some	/ˌsʌm/
+something	/ˈsʌmθɪŋ/
+sure	/ˈʃʊə/
+that	/ðæt/
+the	/ðə/
+then	/ˈðen/
+these	/ðiːz/
+they	/ðeɪ/
+think	/ˈθɪŋk/
+time	/ˈtaɪm/
+to	/tə/
+too	/ˈtuː/
+tuesday	/ˈtjuːzdeɪ/
+until	/ʌnˈtɪl/
+visited	/ˈvɪzɪtɪd/
+was	/wɒz/
+we	/wiː/
+were	/wɜː/
+what	/wɒt/
+when	/wen/
+will	/wɪl/
+yet	/ˈjet/
+you	/juː/
+
+# Câu không ghép được từng từ (có số/viết tắt) — soát cả câu:
+A new supermarket is going to be built next year.
+Please go away. I want to be left alone.
+The room should have been cleaned.
+It might have been sent to the wrong address.
+If you'd locked the car, it wouldn't have been stolen.
+Have you heard? The trip has been cancelled.
+This road is in bad condition. It should have been repaired a long time ago.
+The injured man couldn't walk and had to be carried.
+If you hadn't shouted at the policeman, you wouldn't have been arrested.
+It's not certain how the fire started. It might have been caused by an electrical fault.
+A new school is being built. The old one is going to be knocked down.
+They weren't speaking, but now they're happy. The problem seems to have been forgotten.
+It has been stolen!
+The furniture had been moved.
+Two new hotels have been built near the airport.
+The date of the meeting has been changed.
+Have you heard? The trip has been cancelled.
+The room was being cleaned when I arrived, so I had to wait.
