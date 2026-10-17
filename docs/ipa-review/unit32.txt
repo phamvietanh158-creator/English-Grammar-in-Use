@@ -1,0 +1,115 @@
+# unit32: IPA tự động (espeak en-GB → Cambridge). Soát nhanh các từ dưới đây.
+
+a	/ə/
+about	/əˈbaʊt/
+afraid	/əˈfreɪd/
+ahead	/əˈhed/
+all	/ˈɔːl/
+alone	/əˈləʊn/
+any	/ˌeni/
+anybody	/ˈenɪˌbɒdi/
+anyone	/ˈenɪˌwɒn/
+anything	/ˈenɪˌθɪŋ/
+are	/ɑːr/
+away	/əˈweɪ/
+be	/biː/
+brave	/ˈbreɪv/
+call	/ˈkɔːl/
+can	/kæn/
+come	/ˈkʌm/
+dangerous	/ˈdeɪndʒərəs/
+decide	/dɪˈsaɪd/
+delete	/dɪˈliːt/
+didn't	/ˈdɪdnt/
+do	/ˈduː/
+documents	/ˈdɒkjuːmənts/
+don't	/ˈdəʊnt/
+early	/ˈɜːlɪ/
+emails	/ˈiːmeɪlz/
+empty	/ˈempti/
+everything	/ˈevrɪˌθɪŋ/
+explain	/ekˈspleɪn/
+for	/fɔː/
+forget	/fəˈget/
+further	/ˈfɜːðər/
+gary	/ˈgæri/
+get	/get/
+go	/ˌgəʊ/
+happened	/ˈhæpənd/
+have	/hæv/
+he	/hiː/
+here	/ˈhiə/
+him	/ˌhɪm/
+home	/ˈhəʊm/
+hurry	/ˈhʌri/
+i	/aɪ/
+i'll	/aɪl/
+important	/ɪmˈpɔːtənt/
+is	/ɪz/
+it	/ɪt/
+it's	/ɪts/
+keep	/ˈkiːp/
+late	/ˈleɪt/
+lose	/ˈluːz/
+make	/ˌmeɪk/
+manage	/ˈmænɪdʒ/
+me	/ˌmiː/
+move	/ˈmuːv/
+much	/ˈmʌtʃ/
+must	/ˈmʌst/
+mustn't	/ˈmʌsənt/
+need	/ˈniːd/
+needn't	/ˈniːdənt/
+noise	/ˈnɔɪz/
+now	/ˈnaʊ/
+of	/ɒv/
+ok	/ˌəʊˈkeɪ/
+on	/ˌɒn/
+password	/ˈpæswɜːd/
+perfectly	/ˈpɜːfekˌtlɪ/
+plenty	/ˈplenti/
+quiet	/ˈkwaɪət/
+remember	/rɪˈmembə/
+reserved	/rɪˈzɜːvd/
+restaurant	/ˈrestrɒnt/
+right	/ˈraɪt/
+secret	/ˈsiːkrɪt/
+shout	/ˈʃaʊt/
+stay	/ˈsteɪ/
+steve	/ˈstiːv/
+stupid	/ˈstjuːpɪd/
+table	/ˈteɪbəl/
+talk	/ˈtɔːk/
+taxi	/ˈtæksi/
+tell	/ˈtel/
+the	/ðə/
+them	/ˌðem/
+there's	/ðeəz/
+these	/ðiːz/
+they	/ðeɪ/
+think	/ˈθɪŋk/
+this	/ðɪs/
+time	/ˈtaɪm/
+to	/tə/
+understand	/ˌʌndəˈstænd/
+up	/ˌʌp/
+very	/ˈveri/
+wait	/ˈweɪt/
+walk	/ˈwɔːk/
+was	/wɒz/
+way	/ˈweɪ/
+we	/wiː/
+what	/wɒt/
+with	/wɪð/
+worried	/ˈwʌrid/
+worry	/ˈwʌri/
+you	/juː/
+your	/jɔː/
+
+# Câu không ghép được từng từ (có số/viết tắt) — soát cả câu:
+You must leave the furniture as it is.
+The house needn't be big. That's not so important. But it must have a nice garden.
+You needn't have walked. You could have taken a taxi.
+They needn't have stayed at a hotel. They could have stayed with us.
+She needn't have phoned at 3 am. She could have waited until morning.
+You needn't have shouted. You could have been more patient.
