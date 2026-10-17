@@ -1,0 +1,94 @@
+{
+  "id": 10,
+  "title": "Present perfect continuous and simple",
+  "theory": {
+    "title": "Present perfect continuous and simple",
+    "blocks": [
+      {
+        "h": "A · Quá trình (continuous) và kết quả (simple)",
+        "table": {
+          "head": ["Present perfect continuous", "Present perfect simple"],
+          "rows": [
+            ["Nhấn vào **việc đang/đã diễn ra** trong một thời gian, có thể chưa xong", "Nhấn vào **kết quả**, việc đã hoàn thành"],
+            ["She's **been painting** her bedroom. (đang sơn dở)", "She's **painted** her bedroom. (sơn xong rồi, giờ nó màu vàng)"],
+            ["My hands are dirty. I've **been repairing** my bike.", "My bike is OK now. I've **repaired** it."]
+          ]
+        }
+      },
+      {
+        "h": "B · How long → thường dùng continuous",
+        "ex": [
+          {"en": "How long **have you been reading** that book?", "vi": "Bạn đọc cuốn sách đó được bao lâu rồi?", "note": "(vẫn đang đọc)"},
+          {"en": "They've **been playing** tennis since 2 o'clock.", "vi": "Họ chơi quần vợt từ 2 giờ đến giờ.", "note": "(vẫn đang chơi)"}
+        ]
+      },
+      {
+        "h": "C · How much / how many / số lần → dùng simple",
+        "ex": [
+          {"en": "How many pages **have you read**?", "vi": "Bạn đã đọc được bao nhiêu trang rồi?"},
+          {"en": "Amy **has sent** lots of emails this morning.", "vi": "Sáng nay Amy đã gửi rất nhiều email."},
+          {"en": "They've **played** tennis three times this week.", "vi": "Tuần này họ đã chơi quần vợt ba lần."}
+        ]
+      },
+      {
+        "h": "D · Động từ chỉ trạng thái chỉ dùng simple",
+        "p": "know, have (sở hữu), like, want, believe… không dùng continuous.",
+        "ex": [
+          {"en": "I've **known** about the problem for a long time.", "vi": "Tôi biết về vấn đề này từ lâu rồi.", "note": "(không nói “been knowing”)"},
+          {"en": "How long **have you had** that camera?", "vi": "Bạn có chiếc máy ảnh đó bao lâu rồi?", "note": "(không nói “been having”)"}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "10.1", "kind": "fill",
+      "title": "Continuous (how long) or simple (how many)?",
+      "instr": "Mỗi tình huống có hai chỗ trống: một cho quá trình, một cho số lượng. Chọn present perfect continuous hoặc simple.",
+      "items": [
+        {"pre": "Tom started reading two hours ago and is now on page 53. He", "suf": "for two hours.", "hint": "read", "answer": "has been reading", "vi": "Tom bắt đầu đọc hai tiếng trước và giờ đang ở trang 53. Anh ấy đã đọc hai tiếng.", "exp": "for two hours → quá trình → continuous"},
+        {"pre": "Tom is now on page 53. He", "suf": "53 pages so far.", "hint": "read", "answer": "has read", "vi": "Tom đang ở trang 53. Đến giờ anh ấy đã đọc 53 trang.", "exp": "53 pages → số lượng → simple"},
+        {"pre": "Rachel left home three months ago and is still travelling. She", "suf": "for three months.", "hint": "travel", "answer": "has been travelling", "alts": ["has been traveling"], "vi": "Rachel rời nhà ba tháng trước và vẫn đang đi. Cô ấy đã đi được ba tháng.", "exp": "for three months → continuous"},
+        {"pre": "Rachel", "suf": "six countries so far.", "hint": "visit", "answer": "has visited", "vi": "Đến giờ Rachel đã đến sáu nước.", "exp": "six countries → số lượng → simple"},
+        {"pre": "Patrick is a tennis player. He", "suf": "the national championship four times.", "hint": "win", "answer": "has won", "vi": "Patrick là vận động viên quần vợt. Anh ấy đã vô địch quốc gia bốn lần.", "exp": "four times → số lần → simple"},
+        {"pre": "Patrick", "suf": "tennis since he was ten.", "hint": "play", "answer": "has been playing", "vi": "Patrick chơi quần vợt từ năm mười tuổi đến nay.", "exp": "since he was ten → continuous"},
+        {"pre": "Lisa and Sue still make films. They", "suf": "films since they left college.", "hint": "make", "answer": "have been making", "vi": "Lisa và Sue vẫn đang làm phim. Họ làm phim từ khi rời đại học.", "exp": "since + vẫn tiếp diễn → continuous"},
+        {"pre": "They", "suf": "five films since they left college.", "hint": "make", "answer": "have made", "vi": "Từ khi rời đại học họ đã làm được năm bộ phim.", "exp": "five films → số lượng → simple"}
+      ]
+    },
+    {
+      "id": "10.2", "kind": "write",
+      "title": "Write questions",
+      "instr": "Viết câu hỏi present perfect: how long → continuous; how many / ever → simple.",
+      "items": [
+        {"context": "Your friend is learning Arabic.", "hint": "how long / you / learn / Arabic", "answer": "How long have you been learning Arabic?", "vi": "Bạn học tiếng Ả Rập được bao lâu rồi?", "exp": "how long → continuous"},
+        {"context": "Your friend is waiting for you at the station.", "hint": "you / wait / long", "answer": "Have you been waiting long?", "alts": ["Have you been waiting for long?"], "vi": "Bạn đợi lâu chưa?", "exp": "Quá trình → continuous"},
+        {"context": "Somebody is fishing by the river.", "hint": "you / catch / any fish", "answer": "Have you caught any fish?", "vi": "Bạn câu được con cá nào chưa?", "exp": "Kết quả → simple (caught)"},
+        {"context": "Your friends are having a party next week.", "hint": "how many people / you / invite", "answer": "How many people have you invited?", "vi": "Các bạn đã mời bao nhiêu người?", "exp": "how many → simple"},
+        {"context": "Your friend is a teacher.", "hint": "how long / you / teach", "answer": "How long have you been teaching?", "alts": ["How long have you taught?"], "vi": "Bạn dạy học được bao lâu rồi?", "exp": "how long → thường dùng continuous"}
+      ]
+    },
+    {
+      "id": "10.3", "kind": "fill",
+      "title": "Present perfect simple or continuous?",
+      "instr": "Điền dạng đúng của động từ trong ngoặc, theo nghĩa của câu.",
+      "items": [
+        {"pre": "You're all wet and muddy.", "suf": "tennis in the rain?", "hint": "you / play", "answer": "Have you been playing", "vi": "Bạn ướt và lem luốc hết rồi. Bạn vừa chơi quần vợt dưới mưa à?", "exp": "Vừa làm xong, còn dấu vết → continuous"},
+        {"pre": "Look! Somebody", "suf": "that window.", "hint": "break", "answer": "has broken", "vi": "Nhìn kìa! Ai đó đã làm vỡ cửa sổ.", "exp": "Kết quả rõ ràng → simple"},
+        {"pre": "You look tired.", "suf": "hard?", "hint": "you / work", "answer": "Have you been working", "vi": "Trông bạn mệt quá. Bạn làm việc vất vả à?", "exp": "Hỏi về quá trình → continuous"},
+        {"pre": "", "suf": "in a factory?", "hint": "you / ever / work", "answer": "Have you ever worked", "vi": "Bạn đã bao giờ làm việc trong nhà máy chưa?", "exp": "ever + trải nghiệm → simple"},
+        {"pre": "Where's Lisa? Where", "suf": "?", "hint": "she / go", "answer": "has she gone", "vi": "Lisa đâu rồi? Cô ấy đã đi đâu?", "exp": "Kết quả hiện tại → simple"},
+        {"pre": "This is a very old book. I", "suf": "it since I was a child.", "hint": "have", "answer": "have had", "vi": "Đây là cuốn sách rất cũ. Tôi có nó từ hồi nhỏ.", "exp": "have (sở hữu) là động từ trạng thái → simple"},
+        {"pre": "Your eyes look tired. I", "suf": "TV all evening.", "hint": "watch", "answer": "have been watching", "vi": "Mắt tôi mỏi rồi. Cả buổi tối nay tôi xem tivi.", "exp": "all evening → quá trình → continuous"},
+        {"pre": "My brother is an actor. He", "suf": "in several films.", "hint": "appear", "answer": "has appeared", "vi": "Anh trai tôi là diễn viên. Anh ấy đã xuất hiện trong vài bộ phim.", "exp": "several films → số lượng → simple"},
+        {"pre": "A: Have you been waiting long? B: That's all right. I", "suf": "long.", "hint": "not / wait", "answer": "haven't been waiting", "vi": "A: Bạn đợi lâu chưa? B: Không sao. Tôi chưa đợi lâu đâu.", "exp": "Phủ định của continuous"},
+        {"pre": "You look as if", "suf": ".", "hint": "you / cry", "answer": "you have been crying", "alts": ["you've been crying"], "vi": "Trông như thể bạn vừa khóc.", "exp": "Dấu vết còn lại → continuous"},
+        {"pre": "A: Is it still raining? B: No, it", "suf": ".", "hint": "stop", "answer": "has stopped", "alts": ["'s stopped", "it's stopped"], "vi": "A: Trời còn mưa không? B: Không, tạnh rồi.", "exp": "Kết quả: đã dừng → simple"},
+        {"pre": "The children are tired. They", "suf": "in the garden.", "hint": "play", "answer": "have been playing", "vi": "Bọn trẻ mệt rồi. Chúng vừa chơi ngoài vườn.", "exp": "Quá trình vừa kết thúc → continuous"},
+        {"pre": "Oh no!", "suf": "my phone.", "hint": "I / lose", "answer": "I have lost", "alts": ["I've lost"], "vi": "Ôi không! Tôi làm mất điện thoại rồi.", "exp": "Kết quả: giờ không có điện thoại → simple"},
+        {"pre": "", "suf": "the book you lent me, but I haven't finished it.", "hint": "I / read", "answer": "I have been reading", "alts": ["I've been reading"], "vi": "Tôi đang đọc cuốn sách bạn cho mượn nhưng chưa xong.", "exp": "Chưa xong → continuous"},
+        {"pre": "", "suf": "the book you lent me, so you can have it back.", "hint": "I / read", "answer": "I have read", "alts": ["I've read"], "vi": "Tôi đọc xong cuốn sách bạn cho mượn rồi, nên bạn lấy lại được.", "exp": "Đã xong → simple"}
+      ]
+    }
+  ]
+}
