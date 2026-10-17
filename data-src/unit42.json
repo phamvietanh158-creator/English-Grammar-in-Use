@@ -1,0 +1,93 @@
+{
+  "id": 42,
+  "title": "Passive 1 (is done / was done)",
+  "theory": {
+    "title": "Passive 1 (is done / was done)",
+    "blocks": [
+      {
+        "h": "A · Chủ động và bị động",
+        "table": {
+          "head": ["Chủ động (active)", "Bị động (passive)"],
+          "rows": [
+            ["Somebody **cleans** this room every day.", "This room **is cleaned** every day."],
+            ["Somebody **cleaned** this room yesterday.", "This room **was cleaned** yesterday."],
+            ["My grandfather **built** this house in 1981.", "This house **was built** in 1981."],
+            ["It employs 200 people.", "200 people **are employed** by the company."]
+          ]
+        },
+        "p": "Hiện tại: **am / is / are + V3**. Quá khứ: **was / were + V3**."
+      },
+      {
+        "h": "B · Khi nào dùng bị động?",
+        "ex": [
+          {"en": "A lot of money **was stolen**.", "vi": "Rất nhiều tiền đã bị lấy cắp.", "note": "(không biết ai làm)"},
+          {"en": "**Is** this room **cleaned** every day?", "vi": "Phòng này có được dọn mỗi ngày không?", "note": "(ai làm không quan trọng)"},
+          {"en": "This house was built **by** my grandfather.", "vi": "Ngôi nhà này do ông tôi xây.", "note": "(dùng by khi muốn nói ai làm)"},
+          {"en": "How **is** this word **pronounced**?", "vi": "Từ này được phát âm thế nào?"}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "42.1", "kind": "fill",
+      "title": "Present or past passive",
+      "instr": "Điền dạng bị động (is/are/was/were + V3) của động từ: cause, damage, find, hold, injure, invite, make, overtake, own, send, show, surround.",
+      "items": [
+        {"pre": "Cheese", "suf": "from milk.", "hint": "make", "answer": "is made", "vi": "Phô mai được làm từ sữa.", "exp": "Hiện tại bị động"},
+        {"pre": "The roof", "suf": "in a storm a few days ago.", "hint": "damage", "answer": "was damaged", "vi": "Mái nhà bị hư hại trong một cơn bão cách đây vài ngày.", "exp": "Quá khứ bị động"},
+        {"pre": "A cinema is a place where films", "suf": ".", "hint": "show", "answer": "are shown", "vi": "Rạp chiếu phim là nơi phim được trình chiếu.", "exp": "Hiện tại bị động"},
+        {"pre": "You", "suf": "to the party. Why didn't you go?", "hint": "invite", "answer": "were invited", "vi": "Bạn được mời đến bữa tiệc. Sao bạn không đi?", "exp": "Quá khứ bị động"},
+        {"pre": "This plant is rare. It", "suf": "in very few places.", "hint": "find", "answer": "is found", "vi": "Loài cây này hiếm. Nó chỉ được tìm thấy ở rất ít nơi.", "exp": "Hiện tại bị động"},
+        {"pre": "Although we were driving fast, we", "suf": "by a lot of other cars.", "hint": "overtake", "answer": "were overtaken", "vi": "Dù chúng tôi lái nhanh nhưng vẫn bị nhiều xe khác vượt qua.", "exp": "Quá khứ bị động"},
+        {"pre": "In the US, elections for president", "suf": "every four years.", "hint": "hold", "answer": "are held", "vi": "Ở Mỹ, cuộc bầu cử tổng thống được tổ chức bốn năm một lần.", "exp": "Hiện tại bị động"},
+        {"pre": "There was an accident, but fortunately nobody", "suf": ".", "hint": "injure", "answer": "was injured", "vi": "Có một vụ tai nạn nhưng may mắn không ai bị thương.", "exp": "Quá khứ bị động"},
+        {"pre": "You can't see the house. It", "suf": "by trees.", "hint": "surround", "answer": "is surrounded", "vi": "Bạn không nhìn thấy ngôi nhà. Nó bị cây cối bao quanh.", "exp": "Hiện tại bị động"},
+        {"pre": "I never received the letter. It", "suf": "to the wrong address.", "hint": "send", "answer": "was sent", "vi": "Tôi chưa nhận được thư. Nó bị gửi nhầm địa chỉ.", "exp": "Quá khứ bị động"},
+        {"pre": "The company I work for", "suf": "by a much larger company.", "hint": "own", "answer": "is owned", "vi": "Công ty tôi làm việc thuộc sở hữu của một công ty lớn hơn nhiều.", "exp": "Hiện tại bị động"}
+      ]
+    },
+    {
+      "id": "42.2", "kind": "write",
+      "title": "Questions in the passive",
+      "instr": "Viết câu hỏi bị động theo gợi ý.",
+      "items": [
+        {"context": "You want to know about television.", "hint": "when / invent", "answer": "When was television invented?", "vi": "Tivi được phát minh khi nào?", "exp": "When + was + V3?"},
+        {"context": "You want to know about mountains.", "hint": "how / form", "answer": "How are mountains formed?", "vi": "Núi được hình thành như thế nào?", "exp": "How + are + V3?"},
+        {"context": "You want to know about DNA.", "hint": "when / discover", "answer": "When was DNA discovered?", "vi": "DNA được phát hiện khi nào?", "exp": "When + was + V3?"},
+        {"context": "You want to know about silver.", "hint": "what / use for", "answer": "What is silver used for?", "vi": "Bạc được dùng để làm gì?", "exp": "What + is + V3 + for?"},
+        {"context": "You want to know about the Eiffel Tower.", "hint": "when / build", "answer": "When was the Eiffel Tower built?", "vi": "Tháp Eiffel được xây khi nào?", "exp": "When + was + V3?"},
+        {"context": "You want to know about cheese.", "hint": "what / make from", "answer": "What is cheese made from?", "alts": ["What is cheese made of?"], "vi": "Phô mai được làm từ gì?", "exp": "What + is + V3 + from?"}
+      ]
+    },
+    {
+      "id": "42.3", "kind": "fill",
+      "title": "Active or passive?",
+      "instr": "Điền dạng chủ động hoặc bị động của động từ trong ngoặc.",
+      "items": [
+        {"pre": "Water", "suf": "most of the earth's surface.", "hint": "cover", "answer": "covers", "vi": "Nước bao phủ phần lớn bề mặt trái đất.", "exp": "Chủ động"},
+        {"pre": "How much of the earth's surface", "suf": "by water?", "hint": "cover", "answer": "is covered", "vi": "Bao nhiêu phần bề mặt trái đất bị nước bao phủ?", "exp": "Bị động"},
+        {"pre": "A: Where's your camera? B: It", "suf": "from my hotel room last week.", "hint": "steal", "answer": "was stolen", "vi": "A: Máy ảnh của bạn đâu? B: Nó bị trộm mất ở phòng khách sạn tuần trước.", "exp": "Bị động quá khứ"},
+        {"pre": "Robert and his sister", "suf": "by their grandparents.", "hint": "bring up", "answer": "were brought up", "vi": "Robert và em gái được ông bà nuôi lớn.", "exp": "Bị động quá khứ"},
+        {"pre": "The boat hit a rock and", "suf": "quickly.", "hint": "sink", "answer": "sank", "vi": "Con thuyền đâm vào đá và chìm nhanh.", "exp": "Chủ động quá khứ (sink không cần tân ngữ)"},
+        {"pre": "Fortunately everybody", "suf": ".", "hint": "rescue", "answer": "was rescued", "vi": "May mắn là mọi người đã được cứu.", "exp": "Bị động quá khứ"},
+        {"pre": "Bill", "suf": "from his job last week.", "hint": "fire", "answer": "was fired", "vi": "Tuần trước Bill bị đuổi việc.", "exp": "Bị động quá khứ"},
+        {"pre": "I didn't see the accident, but I", "suf": "about it later.", "hint": "tell", "answer": "was told", "vi": "Tôi không thấy tai nạn nhưng sau đó có người kể cho tôi.", "exp": "Bị động quá khứ"}
+      ]
+    },
+    {
+      "id": "42.4", "kind": "write",
+      "title": "Rewrite in the passive",
+      "instr": "Viết lại câu chủ động thành bị động (bỏ chủ ngữ không cần thiết).",
+      "items": [
+        {"context": "They cancelled all flights because of fog.", "hint": "all flights ...", "answer": "All flights were cancelled because of fog.", "vi": "Tất cả các chuyến bay bị hủy vì sương mù.", "exp": "was/were + V3"},
+        {"context": "Somebody accused me of stealing money.", "hint": "I ...", "answer": "I was accused of stealing money.", "vi": "Tôi bị buộc tội ăn cắp tiền.", "exp": "was accused of"},
+        {"context": "How do you use this word?", "hint": "how / this word ...", "answer": "How is this word used?", "vi": "Từ này được dùng như thế nào?", "exp": "is + V3"},
+        {"context": "The price includes all taxes.", "hint": "all taxes ...", "answer": "All taxes are included in the price.", "vi": "Giá đã bao gồm mọi loại thuế.", "exp": "are + V3"},
+        {"context": "People warned us not to go out alone.", "hint": "we ...", "answer": "We were warned not to go out alone.", "vi": "Chúng tôi được cảnh báo đừng ra ngoài một mình.", "exp": "were warned"},
+        {"context": "We don't use this office any more.", "hint": "this office ...", "answer": "This office isn't used any more.", "alts": ["This office is not used any more.", "This office isn't used any longer."], "vi": "Văn phòng này không còn được dùng nữa.", "exp": "isn't + V3"},
+        {"context": "They invited five hundred people to the wedding.", "hint": "five hundred people ...", "answer": "Five hundred people were invited to the wedding.", "vi": "Năm trăm người đã được mời đến đám cưới.", "exp": "were invited"}
+      ]
+    }
+  ]
+}
