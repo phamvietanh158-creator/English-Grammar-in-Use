@@ -125,14 +125,14 @@ def build(src: Path):
     body = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
     # mã băm nội dung nguồn (bỏ khác biệt CRLF/LF) để check.py biết data/*.js có còn khớp không
     digest = hashlib.sha1(src.read_bytes().replace(b"\r\n", b"\n")).hexdigest()[:12]
-    out.write_text(f"// src-sha1: {digest}\nwindow.EGIU_UNITS=window.EGIU_UNITS||{{}};window.EGIU_UNITS[{data['id']}]={body};\n", "utf-8")
+    out.write_text(f"// src-sha1: {digest}\nwindow.EGIU_UNITS=window.EGIU_UNITS||{{}};window.EGIU_UNITS[{data['id']}]={body};\n", "utf-8", newline="\n")
     rep = ROOT / "docs" / "ipa-review"
     rep.mkdir(parents=True, exist_ok=True)
     lines = [f"# {src.stem}: IPA tự động (espeak en-GB → Cambridge). Soát nhanh các từ dưới đây.", ""]
     lines += [f"{w}\t/{i}/" for w, i in sorted(report["words"].items())]
     if report["misaligned"]:
         lines += ["", "# Câu không ghép được từng từ (có số/viết tắt) — soát cả câu:"] + report["misaligned"]
-    (rep / (src.stem + ".txt")).write_text("\n".join(lines) + "\n", "utf-8")
+    (rep / (src.stem + ".txt")).write_text("\n".join(lines) + "\n", "utf-8", newline="\n")
     print(f"{src.name} -> {out.relative_to(ROOT)}  ({len(report['words'])} từ, {len(report['misaligned'])} câu lệch)")
 
 
