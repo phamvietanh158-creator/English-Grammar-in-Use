@@ -1,0 +1,98 @@
+{
+  "id": 20,
+  "title": "I'm going to (do)",
+  "theory": {
+    "title": "I'm going to (do)",
+    "blocks": [
+      {
+        "h": "A · Dự định: đã quyết định rồi",
+        "p": "**am/is/are going to + V** nói về điều đã quyết định làm (chưa chắc đã sắp xếp cụ thể).",
+        "ex": [
+          {"en": "A: Your shoes are dirty.  B: I know. I'm **going to clean** them.", "vi": "A: Giày bạn bẩn kìa. B: Tôi biết. Tôi định chùi nó."},
+          {"en": "I don't want to stay here. I'm **going to look** for somewhere else.", "vi": "Tôi không muốn ở đây. Tôi sẽ tìm chỗ khác."},
+          {"en": "I'm **not going to accept** the job. The pay is too low.", "vi": "Tôi sẽ không nhận việc đó. Lương thấp quá."}
+        ]
+      },
+      {
+        "h": "B · I'm doing và I'm going to do",
+        "table": {
+          "head": ["I am doing (đã sắp xếp cụ thể)", "I am going to do (đã quyết định)"],
+          "rows": [
+            ["I'm **leaving** next week. I've booked my flight.", "I'm **going to leave** my job. (chưa lên lịch cụ thể)"],
+            ["What time are you **meeting** Emily this evening?", "I'm **going to** buy a car one day."]
+          ]
+        }
+      },
+      {
+        "h": "C · Dự đoán có bằng chứng ở hiện tại",
+        "ex": [
+          {"en": "Look at those black clouds! It's **going to rain**.", "vi": "Nhìn đám mây đen kìa! Trời sắp mưa."},
+          {"en": "I feel terrible. I think I'm **going to be** sick.", "vi": "Tôi thấy rất tệ. Tôi nghĩ mình sắp nôn."}
+        ]
+      },
+      {
+        "h": "D · was / were going to: định làm nhưng không làm",
+        "ex": [
+          {"en": "We **were going to travel** by train, but we decided to drive instead.", "vi": "Chúng tôi định đi tàu nhưng cuối cùng lại lái xe."},
+          {"en": "I thought it **was going to rain**, but it didn't.", "vi": "Tôi tưởng trời sẽ mưa nhưng không mưa."}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "20.1", "kind": "write",
+      "title": "Ask about plans",
+      "instr": "Hỏi bạn bè bằng going to theo gợi ý.",
+      "items": [
+        {"context": "Your friend has won some money.", "hint": "what / do with it", "answer": "What are you going to do with it?", "vi": "Bạn định làm gì với số tiền đó?", "exp": "What + are you + going to + do?"},
+        {"context": "Your friend is going to a wedding.", "hint": "what / wear", "answer": "What are you going to wear?", "vi": "Bạn định mặc gì?", "exp": "What + are you + going to + wear?"},
+        {"context": "Your friend has bought a new table.", "hint": "where / put it", "answer": "Where are you going to put it?", "vi": "Bạn định đặt nó ở đâu?", "exp": "Where + are you + going to + put it?"},
+        {"context": "Your friend has decided to have a party.", "hint": "who / invite", "answer": "Who are you going to invite?", "vi": "Bạn định mời ai?", "exp": "Who + are you + going to + invite?"},
+        {"context": "Your friend has bought some fish for dinner.", "hint": "how / cook it", "answer": "How are you going to cook it?", "vi": "Bạn định nấu món đó thế nào?", "exp": "How + are you + going to + cook it?"},
+        {"context": "Your friend has been offered a place at a foreign university.", "hint": "where / study", "answer": "Where are you going to study?", "vi": "Bạn sẽ học ở đâu?", "exp": "Where + are you + going to + study?"}
+      ]
+    },
+    {
+      "id": "20.2", "kind": "fill",
+      "title": "I'm going to … / I'm not going to …",
+      "instr": "Điền am/is/are (not) going to + động từ: complain, learn, run, say, try, wash, accept, tell.",
+      "items": [
+        {"pre": "I haven't been trying hard enough. From now on I", "suf": "harder.", "hint": "try", "answer": "am going to try", "alts": ["'m going to try"], "vi": "Tôi chưa cố gắng đủ. Từ giờ tôi sẽ cố gắng hơn.", "exp": "Quyết định từ bây giờ"},
+        {"pre": "I have to make a speech tomorrow, but I don't know what I", "suf": ".", "hint": "say", "answer": "am going to say", "alts": ["'m going to say"], "vi": "Ngày mai tôi phải phát biểu nhưng chưa biết sẽ nói gì.", "exp": "going to + say"},
+        {"pre": "A: The car is very dirty. B: I know. I", "suf": "it.", "hint": "wash", "answer": "am going to wash", "alts": ["'m going to wash"], "vi": "A: Xe bẩn quá. B: Tôi biết. Tôi sẽ rửa nó.", "exp": "Đã quyết định"},
+        {"pre": "I've been offered a job, but I", "suf": "it. The pay is too low.", "hint": "not / accept", "answer": "am not going to accept", "alts": ["'m not going to accept"], "vi": "Tôi được mời làm một việc nhưng sẽ không nhận. Lương thấp quá.", "exp": "Quyết định từ chối"},
+        {"pre": "I", "suf": "a language, but I haven't decided which one.", "hint": "learn", "answer": "am going to learn", "alts": ["'m going to learn"], "vi": "Tôi sẽ học một ngoại ngữ nhưng chưa chọn được là tiếng nào.", "exp": "Có ý định"},
+        {"pre": "One day I", "suf": "in a marathon. It's my ambition.", "hint": "run", "answer": "am going to run", "alts": ["'m going to run"], "vi": "Một ngày nào đó tôi sẽ chạy marathon. Đó là hoài bão của tôi.", "exp": "Hoài bão, dự định"},
+        {"pre": "The food in this restaurant is awful. I", "suf": ".", "hint": "complain", "answer": "am going to complain", "alts": ["'m going to complain"], "vi": "Đồ ăn ở nhà hàng này dở tệ. Tôi sẽ phàn nàn.", "exp": "Quyết định phàn nàn"},
+        {"pre": "Ben doesn't need to know, so I", "suf": "him.", "hint": "not / tell", "answer": "am not going to tell", "alts": ["'m not going to tell"], "vi": "Ben không cần biết, nên tôi sẽ không nói với anh ấy.", "exp": "Quyết định không nói"}
+      ]
+    },
+    {
+      "id": "20.3", "kind": "write",
+      "title": "What is going to happen?",
+      "instr": "Dựa vào tình huống, viết dự đoán bằng going to.",
+      "items": [
+        {"context": "There are a lot of black clouds in the sky.", "hint": "it / rain", "answer": "It is going to rain.", "alts": ["It's going to rain."], "vi": "Trời sắp mưa.", "exp": "Có bằng chứng (mây đen)"},
+        {"context": "Tom leaves home at 8.30. He has to be at work at 8.45, but the journey takes 30 minutes.", "hint": "he / be late", "answer": "He is going to be late.", "alts": ["He's going to be late."], "vi": "Anh ấy sắp bị muộn.", "exp": "Tính toán cho thấy sẽ muộn"},
+        {"context": "There's a hole in the boat and water is coming in.", "hint": "the boat / sink", "answer": "The boat is going to sink.", "alts": ["The boat's going to sink."], "vi": "Chiếc thuyền sắp chìm.", "exp": "Có bằng chứng (nước vào)"},
+        {"context": "Amy and Ben's petrol tank is nearly empty. The petrol station is far away.", "hint": "they / run out of petrol", "answer": "They are going to run out of petrol.", "alts": ["They're going to run out of petrol."], "vi": "Họ sắp hết xăng.", "exp": "Có bằng chứng"},
+        {"context": "Sarah's car was badly damaged in the accident.", "hint": "it / cost a lot to repair", "answer": "It is going to cost a lot to repair.", "alts": ["It's going to cost a lot to repair.", "It is going to cost a lot.", "It's going to cost a lot."], "vi": "Sửa xe sẽ tốn rất nhiều tiền.", "exp": "Xe hỏng nặng"},
+        {"context": "You feel dizzy and pale.", "hint": "I / be sick", "answer": "I am going to be sick.", "alts": ["I'm going to be sick."], "vi": "Tôi sắp nôn mất.", "exp": "Cảm giác hiện tại là bằng chứng"}
+      ]
+    },
+    {
+      "id": "20.4", "kind": "fill",
+      "title": "was / were going to",
+      "instr": "Điền was/were going to + động từ cho việc định làm nhưng không làm được.",
+      "items": [
+        {"pre": "Tom and I", "suf": "tennis last week, but he'd hurt his knee.", "hint": "play", "answer": "were going to play", "vi": "Tuần trước Tom và tôi định chơi quần vợt nhưng anh ấy bị đau đầu gối.", "exp": "Định làm nhưng không làm được"},
+        {"pre": "I", "suf": "Jane, but I sent her an email instead.", "hint": "phone", "answer": "was going to phone", "alts": ["was going to call"], "vi": "Tôi định gọi cho Jane nhưng lại gửi email.", "exp": "Định gọi nhưng đổi cách"},
+        {"pre": "I thought the exam", "suf": "hard, but it was easier than I expected.", "hint": "be", "answer": "was going to be", "vi": "Tôi tưởng bài thi sẽ khó nhưng dễ hơn tôi nghĩ.", "exp": "Dự đoán không đúng"},
+        {"pre": "I", "suf": "my job, but then I changed my mind.", "hint": "give up", "answer": "was going to give up", "vi": "Tôi định nghỉ việc nhưng rồi đổi ý.", "exp": "Định làm nhưng đổi ý"},
+        {"pre": "I", "suf": "something, but then I forgot what it was.", "hint": "say", "answer": "was going to say", "vi": "Tôi định nói gì đó nhưng rồi quên mất.", "exp": "Định nói nhưng không nói"},
+        {"pre": "We", "suf": "by train, but we decided to drive instead.", "hint": "travel", "answer": "were going to travel", "alts": ["were going to travel"], "vi": "Chúng tôi định đi bằng tàu nhưng cuối cùng lái xe.", "exp": "Định làm nhưng đổi kế hoạch"}
+      ]
+    }
+  ]
+}

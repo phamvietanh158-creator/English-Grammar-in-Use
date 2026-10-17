@@ -1,0 +1,107 @@
+# unit20: IPA tự động (espeak en-GB → Cambridge). Soát nhanh các từ dưới đây.
+
+a	/ə/
+accept	/əkˈsept/
+an	/ən/
+and	/ænd/
+are	/ɑː/
+at	/æt/
+b	/ˈbiː/
+black	/ˈblæk/
+boat	/ˈbəʊt/
+but	/ˌbʌt/
+by	/baɪ/
+changed	/ˈtʃeɪndʒd/
+clean	/ˈkliːn/
+clouds	/ˈklaʊdz/
+cook	/ˈkʊk/
+cost	/ˈkɒst/
+decided	/dɪˈsaɪdɪd/
+didn't	/ˈdɪdnt/
+dirty	/ˈdɜːti/
+do	/ˈduː/
+don't	/ˈdəʊnt/
+drive	/ˈdraɪv/
+else	/ˈels/
+email	/ˈiːmeɪl/
+for	/fɔː/
+forgot	/fəˈgɒt/
+give	/ˈgɪv/
+going	/ˌgəʊɪŋ/
+he'd	/hiːd/
+her	/hɜːr/
+here	/ˈhiər/
+his	/hɪz/
+how	/ˌhaʊ/
+hurt	/ˈhɜːt/
+i	/aɪ/
+i'm	/aɪm/
+instead	/ɪnˈsted/
+invite	/ɪnˈvaɪt/
+is	/ɪz/
+it	/ɪt/
+it's	/ɪts/
+jane	/ˈdʒeɪn/
+job	/ˈdʒɒb/
+knee	/ˈniː/
+know	/ˈnəʊ/
+last	/lɑːst/
+look	/ˈlʊk/
+lot	/ˈlɒt/
+low	/ˈləʊ/
+mind	/ˈmaɪnd/
+my	/maɪ/
+not	/ˌnɒt/
+pay	/ˈpeɪ/
+phone	/ˈfəʊn/
+play	/ˈpleɪ/
+put	/ˈpʊt/
+rain	/ˈreɪn/
+repair	/rɪˈpeə/
+say	/ˈseɪ/
+sent	/ˈsent/
+shoes	/ˈʃuːz/
+sink	/ˈsɪŋk/
+something	/ˈsʌmθɪŋ/
+somewhere	/ˈsʌmweər/
+stay	/ˈsteɪ/
+study	/ˈstʌdi/
+tennis	/ˈtenɪs/
+the	/ðə/
+them	/ˌðem/
+then	/ˈðen/
+those	/ðəʊz/
+thought	/ˈθɔːt/
+to	/tə/
+tom	/ˈtɒm/
+too	/ˈtuː/
+train	/ˈtreɪn/
+travel	/ˈtrævəl/
+up	/ˌʌp/
+want	/ˈwɒnt/
+was	/wɒz/
+we	/wiː/
+wear	/ˈweə/
+week	/ˈwiːk/
+were	/wɜː/
+what	/ˌwɒt/
+where	/ˌweər/
+who	/ˌhuː/
+with	/wɪð/
+you	/juː/
+your	/jɔː/
+
+# Câu không ghép được từng từ (có số/viết tắt) — soát cả câu:
+I feel terrible. I think I'm going to be sick.
+I haven't been trying hard enough. From now on I am going to try harder.
+I have to make a speech tomorrow, but I don't know what I am going to say.
+A: The car is very dirty. B: I know. I am going to wash it.
+I've been offered a job, but I am not going to accept it. The pay is too low.
+I am going to learn a language, but I haven't decided which one.
+One day I am going to run in a marathon. It's my ambition.
+The food in this restaurant is awful. I am going to complain.
+Ben doesn't need to know, so I am not going to tell him.
+He is going to be late.
+They are going to run out of petrol.
+I am going to be sick.
+I thought the exam was going to be hard, but it was easier than I expected.
