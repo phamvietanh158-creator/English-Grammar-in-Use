@@ -1,0 +1,94 @@
+{
+  "id": 18,
+  "title": "used to (do)",
+  "theory": {
+    "title": "used to (do)",
+    "blocks": [
+      {
+        "h": "A · Nghĩa và công thức",
+        "p": "**used to + V** nói về thói quen hoặc trạng thái trong quá khứ mà **bây giờ không còn nữa**.",
+        "ex": [
+          {"en": "I **used to play** tennis a lot, but I don't play much now.", "vi": "Trước đây tôi chơi quần vợt rất nhiều, nhưng giờ thì ít chơi.", "note": ""},
+          {"en": "This building **used to be** a cinema.", "vi": "Toà nhà này trước kia là một rạp chiếu phim."},
+          {"en": "We **used to live** in a village. Now we live in a city.", "vi": "Trước đây chúng tôi sống ở làng. Giờ chúng tôi sống ở thành phố."}
+        ]
+      },
+      {
+        "h": "B · Phủ định và nghi vấn",
+        "table": {
+          "head": ["Dạng", "Cấu trúc", "Ví dụ"],
+          "rows": [
+            ["Phủ định", "didn't use to + V", "I **didn't use to** like him."],
+            ["Nghi vấn", "Did + S + use to + V?", "**Did** you **use to** eat a lot of sweets?"],
+            ["Nhấn mạnh", "never used to + V", "She **never used to** exercise."]
+          ]
+        },
+        "p": "Sau did / didn't ta dùng **use to** (không có -d)."
+      },
+      {
+        "h": "C · Lưu ý",
+        "p": "**used to** chỉ có thì quá khứ. Với hiện tại ta dùng present simple. Việc chỉ xảy ra một lần cũng không dùng used to.",
+        "ex": [
+          {"en": "I **used to watch** TV a lot. / I **was watching** TV when Rob called.", "vi": "Trước đây tôi xem tivi nhiều. / Tôi đang xem tivi thì Rob gọi.", "note": "(thói quen cũ ≠ việc đang diễn ra lúc đó)"},
+          {"en": "Last night I **went** to bed at 10.", "vi": "Tối qua tôi đi ngủ lúc 10 giờ.", "note": "(một lần cụ thể → past simple, không dùng used to)"},
+          {"en": "I **used to** live alone. / I **am used to** living alone.", "vi": "Trước đây tôi sống một mình. / Tôi quen với việc sống một mình.", "note": "(be used to + V-ing sẽ học ở unit sau)"}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "18.1", "kind": "fill",
+      "title": "Complete with used to + a verb",
+      "instr": "Điền used to + động từ phù hợp (ride, live, be, love, take, work…).",
+      "items": [
+        {"pre": "Sophie", "suf": "a motorbike, but last year she sold it.", "hint": "ride", "answer": "used to ride", "vi": "Sophie trước đây đi xe máy, nhưng năm ngoái cô ấy đã bán nó.", "exp": "used to ride = từng đi, giờ không còn"},
+        {"pre": "Our friends moved to Spain. They", "suf": "in Paris.", "hint": "live", "answer": "used to live", "vi": "Bạn chúng tôi chuyển sang Tây Ban Nha. Trước đây họ sống ở Paris.", "exp": "used to live = từng sống"},
+        {"pre": "Jackie", "suf": "my best friend, but we aren't friends any more.", "hint": "be", "answer": "used to be", "vi": "Jackie từng là bạn thân của tôi, nhưng giờ chúng tôi không còn là bạn nữa.", "exp": "used to be = từng là"},
+        {"pre": "I rarely eat ice cream now, but I", "suf": "it when I was a child.", "hint": "love", "answer": "used to love", "vi": "Giờ tôi hiếm khi ăn kem, nhưng hồi nhỏ tôi rất thích.", "exp": "used to love = từng rất thích"},
+        {"pre": "It", "suf": "me more than an hour to get to work. Now it takes 40 minutes.", "hint": "take", "answer": "used to take", "vi": "Trước đây tôi mất hơn một tiếng để đi làm. Giờ chỉ mất 40 phút.", "exp": "used to take"},
+        {"pre": "There", "suf": "a hotel near the airport, but it closed.", "hint": "be", "answer": "used to be", "vi": "Trước đây có một khách sạn gần sân bay, nhưng nó đã đóng cửa.", "exp": "There used to be"},
+        {"pre": "I", "suf": "in a factory. It wasn't my favourite job.", "hint": "work", "answer": "used to work", "vi": "Trước đây tôi làm ở một nhà máy. Đó không phải công việc tôi thích.", "exp": "used to work"}
+      ]
+    },
+    {
+      "id": "18.2", "kind": "fill",
+      "title": "use(d) to in the correct form",
+      "instr": "Điền used to, use to, did, didn't hoặc to cho đúng dạng.",
+      "items": [
+        {"pre": "We", "suf": "watch TV a lot, but we don't have a TV any more.", "hint": "used to / use to", "answer": "used to", "vi": "Trước đây chúng tôi xem tivi nhiều, nhưng giờ không còn tivi nữa.", "exp": "Khẳng định → used to"},
+        {"pre": "Lisa works in a shop now. She", "suf": "be a receptionist in a hotel.", "hint": "used to / use to", "answer": "used to", "vi": "Giờ Lisa làm ở cửa hàng. Trước đây cô ấy là lễ tân khách sạn.", "exp": "Khẳng định → used to be"},
+        {"pre": "What games", "suf": "you use to play when you were a child?", "hint": "did / do", "answer": "did", "vi": "Hồi nhỏ bạn hay chơi những trò chơi gì?", "exp": "Nghi vấn: Did + S + use to + V?"},
+        {"pre": "I", "suf": "like big cities, but now I prefer the countryside.", "hint": "didn't use to / used to", "answer": "didn't use to", "alts": ["did not use to", "used not to"], "vi": "Trước đây tôi không thích thành phố lớn, nhưng giờ tôi thích nông thôn hơn.", "exp": "Phủ định: didn't use to + V"},
+        {"pre": "In your last job, how many hours a day did you", "suf": "to work?", "hint": "use / used", "answer": "use", "vi": "Ở công việc trước, mỗi ngày bạn phải làm bao nhiêu tiếng?", "exp": "Sau did dùng use to"},
+        {"pre": "I don't travel much now, but I used", "suf": ".", "hint": "to / use", "answer": "to", "vi": "Giờ tôi không đi du lịch nhiều, nhưng trước đây thì có.", "exp": "I used to (travel): bỏ động từ vì đã nhắc ở trên"},
+        {"pre": "I used to", "suf": "to run ten kilometres, but I can't now.", "hint": "can → ?", "answer": "be able", "vi": "Trước đây tôi chạy được mười ki-lô-mét, nhưng giờ thì không.", "exp": "can không có dạng used to → used to be able to"},
+        {"pre": "These days I eat more. I", "suf": "use to eat as much.", "hint": "didn't / don't", "answer": "didn't", "vi": "Dạo này tôi ăn nhiều hơn. Trước đây tôi không ăn nhiều như vậy.", "exp": "Phủ định quá khứ: didn't use to"}
+      ]
+    },
+    {
+      "id": "18.3", "kind": "write",
+      "title": "How Karen has changed",
+      "instr": "Viết câu với used to / didn't use to / never used to, theo gợi ý.",
+      "items": [
+        {"context": "Karen smoked in the past. Now she doesn't smoke.", "hint": "she / smoke", "answer": "She used to smoke.", "alts": ["She used to smoke, but she doesn't any more.", "She used to smoke, but she doesn't now."], "vi": "Trước đây cô ấy hút thuốc.", "exp": "used to smoke = từng hút"},
+        {"context": "Karen didn't wear glasses before. Now she does.", "hint": "she / not / wear / glasses", "answer": "She didn't use to wear glasses.", "alts": ["She didn't use to wear glasses, but she does now.", "She used not to wear glasses."], "vi": "Trước đây cô ấy không đeo kính.", "exp": "didn't use to wear"},
+        {"context": "Karen ate a lot of meat. Now she is a vegetarian.", "hint": "she / eat / a lot of meat", "answer": "She used to eat a lot of meat.", "alts": ["She used to eat a lot of meat, but she's vegetarian now."], "vi": "Trước đây cô ấy ăn nhiều thịt.", "exp": "used to eat"},
+        {"context": "Karen never exercised. Now she goes to the gym.", "hint": "she / never / do / any exercise", "answer": "She never used to do any exercise.", "alts": ["She never used to exercise.", "She never used to do exercise."], "vi": "Trước đây cô ấy chẳng bao giờ tập thể dục.", "exp": "never used to + V"},
+        {"context": "You ask Karen about her childhood.", "hint": "what games / you / play / when you were a child", "answer": "What games did you use to play when you were a child?", "alts": ["What games did you use to play?"], "vi": "Hồi nhỏ bạn hay chơi những trò gì?", "exp": "Câu hỏi: Did + S + use to + V?"},
+        {"context": "Karen travelled a lot for work. Now she stays in the office.", "hint": "she / travel / a lot", "answer": "She used to travel a lot.", "alts": ["She used to travel a lot for work."], "vi": "Trước đây cô ấy hay đi công tác.", "exp": "used to travel"}
+      ]
+    },
+    {
+      "id": "18.4", "kind": "fill",
+      "title": "used to, past simple or past continuous?",
+      "instr": "Chọn used to, past simple hoặc past continuous cho đúng nghĩa.",
+      "items": [
+        {"pre": "I", "suf": "TV when Rob called.", "hint": "watch", "answer": "was watching", "vi": "Tôi đang xem tivi thì Rob gọi.", "exp": "Đang xảy ra lúc đó → past continuous"},
+        {"pre": "We", "suf": "in a village when I was young. Now we live in a city.", "hint": "live", "answer": "used to live", "alts": ["lived"], "vi": "Hồi nhỏ chúng tôi sống ở làng. Giờ chúng tôi sống ở thành phố.", "exp": "Trạng thái trong quá khứ, nay không còn"},
+        {"pre": "Last night I", "suf": "to bed at ten.", "hint": "go", "answer": "went", "vi": "Tối qua tôi đi ngủ lúc mười giờ.", "exp": "Việc xảy ra một lần → past simple, không dùng used to"},
+        {"pre": "There", "suf": "four cinemas in this town. Now there is only one.", "hint": "be", "answer": "used to be", "vi": "Trước đây thị trấn này có bốn rạp chiếu phim. Giờ chỉ còn một.", "exp": "There used to be"}
+      ]
+    }
+  ]
+}

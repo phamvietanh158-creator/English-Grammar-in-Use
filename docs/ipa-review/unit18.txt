@@ -1,0 +1,98 @@
+# unit18: IPA tự động (espeak en-GB → Cambridge). Soát nhanh các từ dưới đây.
+
+10	/ˈten/
+a	/ə/
+any	/ˌeni/
+as	/æz/
+at	/æt/
+bed	/ˈbed/
+big	/ˈbɪg/
+but	/ˌbʌt/
+called	/ˈkɔːld/
+child	/ˈtʃaɪld/
+cities	/ˈsɪtiz/
+city	/ˈsɪti/
+countryside	/ˈkʌntrɪˌsaɪd/
+day	/ˈdeɪ/
+days	/ˈdeɪz/
+did	/ˈdɪd/
+didn't	/ˈdɪdnt/
+do	/ˈduː/
+don't	/ˈdəʊnt/
+eat	/ˈiːt/
+exercise	/ˈeksəˌsaɪz/
+factory	/ˈfæktəri/
+favourite	/ˈfeɪvrɪt/
+friends	/ˈfrendz/
+games	/ˈgeɪmz/
+glasses	/ˈglæsɪz/
+have	/hæv/
+hours	/ˈaʊəz/
+how	/ˌhaʊ/
+i	/aɪ/
+in	/ɪn/
+it	/ɪt/
+job	/ˈdʒɒb/
+last	/lɑːst/
+like	/ˈlaɪk/
+live	/ˈlɪv/
+lot	/ˈlɒt/
+many	/ˈmeni/
+meat	/ˈmiːt/
+more	/ˈmɔː/
+motorbike	/ˈməʊtəˌbaɪk/
+moved	/ˈmuːvd/
+much	/ˈmʌtʃ/
+my	/maɪ/
+never	/ˈnevə/
+night	/ˈnaɪt/
+now	/ˈnaʊ/
+of	/ɒv/
+our	/ˌaʊə/
+paris	/ˈpærɪs/
+play	/ˈpleɪ/
+prefer	/prɪˈfɜː/
+ride	/ˈraɪd/
+rob	/ˈrɒb/
+she	/ʃiː/
+smoke	/ˈsməʊk/
+sold	/ˈsəʊld/
+sophie	/ˈsəʊfi/
+spain	/ˈspeɪn/
+ten	/ˈten/
+tennis	/ˈtenɪs/
+the	/ðə/
+these	/ðiːz/
+they	/ðeɪ/
+to	/tə/
+travel	/ˈtrævəl/
+tv	/ˌtiːˈviː/
+use	/ˈjuːz/
+used	/ˈjuːzd/
+village	/ˈvɪlɪdʒ/
+was	/wɒz/
+wasn't	/ˌwɒzn̩t/
+watch	/ˈwɒtʃ/
+watching	/ˈwɒtʃɪŋ/
+we	/wiː/
+wear	/ˈweə/
+went	/went/
+were	/wɜːr/
+what	/ˌwɒt/
+when	/wen/
+work	/ˈwɜːk/
+year	/ˈjiə/
+you	/juː/
+young	/ˈjʌŋ/
+your	/jɔː/
+
+# Câu không ghép được từng từ (có số/viết tắt) — soát cả câu:
+This building used to be a cinema.
+I used to live alone. / I am used to living alone.
+Jackie used to be my best friend, but we aren't friends any more.
+I rarely eat ice cream now, but I used to love it when I was a child.
+It used to take me more than an hour to get to work. Now it takes 40 minutes.
+There used to be a hotel near the airport, but it closed.
+Lisa works in a shop now. She used to be a receptionist in a hotel.
+I used to be able to run ten kilometres, but I can't now.
+There used to be four cinemas in this town. Now there is only one.
