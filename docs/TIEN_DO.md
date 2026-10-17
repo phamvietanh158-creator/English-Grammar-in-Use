@@ -65,16 +65,16 @@
 | 33 | unit33.html | should 1 | Modals | 3 | Máy 2 | ✅ |
 | 34 | unit34.html | should 2 | Modals | 3 | Máy 2 | ✅ |
 | 35 | unit35.html | I'd better / it's time | Modals | 3 | Máy 2 | ✅ |
-| 36 | unit36.html | would | Modals | 3 | Máy 2 | ⬜ |
-| 37 | unit37.html | can/could/would you ...? (Requests, offers) | Modals | 3 | Máy 2 | ⬜ |
-| 38 | unit38.html | if I do ... and if I did ... | if and wish | 3 | Máy 2 | ⬜ |
-| 39 | unit39.html | if I knew ... / I wish I knew ... | if and wish | 3 | Máy 2 | ⬜ |
-| 40 | unit40.html | if I had known ... / I wish I had known ... | if and wish | 3 | Máy 2 | ⬜ |
-| 41 | unit41.html | wish | if and wish | 3 | Máy 2 | ⬜ |
-| 42 | unit42.html | Passive 1 (is done / was done) | Passive | 3 | Máy 2 | ⬜ |
-| 43 | unit43.html | Passive 2 (be done / been done / being done) | Passive | 3 | Máy 2 | ⬜ |
-| 44 | unit44.html | Passive 3 | Passive | 3 | Máy 2 | ⬜ |
-| 45 | unit45.html | it is said that ... / he is said to ... | Passive | 3 | Máy 2 | ⬜ |
+| 36 | unit36.html | would | Modals | 3 | Máy 2 | ✅ |
+| 37 | unit37.html | can/could/would you ...? (Requests, offers) | Modals | 3 | Máy 2 | ✅ |
+| 38 | unit38.html | if I do ... and if I did ... | if and wish | 3 | Máy 2 | ✅ |
+| 39 | unit39.html | if I knew ... / I wish I knew ... | if and wish | 3 | Máy 2 | ✅ |
+| 40 | unit40.html | if I had known ... / I wish I had known ... | if and wish | 3 | Máy 2 | ✅ |
+| 41 | unit41.html | wish | if and wish | 3 | Máy 2 | ✅ |
+| 42 | unit42.html | Passive 1 (is done / was done) | Passive | 3 | Máy 2 | ✅ |
+| 43 | unit43.html | Passive 2 (be done / been done / being done) | Passive | 3 | Máy 2 | ✅ |
+| 44 | unit44.html | Passive 3 | Passive | 3 | Máy 2 | ✅ |
+| 45 | unit45.html | it is said that ... / he is said to ... | Passive | 3 | Máy 2 | ✅ |
 
 ---
 
