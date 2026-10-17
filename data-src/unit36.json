@@ -1,0 +1,122 @@
+{
+  "id": 36,
+  "title": "would",
+  "theory": {
+    "title": "would",
+    "blocks": [
+      {
+        "h": "A · would + V: tưởng tượng điều không có thật ở hiện tại",
+        "ex": [
+          {"en": "It **would be** nice to buy a car, but we can't afford it.", "vi": "Mua được xe thì thích thật, nhưng chúng tôi không đủ tiền."},
+          {"en": "I'd **love** to live by the sea.", "vi": "Tôi rất muốn sống cạnh biển."},
+          {"en": "I **wouldn't say** anything in your situation.", "vi": "Nếu ở vào hoàn cảnh của bạn tôi sẽ không nói gì."}
+        ]
+      },
+      {
+        "h": "B · would have + V3: tưởng tượng điều không xảy ra ở quá khứ",
+        "ex": [
+          {"en": "It's a shame you didn't see the film. You **would have liked** it.", "vi": "Tiếc là bạn không xem phim đó. Chắc bạn sẽ thích.", "note": "(bạn đã không xem)"},
+          {"en": "I **would have called** Lisa, but I didn't have her number.", "vi": "Tôi đã gọi cho Lisa rồi, nhưng tôi không có số của cô ấy."},
+          {"en": "I didn't tell Sam. He **wouldn't have been** pleased.", "vi": "Tôi đã không nói với Sam. Chắc anh ấy sẽ không vui."}
+        ]
+      },
+      {
+        "h": "C · wouldn't: không chịu (quá khứ của won't)",
+        "ex": [
+          {"en": "I tried to warn him, but he **wouldn't listen**.", "vi": "Tôi đã cố cảnh báo anh ấy nhưng anh ấy không chịu nghe."},
+          {"en": "The car **wouldn't start**.", "vi": "Xe không chịu nổ máy."},
+          {"en": "Steve promised he **would call** me.", "vi": "Steve đã hứa sẽ gọi cho tôi.", "note": "(would = quá khứ của will trong câu tường thuật)"}
+        ]
+      },
+      {
+        "h": "D · would: thói quen trong quá khứ",
+        "p": "Giống used to nhưng chỉ dùng cho hành động lặp lại, không dùng cho trạng thái.",
+        "ex": [
+          {"en": "Whenever Richard was angry, he **would walk** out of the room.", "vi": "Mỗi khi tức giận, Richard lại bỏ ra khỏi phòng."},
+          {"en": "Every time a train went past, the house **would shake**.", "vi": "Mỗi khi tàu chạy qua, ngôi nhà lại rung lên."}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "36.1", "kind": "write",
+      "title": "Imagine",
+      "instr": "Viết câu tưởng tượng với would theo gợi ý.",
+      "items": [
+        {"context": "You don't have a car and it would be useful.", "hint": "it / be nice / to have a car", "answer": "It would be nice to have a car.", "alts": ["It'd be nice to have a car."], "vi": "Có xe thì tốt.", "exp": "It would be nice to + V"},
+        {"context": "You dream about the seaside.", "hint": "I / love / to live by the sea", "answer": "I'd love to live by the sea.", "alts": ["I would love to live by the sea."], "vi": "Tôi rất muốn sống cạnh biển.", "exp": "I'd love to + V"},
+        {"context": "You think dentists have an unpleasant job.", "hint": "I / not / like / to be a dentist", "answer": "I wouldn't like to be a dentist.", "alts": ["I would not like to be a dentist."], "vi": "Tôi sẽ không thích làm nha sĩ.", "exp": "wouldn't like to + V"},
+        {"context": "You can't afford a long holiday.", "hint": "it / be great / to travel round the world", "answer": "It would be great to travel round the world.", "alts": ["It'd be great to travel round the world.", "It would be great to travel around the world.", "It'd be great to travel around the world."], "vi": "Được đi du lịch vòng quanh thế giới thì tuyệt.", "exp": "It would be great to + V"}
+      ]
+    },
+    {
+      "id": "36.2", "kind": "fill",
+      "title": "would or would have?",
+      "instr": "Điền would + V hoặc would have + V3.",
+      "items": [
+        {"pre": "You should go and see the film. I think you", "suf": "it.", "hint": "enjoy", "answer": "would enjoy", "vi": "Bạn nên đi xem phim đó. Tôi nghĩ bạn sẽ thích.", "exp": "Dự đoán, tưởng tượng hiện tại"},
+        {"pre": "It's a pity you couldn't come to the party. You", "suf": "it.", "hint": "enjoy", "answer": "would have enjoyed", "vi": "Tiếc là bạn không đến dự tiệc được. Bạn sẽ thích lắm.", "exp": "Điều không xảy ra ở quá khứ"},
+        {"pre": "Shall I apply for the job? What", "suf": "you do in my position?", "hint": "do", "answer": "would", "vi": "Tôi có nên xin việc đó không? Nếu là tôi bạn sẽ làm gì?", "exp": "What would you do? = giả định"},
+        {"pre": "I was in a hurry. Otherwise I", "suf": "to talk.", "hint": "stop", "answer": "would have stopped", "vi": "Lúc đó tôi vội. Nếu không thì tôi đã dừng lại nói chuyện.", "exp": "Quá khứ không xảy ra"},
+        {"pre": "We took a taxi but got stuck in traffic. It", "suf": "quicker to walk.", "hint": "be", "answer": "would have been", "vi": "Chúng tôi đi taxi nhưng bị kẹt xe. Đi bộ sẽ nhanh hơn.", "exp": "Quá khứ không xảy ra"},
+        {"pre": "Why don't you go and see Clare? She", "suf": "very pleased to see you.", "hint": "be", "answer": "would be", "vi": "Sao bạn không đến thăm Clare? Cô ấy sẽ rất vui khi gặp bạn.", "exp": "Dự đoán hiện tại"},
+        {"pre": "In an ideal world, everybody", "suf": "enough to eat.", "hint": "have", "answer": "would have", "vi": "Trong một thế giới lý tưởng, ai cũng có đủ ăn.", "exp": "Tưởng tượng hiện tại"}
+      ]
+    },
+    {
+      "id": "36.3", "kind": "match",
+      "title": "Which follows which?",
+      "instr": "Nối câu ở cột A với câu tiếp theo phù hợp ở cột B (chọn số 1–5).",
+      "left": [
+        {"k": "a", "en": "I wouldn't like to live on a busy road.", "vi": "Tôi sẽ không muốn sống cạnh đường lớn."},
+        {"k": "b", "en": "I'm sorry your trip was cancelled.", "vi": "Tiếc là chuyến đi của bạn bị hủy."},
+        {"k": "c", "en": "I'm looking forward to going out tonight.", "vi": "Tôi mong chờ buổi đi chơi tối nay."},
+        {"k": "d", "en": "I'm glad we didn't go out in the rain.", "vi": "Tôi mừng vì chúng ta không đi ra ngoài dưới mưa."},
+        {"k": "e", "en": "I'm not looking forward to the trip.", "vi": "Tôi không mong chờ chuyến đi."}
+      ],
+      "right": [
+        {"n": "1", "en": "It wouldn't be very nice.", "vi": "Chắc không dễ chịu gì."},
+        {"n": "2", "en": "It would have been fun.", "vi": "Lẽ ra sẽ vui lắm."},
+        {"n": "3", "en": "It will be fun.", "vi": "Sẽ vui đấy."},
+        {"n": "4", "en": "It wouldn't have been very nice.", "vi": "Chắc đã không dễ chịu gì."},
+        {"n": "5", "en": "It won't be much fun.", "vi": "Sẽ không vui lắm."}
+      ],
+      "ans": {"a": "1", "b": "2", "c": "3", "d": "4", "e": "5"}
+    },
+    {
+      "id": "36.4", "kind": "write",
+      "title": "promised + would / wouldn't",
+      "instr": "Viết câu tường thuật lời hứa với promised + would / wouldn't.",
+      "items": [
+        {"context": "I wonder why Steve hasn't called me.", "hint": "he / promise / call me", "answer": "He promised he would call me.", "alts": ["He promised that he would call me.", "He promised he'd call me."], "vi": "Anh ấy đã hứa sẽ gọi cho tôi.", "exp": "promise + would + V"},
+        {"context": "Why did you tell Amy what I said?", "hint": "you / promise / not tell anyone", "answer": "You promised you wouldn't tell anyone.", "alts": ["You promised that you wouldn't tell anyone."], "vi": "Bạn đã hứa là sẽ không nói với ai.", "exp": "promise + wouldn't + V"},
+        {"context": "I'm surprised they didn't wait for us.", "hint": "they / promise / wait for us", "answer": "They promised they would wait for us.", "alts": ["They promised that they would wait for us.", "They promised they'd wait for us."], "vi": "Họ đã hứa sẽ đợi chúng ta.", "exp": "promise + would + V"},
+        {"context": "Mark still hasn't paid me back.", "hint": "he / promise / pay it back on Friday", "answer": "He promised he would pay it back on Friday.", "alts": ["He promised that he would pay it back on Friday.", "He promised he'd pay it back on Friday."], "vi": "Anh ấy đã hứa sẽ trả lại vào thứ Sáu.", "exp": "promise + would + V"}
+      ]
+    },
+    {
+      "id": "36.5", "kind": "fill",
+      "title": "wouldn't = refused",
+      "instr": "Điền wouldn't + động từ: tell, speak, let, start.",
+      "items": [
+        {"pre": "I asked Amanda what happened, but she", "suf": "me.", "hint": "tell", "answer": "wouldn't tell", "vi": "Tôi hỏi Amanda chuyện gì xảy ra nhưng cô ấy không chịu nói.", "exp": "wouldn't + V = từ chối"},
+        {"pre": "Paul was angry and he", "suf": "to me for two weeks.", "hint": "speak", "answer": "wouldn't speak", "vi": "Paul giận và anh ấy không chịu nói chuyện với tôi suốt hai tuần.", "exp": "wouldn't speak"},
+        {"pre": "Martina insisted on carrying her luggage. She", "suf": "me help her.", "hint": "let", "answer": "wouldn't let", "vi": "Martina nhất quyết tự xách hành lý. Cô ấy không cho tôi giúp.", "exp": "wouldn't let"},
+        {"pre": "The car", "suf": "this morning. I had to take the bus.", "hint": "start", "answer": "wouldn't start", "vi": "Sáng nay xe không nổ máy. Tôi phải đi xe buýt.", "exp": "wouldn't start"}
+      ]
+    },
+    {
+      "id": "36.6", "kind": "fill",
+      "title": "would for past habits",
+      "instr": "Điền would + động từ: shake, share, forget, stay, smile.",
+      "items": [
+        {"pre": "We lived next to a railway. Every time a train went past, the house", "suf": ".", "hint": "shake", "answer": "would shake", "vi": "Chúng tôi sống cạnh đường ray. Mỗi lần tàu chạy qua, nhà lại rung.", "exp": "Thói quen quá khứ"},
+        {"pre": "Katherine was generous. She", "suf": "what she had with everyone.", "hint": "share", "answer": "would share", "vi": "Katherine rất hào phóng. Cô ấy thường chia sẻ những gì mình có với mọi người.", "exp": "Thói quen quá khứ"},
+        {"pre": "Joe was unreliable. However many times you reminded him, he always", "suf": ".", "hint": "forget", "answer": "would forget", "vi": "Joe thiếu đáng tin. Nhắc bao nhiêu lần anh ấy vẫn quên.", "exp": "Thói quen quá khứ"},
+        {"pre": "When we were children at the seaside, we", "suf": "on the beach all day.", "hint": "stay", "answer": "would stay", "vi": "Hồi nhỏ ở bãi biển, chúng tôi thường ở trên bãi cả ngày.", "exp": "Thói quen quá khứ"},
+        {"pre": "Lucy was friendly. Whenever I saw her, she", "suf": "and say hello.", "hint": "smile", "answer": "would smile", "vi": "Lucy rất thân thiện. Mỗi lần gặp cô ấy đều mỉm cười chào tôi.", "exp": "Thói quen quá khứ"}
+      ]
+    }
+  ]
+}
