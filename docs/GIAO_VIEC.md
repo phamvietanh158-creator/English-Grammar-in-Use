@@ -76,7 +76,7 @@ Mục đích: chuẩn bị cho đợt 4 (phần "Nền tảng"). **Không viết
 Sách ở `LYTHUYET/Essential Grammar in Use 2nd Edition by R. Murphy - Book.pdf` (299 trang, **toàn bộ là ảnh scan**, không có chữ). Cách đọc: render trang ra PNG bằng PyMuPDF rồi **xem ảnh** (đã thử: 80 dpi vẫn đọc rõ).
 
 1. Tạo `tools/pdf_pages.py` (PEP 723, `dependencies = ["pymupdf"]`): `uv run tools/pdf_pages.py <pdf> <dpi> <trang...>` → lưu PNG vào `.work/pages/` (thư mục này đã `.gitignore`).
-2. Lập `docs/ESSENTIAL_MAP.md`: bảng **Unit → số trang PDF (trang lý thuyết, trang bài tập) → tên unit → có tranh minh hoạ trong bài tập không (có/không/một phần)**, cho cả 115 unit; ghi riêng **trang bắt đầu của phần đáp án** (Key to Exercises) và vài dòng nhận xét về trình độ/cấu trúc.
+2. Lập `docs/ESSENTIAL_MAP.md`: bảng **Unit → số trang PDF (trang lý thuyết, trang bài tập) → tên unit → có tranh minh hoạ trong bài tập không (có/không/một phần)**, cho cả 114 unit; ghi riêng **trang bắt đầu của phần đáp án** (Key to Exercises) và vài dòng nhận xét về trình độ/cấu trúc.
    - Số trang trong sách ≠ số trang PDF (ví dụ Unit 3 nằm ở PDF trang 13, số in trong sách là 14). Ghi cả hai.
 3. Commit `tools/pdf_pages.py` + `docs/ESSENTIAL_MAP.md`, push `main` (theo cách như Phần A, bước 7).
 

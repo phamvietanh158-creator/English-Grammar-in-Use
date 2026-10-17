@@ -60,7 +60,7 @@ Yêu cầu mỗi máy: Git + `uv` (đã có), Edge. Không cần cài Python hay
 | **1** | Unit 2–11 | 10 unit có IPA + dịch + giọng chuẩn | Chuyển từ HTML cũ → JSON. Lấy chất liệu từ file `unitN.html` cũ (trong git: `git show main:unitN.html`) |
 | **2** | Unit 12–25 | 14 unit | |
 | **3** | Unit 26–45 | 20 unit | Hết 45 unit hiện có |
-| **4** | Phần **"Nền tảng"** (Essential, 115 unit) | Tab riêng ở trang chủ | Bước 1: dựng bảng "unit → số trang PDF" + `tools/pdf_pages.py` render trang. Bước 2: **làm 3 unit mẫu** (đề xuất Unit 1, 3, 25) để chốt cách viết lại hình minh hoạ → mở cho cả nhóm |
+| **4** | Phần **"Nền tảng"** (Essential, 114 unit) | Tab riêng ở trang chủ | Bước 1: dựng bảng "unit → số trang PDF" + `tools/pdf_pages.py` render trang. Bước 2: **làm 3 unit mẫu** (đề xuất Unit 1, 3, 25) để chốt cách viết lại hình minh hoạ → mở cho cả nhóm |
 | **5** | **Bài tập bổ sung Ms Hoa** | Mục "Luyện tập thêm" cuối mỗi unit (trắc nghiệm A–D, tìm lỗi sai) + **Final test** (bài tổng hợp các thì, đề cuối sách) | Cần thêm 2 dạng bài vào engine: `choose` (trắc nghiệm) và `error` (tìm lỗi sai). Ghép bài Ms Hoa vào unit theo chủ điểm (thì, modal, câu điều kiện, mệnh đề quan hệ, giới từ, liên từ…). Bài tổng hợp các thì → mục "Ôn tập" riêng |
 | **6** | MP3 UK/US sinh sẵn | `audio/uk/*.mp3`, `audio/us/*.mp3` + khung `window.EGIU_AUDIO` đã có sẵn trong engine | Dùng giọng neural (edge-tts) lúc build. Ước ~80 câu × 45 unit × 2 giọng ≈ 7.000 file (~60–100 MB): nên cân nhắc Git LFS hoặc chỉ build khi deploy |
 | **7** | Unit 46–145 | Phần còn lại sách Murphy trung cấp | Chỉ mở khi 1–3 xong; có thể lấy chất liệu từ bản scan nếu có thêm sách |
