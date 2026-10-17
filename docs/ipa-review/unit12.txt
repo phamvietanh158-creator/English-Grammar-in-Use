@@ -1,0 +1,100 @@
+# unit12: IPA tự động (espeak en-GB → Cambridge). Soát nhanh các từ dưới đây.
+
+9	/ˈnaɪn/
+a	/ə/
+about	/əˌbaʊt/
+ages	/ˈeɪdʒɪz/
+ago	/əˈgəʊ/
+all	/ˈɔːl/
+anna	/ˈænər/
+arrive	/əˈraɪv/
+at	/æt/
+ate	/ˈeɪt/
+been	/ˌbiːn/
+brazil	/brəˈzɪl/
+car	/ˈkɑː/
+cinema	/ˈsɪnəmə/
+course	/ˈkɔːs/
+did	/ˈdɪd/
+each	/ˈiːtʃ/
+few	/ˈfjuː/
+five	/ˈfaɪv/
+for	/fɔː/
+get	/get/
+got	/gɒt/
+had	/hæd/
+has	/həz/
+have	/hæv/
+haven't	/ˈhævənt/
+her	/hɜː/
+here	/ˈhiər/
+him	/ˌhɪm/
+holiday	/ˈhɒlɪˌdeɪ/
+how	/ˌhaʊ/
+i	/aɪ/
+i've	/aɪv/
+in	/ɪn/
+it	/ɪt/
+it's	/ɪts/
+joe	/ˈdʒəʊ/
+known	/ˈnəʊn/
+last	/lɑːst/
+life	/ˈlaɪf/
+lived	/ˈlɪvd/
+london	/ˈlʌndən/
+long	/ˈlɒŋ/
+lunchtime	/ˈlʌntʃtaɪm/
+married	/ˈmærid/
+minutes	/ˈmɪnɪts/
+monday	/ˈmʌndeɪ/
+month	/ˈmʌnθ/
+months	/ˈmʌnθs/
+my	/maɪ/
+no	/ˈnəʊ/
+o'clock	/əˈklɒk/
+only	/ˈəʊnli/
+other	/ˈʌðə/
+party	/ˈpɑːti/
+paul	/ˈpɔːl/
+raining	/ˈreɪnɪŋ/
+saw	/ˈsɔː/
+seen	/ˈsiːn/
+september	/sepˈtembə/
+she	/ʃiː/
+since	/ˈsɪns/
+six	/ˈsɪks/
+start	/ˈstɑːt/
+started	/ˈstɑːtɪd/
+swimming	/ˈswɪmɪŋ/
+ten	/ˈten/
+the	/ðə/
+there	/ˈðeə/
+they	/ðeɪ/
+they've	/ðeɪv/
+this	/ðɪs/
+three	/ˈθriː/
+time	/ˈtaɪm/
+to	/tə/
+tom	/ˈtɒm/
+two	/ˈtuː/
+waiting	/ˈweɪtɪŋ/
+we	/wiː/
+week	/ˈwiːk/
+went	/went/
+when	/ˌwen/
+working	/ˈwɜːkɪŋ/
+year	/ˈjiər/
+years	/ˈjiəz/
+you	/juː/
+your	/jɔː/
+
+# Câu không ghép được từng từ (có số/viết tắt) — soát cả câu:
+Sally has been working here for six months.
+We've been sitting here for an hour.
+Kevin has been looking for a job since he left school.
+Jane has been away since Friday.
+It hasn't rained for a few weeks.
+She has been a teacher since 2015.
+He has been ill since Sunday.
+I've had a headache since I woke up.
+No, I haven't ridden a bike for a long time.
