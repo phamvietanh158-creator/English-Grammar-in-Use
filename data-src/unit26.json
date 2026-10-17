@@ -1,0 +1,99 @@
+{
+  "id": 26,
+  "title": "can, could and (be) able to",
+  "theory": {
+    "title": "can, could and (be) able to",
+    "blocks": [
+      {
+        "h": "A · can: khả năng, sự cho phép, điều có thể",
+        "ex": [
+          {"en": "We **can see** the lake from our hotel.", "vi": "Từ khách sạn chúng tôi nhìn thấy cái hồ."},
+          {"en": "A: I don't have a pen.  B: You **can use** mine.", "vi": "A: Tôi không có bút. B: Bạn dùng của tôi đi."},
+          {"en": "**Can** you speak any foreign languages?", "vi": "Bạn nói được ngoại ngữ nào không?"},
+          {"en": "I'm afraid I **can't** come on Friday.", "vi": "Tiếc là tôi không đến được vào thứ Sáu."}
+        ]
+      },
+      {
+        "h": "B · be able to khi can không có dạng phù hợp",
+        "p": "can chỉ có hai dạng: can và could. Ở các thì khác hoặc sau modal khác ta dùng **be able to**.",
+        "ex": [
+          {"en": "I haven't **been able to** sleep recently.", "vi": "Gần đây tôi không ngủ được.", "note": "(present perfect)"},
+          {"en": "Tom might **be able to** come tomorrow.", "vi": "Ngày mai Tom có thể đến được.", "note": "(sau might)"},
+          {"en": "Applicants must **be able to** speak two languages.", "vi": "Ứng viên phải nói được hai ngôn ngữ.", "note": "(sau must)"}
+        ]
+      },
+      {
+        "h": "C · could: khả năng trong quá khứ",
+        "ex": [
+          {"en": "We **could see** the lake from our room.", "vi": "Từ phòng chúng tôi có thể nhìn thấy hồ.", "note": "(hay dùng với see, hear, smell, feel, remember, understand)"},
+          {"en": "I was sitting at the back. I **couldn't hear** very well.", "vi": "Tôi ngồi ở cuối nên nghe không rõ."},
+          {"en": "She **could speak** three languages when she was twelve.", "vi": "Hồi mười hai tuổi cô ấy đã nói được ba thứ tiếng."}
+        ]
+      },
+      {
+        "h": "D · could và was able to",
+        "p": "**could** nói về khả năng chung trong quá khứ. Với một việc **cụ thể đã làm được** thì dùng **was/were able to** (hoặc managed to), không dùng could. Ở câu phủ định có thể dùng couldn't.",
+        "ex": [
+          {"en": "The fire spread quickly but everybody **was able to** escape.", "vi": "Đám cháy lan nhanh nhưng mọi người đều thoát được."},
+          {"en": "My grandmother **could** play the piano beautifully.", "vi": "Bà tôi chơi piano rất hay."},
+          {"en": "We **couldn't** find the museum.", "vi": "Chúng tôi không tìm thấy bảo tàng."}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "26.1", "kind": "fill",
+      "title": "can, can't, could, couldn't or be able to?",
+      "instr": "Điền can't, could, couldn't, been able to hoặc able to cho đúng.",
+      "items": [
+        {"pre": "I'm afraid I", "suf": "come to the party on Friday.", "hint": "can't / couldn't", "answer": "can't", "vi": "Tiếc là tôi không đến dự tiệc thứ Sáu được.", "exp": "Hiện tại phủ định → can't"},
+        {"pre": "When we got to the hotel, we", "suf": "see the lake from our window.", "hint": "can / could", "answer": "could", "vi": "Khi đến khách sạn, chúng tôi nhìn thấy hồ qua cửa sổ.", "exp": "Quá khứ + see → could"},
+        {"pre": "I haven't", "suf": "sleep very well recently.", "hint": "able to / been able to", "answer": "been able to", "vi": "Gần đây tôi ngủ không ngon.", "exp": "Present perfect → been able to"},
+        {"pre": "Are you", "suf": "come to the meeting tomorrow?", "hint": "able to / can", "answer": "able to", "vi": "Ngày mai bạn đến họp được không?", "exp": "Are you able to = Can you"},
+        {"pre": "As soon as I walked in, I", "suf": "smell gas.", "hint": "can / could", "answer": "could", "vi": "Vừa bước vào, tôi đã ngửi thấy mùi ga.", "exp": "smell trong quá khứ → could"},
+        {"pre": "I looked everywhere but I", "suf": "find my phone.", "hint": "couldn't / can't", "answer": "couldn't", "vi": "Tôi tìm khắp nơi nhưng không thấy điện thoại.", "exp": "Quá khứ phủ định → couldn't"},
+        {"pre": "My grandfather", "suf": "speak five languages.", "hint": "can / could", "answer": "could", "vi": "Ông tôi nói được năm thứ tiếng.", "exp": "Khả năng trong quá khứ → could"},
+        {"pre": "You must", "suf": "drive to get this job.", "hint": "can / be able to", "answer": "be able to", "vi": "Bạn phải biết lái xe mới nhận được công việc này.", "exp": "Sau must → be able to"},
+        {"pre": "I'd love to", "suf": "play the guitar like you.", "hint": "can / be able to", "answer": "be able to", "vi": "Tôi ước gì chơi guitar được như bạn.", "exp": "Sau to → be able to"}
+      ]
+    },
+    {
+      "id": "26.2", "kind": "fill",
+      "title": "could or was/were able to?",
+      "instr": "could = khả năng chung; was/were able to = làm được một việc cụ thể.",
+      "items": [
+        {"pre": "My grandmother loved music. She", "suf": "play the piano beautifully.", "hint": "could / was able to", "answer": "could", "vi": "Bà tôi yêu âm nhạc. Bà chơi piano rất hay.", "exp": "Khả năng chung → could"},
+        {"pre": "The fire spread fast but everybody", "suf": "escape.", "hint": "could / was able to", "answer": "was able to", "vi": "Đám cháy lan nhanh nhưng mọi người đều thoát được.", "exp": "Việc cụ thể → was able to"},
+        {"pre": "The test was difficult but I", "suf": "answer most of the questions.", "hint": "could / was able to", "answer": "was able to", "vi": "Bài kiểm tra khó nhưng tôi làm được phần lớn các câu.", "exp": "Việc cụ thể → was able to"},
+        {"pre": "I", "suf": "swim when I was six.", "hint": "could / was able to", "answer": "could", "vi": "Tôi biết bơi từ lúc sáu tuổi.", "exp": "Khả năng chung → could"},
+        {"pre": "There was a lot of traffic, but we", "suf": "get to the airport in time.", "hint": "could / were able to", "answer": "were able to", "vi": "Đường rất đông nhưng chúng tôi vẫn đến sân bay kịp giờ.", "exp": "Việc cụ thể → were able to"},
+        {"pre": "I looked everywhere for the report. Finally I", "suf": "find it under a pile of papers.", "hint": "could / was able to", "answer": "was able to", "vi": "Tôi tìm báo cáo khắp nơi. Cuối cùng tôi tìm được nó dưới một chồng giấy.", "exp": "Thành công cụ thể → was able to"}
+      ]
+    },
+    {
+      "id": "26.3", "kind": "fill",
+      "title": "couldn't + verb",
+      "instr": "Điền couldn't + động từ phù hợp: hear, keep, attend, find, read.",
+      "items": [
+        {"pre": "We were sitting at the back. We", "suf": "very well.", "hint": "hear", "answer": "couldn't hear", "vi": "Chúng tôi ngồi ở cuối nên nghe không rõ.", "exp": "couldn't + hear"},
+        {"pre": "I was exhausted last night. I", "suf": "my eyes open.", "hint": "keep", "answer": "couldn't keep", "vi": "Tối qua tôi kiệt sức. Tôi không giữ nổi mắt mở.", "exp": "couldn't + keep"},
+        {"pre": "I'm sorry I", "suf": "the meeting yesterday.", "hint": "attend", "answer": "couldn't attend", "vi": "Xin lỗi, hôm qua tôi không dự họp được.", "exp": "couldn't + attend"},
+        {"pre": "We didn't find the museum. We", "suf": "it anywhere.", "hint": "find", "answer": "couldn't find", "vi": "Chúng tôi không thấy bảo tàng. Tìm khắp nơi mà không ra.", "exp": "couldn't + find"},
+        {"pre": "The writing was too small. I", "suf": "it.", "hint": "read", "answer": "couldn't read", "vi": "Chữ nhỏ quá. Tôi không đọc được.", "exp": "couldn't + read"}
+      ]
+    },
+    {
+      "id": "26.4", "kind": "write",
+      "title": "Write the sentences",
+      "instr": "Viết câu hoàn chỉnh dùng can, could hoặc be able to theo gợi ý.",
+      "items": [
+        {"context": "Yesterday there was a lot of traffic, but you reached the airport on time.", "hint": "we / able to / get to the airport in time", "answer": "We were able to get to the airport in time.", "alts": ["We managed to get to the airport in time."], "vi": "Chúng tôi đã đến sân bay kịp giờ.", "exp": "Việc cụ thể → were able to"},
+        {"context": "Tom speaks Spanish now but he didn't a year ago.", "hint": "Tom / not / able to / speak Spanish / last year", "answer": "Tom wasn't able to speak Spanish last year.", "alts": ["Tom couldn't speak Spanish last year.", "Tom was not able to speak Spanish last year."], "vi": "Năm ngoái Tom chưa nói được tiếng Tây Ban Nha.", "exp": "Quá khứ phủ định"},
+        {"context": "The job advert says: you need two languages.", "hint": "applicants / must / be able to / speak two languages", "answer": "Applicants must be able to speak two languages.", "vi": "Ứng viên phải nói được hai ngôn ngữ.", "exp": "Sau must → be able to"},
+        {"context": "You haven't slept well for weeks.", "hint": "I / not / be able to / sleep well recently", "answer": "I haven't been able to sleep well recently.", "alts": ["I have not been able to sleep well recently."], "vi": "Gần đây tôi không ngủ ngon được.", "exp": "Present perfect → been able to"},
+        {"context": "You want to ask a stranger the time politely.", "hint": "could you / tell me / the time", "answer": "Could you tell me the time?", "alts": ["Could you tell me the time, please?", "Could you please tell me the time?"], "vi": "Bạn cho tôi biết mấy giờ rồi được không?", "exp": "Could you …? = yêu cầu lịch sự"}
+      ]
+    }
+  ]
+}
