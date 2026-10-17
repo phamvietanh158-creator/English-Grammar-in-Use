@@ -1,0 +1,123 @@
+# unit28: IPA tự động (espeak en-GB → Cambridge). Soát nhanh các từ dưới đây.
+
+40	/ˈfɔːti/
+a	/ə/
+all	/ˈɔːl/
+already	/ɔːlˈredi/
+always	/ˈɔːlweɪz/
+and	/ænd/
+at	/æt/
+be	/biː/
+been	/ˌbiːn/
+bill	/ˈbɪl/
+can't	/kɑːnt/
+closed	/ˈkləʊzd/
+congratulations	/kəŋˈgrætʃʊˈleɪʃənz/
+correct	/kəˈrekt/
+david	/ˈdeɪvɪd/
+day	/ˈdeɪ/
+director	/daɪˈrektə/
+earn	/ˈɜːn/
+empty	/ˈempti/
+everybody	/ˈevrɪˌbɒdi/
+far	/ˈfɑː/
+five	/ˈfaɪv/
+forward	/ˈfɔːwəd/
+full	/ˈfʊl/
+going	/ˌgəʊɪŋ/
+good	/ˈgʊd/
+got	/gɒt/
+had	/hæd/
+happy	/ˈhæpi/
+has	/həz/
+hasn't	/ˈhæzənt/
+he	/hiː/
+he's	/hiːz/
+here	/ˈhiə/
+high	/ˈhaɪ/
+holiday	/ˈhɒlɪˌdeɪ/
+hotels	/həʊˈtelz/
+hungry	/ˈhʌŋgri/
+i	/aɪ/
+is	/ɪz/
+it	/ɪt/
+it's	/ɪts/
+just	/ˈdʒʌst/
+karen	/ˈkærən/
+know	/ˈnəʊ/
+late	/ˈleɪt/
+least	/ˈliːst/
+left	/ˈleft/
+lisa	/ˈliːsə/
+live	/ˈlɪv/
+lived	/ˈlɪvd/
+lives	/ˈlɪvz/
+long	/ˈlɒŋ/
+looking	/ˈlʊkɪŋ/
+lunch	/ˈlʌntʃ/
+man	/ˈmæn/
+managing	/ˈmænɪdʒɪŋ/
+many	/ˈmeni/
+married	/ˈmærid/
+me	/ˌmiː/
+money	/ˈmʌni/
+moved	/ˈmuːvd/
+must	/ˈmʌst/
+near	/ˌniə/
+o'clock	/əˈklɒk/
+of	/ɒv/
+office	/ˈɒfɪs/
+often	/ˈɒfən/
+older	/ˈəʊldə/
+on	/ˌɒn/
+only	/ˈəʊnli/
+passing	/ˈpæsɪŋ/
+people	/ˈpiːpəl/
+pleased	/ˈpliːzd/
+quite	/ˈkwaɪt/
+restaurant	/ˈrestrɒnt/
+salary	/ˈsæləri/
+see	/ˈsiː/
+she	/ʃiː/
+shop	/ˈʃɒp/
+short	/ˈʃɔːt/
+star	/ˈstɑː/
+stay	/ˈsteɪ/
+sue	/ˈsuː/
+than	/ðən/
+that	/ðæt/
+the	/ðɪ/
+they	/ðeɪ/
+they've	/ðeɪv/
+this	/ðɪs/
+time	/ˈtaɪm/
+tired	/ˈtaɪəd/
+to	/tʊ/
+too	/ˈtuː/
+travelling	/ˈtrævəlɪŋ/
+very	/ˈveri/
+week	/ˈwiːk/
+who	/ˌhuː/
+working	/ˈwɜːkɪŋ/
+yet	/ˈjet/
+you	/juː/
+you're	/jɔː/
+you've	/juːv/
+
+# Câu không ghép được từng từ (có số/viết tắt) — soát cả câu:
+I lost a glove. I must have dropped it somewhere.
+A: We lived near the motorway. B: It must have been noisy.
+Sarah can't have got my message.
+Kate gave me her address. I must have it somewhere.
+It rained every day on their holiday. It can't have been very nice for them.
+You got here very quickly. You must have driven very fast.
+I don't have my wallet. I must have left it at home.
+The road is closed. There must have been an accident.
+It must have been very expensive.
+They must have gone away.
+I must have left it in the restaurant.
+It can't have been easy for her.
+She can't have understood what I said.
+I must have forgotten to lock it.
+He can't have worn them much.
+You've had no sleep for two days. You must be exhausted.
