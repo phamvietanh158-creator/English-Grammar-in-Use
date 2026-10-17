@@ -1,0 +1,95 @@
+{
+  "id": 19,
+  "title": "Present tenses for the future",
+  "theory": {
+    "title": "Present tenses for the future",
+    "blocks": [
+      {
+        "h": "A · Present continuous: kế hoạch đã sắp xếp",
+        "p": "Dùng **am/is/are + V-ing** khi đã quyết định và thường đã sắp xếp (hẹn gặp, đặt vé…).",
+        "ex": [
+          {"en": "I'm **going** to the cinema tonight.", "vi": "Tối nay tôi đi xem phim."},
+          {"en": "What are you **doing** on Saturday evening?", "vi": "Tối thứ Bảy bạn làm gì?", "note": "(không nói “What will you do”)"},
+          {"en": "Alex is **getting** married next month.", "vi": "Tháng sau Alex kết hôn."},
+          {"en": "I'm **not working** tomorrow. It's a public holiday.", "vi": "Ngày mai tôi không đi làm. Là ngày lễ."}
+        ]
+      },
+      {
+        "h": "B · Present simple: lịch trình cố định",
+        "p": "Dùng cho tàu xe, chương trình, lịch họp, lịch học… tức là việc đã có thời gian biểu cố định.",
+        "ex": [
+          {"en": "My train **leaves** at 11.30.", "vi": "Tàu của tôi chạy lúc 11 giờ 30."},
+          {"en": "What time **does** the film **start** tonight?", "vi": "Tối nay mấy giờ phim bắt đầu?"},
+          {"en": "The meeting **is** at nine o'clock tomorrow.", "vi": "Cuộc họp ngày mai lúc chín giờ."}
+        ]
+      },
+      {
+        "h": "C · So sánh",
+        "table": {
+          "head": ["Present continuous (kế hoạch cá nhân)", "Present simple (lịch trình)"],
+          "rows": [
+            ["What time **are** you **arriving**?", "What time **does** the train **arrive**?"],
+            ["I'm **going** to the cinema this evening.", "The film **starts** at 8.15."]
+          ]
+        }
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "19.1", "kind": "write",
+      "title": "Ask Anna about her holiday",
+      "instr": "Anna sẽ đi Scotland mười ngày. Viết câu hỏi present continuous theo gợi ý.",
+      "items": [
+        {"context": "Anna is going to Scotland.", "hint": "where / go", "answer": "Where are you going?", "alts": ["Where is Anna going?"], "vi": "Bạn đi đâu vậy?", "exp": "Where + are + you + going?"},
+        {"context": "She'll be away for ten days.", "hint": "how long / go for", "answer": "How long are you going for?", "alts": ["How long are you going away for?", "How long is Anna going for?"], "vi": "Bạn đi bao lâu?", "exp": "How long + are + you + going for?"},
+        {"context": "She's leaving next Saturday.", "hint": "when / leave", "answer": "When are you leaving?", "alts": ["When is Anna leaving?"], "vi": "Khi nào bạn đi?", "exp": "When + are + you + leaving?"},
+        {"context": "She's going with friends.", "hint": "go / alone", "answer": "Are you going alone?", "alts": ["Is Anna going alone?"], "vi": "Bạn đi một mình à?", "exp": "Are + you + going + alone?"},
+        {"context": "She's taking the train.", "hint": "travel / by car", "answer": "Are you travelling by car?", "alts": ["Are you traveling by car?", "Are you going by car?", "Is Anna travelling by car?"], "vi": "Bạn đi bằng xe hơi à?", "exp": "Are + you + travelling by car?"},
+        {"context": "She's booked a small hotel.", "hint": "where / stay", "answer": "Where are you staying?", "alts": ["Where is Anna staying?"], "vi": "Bạn sẽ ở đâu?", "exp": "Where + are + you + staying?"}
+      ]
+    },
+    {
+      "id": "19.2", "kind": "fill",
+      "title": "Complete using present continuous",
+      "instr": "Điền present continuous của động từ trong ngoặc để nói về kế hoạch.",
+      "items": [
+        {"pre": "We", "suf": "a party next week. We've invited all our friends.", "hint": "have", "answer": "are having", "vi": "Tuần sau chúng tôi tổ chức tiệc. Chúng tôi đã mời hết bạn bè.", "exp": "Kế hoạch đã sắp xếp"},
+        {"pre": "I", "suf": "tomorrow. It's a public holiday.", "hint": "not / work", "answer": "am not working", "alts": ["'m not working"], "vi": "Ngày mai tôi không làm việc. Là ngày lễ.", "exp": "Kế hoạch phủ định"},
+        {"pre": "I", "suf": "now. I've come to say goodbye.", "hint": "leave", "answer": "am leaving", "alts": ["'m leaving"], "vi": "Tôi sắp đi rồi. Tôi đến để chào tạm biệt.", "exp": "Sắp rời đi (kế hoạch ngay)"},
+        {"pre": "What time", "suf": "out this evening?", "hint": "you / go", "answer": "are you going", "vi": "Tối nay mấy giờ bạn đi chơi?", "exp": "Hỏi kế hoạch cá nhân"},
+        {"pre": "Laura", "suf": "to the party tomorrow. She isn't well.", "hint": "not / come", "answer": "isn't coming", "alts": ["is not coming"], "vi": "Ngày mai Laura không đến bữa tiệc. Cô ấy không khoẻ.", "exp": "Kế hoạch phủ định"},
+        {"pre": "I love New York. I", "suf": "there soon.", "hint": "go", "answer": "am going", "alts": ["'m going"], "vi": "Tôi yêu New York. Tôi sắp đến đó.", "exp": "Kế hoạch đã quyết"},
+        {"pre": "Ben can't meet us on Monday. He", "suf": "late.", "hint": "work", "answer": "is working", "alts": ["'s working"], "vi": "Ben không gặp chúng ta thứ Hai được. Anh ấy phải làm đến khuya.", "exp": "Kế hoạch của Ben"}
+      ]
+    },
+    {
+      "id": "19.3", "kind": "fill",
+      "title": "Present continuous or present simple?",
+      "instr": "Kế hoạch cá nhân → continuous; lịch trình cố định → simple.",
+      "items": [
+        {"pre": "Are", "suf": "to Sam's party on Saturday?", "hint": "you / go", "answer": "you going", "vi": "Thứ Bảy bạn có đến dự tiệc của Sam không?", "exp": "Kế hoạch cá nhân → are you going"},
+        {"pre": "He", "suf": "soon, probably at the end of the month.", "hint": "move", "answer": "is moving", "alts": ["'s moving"], "vi": "Anh ấy sắp chuyển nhà, có thể vào cuối tháng.", "exp": "Kế hoạch"},
+        {"pre": "I'm going to a concert tonight. What time", "suf": "?", "hint": "it / start", "answer": "does it start", "vi": "Tối nay tôi đi nghe hoà nhạc. Mấy giờ thì bắt đầu?", "exp": "Giờ của chương trình → lịch trình"},
+        {"pre": "We", "suf": "for lunch next week.", "hint": "meet", "answer": "are meeting", "alts": ["'re meeting"], "vi": "Tuần sau chúng tôi hẹn ăn trưa.", "exp": "Đã hẹn → continuous"},
+        {"pre": "Are you", "suf": "anything tomorrow morning?", "hint": "do", "answer": "doing", "vi": "Sáng mai bạn có làm gì không?", "exp": "Hỏi kế hoạch → are you doing"},
+        {"pre": "When", "suf": "this term?", "hint": "end", "answer": "does it end", "alts": ["does the term end", "does this term end"], "vi": "Học kỳ này bao giờ kết thúc?", "exp": "Lịch học → present simple"},
+        {"pre": "Next term", "suf": "four weeks after that.", "hint": "start", "answer": "starts", "vi": "Học kỳ sau bắt đầu sau đó bốn tuần.", "exp": "Lịch học → present simple"},
+        {"pre": "My train", "suf": "at 9.35 and arrives at 12.47.", "hint": "leave", "answer": "leaves", "vi": "Tàu của tôi chạy lúc 9 giờ 35 và đến lúc 12 giờ 47.", "exp": "Lịch tàu → present simple"},
+        {"pre": "The exhibition", "suf": "next week.", "hint": "finish", "answer": "finishes", "vi": "Triển lãm kết thúc vào tuần sau.", "exp": "Lịch trình → present simple"},
+        {"pre": "You can borrow my laptop. I", "suf": "it this evening.", "hint": "not / use", "answer": "am not using", "alts": ["'m not using"], "vi": "Bạn mượn laptop của tôi được. Tối nay tôi không dùng.", "exp": "Kế hoạch phủ định → continuous"}
+      ]
+    },
+    {
+      "id": "19.4", "kind": "fill",
+      "title": "At work",
+      "instr": "Present continuous hay present simple? Điền dạng đúng.",
+      "items": [
+        {"pre": "Our team", "suf": "a presentation to the client on Friday.", "hint": "give", "answer": "is giving", "vi": "Nhóm chúng tôi sẽ thuyết trình cho khách hàng vào thứ Sáu.", "exp": "Kế hoạch đã sắp xếp"},
+        {"pre": "The conference", "suf": "at 9 am on Monday.", "hint": "start", "answer": "starts", "vi": "Hội nghị bắt đầu lúc 9 giờ sáng thứ Hai.", "exp": "Lịch chương trình → present simple"},
+        {"pre": "I", "suf": "my manager at 3 pm tomorrow.", "hint": "meet", "answer": "am meeting", "alts": ["'m meeting"], "vi": "Ngày mai lúc 3 giờ chiều tôi gặp quản lý.", "exp": "Cuộc hẹn cá nhân → continuous"},
+        {"pre": "What time", "suf": "tonight?", "hint": "the last train to Hanoi / leave", "answer": "does the last train to Hanoi leave", "vi": "Tối nay chuyến tàu cuối đi Hà Nội mấy giờ chạy?", "exp": "Lịch tàu → present simple"}
+      ]
+    }
+  ]
+}

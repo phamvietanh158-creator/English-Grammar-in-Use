@@ -1,0 +1,110 @@
+# unit19: IPA tự động (espeak en-GB → Cambridge). Soát nhanh các từ dưới đây.
+
+11	/ɪˈlevən/
+30	/ˈθɜːti/
+9	/ˈnaɪn/
+a	/ə/
+after	/ˈɑːftə/
+alex	/ˈælɪks/
+all	/ˈɔːl/
+alone	/əˈləʊn/
+am	/ˌeɪˈem/
+anything	/ˈenɪˌθɪŋ/
+are	/ɑː/
+at	/æt/
+ben	/ˈben/
+by	/baɪ/
+can't	/kɑːnt/
+car	/ˈkɑː/
+cinema	/ˈsɪnəmə/
+client	/ˈklaɪənt/
+coming	/ˈkʌmɪŋ/
+concert	/ˈkɒnsət/
+conference	/ˈkɒnfrəns/
+does	/ˈdʌz/
+doing	/ˌduːɪŋ/
+end	/ˈend/
+evening	/ˈiːvnɪŋ/
+exhibition	/eksɪˈbɪʃən/
+film	/ˈfɪlm/
+finishes	/ˈfɪnɪʃɪz/
+for	/fɔː/
+four	/ˈfɔː/
+friday	/ˈfraɪdeɪ/
+friends	/ˈfrendz/
+getting	/ˌgetɪŋ/
+giving	/ˈgɪvɪŋ/
+going	/ˌgəʊɪŋ/
+hanoi	/hæˈnɔɪ/
+having	/ˌhævɪŋ/
+he	/hiː/
+holiday	/ˈhɒlɪˌdeɪ/
+how	/ˌhaʊ/
+i'm	/aɪm/
+invited	/ɪnˈvaɪtɪd/
+is	/ɪz/
+isn't	/ˌɪzənt/
+it	/ɪt/
+it's	/ɪts/
+last	/lɑːst/
+late	/ˈleɪt/
+laura	/ˈlɔːrər/
+leave	/ˈliːv/
+leaves	/ˈliːvz/
+leaving	/ˈliːvɪŋ/
+long	/ˈlɒŋ/
+lunch	/ˈlʌntʃ/
+married	/ˈmærid/
+meet	/ˈmiːt/
+meeting	/ˈmiːtɪŋ/
+monday	/ˈmʌndeɪ/
+month	/ˈmʌnθ/
+morning	/ˈmɔːnɪŋ/
+my	/maɪ/
+next	/ˈnekst/
+nine	/ˈnaɪn/
+not	/ˌnɒt/
+o'clock	/əˈklɒk/
+on	/ˌɒn/
+our	/ˌaʊə/
+out	/ˈaʊt/
+party	/ˈpɑːti/
+presentation	/ˌprezənˈteɪʃən/
+public	/ˈpʌblɪk/
+sam's	/ˈsæmz/
+saturday	/ˈsætəˌdeɪ/
+she	/ʃiː/
+start	/ˈstɑːt/
+starts	/ˈstɑːts/
+staying	/ˈsteɪɪŋ/
+team	/ˈtiːm/
+term	/ˈtɜːm/
+that	/ˈðæt/
+the	/ðə/
+this	/ðɪs/
+time	/ˈtaɪm/
+to	/tə/
+tomorrow	/təˈmɒrəʊ/
+tonight	/təˈnaɪt/
+train	/ˈtreɪn/
+travelling	/ˈtrævəlɪŋ/
+us	/ˌʌs/
+we	/wiː/
+we've	/wiːv/
+week	/ˈwiːk/
+weeks	/ˈwiːks/
+well	/ˈwel/
+what	/ˌwɒt/
+when	/ˌwen/
+where	/ˌweər/
+working	/ˈwɜːkɪŋ/
+you	/juː/
+
+# Câu không ghép được từng từ (có số/viết tắt) — soát cả câu:
+I am not working tomorrow. It's a public holiday.
+I am leaving now. I've come to say goodbye.
+I love New York. I am going there soon.
+He is moving soon, probably at the end of the month.
+My train leaves at 9.35 and arrives at 12.47.
+You can borrow my laptop. I am not using it this evening.
+I am meeting my manager at 3 pm tomorrow.
