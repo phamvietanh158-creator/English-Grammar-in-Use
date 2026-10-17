@@ -1,0 +1,124 @@
+{
+  "id": 6,
+  "title": "Past continuous (I was doing)",
+  "theory": {
+    "title": "Past continuous (I was doing)",
+    "blocks": [
+      {
+        "h": "A · Công thức",
+        "table": {
+          "head": ["Chủ ngữ", "Khẳng định", "Phủ định", "Nghi vấn"],
+          "rows": [
+            ["I / he / she / it", "was + V-ing", "was not (wasn't) + V-ing", "Was + S + V-ing?"],
+            ["we / you / they", "were + V-ing", "were not (weren't) + V-ing", "Were + S + V-ing?"]
+          ]
+        }
+      },
+      {
+        "h": "B · Khi nào dùng?",
+        "p": "Dùng để nói về việc **đang diễn ra** tại một thời điểm trong quá khứ (chưa xong vào lúc đó).",
+        "ex": [
+          {"en": "This time last year I **was living** in Hong Kong.", "vi": "Giờ này năm ngoái tôi đang sống ở Hồng Kông."},
+          {"en": "What **were** you **doing** at 10 o'clock last night?", "vi": "10 giờ tối qua bạn đang làm gì?"}
+        ]
+      },
+      {
+        "h": "C · So sánh với past simple",
+        "table": {
+          "head": ["Past continuous (đang diễn ra)", "Past simple (đã xong)"],
+          "rows": [
+            ["We **were walking** home when I met Dan. (đang đi giữa đường)", "We **walked** home after the party. (đi hết quãng đường)"],
+            ["Kate **was watching** TV when we arrived. (đang xem)", "Kate **watched** TV a lot when she was ill. (xem nhiều, nói chung)"]
+          ]
+        }
+      },
+      {
+        "h": "D · Một việc xảy ra giữa lúc việc khác đang diễn ra",
+        "p": "Việc nền, kéo dài → **past continuous**. Việc xảy ra xen vào, ngắn → **past simple**. Thường dùng với **while** và **when**.",
+        "ex": [
+          {"en": "Matt phoned **while** we **were having** dinner.", "vi": "Matt gọi điện đúng lúc chúng tôi đang ăn tối."},
+          {"en": "I **hurt** my back **while** I **was working** in the garden.", "vi": "Tôi bị đau lưng khi đang làm vườn."}
+        ]
+      },
+      {
+        "h": "E · Lưu ý: động từ chỉ trạng thái",
+        "p": "Những động từ như know, want, like, believe… **không** dùng continuous, kể cả trong quá khứ.",
+        "ex": [
+          {"en": "We **knew** each other well.", "vi": "Chúng tôi biết rõ nhau.", "note": "(không nói “were knowing”)"}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "6.1", "kind": "fill",
+      "title": "Complete using past continuous",
+      "instr": "Điền dạng past continuous (was/were + V-ing), khẳng định hoặc phủ định, của động từ trong ngoặc.",
+      "items": [
+        {"pre": "Today Helen is wearing a skirt. Yesterday she", "suf": "trousers.", "hint": "wear", "answer": "was wearing", "vi": "Hôm nay Helen mặc váy. Hôm qua cô ấy mặc quần dài.", "exp": "Đang mặc vào thời điểm hôm qua → was wearing"},
+        {"pre": "A: What did he say? B: I don't know. I", "suf": ".", "hint": "not / listen", "answer": "wasn't listening", "vi": "A: Anh ấy nói gì vậy? B: Tôi không biết. Lúc đó tôi không nghe.", "exp": "Phủ định: wasn't + listening"},
+        {"pre": "We", "suf": "at the back of the theatre. We couldn't hear.", "hint": "sit", "answer": "were sitting", "vi": "Chúng tôi ngồi ở cuối rạp nên không nghe được.", "exp": "Đang ngồi lúc đó → were sitting"},
+        {"pre": "This time last year Steve", "suf": "on a farm.", "hint": "work", "answer": "was working", "vi": "Giờ này năm ngoái Steve đang làm việc ở một trang trại.", "exp": "This time last year → past continuous"},
+        {"pre": "They didn't see me. They", "suf": "in my direction.", "hint": "not / look", "answer": "weren't looking", "vi": "Họ không thấy tôi. Họ không nhìn về phía tôi.", "exp": "Phủ định: weren't + looking"},
+        {"pre": "The weather was bad. It was very cold and it", "suf": ".", "hint": "rain", "answer": "was raining", "vi": "Thời tiết xấu. Trời rất lạnh và đang mưa.", "exp": "Đang mưa vào lúc đó → was raining"},
+        {"pre": "I saw you in your car. Where", "suf": "?", "hint": "you / go", "answer": "were you going", "vi": "Tôi thấy bạn trong xe. Lúc đó bạn đang đi đâu vậy?", "exp": "Where + were + you + going?"},
+        {"pre": "I saw Kate a few minutes ago. She", "suf": "for you.", "hint": "look", "answer": "was looking", "vi": "Mấy phút trước tôi gặp Kate. Cô ấy đang tìm bạn.", "exp": "Đang tìm vào lúc gặp → was looking"}
+      ]
+    },
+    {
+      "id": "6.2", "kind": "match",
+      "title": "Match the sentences",
+      "instr": "Nối phần đầu câu ở cột A với phần cuối phù hợp ở cột B (chọn số 1–7).",
+      "left": [
+        {"k": "a", "en": "When I got to the café,", "vi": "Khi tôi đến quán cà phê,"},
+        {"k": "b", "en": "We fell asleep", "vi": "Chúng tôi ngủ quên"},
+        {"k": "c", "en": "Amy learnt Italian", "vi": "Amy học tiếng Ý"},
+        {"k": "d", "en": "Tom didn't come out with us", "vi": "Tom không đi chơi với chúng tôi"},
+        {"k": "e", "en": "The car began to make a strange noise", "vi": "Chiếc xe bắt đầu phát ra tiếng lạ"},
+        {"k": "f", "en": "The TV was on", "vi": "Tivi đang bật"},
+        {"k": "g", "en": "When I first met Jessica,", "vi": "Lần đầu gặp Jessica,"}
+      ],
+      "right": [
+        {"n": "1", "en": "when she was living in Rome.", "vi": "lúc cô ấy đang sống ở Rome."},
+        {"n": "2", "en": "she was working in a clothes shop.", "vi": "cô ấy đang làm việc ở một cửa hàng quần áo."},
+        {"n": "3", "en": "when I was driving home.", "vi": "khi tôi đang lái xe về nhà."},
+        {"n": "4", "en": "but nobody was watching it.", "vi": "nhưng chẳng ai đang xem."},
+        {"n": "5", "en": "while we were watching a film.", "vi": "trong lúc chúng tôi đang xem phim."},
+        {"n": "6", "en": "my friends were waiting for me.", "vi": "các bạn tôi đang đợi tôi."},
+        {"n": "7", "en": "because he wasn't feeling well.", "vi": "vì anh ấy không được khoẻ."}
+      ],
+      "ans": {"a": "6", "b": "5", "c": "1", "d": "7", "e": "3", "f": "4", "g": "2"}
+    },
+    {
+      "id": "6.3", "kind": "fill",
+      "title": "Past continuous or past simple? (1)",
+      "instr": "Một câu chuyện nhỏ: chia động từ trong ngoặc ở past simple hoặc past continuous.",
+      "items": [
+        {"pre": "I", "suf": "Sue in town yesterday.", "hint": "see", "answer": "saw", "vi": "Hôm qua tôi gặp Sue trong thị trấn.", "exp": "Sự việc đã xảy ra → past simple"},
+        {"pre": "She", "suf": "me.", "hint": "not / see", "answer": "didn't see", "vi": "Cô ấy không thấy tôi.", "exp": "Phủ định past simple: didn't see"},
+        {"pre": "She", "suf": "the other way.", "hint": "look", "answer": "was looking", "vi": "Cô ấy đang nhìn về hướng khác.", "exp": "Đang nhìn vào lúc đó → past continuous"},
+        {"pre": "I", "suf": "home on my bike yesterday.", "hint": "cycle", "answer": "was cycling", "vi": "Hôm qua tôi đang đạp xe về nhà.", "exp": "Đang đạp xe → past continuous"},
+        {"pre": "I", "suf": "quite fast.", "hint": "go", "answer": "was going", "vi": "Lúc đó tôi đi khá nhanh.", "exp": "Đang đi → past continuous"},
+        {"pre": "Luckily I", "suf": "to stop in time.", "hint": "manage", "answer": "managed", "vi": "May mà tôi dừng lại kịp.", "exp": "Sự việc xảy ra và kết thúc → past simple"},
+        {"pre": "I", "suf": "him.", "hint": "not / hit", "answer": "didn't hit", "vi": "Tôi không đâm phải anh ấy.", "exp": "Phủ định past simple: didn't hit"}
+      ]
+    },
+    {
+      "id": "6.4", "kind": "fill",
+      "title": "Past continuous or past simple? (2)",
+      "instr": "Đọc ngữ cảnh rồi chia động từ trong ngoặc ở past simple hoặc past continuous.",
+      "items": [
+        {"pre": "What", "suf": "at this time yesterday?", "hint": "you / do", "answer": "were you doing", "vi": "Giờ này hôm qua bạn đang làm gì?", "exp": "Hỏi việc đang diễn ra vào thời điểm đó → past continuous"},
+        {"pre": "", "suf": "out last night?", "hint": "you / go", "answer": "Did you go", "vi": "Tối qua bạn có đi chơi không?", "exp": "Hỏi việc đã xảy ra → past simple"},
+        {"pre": "How fast", "suf": "when the accident happened?", "hint": "you / drive", "answer": "were you driving", "vi": "Lúc tai nạn xảy ra bạn đang lái xe nhanh cỡ nào?", "exp": "Đang lái xe khi tai nạn xảy ra → past continuous"},
+        {"pre": "Sam", "suf": "a picture of me while I wasn't looking.", "hint": "take", "answer": "took", "vi": "Sam chụp ảnh tôi lúc tôi không để ý.", "exp": "Sự việc xen vào → past simple"},
+        {"pre": "We", "suf": "what to do, so we did nothing.", "hint": "not / know", "answer": "didn't know", "vi": "Chúng tôi không biết phải làm gì nên chẳng làm gì cả.", "exp": "know là động từ chỉ trạng thái → past simple"},
+        {"pre": "When I last saw him, he", "suf": "to find a job.", "hint": "try", "answer": "was trying", "vi": "Lần cuối tôi gặp anh ấy, anh ấy đang cố tìm việc.", "exp": "Đang cố gắng vào lúc đó → past continuous"},
+        {"pre": "I", "suf": "along the street when I heard something behind me.", "hint": "walk", "answer": "was walking", "vi": "Tôi đang đi trên phố thì nghe có tiếng động phía sau.", "exp": "Việc nền đang diễn ra → past continuous"},
+        {"pre": "I was scared because somebody", "suf": "me.", "hint": "follow", "answer": "was following", "vi": "Tôi sợ vì có người đang đi theo tôi.", "exp": "Đang diễn ra lúc đó → past continuous"},
+        {"pre": "When I was young, I", "suf": "to be a pilot.", "hint": "want", "answer": "wanted", "vi": "Hồi nhỏ tôi muốn trở thành phi công.", "exp": "want là động từ chỉ trạng thái → past simple"},
+        {"pre": "Last night I", "suf": "a plate when I was doing the washing-up.", "hint": "drop", "answer": "dropped", "vi": "Tối qua tôi làm rơi một cái đĩa lúc đang rửa bát.", "exp": "Sự việc xen vào → past simple", "alts": ["broke"]}
+      ]
+    }
+  ]
+}
