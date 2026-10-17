@@ -36,15 +36,15 @@
 | 4 | unit4.html | Present continuous and present simple 2 | Present and past | 1 | Máy 2 | ✅ |
 | 5 | unit5.html | Past simple (I did) | Present and past | 1 | Máy 2 | ✅ |
 | 6 | unit6.html | Past continuous (I was doing) | Present and past | 1 | Máy 2 | ✅ |
-| 7 | unit7.html | Present perfect 1 (I have done) | Present perfect and past | 1 | Máy 2 | ⬜ |
-| 8 | unit8.html | Present perfect 2 (I have done) | Present perfect and past | 1 | Máy 2 | ⬜ |
-| 9 | unit9.html | Present perfect continuous (I have been doing) | Present perfect and past | 1 | Máy 2 | ⬜ |
-| 10 | unit10.html | Present perfect continuous and simple | Present perfect and past | 1 | Máy 2 | ⬜ |
-| 11 | unit11.html | how long have you (been) ... ? | Present perfect and past | 1 | Máy 2 | ⬜ |
-| 12 | unit12.html | for and since / when and how long | Present perfect and past | 2 | Máy 2 | ⬜ |
-| 13 | unit13.html | Present perfect and past 1 | Present perfect and past | 2 | Máy 2 | ⬜ |
-| 14 | unit14.html | Present perfect and past 2 | Present perfect and past | 2 | Máy 2 | ⬜ |
-| 15 | unit15.html | Past perfect (I had done) | Present perfect and past | 2 | Máy 2 | ⬜ |
+| 7 | unit7.html | Present perfect 1 (I have done) | Present perfect and past | 1 | Máy 2 | ✅ |
+| 8 | unit8.html | Present perfect 2 (I have done) | Present perfect and past | 1 | Máy 2 | ✅ |
+| 9 | unit9.html | Present perfect continuous (I have been doing) | Present perfect and past | 1 | Máy 2 | ✅ |
+| 10 | unit10.html | Present perfect continuous and simple | Present perfect and past | 1 | Máy 2 | ✅ |
+| 11 | unit11.html | how long have you (been) ... ? | Present perfect and past | 1 | Máy 2 | ✅ |
+| 12 | unit12.html | for and since / when and how long | Present perfect and past | 2 | Máy 2 | ✅ |
+| 13 | unit13.html | Present perfect and past 1 | Present perfect and past | 2 | Máy 2 | ✅ |
+| 14 | unit14.html | Present perfect and past 2 | Present perfect and past | 2 | Máy 2 | ✅ |
+| 15 | unit15.html | Past perfect (I had done) | Present perfect and past | 2 | Máy 2 | ✅ |
 | 16 | unit16.html | Past perfect continuous (I had been doing) | Present perfect and past | 2 | Máy 2 | ⬜ |
 | 17 | unit17.html | have and have got | Present perfect and past | 2 | Máy 2 | ⬜ |
 | 18 | unit18.html | used to (do) | Present perfect and past | 2 | Máy 2 | ⬜ |
