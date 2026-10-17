@@ -1,0 +1,113 @@
+{
+  "id": 4,
+  "title": "Present continuous and present simple 2 (I am doing and I do)",
+  "theory": {
+    "title": "Present continuous and present simple 2",
+    "blocks": [
+      {
+        "h": "A · Động từ chỉ trạng thái: không dùng present continuous",
+        "p": "Một số động từ nói về trạng thái, suy nghĩ, cảm xúc hay sở hữu, không nói về hành động. Ta **chỉ dùng present simple**, kể cả khi nói về lúc này.",
+        "table": {
+          "head": ["Nhóm", "Động từ"],
+          "rows": [
+            ["Muốn, thích", "like, love, hate, want, need, prefer"],
+            ["Biết, nghĩ, tin", "know, realise, understand, recognise, believe, suppose, remember, mean"],
+            ["Sở hữu, thành phần, vẻ ngoài", "belong, fit, contain, consist, seem"]
+          ]
+        },
+        "ex": [
+          {"en": "I'm hungry. I **want** something to eat.", "vi": "Tôi đói. Tôi muốn ăn chút gì đó.", "note": "(không nói “I'm wanting”)"},
+          {"en": "Do you **understand** what I mean?", "vi": "Bạn có hiểu ý tôi không?", "note": "(không nói “Are you understanding”)"}
+        ]
+      },
+      {
+        "h": "B · think: hai nghĩa khác nhau",
+        "ex": [
+          {"en": "I **think** Mary is Canadian.", "vi": "Tôi nghĩ Mary là người Canada.", "note": "(= tin rằng, ý kiến → present simple)"},
+          {"en": "I'm **thinking** about what happened.", "vi": "Tôi đang nghĩ về những gì đã xảy ra.", "note": "(= đang suy nghĩ → continuous được)"},
+          {"en": "Nicky is **thinking** of giving up her job.", "vi": "Nicky đang nghĩ đến chuyện nghỉ việc.", "note": "(= đang cân nhắc → continuous được)"}
+        ]
+      },
+      {
+        "h": "C · see, hear, smell, taste, look, feel",
+        "p": "see, hear, smell, taste thường dùng present simple (hay đi với **can**). look và feel dùng được cả hai thì.",
+        "ex": [
+          {"en": "Do you **see** that man over there?", "vi": "Bạn có thấy người đàn ông đằng kia không?"},
+          {"en": "This soup **tastes** great.", "vi": "Món súp này ngon tuyệt."},
+          {"en": "You **look** well today. / You're **looking** well today.", "vi": "Hôm nay trông bạn khoẻ ra.", "note": "(look, feel: cả hai thì đều được)"}
+        ]
+      },
+      {
+        "h": "D · He is selfish và He is being selfish",
+        "p": "**is / are being** = đang cư xử như vậy lúc này (nhất thời). **is / are** = tính cách, bản chất, nói chung.",
+        "ex": [
+          {"en": "He **is being** selfish.", "vi": "Anh ta đang cư xử ích kỷ.", "note": "(lúc này, khác thường ngày)"},
+          {"en": "He **is** very selfish.", "vi": "Anh ta rất ích kỷ.", "note": "(bản chất của anh ta)"},
+          {"en": "Sam **is** ill.", "vi": "Sam bị ốm.", "note": "(không nói “is being ill”: ốm không phải cách cư xử)"}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "4.1", "kind": "fill",
+      "title": "Present continuous or present simple?",
+      "instr": "Điền dạng đúng của động từ trong ngoặc. Chú ý các động từ chỉ trạng thái.",
+      "items": [
+        {"pre": "Are you hungry?", "suf": "something to eat?", "hint": "you / want", "answer": "Do you want", "vi": "Bạn đói không? Bạn có muốn ăn gì không?", "exp": "want là động từ chỉ trạng thái → present simple"},
+        {"pre": "Alan says he's 90, but nobody", "suf": "him.", "hint": "believe", "answer": "believes", "vi": "Alan nói ông ấy 90 tuổi nhưng chẳng ai tin ông ấy.", "exp": "believe → present simple; nobody là ngôi 3 số ít"},
+        {"pre": "She told me her name, but I", "suf": "it now.", "hint": "not / remember", "answer": "don't remember", "vi": "Cô ấy có nói tên cho tôi nhưng giờ tôi không nhớ.", "exp": "remember → present simple"},
+        {"pre": "Don't put the dictionary away.", "suf": "it.", "hint": "I / use", "answer": "I'm using", "vi": "Đừng cất từ điển đi. Tôi đang dùng nó.", "exp": "Đang dùng ngay lúc này → present continuous"},
+        {"pre": "Don't put the dictionary away.", "suf": "it.", "hint": "I / need", "answer": "I need", "vi": "Đừng cất từ điển đi. Tôi cần dùng nó.", "exp": "need là động từ chỉ trạng thái → present simple"},
+        {"pre": "Air", "suf": "mainly of nitrogen and oxygen.", "hint": "consist", "answer": "consists", "vi": "Không khí chủ yếu gồm nitơ và oxy.", "exp": "consist → present simple; air là ngôi 3 số ít"},
+        {"pre": "Who is that man? What", "suf": "?", "hint": "he / want", "answer": "does he want", "vi": "Người đàn ông kia là ai? Ông ta muốn gì vậy?", "exp": "want → present simple"},
+        {"pre": "Who is that man? Why", "suf": "at us?", "hint": "he / look", "answer": "is he looking", "vi": "Người đàn ông kia là ai? Sao ông ta nhìn chúng ta thế?", "exp": "look at = hành động đang diễn ra → present continuous"},
+        {"pre": "Who is that man?", "suf": "him?", "hint": "you / recognise", "answer": "Do you recognise", "vi": "Người đàn ông kia là ai? Bạn có nhận ra ông ta không?", "exp": "recognise → present simple", "alts": ["Do you recognize"]},
+        {"pre": "", "suf": "of selling my car. Would you be interested?", "hint": "I / think", "answer": "I'm thinking", "vi": "Tôi đang nghĩ đến việc bán xe. Bạn có quan tâm không?", "exp": "think of = đang cân nhắc → present continuous"},
+        {"pre": "I can't make up my mind. What", "suf": "I should do?", "hint": "you / think", "answer": "do you think", "vi": "Tôi không quyết định được. Theo bạn tôi nên làm gì?", "exp": "think = ý kiến → present simple"},
+        {"pre": "Gary wasn't well earlier, but he", "suf": "OK now.", "hint": "seem", "answer": "seems", "vi": "Lúc nãy Gary không khoẻ nhưng giờ trông anh ấy ổn rồi.", "exp": "seem → present simple; ngôi 3 số ít"}
+      ]
+    },
+    {
+      "id": "4.2", "kind": "write",
+      "title": "Make sentences",
+      "instr": "Dùng các từ gợi ý để viết một câu đầy đủ, đúng thì (present simple hoặc present continuous).",
+      "items": [
+        {"context": "Look at the kettle!", "hint": "the water / boil", "answer": "The water is boiling.", "alts": ["The water's boiling."], "vi": "Nước đang sôi rồi.", "exp": "Đang xảy ra lúc nói → present continuous"},
+        {"context": "I've told you three times!", "hint": "you / not / listen", "answer": "You aren't listening.", "alts": ["You're not listening.", "You are not listening."], "vi": "Bạn không chịu nghe gì cả.", "exp": "Đang không nghe ngay lúc này → present continuous phủ định"},
+        {"context": "This sauce is delicious.", "hint": "it / taste / great", "answer": "It tastes great.", "alts": ["It tastes really great.", "It tastes delicious."], "vi": "Nước sốt này ăn rất ngon.", "exp": "taste (giác quan) → present simple"},
+        {"context": "Sorry, could you repeat that?", "hint": "I / not / understand", "answer": "I don't understand.", "alts": ["I do not understand."], "vi": "Xin lỗi, tôi không hiểu.", "exp": "understand → present simple"},
+        {"context": "What's Tom doing in the meeting room?", "hint": "he / talk / to a client", "answer": "He's talking to a client.", "alts": ["He is talking to a client."], "vi": "Anh ấy đang nói chuyện với một khách hàng.", "exp": "Đang xảy ra lúc nói → present continuous"},
+        {"context": "Do you like this coffee?", "hint": "I / prefer / tea", "answer": "I prefer tea.", "alts": ["I prefer tea to coffee.", "I prefer tea, actually."], "vi": "Tôi thích trà hơn.", "exp": "prefer → present simple"}
+      ]
+    },
+    {
+      "id": "4.3", "kind": "fill",
+      "title": "Choose the correct verb form",
+      "instr": "Điền dạng đúng của động từ trong ngoặc. Có thể dùng present simple hoặc present continuous.",
+      "items": [
+        {"pre": "I'm not sure what she does. I", "suf": "she works in a shop.", "hint": "think", "answer": "think", "vi": "Tôi không chắc cô ấy làm nghề gì. Tôi nghĩ cô ấy làm việc ở một cửa hàng.", "exp": "think = nghĩ rằng (ý kiến) → present simple"},
+        {"pre": "It's not true. I", "suf": "it.", "hint": "not / believe", "answer": "don't believe", "vi": "Điều đó không đúng. Tôi không tin.", "exp": "believe → present simple"},
+        {"pre": "I've never eaten that fruit. What", "suf": "like?", "hint": "it / taste", "answer": "does it taste", "vi": "Tôi chưa ăn thứ quả đó bao giờ. Vị của nó thế nào?", "exp": "taste like → present simple"},
+        {"pre": "Look over there. What", "suf": "?", "hint": "you / see", "answer": "do you see", "vi": "Nhìn đằng kia kìa. Bạn thấy gì?", "exp": "see (giác quan) → present simple"},
+        {"pre": "You're very quiet. What", "suf": "about?", "hint": "you / think", "answer": "are you thinking", "vi": "Bạn im lặng quá. Bạn đang nghĩ gì vậy?", "exp": "think about = đang suy nghĩ → present continuous"},
+        {"pre": "", "suf": "hungry. Is there anything to eat?", "hint": "I / feel", "answer": "I'm feeling", "alts": ["I feel"], "vi": "Tôi thấy đói. Có gì ăn không?", "exp": "feel dùng được cả hai thì"},
+        {"pre": "This soup", "suf": "great. What's in it?", "hint": "smell", "answer": "smells", "vi": "Món súp này thơm quá. Trong đó có gì vậy?", "exp": "smell (giác quan) → present simple"}
+      ]
+    },
+    {
+      "id": "4.4", "kind": "fill",
+      "title": "is / are being or is / are?",
+      "instr": "Điền is, are, is being hoặc are being (kèm chủ ngữ nếu có gợi ý).",
+      "items": [
+        {"pre": "Why", "suf": "so selfish today? She's normally very kind.", "hint": "she / be", "answer": "is she being", "vi": "Sao hôm nay cô ấy ích kỷ thế? Bình thường cô ấy rất tốt bụng.", "exp": "Cư xử khác thường lúc này → is being"},
+        {"pre": "You'll like Sophie when you meet her. She", "suf": "very nice.", "hint": "be", "answer": "is", "vi": "Bạn sẽ thích Sophie khi gặp cô ấy. Cô ấy rất dễ mến.", "exp": "Tính cách nói chung → is"},
+        {"pre": "Sarah", "suf": "very nice to me at the moment. I wonder why.", "hint": "be", "answer": "is being", "vi": "Dạo này Sarah đối xử với tôi rất tử tế. Không biết vì sao.", "exp": "Cư xử như vậy lúc này → is being"},
+        {"pre": "Don't worry.", "suf": "very careful.", "hint": "I / be", "answer": "I'm being", "vi": "Đừng lo. Tôi đang rất cẩn thận.", "exp": "Đang cư xử cẩn thận lúc này → am being"},
+        {"pre": "You're normally very patient, so why", "suf": "so unreasonable?", "hint": "you / be", "answer": "are you being", "vi": "Bình thường bạn rất kiên nhẫn, sao giờ bạn lại vô lý thế?", "exp": "Cư xử khác thường lúc này → are being"},
+        {"pre": "Our manager", "suf": "always polite, so everyone likes working for him.", "hint": "be", "answer": "is", "vi": "Quản lý của chúng tôi lúc nào cũng lịch sự nên ai cũng thích làm việc cho ông ấy.", "exp": "Tính cách thường xuyên → is"},
+        {"pre": "Sam", "suf": "ill, so he isn't at work today.", "hint": "be", "answer": "is", "vi": "Sam bị ốm nên hôm nay anh ấy không đi làm.", "exp": "Ốm là trạng thái, không phải cách cư xử → is, không dùng is being"}
+      ]
+    }
+  ]
+}
