@@ -1,0 +1,117 @@
+{
+  "id": 30,
+  "title": "may and might 2",
+  "theory": {
+    "title": "may and might 2",
+    "blocks": [
+      {
+        "h": "A · may / might cho tương lai",
+        "ex": [
+          {"en": "I haven't decided yet. I **may go** to Ireland.", "vi": "Tôi chưa quyết định. Có thể tôi sẽ đi Ireland."},
+          {"en": "Take an umbrella. It **might rain** later.", "vi": "Mang ô theo đi. Lát nữa có thể trời mưa."},
+          {"en": "We **might have to** wait a few minutes.", "vi": "Có thể chúng ta phải đợi vài phút."},
+          {"en": "Amy **may not go** out tonight.", "vi": "Có thể tối nay Amy không ra ngoài."}
+        ]
+      },
+      {
+        "h": "B · might (không dùng may) khi tình huống không có thật",
+        "ex": [
+          {"en": "If they paid me better, I **might work** harder.", "vi": "Nếu họ trả lương cao hơn, có thể tôi sẽ làm việc chăm chỉ hơn.", "note": "(không nói “may work”)"}
+        ]
+      },
+      {
+        "h": "C · might be doing",
+        "ex": [
+          {"en": "Don't phone at 8.30. I **might be watching** football.", "vi": "Đừng gọi lúc 8 giờ rưỡi. Có thể tôi đang xem bóng đá."},
+          {"en": "I **might be going** to Ireland soon.", "vi": "Có thể sắp tới tôi đi Ireland."}
+        ]
+      },
+      {
+        "h": "D · might as well",
+        "p": "Dùng khi không có lý do gì để không làm một việc, hoặc không có lựa chọn nào tốt hơn.",
+        "ex": [
+          {"en": "We've missed the bus. We **might as well** walk.", "vi": "Mình lỡ xe buýt rồi. Thôi thì đi bộ vậy."},
+          {"en": "I'm ready, so I **might as well** go now.", "vi": "Tôi sẵn sàng rồi, nên đi luôn bây giờ cũng được."}
+        ]
+      },
+      {
+        "h": "E · might và going to",
+        "table": {
+          "head": ["might (chưa quyết định)", "going to (đã quyết định)"],
+          "rows": [
+            ["I might get a sports car. (đang cân nhắc)", "I'm going to get a sports car. (đã quyết)"]
+          ]
+        }
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "30.1", "kind": "write",
+      "title": "might or going to?",
+      "instr": "Viết câu: đã quyết định → going to; chưa quyết định → might.",
+      "items": [
+        {"context": "Have you decided what sort of car to buy? — Yes, a sports car.", "hint": "I / get / a sports car", "answer": "I'm going to get a sports car.", "alts": ["I am going to get a sports car."], "vi": "Tôi sẽ mua một chiếc xe thể thao.", "exp": "Đã quyết định → going to"},
+        {"context": "When is Tom coming? — He hasn't said yet.", "hint": "he / come / on Sunday", "answer": "He might come on Sunday.", "alts": ["He may come on Sunday."], "vi": "Có thể anh ấy đến vào Chủ nhật.", "exp": "Chưa chắc → might"},
+        {"context": "Where are you going to put that picture? — I haven't decided.", "hint": "I / hang it / in the bedroom", "answer": "I might hang it in the bedroom.", "alts": ["I may hang it in the bedroom."], "vi": "Có thể tôi sẽ treo nó trong phòng ngủ.", "exp": "Chưa quyết → might"},
+        {"context": "What's Tanya going to do when she leaves school? — She has decided.", "hint": "she / go to university", "answer": "She's going to go to university.", "alts": ["She is going to go to university.", "She's going to go to university."], "vi": "Cô ấy sẽ học đại học.", "exp": "Đã quyết → going to"}
+      ]
+    },
+    {
+      "id": "30.2", "kind": "fill",
+      "title": "Warnings with might",
+      "instr": "Điền might + động từ: wake, spill, need, hear, slip, rain.",
+      "items": [
+        {"pre": "Don't make too much noise. You", "suf": "the baby.", "hint": "wake", "answer": "might wake", "vi": "Đừng ồn quá. Bạn có thể đánh thức em bé.", "exp": "might + V"},
+        {"pre": "Be careful with your coffee. You", "suf": "it.", "hint": "spill", "answer": "might spill", "vi": "Cẩn thận ly cà phê. Bạn có thể làm đổ nó.", "exp": "might spill"},
+        {"pre": "Don't forget your phone. You", "suf": "it.", "hint": "need", "answer": "might need", "vi": "Đừng quên điện thoại. Có thể bạn cần đến nó.", "exp": "might need"},
+        {"pre": "Don't talk so loudly. Somebody", "suf": "us.", "hint": "hear", "answer": "might hear", "vi": "Đừng nói to thế. Có thể ai đó nghe thấy.", "exp": "might hear"},
+        {"pre": "Be careful. This footpath is icy. You", "suf": ".", "hint": "slip", "answer": "might slip", "vi": "Cẩn thận. Lối đi này có băng. Bạn có thể trượt ngã.", "exp": "might slip"}
+      ]
+    },
+    {
+      "id": "30.3", "kind": "fill",
+      "title": "might be able to / might have to",
+      "instr": "Điền might be able to hoặc might have to + động từ.",
+      "items": [
+        {"pre": "I can come to the meeting, but I", "suf": "before the end.", "hint": "leave", "answer": "might have to leave", "vi": "Tôi dự họp được, nhưng có thể phải về trước khi kết thúc.", "exp": "might have to + V"},
+        {"pre": "I'm not free tonight, but I", "suf": "you tomorrow.", "hint": "meet", "answer": "might be able to meet", "vi": "Tối nay tôi không rảnh nhưng ngày mai có thể gặp bạn.", "exp": "might be able to + V"},
+        {"pre": "I'm not sure whether this car park is free. We", "suf": ".", "hint": "pay", "answer": "might have to pay", "vi": "Tôi không chắc bãi đỗ xe này miễn phí không. Có thể chúng ta phải trả tiền.", "exp": "might have to pay"},
+        {"pre": "There's a long queue. We", "suf": "a long time.", "hint": "wait", "answer": "might have to wait", "vi": "Hàng dài quá. Có thể chúng ta phải đợi lâu.", "exp": "might have to wait"},
+        {"pre": "A: I've got a problem with my bike. B: Let me look. I", "suf": "it.", "hint": "fix", "answer": "might be able to fix", "vi": "A: Xe đạp của tôi bị hỏng. B: Để tôi xem. Có thể tôi sửa được.", "exp": "might be able to fix"}
+      ]
+    },
+    {
+      "id": "30.4", "kind": "write",
+      "title": "might not",
+      "instr": "Viết lại câu dùng might not.",
+      "items": [
+        {"context": "I haven't seen him for a long time. I'm not sure I'll recognise him.", "hint": "I / recognise him", "answer": "I might not recognise him.", "alts": ["I might not recognize him."], "vi": "Có thể tôi sẽ không nhận ra anh ấy.", "exp": "might not + V"},
+        {"context": "We want to go to the game but don't know if we'll get tickets.", "hint": "we / be able to get tickets", "answer": "We might not be able to get tickets.", "vi": "Có thể chúng tôi không mua được vé.", "exp": "might not be able to"},
+        {"context": "I said I'd do the shopping, but I'm not sure I'll have time.", "hint": "I / have time to do the shopping", "answer": "I might not have time to do the shopping.", "vi": "Có thể tôi sẽ không có thời gian đi mua sắm.", "exp": "might not have time"},
+        {"context": "I've been invited to the wedding but I'm not sure I can go.", "hint": "I / be able to go", "answer": "I might not be able to go.", "vi": "Có thể tôi không đi được.", "exp": "might not be able to go"}
+      ]
+    },
+    {
+      "id": "30.5", "kind": "write",
+      "title": "might as well",
+      "instr": "Viết một câu với might as well cho mỗi tình huống.",
+      "items": [
+        {"context": "Your computer doesn't work any more. It would cost a lot to repair.", "hint": "I / buy a new one", "answer": "I might as well buy a new one.", "vi": "Thôi thì mua cái mới luôn.", "exp": "might as well + V"},
+        {"context": "You've painted the kitchen. There's still a lot of paint left.", "hint": "I / paint the bathroom too", "answer": "I might as well paint the bathroom too.", "alts": ["I might as well paint the bathroom as well."], "vi": "Thôi thì sơn luôn phòng tắm.", "exp": "might as well + V"},
+        {"context": "You and a friend are bored. There's a film on TV in a few minutes.", "hint": "we / watch it", "answer": "We might as well watch it.", "vi": "Thôi thì mình xem phim đó vậy.", "exp": "might as well + V"}
+      ]
+    },
+    {
+      "id": "30.6", "kind": "fill",
+      "title": "More with might",
+      "instr": "Điền might + dạng đúng của động từ.",
+      "items": [
+        {"pre": "Don't phone at 8.30. I", "suf": "football.", "hint": "watch", "answer": "might be watching", "vi": "Đừng gọi lúc 8 giờ rưỡi. Có thể tôi đang xem bóng đá.", "exp": "might be + V-ing"},
+        {"pre": "I", "suf": "to Ireland soon.", "hint": "go", "answer": "might be going", "vi": "Có thể sắp tới tôi đi Ireland.", "exp": "might be going"},
+        {"pre": "If they paid me better, I", "suf": "harder.", "hint": "work", "answer": "might work", "vi": "Nếu họ trả tôi nhiều hơn, có thể tôi sẽ làm việc chăm hơn.", "exp": "Tình huống không có thật → might"},
+        {"pre": "Take an umbrella. It", "suf": "later.", "hint": "rain", "answer": "might rain", "alts": ["may rain"], "vi": "Mang ô theo. Lát nữa có thể trời mưa.", "exp": "might rain"}
+      ]
+    }
+  ]
+}

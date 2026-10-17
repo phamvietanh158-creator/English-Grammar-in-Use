@@ -1,0 +1,115 @@
+# unit30: IPA tự động (espeak en-GB → Cambridge). Soát nhanh các từ dưới đây.
+
+30	/ˈθɜːti/
+8	/ˈeɪt/
+a	/ə/
+able	/ˈeɪbəl/
+amy	/ˈeɪmi/
+an	/ən/
+as	/æz/
+at	/æt/
+b	/ˈbiː/
+baby	/ˈbeɪbi/
+bathroom	/ˈbæθruːm/
+be	/biː/
+better	/ˈbetər/
+bike	/ˈbaɪk/
+bus	/ˈbʌs/
+but	/ˌbʌt/
+buy	/ˈbaɪ/
+car	/ˈkɑː/
+careful	/ˈkeəfəl/
+coffee	/ˈkɒfi/
+come	/ˈkʌm/
+decided	/dɪˈsaɪdɪd/
+don't	/ˈdəʊnt/
+fix	/ˈfɪks/
+football	/ˈfʊtbɔːl/
+footpath	/ˈfʊtpæθ/
+forget	/fəˈget/
+free	/ˈfriː/
+get	/get/
+go	/ˌgəʊ/
+going	/ˌgəʊɪŋ/
+got	/gɒt/
+harder	/ˈhɑːdə/
+haven't	/ˈhævənt/
+he	/hiː/
+hear	/ˈhiər/
+him	/ˌhɪm/
+i	/aɪ/
+i'm	/aɪm/
+i've	/aɪv/
+icy	/ˈaɪsi/
+if	/ɪf/
+ireland	/ˈaɪələnd/
+is	/ɪz/
+it	/ɪt/
+later	/ˈleɪtə/
+let	/ˈlet/
+look	/ˈlʊk/
+loudly	/ˈlaʊdli/
+make	/ˌmeɪk/
+may	/ˈmeɪ/
+me	/ˌmiː/
+meet	/ˈmiːt/
+might	/ˌmaɪt/
+missed	/ˈmɪst/
+much	/mʌtʃ/
+my	/maɪ/
+need	/ˈniːd/
+new	/ˈnjuː/
+noise	/ˈnɔɪz/
+not	/ˌnɒt/
+now	/ˈnaʊ/
+on	/ˌɒn/
+one	/ˌwɒn/
+out	/ˈaʊt/
+paid	/ˈpeɪd/
+paint	/ˈpeɪnt/
+phone	/ˈfəʊn/
+problem	/ˈprɒbləm/
+rain	/ˈreɪn/
+ready	/ˈredi/
+recognise	/ˈrekəgˌnaɪz/
+she's	/ʃiːz/
+slip	/ˈslɪp/
+so	/ˌsəʊ/
+somebody	/ˈsʌmbɒdi/
+soon	/ˈsuːn/
+spill	/ˈspɪl/
+sports	/ˈspɔːts/
+sunday	/ˈsʌndeɪ/
+take	/ˈteɪk/
+talk	/ˈtɔːk/
+the	/ðə/
+they	/ðeɪ/
+this	/ðɪs/
+tickets	/ˈtɪkɪts/
+to	/tʊ/
+tomorrow	/təˈmɒrəʊ/
+tonight	/təˈnaɪt/
+too	/ˈtuː/
+umbrella	/ʌmˈbrelər/
+university	/ˌjuːnɪˈvɜːsɪti/
+us	/ˌʌs/
+wake	/ˈweɪk/
+walk	/ˈwɔːk/
+watch	/ˈwɒtʃ/
+watching	/ˈwɒtʃɪŋ/
+we	/wiː/
+we've	/wiːv/
+well	/ˈwel/
+with	/wɪð/
+work	/ˈwɜːk/
+yet	/ˈjet/
+you	/juː/
+your	/jɔː/
+
+# Câu không ghép được từng từ (có số/viết tắt) — soát cả câu:
+We might have to wait a few minutes.
+I might hang it in the bedroom.
+I can come to the meeting, but I might have to leave before the end.
+I'm not sure whether this car park is free. We might have to pay.
+There's a long queue. We might have to wait a long time.
+I might not have time to do the shopping.
