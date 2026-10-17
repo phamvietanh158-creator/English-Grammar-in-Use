@@ -1,0 +1,119 @@
+{
+  "id": 34,
+  "title": "should 2",
+  "theory": {
+    "title": "should 2",
+    "blocks": [
+      {
+        "h": "A · suggest, insist, recommend, demand + that + (should) V",
+        "p": "Sau các động từ này (và sau tính từ như important, essential) có thể dùng **should + V**, hoặc chỉ **V nguyên mẫu** (không chia).",
+        "ex": [
+          {"en": "I insisted that he **should apologise**. / I insisted that he **apologise**.", "vi": "Tôi nhất quyết bắt anh ấy phải xin lỗi."},
+          {"en": "Doctors recommend that everyone **should eat** plenty of fruit.", "vi": "Bác sĩ khuyên mọi người nên ăn nhiều trái cây."},
+          {"en": "What do you suggest we **should do**? / What do you suggest we **do**?", "vi": "Bạn đề nghị chúng ta nên làm gì?"},
+          {"en": "It's essential that everyone **be** here on time.", "vi": "Điều thiết yếu là mọi người phải có mặt đúng giờ."}
+        ],
+        "note": ""
+      },
+      {
+        "h": "B · Không dùng to / me to sau suggest",
+        "ex": [
+          {"en": "I suggest (that) you **read** this book.", "vi": "Tôi đề nghị bạn đọc cuốn sách này.", "note": "(không nói “I suggest you to read”)"},
+          {"en": "What do you suggest I **do**?", "vi": "Bạn đề nghị tôi nên làm gì?", "note": "(không nói “suggest me to do”)"}
+        ]
+      },
+      {
+        "h": "C · should sau tính từ chỉ cảm xúc, đánh giá",
+        "p": "strange, odd, funny, typical, surprising, natural, important…",
+        "ex": [
+          {"en": "It's strange that he **should be** late. He's usually on time.", "vi": "Lạ thật, anh ấy lại đến muộn. Bình thường anh ấy đúng giờ."},
+          {"en": "It's natural that parents **should worry** about their children.", "vi": "Cha mẹ lo cho con cái là điều tự nhiên."}
+        ]
+      },
+      {
+        "h": "D · If … should / Should … (khả năng nhỏ)",
+        "ex": [
+          {"en": "If the situation **should change**, we will contact you.", "vi": "Nếu tình hình có thay đổi, chúng tôi sẽ liên hệ."},
+          {"en": "**Should** the situation change, we will contact you.", "vi": "Nếu tình hình có thay đổi, chúng tôi sẽ liên hệ.", "note": "(trang trọng, đảo ngữ)"}
+        ]
+      },
+      {
+        "h": "E · I should … = tôi khuyên bạn",
+        "ex": [
+          {"en": "A: Shall I leave now?  B: No, I **should wait** a bit.", "vi": "A: Tôi đi bây giờ nhé? B: Không, tôi nghĩ bạn nên đợi thêm chút."},
+          {"en": "A: Is it cold outside?  B: Yes, I **should wear** a coat.", "vi": "A: Bên ngoài lạnh không? B: Có, tôi khuyên bạn mặc áo khoác."}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "34.1", "kind": "write",
+      "title": "Report what was said",
+      "instr": "Viết lại câu bằng insist / suggest / recommend that …, dùng should hoặc động từ nguyên mẫu.",
+      "items": [
+        {"context": "She said to me: 'You really must stay a little longer.'", "hint": "She insisted that I …", "answer": "She insisted that I should stay a little longer.", "alts": ["She insisted that I stay a little longer.", "She insisted I stay a little longer.", "She insisted I should stay a little longer."], "vi": "Cô ấy nhất quyết bắt tôi ở lại lâu thêm chút nữa.", "exp": "insist that + (should) + V"},
+        {"context": "I said to them: 'Why don't you visit the museum after lunch?'", "hint": "I suggested that they …", "answer": "I suggested that they should visit the museum after lunch.", "alts": ["I suggested that they visit the museum after lunch.", "I suggested they visit the museum after lunch.", "I suggested they should visit the museum after lunch."], "vi": "Tôi đề nghị họ nên đi bảo tàng sau bữa trưa.", "exp": "suggest that + (should) + V"},
+        {"context": "Chris said to me: 'Let's go to the cinema.'", "hint": "Chris suggested that we …", "answer": "Chris suggested that we should go to the cinema.", "alts": ["Chris suggested that we go to the cinema.", "Chris suggested we go to the cinema.", "Chris suggested we should go to the cinema."], "vi": "Chris đề nghị chúng tôi đi xem phim.", "exp": "suggest that + (should) + V"},
+        {"context": "The doctor said to my father: 'You should rest for a week.'", "hint": "The doctor recommended that my father …", "answer": "The doctor recommended that my father should rest for a week.", "alts": ["The doctor recommended that my father rest for a week.", "The doctor recommended my father rest for a week."], "vi": "Bác sĩ khuyên bố tôi nên nghỉ ngơi một tuần.", "exp": "recommend that + (should) + V"},
+        {"context": "Our manager said: 'Everyone must attend the meeting.'", "hint": "Our manager insisted that everyone …", "answer": "Our manager insisted that everyone should attend the meeting.", "alts": ["Our manager insisted that everyone attend the meeting.", "Our manager insisted everyone attend the meeting."], "vi": "Quản lý nhất quyết yêu cầu mọi người dự họp.", "exp": "insist that + (should) + V"}
+      ]
+    },
+    {
+      "id": "34.2", "kind": "write",
+      "title": "Correct the mistakes",
+      "instr": "Mỗi câu dùng sai cấu trúc sau suggest / insist. Viết lại cho đúng.",
+      "items": [
+        {"context": "What do you suggest me to do?", "hint": "suggest I …", "answer": "What do you suggest I do?", "alts": ["What do you suggest I should do?"], "vi": "Bạn đề nghị tôi nên làm gì?", "exp": "suggest + S + V; không dùng me to"},
+        {"context": "I suggest you to read this book.", "hint": "suggest you …", "answer": "I suggest you read this book.", "alts": ["I suggest that you read this book.", "I suggest you should read this book.", "I suggest that you should read this book."], "vi": "Tôi đề nghị bạn đọc cuốn sách này.", "exp": "Không dùng to sau suggest"},
+        {"context": "She suggested me to take a taxi.", "hint": "suggest that I …", "answer": "She suggested that I take a taxi.", "alts": ["She suggested I take a taxi.", "She suggested I should take a taxi.", "She suggested that I should take a taxi."], "vi": "Cô ấy đề nghị tôi đi taxi.", "exp": "suggest that + S + V"},
+        {"context": "He insisted me to stay.", "hint": "insist that I …", "answer": "He insisted that I stay.", "alts": ["He insisted I stay.", "He insisted that I should stay.", "He insisted I should stay."], "vi": "Anh ấy nhất quyết bắt tôi ở lại.", "exp": "insist that + S + V"}
+      ]
+    },
+    {
+      "id": "34.3", "kind": "fill",
+      "title": "should after adjectives",
+      "instr": "Điền should + động từ: ask, be done, leave, say, vote, worry.",
+      "items": [
+        {"pre": "It's funny that you", "suf": "that. I was thinking the same thing.", "hint": "say", "answer": "should say", "vi": "Buồn cười thật, bạn lại nói thế. Tôi cũng đang nghĩ đúng như vậy.", "exp": "funny that + should + V"},
+        {"pre": "It's only natural that parents", "suf": "about their children.", "hint": "worry", "answer": "should worry", "vi": "Cha mẹ lo cho con cái là điều hoàn toàn tự nhiên.", "exp": "natural that + should + V"},
+        {"pre": "Isn't it typical of Joe that he", "suf": "without saying goodbye?", "hint": "leave", "answer": "should leave", "vi": "Đúng kiểu Joe, lại ra về mà không chào ai.", "exp": "typical that + should + V"},
+        {"pre": "I was surprised that they", "suf": "me for advice.", "hint": "ask", "answer": "should ask", "vi": "Tôi ngạc nhiên khi họ lại hỏi tôi xin lời khuyên.", "exp": "surprised that + should + V"},
+        {"pre": "It's important that you", "suf": "in this election.", "hint": "vote", "answer": "should vote", "vi": "Điều quan trọng là bạn phải đi bầu trong cuộc bầu cử này.", "exp": "important that + should + V"},
+        {"pre": "The bridge needs repair. It's essential that the work", "suf": "as soon as possible.", "hint": "be done", "answer": "should be done", "vi": "Cây cầu cần được sửa. Điều thiết yếu là công việc phải được làm càng sớm càng tốt.", "exp": "essential that + should be done"}
+      ]
+    },
+    {
+      "id": "34.4", "kind": "write",
+      "title": "If … should / Should …",
+      "instr": "Viết câu với If … should hoặc Should … (đảo ngữ) theo gợi ý.",
+      "items": [
+        {"context": "I've hung out the washing. I'm asking a neighbour to help if the weather changes.", "hint": "if / it / rain / can you bring the washing inside", "answer": "If it should rain, can you bring the washing inside?", "vi": "Nếu lỡ trời mưa, bạn mang đồ phơi vào giúp tôi nhé?", "exp": "If + S + should + V"},
+        {"context": "Same situation, more formal.", "hint": "should / it / rain / can you bring the washing inside", "answer": "Should it rain, can you bring the washing inside?", "vi": "Nếu lỡ trời mưa, bạn mang đồ phơi vào giúp tôi nhé?", "exp": "Should + S + V (đảo ngữ)"},
+        {"context": "I think everything will be OK, but there may be problems.", "hint": "should / there / be any problems / I'm sure we'll solve them", "answer": "Should there be any problems, I'm sure we'll solve them.", "alts": ["If there should be any problems, I'm sure we'll solve them."], "vi": "Nếu có vấn đề gì, tôi chắc chúng ta sẽ giải quyết được.", "exp": "Should there be …"},
+        {"context": "I don't want anyone to know where I'm going.", "hint": "if / anyone / ask / say you don't know", "answer": "If anyone should ask, say you don't know.", "alts": ["Should anyone ask, say you don't know."], "vi": "Nếu có ai hỏi, cứ nói là bạn không biết.", "exp": "If anyone should ask …"}
+      ]
+    },
+    {
+      "id": "34.5", "kind": "fill",
+      "title": "I should … (advice)",
+      "instr": "Điền I should + động từ: keep, call, get.",
+      "items": [
+        {"pre": "A: Shall I throw these things away? B: No, I", "suf": "them. You may need them.", "hint": "keep", "answer": "should keep", "alts": ["I should keep"], "vi": "A: Tôi vứt mấy thứ này đi nhé? B: Đừng, tôi khuyên bạn giữ lại. Có thể bạn sẽ cần.", "exp": "I should + V = lời khuyên"},
+        {"pre": "A: Shall I go and see Paul? B: Yes, but I", "suf": "him first.", "hint": "call", "answer": "should call", "alts": ["I should call"], "vi": "A: Tôi đến gặp Paul nhé? B: Được, nhưng tôi khuyên bạn gọi trước.", "exp": "I should + V"},
+        {"pre": "A: Is it worth getting this computer repaired? B: No, I", "suf": "a new one.", "hint": "get", "answer": "should get", "alts": ["I should get"], "vi": "A: Có đáng sửa chiếc máy tính này không? B: Không, tôi khuyên bạn mua cái mới.", "exp": "I should + V"}
+      ]
+    },
+    {
+      "id": "34.6", "kind": "fill",
+      "title": "More practice",
+      "instr": "Điền should + động từ hoặc chỉ dùng động từ nguyên mẫu.",
+      "items": [
+        {"pre": "He insisted that I", "suf": "to his office the next day.", "hint": "come", "answer": "should come", "alts": ["come"], "vi": "Anh ấy nhất quyết bắt tôi đến văn phòng vào ngày hôm sau.", "exp": "insist that + (should) + V"},
+        {"pre": "The doctor recommended that she", "suf": "more rest.", "hint": "get", "answer": "should get", "alts": ["get"], "vi": "Bác sĩ khuyên cô ấy nên nghỉ ngơi nhiều hơn.", "exp": "recommend that + (should) + V"},
+        {"pre": "I suggest that we", "suf": "now. It's getting late.", "hint": "leave", "answer": "should leave", "alts": ["leave"], "vi": "Tôi đề nghị chúng ta đi ngay. Muộn rồi.", "exp": "suggest that + (should) + V"},
+        {"pre": "It's essential that everyone", "suf": "on time.", "hint": "be", "answer": "should be", "alts": ["be"], "vi": "Điều thiết yếu là mọi người đều phải đúng giờ.", "exp": "essential that + (should) be"}
+      ]
+    }
+  ]
+}
