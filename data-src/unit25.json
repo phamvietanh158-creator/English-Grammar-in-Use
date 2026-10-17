@@ -1,0 +1,95 @@
+{
+  "id": 25,
+  "title": "when I do and when I've done; if and when",
+  "theory": {
+    "title": "when I do and when I've done; if and when",
+    "blocks": [
+      {
+        "h": "A · Sau when, while, before, after, until, as soon as: dùng thì hiện tại",
+        "p": "Khi nói về tương lai, mệnh đề thời gian dùng **present simple**, không dùng will.",
+        "ex": [
+          {"en": "I'll call you when I **arrive**.", "vi": "Tôi sẽ gọi cho bạn khi tôi đến nơi.", "note": "(không nói “when I will arrive”)"},
+          {"en": "We'll go out when it **stops** raining.", "vi": "Khi trời tạnh mưa chúng ta sẽ ra ngoài."},
+          {"en": "What are you going to do while I'm **away**?", "vi": "Bạn định làm gì trong lúc tôi đi vắng?"},
+          {"en": "Wait here until I **come** back.", "vi": "Hãy đợi ở đây cho đến khi tôi quay lại."}
+        ]
+      },
+      {
+        "h": "B · Present perfect sau when, after, until, as soon as",
+        "p": "Dùng **present perfect** khi muốn nhấn mạnh việc đã hoàn thành rồi mới tới việc kia.",
+        "ex": [
+          {"en": "Can I have the paper when you've **finished** with it?", "vi": "Bạn đọc xong thì cho tôi xin tờ báo nhé?"},
+          {"en": "When I've **phoned** Kate, we can go out.", "vi": "Gọi cho Kate xong thì mình ra ngoài được."},
+          {"en": "Wait until he has **gone**.", "vi": "Hãy đợi đến khi anh ấy đi rồi."}
+        ]
+      },
+      {
+        "h": "C · if và when",
+        "table": {
+          "head": ["when (chắc chắn xảy ra)", "if (có thể xảy ra hoặc không)"],
+          "rows": [
+            ["I'm going out. When I go out, I'll get some bread.", "I might go out. If I go out, I'll get some bread."],
+            ["When I get home, I'll have a shower.", "If it is raining this evening, I won't go out."]
+          ]
+        },
+        "p": "Sau **if** cũng dùng present simple: Don't worry **if** I'm late tonight."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "25.1", "kind": "fill",
+      "title": "Present or will?",
+      "instr": "Điền dạng đúng của động từ trong ngoặc.",
+      "items": [
+        {"pre": "As soon as we", "suf": "any information, we'll let you know.", "hint": "get", "answer": "get", "vi": "Hễ chúng tôi có thông tin, chúng tôi sẽ báo bạn.", "exp": "as soon as + present simple"},
+        {"pre": "I want to get there before the film", "suf": ".", "hint": "start", "answer": "starts", "vi": "Tôi muốn đến đó trước khi phim bắt đầu.", "exp": "before + present simple"},
+        {"pre": "Don't drive through the red light. Wait until it", "suf": "to green.", "hint": "change", "answer": "changes", "vi": "Đừng vượt đèn đỏ. Hãy đợi đến khi nó chuyển sang xanh.", "exp": "until + present simple"},
+        {"pre": "Sarah will be here soon. I", "suf": "some coffee when she comes.", "hint": "make", "answer": "will make", "alts": ["'ll make"], "vi": "Sarah sắp đến rồi. Cô ấy đến là tôi pha cà phê.", "exp": "Mệnh đề chính dùng will"},
+        {"pre": "I'm 20 now. I wonder where I'll be when I", "suf": "40.", "hint": "be", "answer": "am", "alts": ["'m"], "vi": "Tôi 20 tuổi. Không biết lúc tôi 40 tuổi thì tôi ở đâu.", "exp": "when + present simple"},
+        {"pre": "We could meet for coffee if you", "suf": "free.", "hint": "be", "answer": "are", "alts": ["'re"], "vi": "Nếu bạn rảnh mình có thể gặp nhau uống cà phê.", "exp": "if + present simple"},
+        {"pre": "You'll feel better after you", "suf": "something to eat.", "hint": "have", "answer": "have had", "alts": ["'ve had"], "vi": "Bạn sẽ thấy khoẻ hơn sau khi ăn chút gì đó.", "exp": "after + present perfect (đã xong)"}
+      ]
+    },
+    {
+      "id": "25.2", "kind": "fill",
+      "title": "Complete the sentences",
+      "instr": "Điền dạng đúng: will hoặc thì hiện tại.",
+      "items": [
+        {"pre": "I want to see Sophie before", "suf": "away next week.", "hint": "she / go", "answer": "she goes", "vi": "Tôi muốn gặp Sophie trước khi cô ấy đi xa vào tuần sau.", "exp": "before + present simple"},
+        {"pre": "Call me when", "suf": "what time you're getting here.", "hint": "you / know", "answer": "you know", "vi": "Khi nào bạn biết mấy giờ bạn đến thì gọi cho tôi.", "exp": "when + present simple"},
+        {"pre": "There's no need to hurry.", "suf": "for you until you're ready.", "hint": "I / wait", "answer": "I'll wait", "alts": ["I will wait"], "vi": "Không cần vội. Tôi sẽ đợi đến khi bạn sẵn sàng.", "exp": "Mệnh đề chính dùng will"},
+        {"pre": "I'm going out for an hour. Will you still", "suf": "here when I get back?", "hint": "be", "answer": "be", "vi": "Tôi ra ngoài một tiếng. Lúc tôi về bạn còn ở đây không?", "exp": "Will you still be …?"},
+        {"pre": "If", "suf": "any problems, I'll let you know.", "hint": "there / be", "answer": "there are", "vi": "Nếu có vấn đề gì, tôi sẽ báo bạn.", "exp": "if + present simple"},
+        {"pre": "You", "suf": "recognise her when you see her. She has changed a lot.", "hint": "not", "answer": "won't", "alts": ["will not"], "vi": "Gặp cô ấy bạn sẽ không nhận ra. Cô ấy thay đổi nhiều lắm.", "exp": "Mệnh đề chính phủ định → won't"},
+        {"pre": "If you need to contact me while", "suf": "away, call my mobile.", "hint": "I / be", "answer": "I'm", "alts": ["I am"], "vi": "Nếu cần liên lạc với tôi lúc tôi đi vắng, hãy gọi vào di động.", "exp": "while + present simple"}
+      ]
+    },
+    {
+      "id": "25.3", "kind": "write",
+      "title": "Write complete sentences",
+      "instr": "Viết câu hoàn chỉnh theo tình huống, dùng when / before / until / as soon as.",
+      "items": [
+        {"context": "You and a friend want to go out, but it is raining hard.", "hint": "we'll go out / when / it / stop / raining", "answer": "We'll go out when it stops raining.", "alts": ["We will go out when it stops raining.", "We'll go out when it stops."], "vi": "Khi trời tạnh mưa chúng ta sẽ ra ngoài.", "exp": "when + present simple"},
+        {"context": "It's getting dark and you want to leave.", "hint": "I want to leave / before / it / get dark", "answer": "I want to leave before it gets dark.", "vi": "Tôi muốn đi trước khi trời tối.", "exp": "before + present simple"},
+        {"context": "You want to know where your friends will stay in Hong Kong.", "hint": "where / you / stay / when / you / get to Hong Kong", "answer": "Where are you going to stay when you get to Hong Kong?", "alts": ["Where will you stay when you get to Hong Kong?"], "vi": "Khi đến Hồng Kông, các bạn sẽ ở đâu?", "exp": "when + present simple"},
+        {"context": "Someone was rude to you. You want her to apologise first.", "hint": "I / not / speak to her / until / she / apologise", "answer": "I won't speak to her until she apologises.", "alts": ["I won't speak to her until she apologizes.", "I will not speak to her until she apologises."], "vi": "Tôi sẽ không nói chuyện với cô ta cho đến khi cô ta xin lỗi.", "exp": "until + present simple"},
+        {"context": "You are a manager promising to send the contract.", "hint": "I / send / the contract / as soon as / I / get your email", "answer": "I'll send the contract as soon as I get your email.", "alts": ["I will send the contract as soon as I get your email.", "I'll send the contract as soon as I've got your email.", "I'll send the contract as soon as I have got your email."], "vi": "Nhận được email của bạn là tôi gửi hợp đồng ngay.", "exp": "as soon as + present simple"}
+      ]
+    },
+    {
+      "id": "25.4", "kind": "fill",
+      "title": "when or if?",
+      "instr": "Điền when hoặc if.",
+      "items": [
+        {"pre": "Be careful. You'll hurt yourself", "suf": "you fall.", "hint": "when / if", "answer": "if", "vi": "Cẩn thận. Bạn sẽ bị đau nếu ngã.", "exp": "Có thể ngã hoặc không → if"},
+        {"pre": "I'm going shopping.", "suf": "you want anything, I can get it.", "hint": "When / If", "answer": "If", "vi": "Tôi đi mua sắm. Nếu bạn cần gì tôi mua giúp.", "exp": "Có thể cần hoặc không → if"},
+        {"pre": "I'm going away. I'll call you", "suf": "I get back.", "hint": "when / if", "answer": "when", "vi": "Tôi sắp đi xa. Khi nào về tôi sẽ gọi bạn.", "exp": "Chắc chắn sẽ về → when"},
+        {"pre": "I might not see you tomorrow.", "suf": "I don't, I'll phone you.", "hint": "When / If", "answer": "If", "vi": "Có thể ngày mai tôi không gặp bạn. Nếu không gặp thì tôi gọi.", "exp": "Có thể không gặp → if"},
+        {"pre": "I'm watching TV right now.", "suf": "it finishes, I'm going to bed.", "hint": "When / If", "answer": "When", "vi": "Tôi đang xem tivi. Xem xong là tôi đi ngủ.", "exp": "Chắc chắn sẽ kết thúc → when"},
+        {"pre": "We can eat at home or,", "suf": "you prefer, we can go to a restaurant.", "hint": "when / if", "answer": "if", "vi": "Mình có thể ăn ở nhà, hoặc nếu bạn thích thì đi nhà hàng.", "exp": "Có thể thích hoặc không → if"},
+        {"pre": "It will be a shame", "suf": "she can't come.", "hint": "when / if", "answer": "if", "vi": "Sẽ rất tiếc nếu cô ấy không đến được.", "exp": "Chưa biết có đến không → if"}
+      ]
+    }
+  ]
+}
