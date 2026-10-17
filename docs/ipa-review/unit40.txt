@@ -1,0 +1,84 @@
+# unit40: IPA tự động (espeak en-GB → Cambridge). Soát nhanh các từ dưới đây.
+
+a	/ə/
+about	/əˌbaʊt/
+advice	/ədˈvaɪs/
+be	/biː/
+breakfast	/ˈbrekfəst/
+by	/baɪ/
+do	/ˈduː/
+eaten	/ˈiːtən/
+feel	/ˈfiːl/
+go	/ˌgəʊ/
+gone	/ˈgɒn/
+had	/hæd/
+hadn't	/ˈhædənt/
+have	/hæv/
+home	/ˈhəʊm/
+hungry	/ˈhʌŋgri/
+i	/aɪ/
+i'd	/aɪd/
+i'm	/aɪm/
+if	/ɪf/
+instead	/ɪnˈsted/
+instrument	/ˈɪnstrəmənt/
+it	/ɪt/
+known	/ˈnəʊn/
+languages	/ˈlæŋgwɪdʒɪz/
+last	/lɑːst/
+learned	/ˈlɜːnd/
+listened	/ˈlɪsənd/
+more	/ˈmɔː/
+moved	/ˈmuːvd/
+much	/ˌmʌtʃ/
+musical	/ˈmjuːzɪkəl/
+night	/ˈnaɪt/
+not	/ˌnɒt/
+now	/ˈnaʊ/
+of	/ɒv/
+painted	/ˈpeɪntɪd/
+party	/ˈpɑːti/
+play	/ˈpleɪ/
+red	/ˈred/
+science	/ˈsaɪəns/
+sick	/ˈsɪk/
+so	/ˈsəʊ/
+studied	/ˈstʌdid/
+the	/ðə/
+time	/ˈtaɪm/
+tired	/ˈtaɪəd/
+to	/tə/
+train	/ˈtreɪn/
+we	/wiː/
+were	/wɜː/
+wish	/ˈwɪʃ/
+would	/wʊd/
+wouldn't	/ˈwʊdənt/
+you	/juː/
+you'd	/juːd/
+your	/jɔːr/
+
+# Câu không ghép được từng từ (có số/viết tắt) — soát cả câu:
+If I'd seen you, I would have said hello.
+They would have gone out if they hadn't been so tired.
+If you'd been looking where you were going, you wouldn't have walked into the wall.
+I would have taken pictures if I'd had a camera.
+If the weather hadn't been bad, we could have gone out.
+If I'd seen you, I would have said hello.
+They would have gone out if they hadn't been so tired.
+If you'd been looking where you were going, you wouldn't have walked into the wall.
+I would have taken pictures if I had had a camera.
+If I'd had your email, I would have sent you a message.
+We took a taxi but got stuck in traffic. It would have been quicker if we'd walked.
+I would have forgotten if you hadn't reminded me.
+They would have enjoyed it more if the weather had been better.
+I wasn't tired last night. If I had been tired, I would have gone home earlier.
+If the road hadn't been icy, the accident wouldn't have happened.
+If I'd known you had to get up early, I would have woken you.
+If I hadn't lost my phone, I could have called you.
+If she hadn't been wearing a seat belt, she would have been injured.
+If I'd had enough money, I would have got a taxi.
+If Dan had done well at school, he could have gone to university.
+If I'd known about the meeting, I would have gone.
+If it hadn't rained, we could have gone to the beach.
+I wish I hadn't said that. It was a mistake.
