@@ -1,0 +1,110 @@
+# unit45: IPA tự động (espeak en-GB → Cambridge). Soát nhanh các từ dưới đây.
+
+10	/ˈten/
+110	/ˈten/
+15	/ˈfɪftiːn/
+30	/ˈθɜːti/
+7	/ˈsevən/
+8	/ˈeɪt/
+a	/ə/
+after	/ˈɑːftə/
+alleged	/əˈledʒd/
+an	/ən/
+anything	/ˈenɪˌθɪŋ/
+at	/æt/
+b	/ˈbiː/
+been	/ˈdraɪvɪŋ/
+believed	/bɪˈliːvd/
+but	/ˌbʌt/
+car	/ˈkɑː/
+come	/ˈkʌm/
+company	/ˈkʌmpəni/
+depart	/dɪˈpɑːt/
+did	/ˈdɪd/
+driver	/ˈdraɪvər/
+driving	/æt/
+end	/ˈend/
+exercise	/ˈeksəˌsaɪz/
+expected	/ekˈspektɪd/
+flight	/ˈflaɪt/
+front	/ˈfrʌnt/
+guests	/ˈgests/
+hard	/ˈhɑːd/
+have	/hæv/
+he	/hiː/
+heavy	/ˈhevi/
+helen	/ˈhelən/
+here	/ˈhiər/
+his	/hɪz/
+hour	/ˈaʊə/
+i	/aɪ/
+illness	/ˈɪlnəs/
+in	/ɪn/
+is	/ɪz/
+isn't	/ˌɪzənt/
+it	/ɪt/
+it's	/ɪts/
+joe	/ˈdʒəʊ/
+last	/lɑːst/
+late	/ˈleɪt/
+lift	/ˈlɪft/
+loss	/ˈlɒs/
+lost	/ˈlɒst/
+lot	/ˈlɒt/
+lottery	/ˈlɒtəri/
+make	/ˌmeɪk/
+miles	/ˈmaɪlz/
+money	/ˈmʌni/
+my	/maɪ/
+neighbours	/ˈneɪbəz/
+night	/ˈnaɪt/
+not	/ˌnɒt/
+of	/ɒv/
+our	/ˌaʊə/
+park	/ˈpɑːk/
+phone	/ˈfəʊn/
+private	/ˈpraɪvət/
+put	/ˌpʊt/
+soon	/ˈsuːn/
+start	/ˈstɑːt/
+stole	/ˈstəʊl/
+stolen	/ˈstəʊlən/
+strike	/ˈstraɪk/
+supposed	/səˈpəʊzd/
+that	/ðæt/
+the	/ðə/
+they	/ðeɪ/
+they're	/ðeɪə/
+this	/ðɪs/
+to	/tə/
+too	/ˈtuː/
+was	/wɒz/
+we're	/wiə/
+were	/wɜː/
+win	/ˈwɪn/
+won	/ˈwʌn/
+year	/ˈjiə/
+yes	/ˈjes/
+you're	/jɔː/
+your	/jɔː/
+
+# Câu không ghép được từng từ (có số/viết tắt) — soát cả câu:
+It is said that he is 108 years old. = He is said to be 108 years old.
+It is expected that the strike will end soon. = The strike is expected to end soon.
+I want to see that film. It's supposed to be good.
+What are you doing here? You're supposed to be on holiday.
+Many people are reported to be homeless after the floods.
+The thieves are thought to have got in through a window in the roof.
+The building is reported to have been badly damaged by the fire.
+The company is said to be losing a lot of money.
+A: Are those jewels valuable? B: I'm not sure, but they're supposed to be very valuable.
+A: This looks an interesting building. B: Yes, it's supposed to have been a prison a long time ago.
+A: Can you climb to the top of the tower? B: Yes, the view is supposed to be very nice.
+A: I heard Laura has gone away. B: Yes, she's supposed to be living in London now.
+You're supposed to be my friend.
+I'm supposed to be on a diet.
+It was supposed to be a joke.
+It's supposed to be a flower.
+You're supposed to be working.
+It's supposed to be open every day.
+It is said that he is 108. He is said to be 108 years old.
