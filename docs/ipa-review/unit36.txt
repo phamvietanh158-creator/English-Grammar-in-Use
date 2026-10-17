@@ -1,0 +1,147 @@
+# unit36: IPA tự động (espeak en-GB → Cambridge). Soát nhanh các từ dưới đây.
+
+a	/ə/
+afford	/əˈfɔːd/
+always	/ˈɔːlweɪz/
+amanda	/əˈmændə/
+and	/ænd/
+angry	/ˈæŋgri/
+anyone	/ˈenɪˌwɒn/
+anything	/ˈenɪˌθɪŋ/
+asked	/ˈæskt/
+back	/ˈbæk/
+be	/biː/
+busy	/ˈbɪzi/
+but	/ˌbʌt/
+buy	/ˈbaɪ/
+by	/baɪ/
+call	/ˈkɔːl/
+can't	/kɑːnt/
+cancelled	/ˈkænsəld/
+car	/ˈkɑː/
+carrying	/ˈkæriɪŋ/
+clare	/ˈkleə/
+don't	/ˈdəʊnt/
+enjoy	/enˈdʒɔɪ/
+every	/ˈevrɪ/
+everyone	/ˈevrɪˌwɒn/
+film	/ˈfɪlm/
+for	/fɔːr/
+forget	/fəˈget/
+forward	/ˈfɔːwəd/
+friday	/ˈfraɪdeɪ/
+friendly	/ˈfrendli/
+fun	/ˈfʌn/
+generous	/ˈdʒenərəs/
+go	/ˌgəʊ/
+going	/ˌgəʊɪŋ/
+great	/ˈgreɪt/
+had	/hæd/
+happened	/ˈhæpənd/
+have	/hæv/
+he	/hiː/
+hello	/həˈləʊ/
+help	/ˈhelp/
+her	/hɜː/
+him	/ˌhɪm/
+house	/ˈhaʊs/
+however	/haʊˈevə/
+i	/aɪ/
+i'd	/aɪd/
+i'm	/aɪm/
+in	/ɪn/
+insisted	/ɪnˈsɪstɪd/
+it	/ɪt/
+joe	/ˈdʒəʊ/
+katherine	/ˈkæθrɪn/
+let	/ˈlet/
+like	/ˈlaɪk/
+listen	/ˈlɪsən/
+live	/ˈlɪv/
+lived	/ˈlɪvd/
+looking	/ˈlʊkɪŋ/
+love	/ˈlʌv/
+lucy	/ˈluːsi/
+luggage	/ˈlʌgɪdʒ/
+many	/ˈmeni/
+martina	/mɑːˈtiːnər/
+me	/ˌmiː/
+much	/ˈmʌtʃ/
+next	/ˈnekst/
+nice	/ˈnaɪs/
+not	/ˌnɒt/
+on	/ˌɒn/
+out	/ˈaʊt/
+past	/ˈpæst/
+paul	/ˈpɔːl/
+pay	/ˈpeɪ/
+pleased	/ˈpliːzd/
+promised	/ˈprɒmɪst/
+railway	/ˈreɪlweɪ/
+reminded	/rɪˈmaɪndɪd/
+road	/ˈrəʊd/
+round	/ˈraʊnd/
+saw	/ˈsɔː/
+say	/ˈseɪ/
+sea	/ˈsiː/
+see	/ˈsiː/
+shake	/ˈʃeɪk/
+share	/ˈʃeə/
+she	/ʃiː/
+should	/ˌʃʊd/
+situation	/ˌsɪtʃuːˈeɪʃən/
+smile	/ˈsmaɪl/
+sorry	/ˈsɒri/
+speak	/ˈspiːk/
+start	/ˈstɑːt/
+steve	/ˈstiːv/
+tell	/ˈtel/
+the	/ðə/
+they	/ðeɪ/
+think	/ˈθɪŋk/
+time	/ˈtaɪm/
+times	/ˈtaɪmz/
+to	/tə/
+tonight	/təˈnaɪt/
+train	/ˈtreɪn/
+travel	/ˈtrævəl/
+tried	/ˈtraɪd/
+trip	/ˈtrɪp/
+two	/ˈtuː/
+unreliable	/ˌʌnrɪˈlaɪəbəl/
+us	/ˌʌs/
+very	/ˈveri/
+wait	/ˈweɪt/
+warn	/ˈwɔːn/
+was	/wɒz/
+we	/wiː/
+weeks	/ˈwiːks/
+went	/went/
+what	/wɒt/
+whenever	/weˌnevər/
+why	/ˌwaɪ/
+will	/wɪl/
+with	/wɪð/
+won't	/wəʊnt/
+world	/ˈwɜːld/
+would	/wʊd/
+wouldn't	/ˈwʊdənt/
+you	/juː/
+your	/jɔː/
+
+# Câu không ghép được từng từ (có số/viết tắt) — soát cả câu:
+It's a shame you didn't see the film. You would have liked it.
+I would have called Lisa, but I didn't have her number.
+I didn't tell Sam. He wouldn't have been pleased.
+Whenever Richard was angry, he would walk out of the room.
+I wouldn't like to be a dentist.
+It's a pity you couldn't come to the party. You would have enjoyed it.
+Shall I apply for the job? What would you do in my position?
+I was in a hurry. Otherwise I would have stopped to talk.
+We took a taxi but got stuck in traffic. It would have been quicker to walk.
+In an ideal world, everybody would have enough to eat.
+I'm glad we didn't go out in the rain.
+It would have been fun.
+It wouldn't have been very nice.
+The car wouldn't start this morning. I had to take the bus.
+When we were children at the seaside, we would stay on the beach all day.
