@@ -46,6 +46,7 @@ header{background:var(--surface);border-bottom:1px solid var(--border);padding:1
 .check-badge svg{width:10px;height:10px;stroke:#fff;stroke-width:2.5;fill:none}
 .unit-card.unavailable{opacity:.45;cursor:default;pointer-events:none}
 .unit-card.available{border-color:var(--accent-border);background:var(--accent-bg)}
+.unit-card.available.done{border-color:var(--done-border);background:var(--done-bg)}
 .available-tag{font-size:10px;color:var(--accent);font-weight:600;margin-top:5px}
 
 .progress-wrap{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1rem 1.25rem;margin-bottom:1.5rem;display:flex;align-items:center;gap:1.25rem}
@@ -288,7 +289,7 @@ function renderAll(filter=''){
     div.innerHTML = `<div class="section-title">${sec}</div><div class="grid">${
       units.map(u=>{
         const isDone = done.includes(u.id);
-        const cls = u.avail ? 'unit-card available' : isDone ? 'unit-card done' : 'unit-card unavailable';
+        const cls = 'unit-card ' + (u.avail ? 'available' : 'unavailable') + (isDone ? ' done' : '');
         const href = u.avail ? `href="${u.file}"` : '';
         const tag = u.avail ? '<div class="available-tag">▶ Có sẵn</div>' : '';
         return `<a ${href} class="${cls}" ${u.avail?'':'title="Chưa có bài này"'}>

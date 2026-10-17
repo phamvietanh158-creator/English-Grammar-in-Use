@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+
+# Sách gốc (bản quyền, dung lượng lớn): chỉ để trên máy, KHÔNG đưa lên git
+LYTHUYET/
+
+# Tạm
+*.tmp
+*.bak
+__pycache__/
+.work/
