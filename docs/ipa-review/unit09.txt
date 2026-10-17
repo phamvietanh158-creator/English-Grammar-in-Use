@@ -1,0 +1,78 @@
+# unit09: IPA tự động (espeak en-GB → Cambridge). Soát nhanh các từ dưới đây.
+
+a	/ə/
+are	/ɑː/
+at	/æt/
+b	/ˈbiː/
+been	/ˌbiːn/
+bike	/ˈbaɪk/
+chris	/ˈkrɪs/
+crying	/ˈkraɪɪŋ/
+dangerous	/ˈdeɪndʒərəs/
+dirty	/ˈdɜːti/
+doing	/ˈduːɪŋ/
+driving	/ˈdraɪvɪŋ/
+english	/ˈɪŋglɪʃ/
+eyes	/ˈaɪz/
+feeling	/ˈfiːlɪŋ/
+for	/fɔː/
+hands	/ˈhændz/
+hard	/ˈhɑːd/
+hasn't	/ˈhæzənt/
+have	/hæv/
+he	/hiː/
+he's	/hiːz/
+here	/ˈhiə/
+holiday	/ˈhɒlɪˌdeɪ/
+hours	/ˈaʊəz/
+how	/ˌhaʊ/
+i've	/aɪv/
+is	/ɪz/
+it's	/ɪts/
+learning	/ˈlɜːnɪŋ/
+like	/ˈlaɪk/
+long	/ˈlɒŋ/
+looking	/ˈlʊkɪŋ/
+me	/ˌmiː/
+my	/maɪ/
+no	/ˈnəʊ/
+on	/ˌɒn/
+paul	/ˈpɔːl/
+phone	/ˈfəʊn/
+raining	/ˈreɪnɪŋ/
+recently	/ˈriːsəntli/
+red	/ˈred/
+repairing	/rɪˈpeərɪŋ/
+swimming	/ˈswɪmɪŋ/
+that	/ˈðæt/
+tired	/ˈtaɪəd/
+to	/tə/
+two	/ˈtuː/
+use	/ˈjuːz/
+very	/ˈveri/
+waiting	/ˈweɪtɪŋ/
+well	/ˈwel/
+what	/wɒt/
+when	/wen/
+why	/ˌwaɪ/
+working	/ˈwɜːkɪŋ/
+you	/juː/
+your	/jɔː/
+
+# Câu không ghép được từng từ (có số/viết tắt) — soát cả câu:
+Why are you out of breath? Have you been running?
+Why are you out of breath? Have you been running?
+Paul is very tired. He has been working hard all week.
+The ground is wet. It has been raining.
+My brother is covered in paint. He has been painting the kitchen.
+It's raining. The rain started two hours ago. It has been raining for two hours.
+We started waiting 20 minutes ago. We have been waiting for 20 minutes.
+I started learning Japanese in December. I have been learning Japanese since December.
+Jessica started working there on 18 January. She has been working there since 18 January.
+Our friends go to Italy every year and did so before. They have been going to Italy for years.
+Maria has been learning English for two years.
+Hi Tom. I have been looking for you. I need to ask you something.
+Rachel is a teacher. She has been teaching for ten years.
+I have been thinking about what you said.
+Sarah is very tired. She has been working very hard recently.
+Laura has been travelling in South America for the last three months.
