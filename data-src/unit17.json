@@ -1,0 +1,97 @@
+{
+  "id": 17,
+  "title": "have and have got",
+  "theory": {
+    "title": "have and have got",
+    "blocks": [
+      {
+        "h": "A · have / have got: sở hữu, quan hệ, bệnh, lịch hẹn",
+        "p": "Hai cách nói này cùng nghĩa (have got hay dùng trong văn nói, nhất là tiếng Anh–Anh).",
+        "ex": [
+          {"en": "They **have** a new car. / They've **got** a new car.", "vi": "Họ có một chiếc xe mới."},
+          {"en": "Lisa **has** two brothers. / Lisa has **got** two brothers.", "vi": "Lisa có hai anh/em trai."},
+          {"en": "I **have** a headache. / I've **got** a headache.", "vi": "Tôi bị đau đầu."},
+          {"en": "I've **got** a driving lesson tomorrow.", "vi": "Ngày mai tôi có buổi học lái xe."}
+        ]
+      },
+      {
+        "h": "B · Lưu ý về thì và dạng",
+        "ex": [
+          {"en": "We **have** a nice room. / We've got a nice room.", "vi": "Chúng tôi có một căn phòng đẹp.", "note": "(không nói “We're having a nice room”)"},
+          {"en": "Lisa **had** long hair when she was a child.", "vi": "Hồi nhỏ Lisa có mái tóc dài.", "note": "(quá khứ chỉ dùng had, không dùng “had got”)"},
+          {"en": "I **didn't have** my phone. / **Did** you **have** any problems?", "vi": "Tôi không mang điện thoại. / Bạn có gặp vấn đề gì không?", "note": "(quá khứ: dùng did/didn't have)"},
+          {"en": "**Do** you **have** any questions?", "vi": "Bạn có câu hỏi nào không?", "note": "(câu hỏi, phủ định: dùng do/does + have)"}
+        ]
+      },
+      {
+        "h": "C · have với nghĩa hành động (không dùng have got)",
+        "p": "have breakfast / lunch / dinner · have a shower / bath / swim · have a break / rest / party / holiday · have a look / chat / baby · have trouble / fun / a good time. Với nghĩa này có thể dùng **thì tiếp diễn**, và câu hỏi/phủ định dùng **do/does/did**.",
+        "ex": [
+          {"en": "We're **having** a great time.", "vi": "Chúng tôi đang rất vui."},
+          {"en": "He's **having** a shower. He can't talk now.", "vi": "Anh ấy đang tắm. Bây giờ không nói chuyện được."},
+          {"en": "I **don't** usually **have** a big breakfast.", "vi": "Tôi thường không ăn sáng nhiều."}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "17.1", "kind": "fill",
+      "title": "Complete with have (correct form)",
+      "instr": "Điền have, has, had, don't have, doesn't have hoặc didn't have vào chỗ trống.",
+      "items": [
+        {"pre": "She couldn't get into the house. She", "suf": "a key.", "hint": "have", "answer": "didn't have", "vi": "Cô ấy không vào nhà được. Cô ấy không có chìa khoá.", "exp": "Quá khứ phủ định → didn't have"},
+        {"pre": "", "suf": "any questions?", "hint": "do you + have", "answer": "Do you have", "vi": "Bạn có câu hỏi nào không?", "exp": "Nghi vấn hiện tại → Do you have"},
+        {"pre": "They can't pay their bills. They", "suf": "any money.", "hint": "have", "answer": "don't have", "vi": "Họ không trả được hoá đơn. Họ không có tiền.", "exp": "Phủ định hiện tại → don't have"},
+        {"pre": "Jack", "suf": "a car. He can't afford one.", "hint": "have", "answer": "doesn't have", "vi": "Jack không có xe hơi. Anh ấy không đủ tiền mua.", "exp": "Phủ định ngôi 3 → doesn't have"},
+        {"pre": "Excuse me,", "suf": "a pen I could borrow?", "hint": "do you + have", "answer": "do you have", "vi": "Xin lỗi, bạn có cây bút nào cho tôi mượn không?", "exp": "Nghi vấn → do you have"},
+        {"pre": "I was very busy yesterday. I", "suf": "time to go shopping.", "hint": "have", "answer": "didn't have", "vi": "Hôm qua tôi rất bận. Tôi không có thời gian đi mua sắm.", "exp": "Quá khứ phủ định → didn't have"},
+        {"pre": "Tell me about Jack.", "suf": "a job?", "hint": "does he + have", "answer": "Does he have", "vi": "Kể tôi nghe về Jack đi. Anh ấy có việc làm chưa?", "exp": "Does + he + have"},
+        {"pre": "When you worked in your last job,", "suf": "your own office?", "hint": "did you + have", "answer": "did you have", "vi": "Khi làm ở công việc trước, bạn có văn phòng riêng không?", "exp": "Quá khứ nghi vấn → did you have"},
+        {"pre": "Where's the remote control? I", "suf": "it.", "hint": "have", "answer": "don't have", "vi": "Điều khiển đâu rồi? Tôi không có nó.", "exp": "Phủ định hiện tại → don't have"},
+        {"pre": "Tom", "suf": "a motorbike, didn't he?", "hint": "have", "answer": "had", "vi": "Tom từng có một chiếc xe máy, đúng không?", "exp": "Quá khứ khẳng định → had"}
+      ]
+    },
+    {
+      "id": "17.2", "kind": "write",
+      "title": "Correct the mistakes",
+      "instr": "Mỗi câu có lỗi với have. Viết lại thành câu đúng.",
+      "items": [
+        {"context": "Lisa had got long hair when she was a child.", "hint": "had", "answer": "Lisa had long hair when she was a child.", "vi": "Hồi nhỏ Lisa có mái tóc dài.", "exp": "Quá khứ chỉ dùng had, không dùng had got"},
+        {"context": "I couldn't contact you because I hadn't my phone.", "hint": "didn't have", "answer": "I couldn't contact you because I didn't have my phone.", "vi": "Tôi không liên lạc được với bạn vì tôi không có điện thoại.", "exp": "Quá khứ phủ định → didn't have"},
+        {"context": "'Are you feeling OK?' 'No, I'm having a cold.'", "hint": "have / have got", "answer": "No, I have a cold.", "alts": ["I have a cold.", "No, I've got a cold.", "I've got a cold."], "vi": "Không, tôi bị cảm.", "exp": "Bị cảm là trạng thái → không dùng thì tiếp diễn"},
+        {"context": "I felt really tired. I hadn't any energy.", "hint": "didn't have", "answer": "I didn't have any energy.", "vi": "Tôi thấy rất mệt. Tôi chẳng còn chút sức nào.", "exp": "Quá khứ phủ định → didn't have"},
+        {"context": "Was your trip OK? Had you any problems?", "hint": "did you have", "answer": "Did you have any problems?", "vi": "Chuyến đi ổn chứ? Bạn có gặp vấn đề gì không?", "exp": "Quá khứ nghi vấn → Did you have"},
+        {"context": "The last time I saw Steve, he was having a beard.", "hint": "had", "answer": "The last time I saw Steve, he had a beard.", "alts": ["He had a beard."], "vi": "Lần cuối tôi gặp Steve, anh ấy có râu.", "exp": "Có râu là sở hữu → had, không dùng tiếp diễn"},
+        {"context": "How often have you a shower?", "hint": "do you have", "answer": "How often do you have a shower?", "vi": "Bạn tắm bao lâu một lần?", "exp": "have a shower là hành động → do you have"},
+        {"context": "We're having a nice room at the hotel.", "hint": "have / have got", "answer": "We have a nice room at the hotel.", "alts": ["We've got a nice room at the hotel.", "We have a nice room.", "We've got a nice room."], "vi": "Ở khách sạn chúng tôi có một phòng đẹp.", "exp": "Sở hữu → không dùng thì tiếp diễn"}
+      ]
+    },
+    {
+      "id": "17.3", "kind": "fill",
+      "title": "Expressions with have",
+      "instr": "Điền cụm có have: have a break, have a party, have a look, have a nice time, have a chat, have a baby, have a shower, have a holiday (chia đúng thì).",
+      "items": [
+        {"pre": "David starts work at 8. He", "suf": "at 10.30.", "hint": "have a break", "answer": "has a break", "vi": "David bắt đầu làm lúc 8 giờ. Đến 10 giờ rưỡi anh ấy nghỉ giải lao.", "exp": "have a break = nghỉ giải lao"},
+        {"pre": "We", "suf": "last week. We invited lots of people.", "hint": "have a party", "answer": "had a party", "vi": "Tuần trước chúng tôi tổ chức tiệc. Chúng tôi mời rất nhiều người.", "exp": "had a party"},
+        {"pre": "There's something wrong with my bike. Can you", "suf": "at it?", "hint": "have a look", "answer": "have a look", "vi": "Xe đạp của tôi có gì đó không ổn. Bạn xem giúp được không?", "exp": "have a look = xem thử"},
+        {"pre": "Joe is away. I hope he", "suf": ".", "hint": "have a nice time", "answer": "has a nice time", "alts": ["has a good time", "has a great time"], "vi": "Joe đi vắng. Tôi mong anh ấy vui vẻ.", "exp": "has a nice time"},
+        {"pre": "I met friends in the supermarket. We stopped and", "suf": ".", "hint": "have a chat", "answer": "had a chat", "vi": "Tôi gặp bạn bè ở siêu thị. Chúng tôi dừng lại nói chuyện một lúc.", "exp": "had a chat = trò chuyện"},
+        {"pre": "Suzanne", "suf": "a few weeks ago. It's her second child.", "hint": "have a baby", "answer": "had a baby", "vi": "Mấy tuần trước Suzanne sinh em bé. Đây là đứa con thứ hai của cô ấy.", "exp": "had a baby = sinh con"},
+        {"pre": "I", "suf": "when the light went out.", "hint": "have a shower", "answer": "was having a shower", "vi": "Tôi đang tắm thì mất điện.", "exp": "Đang tắm lúc đó → was having"},
+        {"pre": "I'd like to go away. I", "suf": "for a long time.", "hint": "not / have a holiday", "answer": "haven't had a holiday", "alts": ["have not had a holiday"], "vi": "Tôi muốn đi xa. Lâu rồi tôi chưa đi nghỉ.", "exp": "haven't had a holiday + for a long time"}
+      ]
+    },
+    {
+      "id": "17.4", "kind": "fill",
+      "title": "At work and at home",
+      "instr": "Điền dạng đúng của have (có thể là have, has, had, do you have, are having…).",
+      "items": [
+        {"pre": "We can't start the meeting yet. We", "suf": "the projector.", "hint": "not / have", "answer": "don't have", "vi": "Chúng ta chưa họp được. Chúng ta chưa có máy chiếu.", "exp": "Sở hữu, phủ định → don't have"},
+        {"pre": "Please be quiet. We", "suf": "a meeting.", "hint": "have (right now)", "answer": "are having", "vi": "Làm ơn giữ yên lặng. Chúng tôi đang họp.", "exp": "have a meeting là hành động, đang diễn ra → are having"},
+        {"pre": "A: How was your business trip to Singapore? B: Great. We", "suf": "a really good time.", "hint": "have", "answer": "had", "vi": "A: Chuyến công tác Singapore thế nào? B: Tuyệt. Chúng tôi đã có khoảng thời gian rất vui.", "exp": "Quá khứ khẳng định → had"},
+        {"pre": "My laptop is very slow. I", "suf": "trouble opening large files.", "hint": "have", "answer": "have", "vi": "Laptop của tôi chạy rất chậm. Tôi gặp khó khăn khi mở các tệp lớn.", "exp": "have trouble + V-ing", "alts": ["'m having", "am having"]}
+      ]
+    }
+  ]
+}
