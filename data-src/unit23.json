@@ -1,0 +1,101 @@
+{
+  "id": 23,
+  "title": "I will and I'm going to",
+  "theory": {
+    "title": "I will and I'm going to",
+    "blocks": [
+      {
+        "h": "A · will: quyết định ngay lúc nói, dự đoán chung",
+        "ex": [
+          {"en": "A: It's cold.  B: I'll **close** the window.", "vi": "A: Lạnh quá. B: Để tôi đóng cửa sổ."},
+          {"en": "Don't worry. I'm sure you'll **find** a job soon.", "vi": "Đừng lo. Tôi chắc bạn sẽ sớm tìm được việc."},
+          {"en": "A: I forgot my wallet.  B: Not to worry. I'll **lend** you some.", "vi": "A: Tôi quên ví rồi. B: Đừng lo. Tôi cho bạn mượn."}
+        ]
+      },
+      {
+        "h": "B · going to: đã quyết định trước, dự đoán có bằng chứng",
+        "ex": [
+          {"en": "A: Your shoes are dirty.  B: I know. I'm **going to clean** them.", "vi": "A: Giày bạn bẩn kìa. B: Tôi biết. Tôi định chùi nó.", "note": "(đã nghĩ trước)"},
+          {"en": "Look at those clouds! It's **going to rain**.", "vi": "Nhìn đám mây kìa! Trời sắp mưa.", "note": "(có bằng chứng)"},
+          {"en": "I don't know what I'm **going to do** about this problem.", "vi": "Tôi không biết sẽ làm gì với vấn đề này.", "note": "(chưa quyết định)"}
+        ]
+      },
+      {
+        "h": "C · So sánh nhanh",
+        "table": {
+          "head": ["", "will", "going to"],
+          "rows": [
+            ["Quyết định", "ngay lúc nói", "đã có từ trước"],
+            ["Dự đoán", "dựa trên suy nghĩ, ý kiến", "dựa trên bằng chứng nhìn thấy"],
+            ["Ví dụ", "I think Tom will get the job.", "Look! That car is going to crash."]
+          ]
+        },
+        "p": "Trong nhiều tình huống cả hai đều đúng; khác biệt thường nhỏ."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "23.1", "kind": "fill",
+      "title": "will or going to?",
+      "instr": "Điền I'll hoặc I'm going to / he's going to cùng động từ cho hợp ngữ cảnh.",
+      "items": [
+        {"pre": "A: It's raining. B: Wait here.", "suf": "an umbrella.", "hint": "I / get", "answer": "I'll get", "alts": ["I will get"], "vi": "A: Trời mưa rồi. B: Đợi ở đây, để tôi lấy ô.", "exp": "Quyết định ngay → I'll"},
+        {"pre": "A: Why are you filling the kettle? B:", "suf": "some coffee.", "hint": "I / make", "answer": "I'm going to make", "alts": ["I am going to make"], "vi": "A: Sao bạn đổ nước vào ấm? B: Tôi định pha cà phê.", "exp": "Đã có ý định → going to"},
+        {"pre": "A: Have you decided what job to apply for? B: Yes.", "suf": "for a job at the hospital.", "hint": "I / apply", "answer": "I'm going to apply", "alts": ["I am going to apply"], "vi": "A: Bạn chọn xin việc gì chưa? B: Rồi. Tôi sẽ xin làm ở bệnh viện.", "exp": "Đã quyết định → going to"},
+        {"pre": "A: I need to tell Anna what happened. B: I'm seeing her later.", "suf": "her for you.", "hint": "I / tell", "answer": "I'll tell", "alts": ["I will tell"], "vi": "A: Tôi cần nói với Anna chuyện đã xảy ra. B: Lát nữa tôi gặp cô ấy. Để tôi nói giúp bạn.", "exp": "Đề nghị ngay → I'll"},
+        {"pre": "A: Are you ready to order? B: Yes.", "suf": "the fish, please.", "hint": "I / have", "answer": "I'll have", "alts": ["I will have"], "vi": "A: Bạn gọi món chưa? B: Rồi. Cho tôi món cá.", "exp": "Chọn ngay → I'll"},
+        {"pre": "A: Has Dan decided what to do after school? B: Yes, first", "suf": "a holiday.", "hint": "he / have", "answer": "he's going to have", "alts": ["he is going to have"], "vi": "A: Dan quyết định làm gì sau khi học xong chưa? B: Rồi, đầu tiên anh ấy sẽ đi nghỉ.", "exp": "Kế hoạch đã có"},
+        {"pre": "Then", "suf": "a management course.", "hint": "he / do", "answer": "he's going to do", "alts": ["he is going to do"], "vi": "Sau đó anh ấy sẽ học một khoá quản lý.", "exp": "Tiếp tục kế hoạch"}
+      ]
+    },
+    {
+      "id": "23.2", "kind": "write",
+      "title": "Choose will or going to",
+      "instr": "Viết câu hoàn chỉnh với will hoặc going to cho hợp tình huống.",
+      "items": [
+        {"context": "You are arranging to meet a friend. You suggest a time and place.", "hint": "I / meet you / at 10.30 / in the hotel lobby", "answer": "I'll meet you at 10.30 in the hotel lobby.", "alts": ["I will meet you at 10.30 in the hotel lobby."], "vi": "Tôi sẽ gặp bạn ở sảnh khách sạn lúc 10 giờ rưỡi.", "exp": "Thoả thuận ngay lúc nói → will"},
+        {"context": "You have decided to sell your car. You tell a friend.", "hint": "I / sell it", "answer": "I'm going to sell it.", "alts": ["I am going to sell it.", "I'm going to sell my car."], "vi": "Tôi định bán nó.", "exp": "Đã quyết định → going to"},
+        {"context": "Your friend is worried that she has lost her driving licence.", "hint": "Don't worry. / I'm sure / you / find it", "answer": "Don't worry. I'm sure you'll find it.", "alts": ["I'm sure you'll find it.", "Don't worry. I'm sure you will find it."], "vi": "Đừng lo. Tôi chắc bạn sẽ tìm thấy nó.", "exp": "Dự đoán an ủi → will"},
+        {"context": "You have decided to throw away an old broken camera.", "hint": "I / throw it away", "answer": "I'm going to throw it away.", "alts": ["I am going to throw it away."], "vi": "Tôi định vứt nó đi.", "exp": "Đã quyết định → going to"},
+        {"context": "Your friend says he wants the old camera.", "hint": "OK / I / give it to you", "answer": "OK, I'll give it to you.", "alts": ["I'll give it to you.", "OK. I'll give it to you.", "OK, I will give it to you."], "vi": "Được, tôi cho bạn nó.", "exp": "Quyết định ngay → will"},
+        {"context": "Amy has already offered to take Paul to the airport. He tells a colleague who offers a lift.", "hint": "Thanks, but / Amy / take me", "answer": "Thanks, but Amy's going to take me.", "alts": ["Thanks, but Amy is going to take me.", "Amy's going to take me."], "vi": "Cảm ơn, nhưng Amy sẽ đưa tôi đi.", "exp": "Kế hoạch đã có → going to"}
+      ]
+    },
+    {
+      "id": "23.3", "kind": "match",
+      "title": "Match the sentences",
+      "instr": "Nối câu ở cột A với câu phù hợp ở cột B (chọn số 1–6).",
+      "left": [
+        {"k": "a", "en": "Why don't you come to the party with us?", "vi": "Sao bạn không đi dự tiệc với chúng tôi?"},
+        {"k": "b", "en": "That ceiling looks dangerous.", "vi": "Cái trần nhà đó trông nguy hiểm."},
+        {"k": "c", "en": "He's looking very tired.", "vi": "Anh ấy trông rất mệt."},
+        {"k": "d", "en": "This table is too big.", "vi": "Cái bàn này to quá."},
+        {"k": "e", "en": "The weather forecast is good.", "vi": "Dự báo thời tiết tốt."},
+        {"k": "f", "en": "Jack is very determined.", "vi": "Jack rất kiên quyết."}
+      ],
+      "right": [
+        {"n": "1", "en": "You'll enjoy it.", "vi": "Bạn sẽ thích cho xem."},
+        {"n": "2", "en": "It looks as if it's going to fall down.", "vi": "Có vẻ nó sắp rơi xuống."},
+        {"n": "3", "en": "I think he's going to fall asleep.", "vi": "Tôi nghĩ anh ấy sắp ngủ gục."},
+        {"n": "4", "en": "I don't think it will fit in the room.", "vi": "Tôi không nghĩ nó vừa phòng."},
+        {"n": "5", "en": "It's going to be a nice day.", "vi": "Sẽ là một ngày đẹp trời."},
+        {"n": "6", "en": "He'll get what he wants.", "vi": "Anh ấy sẽ đạt được điều mình muốn."}
+      ],
+      "ans": {"a": "1", "b": "2", "c": "3", "d": "4", "e": "5", "f": "6"}
+    },
+    {
+      "id": "23.4", "kind": "fill",
+      "title": "At work",
+      "instr": "Điền will hoặc going to (hoặc present continuous) cho hợp tình huống.",
+      "items": [
+        {"pre": "A: The printer isn't working! B: Really?", "suf": "IT now.", "hint": "I / call", "answer": "I'll call", "alts": ["I will call"], "vi": "A: Máy in hỏng rồi! B: Vậy à? Để tôi gọi bộ phận IT ngay.", "exp": "Quyết định ngay"},
+        {"pre": "A: Why do you have all those boxes? B:", "suf": "the office on Friday.", "hint": "we / move", "answer": "We're going to move", "alts": ["We are going to move", "We're moving", "We are moving"], "vi": "A: Sao bạn có nhiều thùng thế? B: Thứ Sáu chúng tôi chuyển văn phòng.", "exp": "Kế hoạch đã có"},
+        {"pre": "A: Can someone send the report to the client? B: OK,", "suf": "it now.", "hint": "I / send", "answer": "I'll send", "alts": ["I will send"], "vi": "A: Ai gửi báo cáo cho khách hàng giúp được không? B: Được, tôi gửi ngay.", "exp": "Tình nguyện ngay lúc nói"},
+        {"pre": "A: Are you busy this weekend? B: Yes,", "suf": "my sister.", "hint": "I / visit", "answer": "I'm visiting", "alts": ["I am visiting", "I'm going to visit", "I am going to visit"], "vi": "A: Cuối tuần bạn bận không? B: Có, tôi đi thăm chị gái.", "exp": "Kế hoạch đã sắp xếp"},
+        {"pre": "Look at the sales figures! The company", "suf": "a record profit.", "hint": "make", "answer": "is going to make", "alts": ["'s going to make"], "vi": "Nhìn số liệu bán hàng kìa! Công ty sắp đạt lợi nhuận kỷ lục.", "exp": "Có bằng chứng → going to"},
+        {"pre": "I haven't decided yet. I don't know what", "suf": "about my boss's request.", "hint": "I / do", "answer": "I'm going to do", "alts": ["I am going to do", "I'll do", "I will do"], "vi": "Tôi chưa quyết định. Tôi không biết sẽ làm gì với yêu cầu của sếp.", "exp": "Hỏi/nói về điều chưa quyết định"}
+      ]
+    }
+  ]
+}
