@@ -10,6 +10,7 @@
 Lỗi (❌) làm lệnh thoát mã 1. Cảnh báo (⚠️) cần sửa hoặc ghi lý do vào PR.
 Luật đầy đủ: docs/BUILD_RULES.md
 """
+import hashlib
 import json
 import re
 import sys
@@ -106,8 +107,12 @@ def check(src: Path):
     js = ROOT / "data" / (src.stem + ".js")
     if not js.exists():
         E(f"chưa có {js.relative_to(ROOT)}: chạy  uv run tools/build.py {d.get('id')}")
-    elif js.stat().st_mtime < src.stat().st_mtime:
-        E(f"{js.name} cũ hơn {src.name}: chạy  uv run tools/build.py {d.get('id')}")
+    else:
+        # so mã băm nội dung (không dùng thời gian file: sau git clone thời gian là ngẫu nhiên)
+        want = hashlib.sha1(src.read_bytes().replace(b"\r\n", b"\n")).hexdigest()[:12]
+        m2 = re.match(r"// src-sha1: (\w+)", js.read_text("utf-8"))
+        if not m2 or m2.group(1) != want:
+            E(f"{js.name} không khớp {src.name} (sửa JSON mà chưa build?): chạy  uv run tools/build.py {d.get('id')}")
     shell = ROOT / f"unit{d.get('id')}.html"
     if not shell.exists() or "assets/egiu-unit.js" not in shell.read_text("utf-8"):
         E(f"{shell.name} chưa phải bản vỏ V2 (copy unit1.html, đổi data-unit và <title>)")

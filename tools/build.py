@@ -10,6 +10,7 @@ Chạy:  uv run tools/build.py            (tất cả unit)
        uv run tools/build.py 1 23       (chỉ unit 1 và 23)
 Báo cáo từ cần soát lại: docs/ipa-review/unitNN.txt
 """
+import hashlib
 import json
 import re
 import sys
@@ -122,7 +123,9 @@ def build(src: Path):
     out = ROOT / "data" / (src.stem + ".js")
     out.parent.mkdir(exist_ok=True)
     body = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
-    out.write_text(f"window.EGIU_UNITS=window.EGIU_UNITS||{{}};window.EGIU_UNITS[{data['id']}]={body};\n", "utf-8")
+    # mã băm nội dung nguồn (bỏ khác biệt CRLF/LF) để check.py biết data/*.js có còn khớp không
+    digest = hashlib.sha1(src.read_bytes().replace(b"\r\n", b"\n")).hexdigest()[:12]
+    out.write_text(f"// src-sha1: {digest}\nwindow.EGIU_UNITS=window.EGIU_UNITS||{{}};window.EGIU_UNITS[{data['id']}]={body};\n", "utf-8")
     rep = ROOT / "docs" / "ipa-review"
     rep.mkdir(parents=True, exist_ok=True)
     lines = [f"# {src.stem}: IPA tự động (espeak en-GB → Cambridge). Soát nhanh các từ dưới đây.", ""]

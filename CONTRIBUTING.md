@@ -27,7 +27,14 @@ Mỗi người nhận unit, làm trên **nhánh riêng**, tự kiểm tra bằng
    git clone https://github.com/phamvietanh158-creator/English-Grammar-in-Use.git
    cd English-Grammar-in-Use
    ```
-4. Dùng **Microsoft Edge** để nghe thử (có giọng Natural UK/US tốt nhất).
+4. Khai báo tên/email git (máy mới thường chưa có; không có thì `git commit` báo lỗi):
+   ```bash
+   git config user.name "Tên của bạn"
+   git config user.email "email@cuaban.com"
+   ```
+   Lần `git push` đầu tiên Windows sẽ mở cửa sổ đăng nhập GitHub (Git Credential Manager), đăng nhập một lần là xong.
+5. Thử máy đã sẵn sàng: `uv run tools/check.py` phải in `✅ unit01.json: 0 lỗi`.
+6. Dùng **Microsoft Edge** để nghe thử (có giọng Natural UK/US tốt nhất).
 
 ### ① Nhận unit
 
@@ -93,6 +100,6 @@ Trên GitHub bấm **Compare & pull request**; điền mẫu PR (checklist). Đ�
 | Nhánh cũ, `main` đã có thay đổi mới | `git checkout unit-07` → `git merge main` |
 | `data/unit07.js` conflict | Không sửa tay: chạy lại `uv run tools/build.py 7` rồi commit |
 | Không nghe được giọng UK | Dùng Edge; hoặc Windows Settings → Time & language → Speech → thêm English (United Kingdom) |
-| `check.py` báo "cũ hơn" | Chạy `build.py N` sau mỗi lần sửa `unitNN.json` |
+| `check.py` báo "không khớp" | Chạy `build.py N` sau mỗi lần sửa `unitNN.json` |
 | File xuống dòng bị đổi (CRLF/LF) | `.gitattributes` đã ép LF; nếu vẫn lạ: `git add --renormalize .` |
 | Muốn thêm từ vào `ipa_overrides.json` | Được, nhưng phải đã tra Cambridge; dòng này dùng chung, nhớ `git pull` trước để khỏi conflict |
