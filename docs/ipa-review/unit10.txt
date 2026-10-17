@@ -1,0 +1,128 @@
+# unit10: IPA tự động (espeak en-GB → Cambridge). Soát nhanh các từ dưới đây.
+
+2	/ˈtuː/
+53	/ˈfɪfti/
+a	/ə/
+actor	/ˈæktə/
+ago	/əˈgəʊ/
+all	/ˈɔːl/
+amy	/ˈeɪmi/
+an	/ən/
+and	/ænd/
+any	/ˌeni/
+appeared	/əˈpiəd/
+arabic	/ˈærəˌbɪk/
+b	/ˈbiː/
+back	/ˈbæk/
+been	/ˌbiːn/
+book	/ˈbʊk/
+broken	/ˈbrəʊkən/
+brother	/ˈbrʌðər/
+camera	/ˈkæmrə/
+can	/kæn/
+caught	/ˈkɔːt/
+championship	/ˈtʃæmpiənˌʃɪp/
+college	/ˈkɒlɪdʒ/
+countries	/ˈkʌntriz/
+emails	/ˈiːmeɪlz/
+ever	/ˈevə/
+factory	/ˈfæktəri/
+far	/ˌfɑː/
+films	/ˈfɪlmz/
+fish	/ˈfɪʃ/
+five	/ˈfaɪv/
+for	/fɔː/
+four	/ˈfɔː/
+gone	/ˈgɒn/
+had	/hæd/
+hard	/ˈhɑːd/
+has	/həz/
+have	/hæv/
+haven't	/ˈhævənt/
+he	/ˈθriː/
+hours	/ˈaʊəz/
+how	/ˌhaʊ/
+i	/aɪ/
+in	/ɪn/
+invited	/ɪnˈvaɪtɪd/
+is	/ɪz/
+it	/ɪt/
+learning	/ˈlɜːnɪŋ/
+left	/ˈleft/
+lent	/ˈlent/
+lisa	/ˈliːsə/
+long	/ˈlɒŋ/
+look	/ˈlʊk/
+lost	/ˈlɒst/
+lots	/ˈlɒts/
+made	/ˌmeɪd/
+many	/ˈmeni/
+me	/ˌmiː/
+morning	/ˈmɔːnɪŋ/
+my	/maɪ/
+national	/ˈnæʃənəl/
+no	/ˈnəʊ/
+now	/ˈnaʊ/
+o'clock	/əˈklɒk/
+of	/ɒv/
+oh	/ˈəʊ/
+on	/ˌɒn/
+page	/ˈpeɪdʒ/
+pages	/ˈpeɪdʒɪz/
+patrick	/ˈpætrɪk/
+people	/ˈpiːpəl/
+phone	/ˈfəʊn/
+played	/ˈpleɪd/
+player	/ˈpleɪə/
+playing	/ˈpleɪɪŋ/
+rachel	/ˈreɪtʃəl/
+raining	/ˈreɪnɪŋ/
+read	/ˈred/
+reading	/ˈriːdɪŋ/
+right	/ˈraɪt/
+sent	/ˈsent/
+several	/ˈsevrəl/
+she	/ʃiː/
+since	/ˈsɪns/
+six	/ˈsɪks/
+so	/ˈsəʊ/
+somebody	/ˈsʌmbɒdi/
+started	/ˈstɑːtɪd/
+still	/ˈstɪl/
+stopped	/ˈstɒpt/
+teaching	/ˈtiːtʃɪŋ/
+tennis	/ˈtenɪs/
+that	/ðæt/
+that's	/ðæts/
+the	/ðə/
+they	/ðeɪ/
+they've	/ðeɪv/
+this	/ðɪs/
+three	/ˈθriː/
+times	/ˈtaɪmz/
+tired	/ˈtaɪəd/
+tom	/ˈtɒm/
+two	/ˈtuː/
+visited	/ˈvɪzɪtɪd/
+waiting	/ˈweɪtɪŋ/
+week	/ˈwiːk/
+where	/ˌweə/
+where's	/ˌweəz/
+window	/ˈwɪndəʊ/
+won	/ˈwʌn/
+worked	/ˈwɜːkt/
+working	/ˈwɜːkɪŋ/
+you	/juː/
+
+# Câu không ghép được từng từ (có số/viết tắt) — soát cả câu:
+I've known about the problem for a long time.
+Tom is now on page 53. He has read 53 pages so far.
+Rachel left home three months ago and is still travelling. She has been travelling for three months.
+Patrick has been playing tennis since he was ten.
+Lisa and Sue still make films. They have been making films since they left college.
+You're all wet and muddy. Have you been playing tennis in the rain?
+This is a very old book. I have had it since I was a child.
+Your eyes look tired. I have been watching TV all evening.
+You look as if you have been crying.
+The children are tired. They have been playing in the garden.
+I have been reading the book you lent me, but I haven't finished it.
