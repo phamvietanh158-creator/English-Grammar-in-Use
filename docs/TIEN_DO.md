@@ -14,9 +14,9 @@
 | Đợt | Nội dung | Điều kiện | Trạng thái |
 |-----|----------|-----------|:---------:|
 | 0 | Engine chung + công cụ `build.py`/`check.py` + unit 1 làm mẫu + bộ luật | | ✅ Xong |
-| **1** | **Unit 2–11** (Present/Past, Present perfect đầu) | Đợt 0 | 🟢 **Đang mở** |
-| **2** | **Unit 12–25** (Present perfect & past, Future) | Đợt 0 | 🟢 **Đang mở** |
-| **3** | **Unit 26–45** (Modals, if/wish, Passive) | Đợt 0 | 🟢 **Đang mở** |
+| **1** | **Unit 2–11** (Present/Past, Present perfect đầu) | Đợt 0 | ✅ Xong |
+| **2** | **Unit 12–25** (Present perfect & past, Future) | Đợt 0 | ✅ Xong |
+| **3** | **Unit 26–45** (Modals, if/wish, Passive) | Đợt 0 | ✅ Xong |
 | 4 | **Phần "Nền tảng"**: chuyển *Essential Grammar in Use* (115 unit, sách scan) thành phần học riêng A1–A2 | Chốt 3 unit mẫu (mục 4 của [KE_HOACH.md](KE_HOACH.md)) | 🔒 Chưa mở |
 | 5 | **Bài tập bổ sung từ sách Ms Hoa** (mục "Luyện tập thêm" cuối mỗi unit + Final test) | Đợt 1–3 xong ≥ 50% | 🔒 Chưa mở |
 | 6 | **MP3 UK/US sinh sẵn** (giọng đọc đồng nhất mọi máy, nghe offline) | Chạy song song được | 🔒 Chưa mở |
