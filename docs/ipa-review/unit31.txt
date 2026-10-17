@@ -1,0 +1,148 @@
+# unit31: IPA tự động (espeak en-GB → Cambridge). Soát nhanh các từ dưới đây.
+
+18	/ˈeɪtiːn/
+5	/ˈfaɪv/
+50	/ˈfɪfti/
+a	/ə/
+afraid	/əˈfreɪd/
+ages	/ˈeɪdʒɪz/
+am	/ˌeɪˈem/
+another	/əˈnʌðə/
+applications	/ˌæplɪˈkeɪʃənz/
+at	/æt/
+b	/ˈbiː/
+be	/biː/
+because	/bɪˈkɒz/
+busy	/ˈbɪzi/
+but	/ˌbʌt/
+by	/baɪ/
+call	/ˈkɔːl/
+can't	/kɑːnt/
+check	/ˈtʃek/
+climb	/ˈklaɪm/
+day	/ˈdeɪ/
+didn't	/ˈdɪdnt/
+diet	/ˈdaɪət/
+do	/ˈduː/
+does	/ˈdʌz/
+doesn't	/ˈdʌzənt/
+don't	/ˈdəʊnt/
+drive	/ˈdraɪv/
+early	/ˈɜːlɪ/
+eat	/ˈiːt/
+every	/ˈevrɪ/
+exam	/egˈzæm/
+for	/fɔː/
+forget	/fəˈget/
+four	/ˈfɔː/
+free	/ˈfriː/
+get	/get/
+give	/ˈgɪv/
+glasses	/ˈglæsɪz/
+go	/ˌgəʊ/
+has	/həz/
+have	/hæv/
+haven't	/ˈhævənt/
+he	/hiː/
+he's	/hiːz/
+her	/hɜː/
+here	/ˈhiər/
+his	/hɪz/
+holiday	/ˈhɒlɪˌdeɪ/
+hospital	/ˈhɒspɪtəl/
+i	/aɪ/
+i'd	/aɪd/
+i'm	/aɪm/
+in	/ɪn/
+injured	/ˈɪndʒəd/
+is	/ɪz/
+it's	/ɪts/
+job	/ˈdʒɒb/
+joe	/ˈdʒəʊ/
+kate	/ˈkeɪt/
+keep	/ˈkiːp/
+left	/ˈleft/
+lift	/ˈlɪft/
+likes	/ˈlaɪks/
+lisa	/ˈliːsə/
+long	/ˈlɒŋ/
+man	/ˈmæn/
+mark	/ˈmɑːk/
+may	/ˈmeɪ/
+means	/ˈmiːnz/
+meet	/ˈmiːt/
+miles	/ˈmaɪlz/
+minutes	/ˈmɪnɪts/
+much	/ˈmʌtʃ/
+must	/ˈmʌst/
+mustn't	/ˈmʌsənt/
+new	/ˈnjuː/
+nice	/ˈnaɪs/
+not	/ˌnɒt/
+now	/ˈnaʊ/
+of	/ɒv/
+on	/ˌɒn/
+one	/ˈwɒn/
+or	/ɔː/
+patrick	/ˈpætrɪk/
+phone	/ˈfəʊn/
+plenty	/ˈplenti/
+promised	/ˈprɒmɪst/
+reading	/ˈriːdɪŋ/
+really	/ˈriəlɪ/
+received	/rɪˈsiːvd/
+saturdays	/ˈsætəˌdeɪz/
+she	/ʃiː/
+should	/ˌʃʊd/
+slightly	/ˈslaɪtli/
+so	/ˌsəʊ/
+sophie	/ˈsəʊfi/
+spoken	/ˈspəʊkən/
+stairs	/ˈsteəz/
+starts	/ˈstɑːts/
+stay	/ˈsteɪ/
+street	/ˈstriːt/
+study	/ˈstʌdi/
+sue	/ˈsuː/
+ten	/ˈten/
+the	/ðə/
+there's	/ðeəz/
+these	/ðiːz/
+things	/ˈθɪŋz/
+time	/ˈtaɪm/
+to	/tə/
+tomorrow	/təˈmɒrəʊ/
+too	/ˈtuː/
+trying	/ˈtraɪɪŋ/
+turn	/ˈtɜːn/
+up	/ˌʌp/
+usually	/ˈjuːʒuːəli/
+very	/ˈveri/
+was	/wɒz/
+way	/ˈweɪ/
+we	/wiː/
+wear	/ˈweə/
+weekends	/wiːˈkendz/
+what	/wɒt/
+when	/ˌwen/
+which	/ˌwɪtʃ/
+will	/wɪl/
+work	/ˈwɜːk/
+yet	/ˈjet/
+you	/juː/
+
+# Câu không ghép được từng từ (có số/viết tắt) — soát cả câu:
+Last week Tina had to go to hospital.
+I had to leave early.
+We nearly missed the bus. We had to run to catch it.
+There was nobody to help me. I had to do everything myself.
+How old do you have to be to have a driving licence?
+There was a lot of noise. We had to close the window.
+Was the exhibition free, or did you have to pay to go in?
+There were no chairs. We had to stand for the whole concert.
+I didn't know the way, so I had to ask somebody.
+In many countries you have to be 18 to drive a car.
+I had to walk home.
+I had to work every Saturday.
+I had to go to the bank before it closed.
+You don't have to be a good player to enjoy tennis.

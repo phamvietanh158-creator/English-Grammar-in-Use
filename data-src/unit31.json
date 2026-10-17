@@ -1,0 +1,96 @@
+{
+  "id": 31,
+  "title": "have to and must",
+  "theory": {
+    "title": "have to and must",
+    "blocks": [
+      {
+        "h": "A · have to: bắt buộc do hoàn cảnh hoặc quy định",
+        "ex": [
+          {"en": "You **have to** turn left here. It's a one-way street.", "vi": "Bạn phải rẽ trái ở đây. Đây là đường một chiều."},
+          {"en": "I **have to** wear glasses for reading.", "vi": "Tôi phải đeo kính khi đọc."},
+          {"en": "Last week Tina **had to** go to hospital.", "vi": "Tuần trước Tina phải vào bệnh viện.", "note": "(quá khứ → had to)"},
+          {"en": "Does she **have to** work on Saturdays?", "vi": "Thứ Bảy cô ấy có phải đi làm không?", "note": "(nghi vấn, phủ định: do/does/did + have to)"}
+        ]
+      },
+      {
+        "h": "B · must: người nói tự thấy cần",
+        "ex": [
+          {"en": "I **must** phone Sue. I haven't spoken to her for ages.", "vi": "Tôi phải gọi cho Sue. Lâu rồi tôi chưa nói chuyện với cô ấy."},
+          {"en": "You **must** meet Mark. He's really nice.", "vi": "Bạn nhất định phải gặp Mark. Anh ấy rất dễ mến."},
+          {"en": "Applications **must** be received by 18 May.", "vi": "Hồ sơ phải được nhận trước ngày 18 tháng 5.", "note": "(quy định viết)"},
+          {"en": "I **had to** leave early.", "vi": "Tôi đã phải về sớm.", "note": "(quá khứ không dùng must)"}
+        ]
+      },
+      {
+        "h": "C · mustn't và don't have to: khác nhau hoàn toàn",
+        "table": {
+          "head": ["Dạng", "Nghĩa", "Ví dụ"],
+          "rows": [
+            ["mustn't", "không được phép", "You **mustn't** tell anyone. (= đừng nói với ai)"],
+            ["don't have to", "không cần, không bắt buộc", "You **don't have to** come. I can go alone."]
+          ]
+        },
+        "p": "**have got to** = have to (văn nói): I've got to work tomorrow."
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "31.1", "kind": "fill",
+      "title": "have to in the correct form",
+      "instr": "Điền have/has/had to + động từ gợi ý.",
+      "items": [
+        {"pre": "I don't have much time. I", "suf": "in ten minutes.", "hint": "go", "answer": "have to go", "vi": "Tôi không có nhiều thời gian. Mười phút nữa tôi phải đi.", "exp": "Hiện tại → have to go"},
+        {"pre": "A: I'm afraid I can't stay long. B: What time do", "suf": "?", "hint": "you / go", "answer": "you have to go", "vi": "A: Tiếc là tôi không ở lại lâu được. B: Mấy giờ bạn phải đi?", "exp": "Nghi vấn hiện tại → do you have to go"},
+        {"pre": "Joe starts at 5 am, which means he", "suf": "at four.", "hint": "get up", "answer": "has to get up", "vi": "Joe bắt đầu làm lúc 5 giờ sáng, nghĩa là anh ấy phải dậy lúc 4 giờ.", "exp": "Ngôi 3 → has to"},
+        {"pre": "We nearly missed the bus. We", "suf": "to catch it.", "hint": "run", "answer": "had to run", "vi": "Chúng tôi suýt lỡ xe buýt. Chúng tôi phải chạy mới kịp.", "exp": "Quá khứ → had to"},
+        {"pre": "Is Lisa usually free on Saturdays or does she", "suf": "?", "hint": "work", "answer": "have to work", "vi": "Thứ Bảy Lisa thường rảnh hay phải đi làm?", "exp": "does she have to work"},
+        {"pre": "There was nobody to help me. I", "suf": "everything myself.", "hint": "do", "answer": "had to do", "vi": "Không có ai giúp tôi. Tôi phải tự làm hết mọi thứ.", "exp": "Quá khứ → had to do"},
+        {"pre": "How old do you", "suf": "to have a driving licence?", "hint": "be", "answer": "have to be", "vi": "Phải bao nhiêu tuổi mới được lấy bằng lái xe?", "exp": "do you have to be"},
+        {"pre": "There was a lot of noise. We", "suf": "the window.", "hint": "close", "answer": "had to close", "vi": "Có nhiều tiếng ồn. Chúng tôi phải đóng cửa sổ.", "exp": "Quá khứ → had to close"},
+        {"pre": "Was the exhibition free, or did you", "suf": "to go in?", "hint": "pay", "answer": "have to pay", "vi": "Triển lãm miễn phí hay bạn phải trả tiền để vào?", "exp": "did you have to pay"}
+      ]
+    },
+    {
+      "id": "31.2", "kind": "fill",
+      "title": "have to: positive or negative",
+      "instr": "Điền have/has/had/will have to hoặc dạng phủ định.",
+      "items": [
+        {"pre": "A man was slightly injured, but he", "suf": "to hospital.", "hint": "not / go", "answer": "didn't have to go", "vi": "Một người đàn ông bị thương nhẹ nên không phải vào bệnh viện.", "exp": "Quá khứ phủ định → didn't have to"},
+        {"pre": "When Patrick starts his new job, he", "suf": "50 miles to work every day.", "hint": "drive", "answer": "will have to drive", "vi": "Khi bắt đầu công việc mới, Patrick sẽ phải lái xe 50 dặm mỗi ngày để đi làm.", "exp": "Tương lai → will have to"},
+        {"pre": "There were no chairs. We", "suf": "for the whole concert.", "hint": "stand", "answer": "had to stand", "vi": "Không có ghế. Chúng tôi phải đứng suốt buổi hoà nhạc.", "exp": "Quá khứ → had to"},
+        {"pre": "I didn't know the way, so I", "suf": "somebody.", "hint": "ask", "answer": "had to ask", "vi": "Tôi không biết đường nên phải hỏi người khác.", "exp": "Quá khứ → had to"},
+        {"pre": "Tomorrow is a holiday, so I", "suf": "get up early.", "hint": "not", "answer": "don't have to", "vi": "Mai là ngày nghỉ nên tôi không phải dậy sớm.", "exp": "don't have to = không cần"},
+        {"pre": "In many countries you", "suf": "be 18 to drive a car.", "hint": "have", "answer": "have to", "vi": "Ở nhiều nước bạn phải đủ 18 tuổi mới được lái xe.", "exp": "Quy định → have to"}
+      ]
+    },
+    {
+      "id": "31.3", "kind": "write",
+      "title": "Correct the mistakes",
+      "instr": "Mỗi câu dùng sai must. Viết lại thành câu đúng với had to hoặc have to.",
+      "items": [
+        {"context": "I couldn't get a taxi last night. I must walk home.", "hint": "walk", "answer": "I had to walk home.", "vi": "Tối qua tôi không bắt được taxi nên phải đi bộ về.", "exp": "Quá khứ → had to, không dùng must"},
+        {"context": "Tom isn't going out. He must study for his exam.", "hint": "study", "answer": "He has to study for his exam.", "alts": ["He's got to study for his exam.", "He must study for his exam."], "vi": "Tom không đi chơi. Anh ấy phải học cho kỳ thi.", "exp": "Bắt buộc do hoàn cảnh → has to"},
+        {"context": "The road is closed. We must go another way.", "hint": "go another way", "answer": "We have to go another way.", "alts": ["We've got to go another way.", "We must go another way."], "vi": "Đường bị chặn. Chúng ta phải đi đường khác.", "exp": "have to"},
+        {"context": "Last year I must work every Saturday.", "hint": "work", "answer": "I had to work every Saturday.", "vi": "Năm ngoái tôi phải đi làm mọi thứ Bảy.", "exp": "Quá khứ → had to"},
+        {"context": "Yesterday I must go to the bank before it closed.", "hint": "go", "answer": "I had to go to the bank before it closed.", "alts": ["I had to go to the bank."], "vi": "Hôm qua tôi phải đến ngân hàng trước khi nó đóng cửa.", "exp": "Quá khứ → had to"}
+      ]
+    },
+    {
+      "id": "31.4", "kind": "fill",
+      "title": "mustn't or don't have to?",
+      "instr": "Điền mustn't, don't have to hoặc doesn't have to.",
+      "items": [
+        {"pre": "There's a lift, so we", "suf": "climb the stairs.", "hint": "mustn't / don't have to", "answer": "don't have to", "vi": "Có thang máy nên chúng ta không phải leo cầu thang.", "exp": "Không cần"},
+        {"pre": "I promised Kate I'd call. I", "suf": "forget.", "hint": "mustn't / don't have to", "answer": "mustn't", "vi": "Tôi hứa sẽ gọi cho Kate. Tôi không được quên.", "exp": "Không được phép quên"},
+        {"pre": "I'm not very busy. I", "suf": "do these things now.", "hint": "mustn't / don't have to", "answer": "don't have to", "vi": "Tôi không bận lắm. Tôi không cần làm những việc này ngay.", "exp": "Không cần"},
+        {"pre": "Sophie likes weekends because she", "suf": "get up early.", "hint": "mustn't / doesn't have to", "answer": "doesn't have to", "vi": "Sophie thích cuối tuần vì cô ấy không phải dậy sớm.", "exp": "Không cần"},
+        {"pre": "You", "suf": "be a good player to enjoy tennis.", "hint": "mustn't / don't have to", "answer": "don't have to", "vi": "Bạn không cần chơi giỏi vẫn thích được quần vợt.", "exp": "Không bắt buộc"},
+        {"pre": "You should keep trying. You", "suf": "give up.", "hint": "mustn't / don't have to", "answer": "mustn't", "vi": "Bạn nên tiếp tục cố gắng. Đừng bỏ cuộc.", "exp": "Không được bỏ cuộc"},
+        {"pre": "I", "suf": "eat too much. I'm on a diet.", "hint": "mustn't / don't have to", "answer": "mustn't", "vi": "Tôi không được ăn nhiều. Tôi đang ăn kiêng.", "exp": "Bị cấm/không nên"},
+        {"pre": "We have plenty of time. We", "suf": "check in yet.", "hint": "mustn't / don't have to", "answer": "don't have to", "vi": "Chúng ta còn nhiều thời gian. Chưa cần làm thủ tục ngay.", "exp": "Không cần"}
+      ]
+    }
+  ]
+}
