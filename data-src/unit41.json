@@ -1,0 +1,97 @@
+{
+  "id": 41,
+  "title": "wish",
+  "theory": {
+    "title": "wish",
+    "blocks": [
+      {
+        "h": "A · wish somebody something và hope",
+        "ex": [
+          {"en": "**I wish you** a pleasant stay.", "vi": "Chúc bạn ở lại vui vẻ.", "note": "(wish + người + điều tốt đẹp = lời chúc)"},
+          {"en": "I **hope you enjoy** your stay.", "vi": "Tôi hy vọng bạn ở lại vui vẻ.", "note": "(không nói “I wish you enjoy”)"},
+          {"en": "I **hope** it doesn't rain tomorrow.", "vi": "Tôi hy vọng ngày mai trời không mưa.", "note": "(hope + việc có thể xảy ra)"}
+        ]
+      },
+      {
+        "h": "B · wish + past: tiếc về hiện tại; wish + had + V3: tiếc về quá khứ",
+        "ex": [
+          {"en": "I **wish I knew** what to do.", "vi": "Ước gì tôi biết phải làm gì.", "note": "(hiện tại: tôi không biết)"},
+          {"en": "I **wish you didn't have to** go so soon.", "vi": "Ước gì bạn không phải đi sớm vậy."},
+          {"en": "I **wish I hadn't said** it.", "vi": "Ước gì tôi đã không nói điều đó.", "note": "(quá khứ)"}
+        ]
+      },
+      {
+        "h": "C · wish + could / could have",
+        "ex": [
+          {"en": "I **wish you could stay** longer.", "vi": "Ước gì bạn có thể ở lại lâu hơn."},
+          {"en": "I **wish I could have gone** to the party.", "vi": "Ước gì tôi đã có thể đi dự tiệc.", "note": "(nhưng tôi không đi được)"}
+        ]
+      },
+      {
+        "h": "D · wish + would: muốn điều gì đó thay đổi, phàn nàn",
+        "ex": [
+          {"en": "I wish it **would stop** raining.", "vi": "Ước gì trời tạnh mưa."},
+          {"en": "I wish you **wouldn't keep** interrupting me.", "vi": "Ước gì bạn đừng cứ ngắt lời tôi."},
+          {"en": "I wish Sarah **would come**. / I wish Sarah **were** here now.", "vi": "Ước gì Sarah chịu đến. / Ước gì Sarah đang ở đây.", "note": "(wish + were để nói về trạng thái, không dùng would be)"}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "41.1", "kind": "fill",
+      "title": "wish or hope?",
+      "instr": "Điền wish, wished, hope hoặc hoped.",
+      "items": [
+        {"pre": "Enjoy your holiday. I", "suf": "you have a great time.", "hint": "wish / hope", "answer": "hope", "vi": "Chúc kỳ nghỉ vui vẻ. Tôi hy vọng bạn có khoảng thời gian tuyệt vời.", "exp": "hope + mệnh đề"},
+        {"pre": "Goodbye. I", "suf": "you all the best for the future.", "hint": "wish / hope", "answer": "wish", "vi": "Tạm biệt. Chúc bạn mọi điều tốt đẹp trong tương lai.", "exp": "wish + người + điều tốt đẹp"},
+        {"pre": "We said goodbye and", "suf": "each other luck.", "hint": "wished / hoped", "answer": "wished", "vi": "Chúng tôi chào tạm biệt và chúc nhau may mắn.", "exp": "wish somebody luck"},
+        {"pre": "We're having a picnic tomorrow. I", "suf": "the weather is nice.", "hint": "wish / hope", "answer": "hope", "vi": "Ngày mai chúng tôi đi dã ngoại. Tôi hy vọng thời tiết đẹp.", "exp": "hope + mệnh đề"},
+        {"pre": "Congratulations on your new job. I", "suf": "you every success.", "hint": "wish / hope", "answer": "wish", "vi": "Chúc mừng bạn có việc mới. Chúc bạn thành công.", "exp": "wish + người + điều tốt đẹp"},
+        {"pre": "Good luck in your new job. I", "suf": "it works out well for you.", "hint": "wish / hope", "answer": "hope", "vi": "Chúc may mắn với công việc mới. Tôi hy vọng mọi chuyện suôn sẻ.", "exp": "hope + mệnh đề"}
+      ]
+    },
+    {
+      "id": "41.2", "kind": "fill",
+      "title": "Complete the sentences",
+      "instr": "Điền dạng đúng sau wish: weren't, had told, had, decide, hadn't bought, didn't have, have gone.",
+      "items": [
+        {"pre": "I'm very tired. I wish I", "suf": "so tired.", "hint": "not / be", "answer": "weren't", "alts": ["wasn't"], "vi": "Tôi mệt quá. Ước gì tôi không mệt thế này.", "exp": "wish + past (hiện tại)"},
+        {"pre": "You didn't tell me you were ill. I wish you", "suf": "me.", "hint": "tell", "answer": "had told", "alts": ["'d told"], "vi": "Bạn không nói với tôi là bạn ốm. Ước gì bạn đã nói với tôi.", "exp": "wish + had + V3 (quá khứ)"},
+        {"pre": "I don't have enough free time. I wish I", "suf": "more free time.", "hint": "have", "answer": "had", "vi": "Tôi không có đủ thời gian rảnh. Ước gì tôi có nhiều thời gian hơn.", "exp": "wish + past"},
+        {"pre": "I can't make up my mind. I wish I could", "suf": ".", "hint": "decide", "answer": "decide", "vi": "Tôi không quyết định được. Ước gì tôi quyết định được.", "exp": "wish + could + V"},
+        {"pre": "I bought these shoes but I don't like them now. I wish I", "suf": "them.", "hint": "not / buy", "answer": "hadn't bought", "alts": ["had not bought"], "vi": "Tôi mua đôi giày này nhưng giờ không thích. Ước gì tôi đã không mua.", "exp": "wish + hadn't + V3"},
+        {"pre": "We have to go out now and I don't want to. I wish we", "suf": "to go out now.", "hint": "not / have", "answer": "didn't have", "alts": ["did not have"], "vi": "Chúng ta phải ra ngoài ngay mà tôi không muốn. Ước gì chúng ta không phải đi.", "exp": "wish + didn't have to"},
+        {"pre": "I couldn't go to the wedding last month. I wish I could", "suf": ".", "hint": "go", "answer": "have gone", "vi": "Tháng trước tôi không đi dự đám cưới được. Ước gì tôi đã có thể đi.", "exp": "wish + could have + V3"}
+      ]
+    },
+    {
+      "id": "41.3", "kind": "write",
+      "title": "I wish … would / wouldn't",
+      "instr": "Viết câu phàn nàn hoặc mong muốn thay đổi với wish + would / wouldn't.",
+      "items": [
+        {"context": "You're waiting for Jane. She's late and you're impatient.", "hint": "I wish / she / hurry up", "answer": "I wish she would hurry up.", "vi": "Ước gì cô ấy nhanh lên.", "exp": "wish + would"},
+        {"context": "You're looking for a job without success.", "hint": "I wish / somebody / give me a job", "answer": "I wish somebody would give me a job.", "vi": "Ước gì có ai cho tôi một công việc.", "exp": "wish + would"},
+        {"context": "A dog has been barking for a long time.", "hint": "I wish / it / stop barking", "answer": "I wish it would stop barking.", "vi": "Ước gì nó ngừng sủa.", "exp": "wish + would stop"},
+        {"context": "Your friend always drives very fast.", "hint": "I wish / you / not / drive so fast", "answer": "I wish you wouldn't drive so fast.", "vi": "Ước gì bạn đừng lái nhanh như vậy.", "exp": "wish + wouldn't"},
+        {"context": "Joe leaves the door open all the time.", "hint": "I wish / you / not / leave the door open", "answer": "I wish you wouldn't leave the door open.", "alts": ["I wish he wouldn't leave the door open."], "vi": "Ước gì bạn đừng để cửa mở hoài.", "exp": "wish + wouldn't"},
+        {"context": "People drop litter in the street.", "hint": "I wish / people / not / drop litter in the street", "answer": "I wish people wouldn't drop litter in the street.", "vi": "Ước gì mọi người đừng xả rác ngoài đường.", "exp": "wish + wouldn't"}
+      ]
+    },
+    {
+      "id": "41.4", "kind": "fill",
+      "title": "Put the verb into the correct form",
+      "instr": "Điền dạng đúng sau wish: past, had + V3, would hoặc could.",
+      "items": [
+        {"pre": "It's a difficult question. I wish I", "suf": "the answer.", "hint": "know", "answer": "knew", "vi": "Câu hỏi khó quá. Ước gì tôi biết đáp án.", "exp": "wish + past"},
+        {"pre": "I really didn't enjoy the party. I wish", "suf": ".", "hint": "we / not / go", "answer": "we hadn't gone", "vi": "Tôi không thích bữa tiệc chút nào. Ước gì chúng ta đã không đi.", "exp": "wish + hadn't + V3"},
+        {"pre": "I wish", "suf": ". We've been waiting for 20 minutes.", "hint": "the bus / come", "answer": "the bus would come", "vi": "Ước gì xe buýt đến. Chúng ta đợi 20 phút rồi.", "exp": "wish + would"},
+        {"pre": "You're lucky to be going away. I wish I", "suf": "with you.", "hint": "can / come", "answer": "could come", "vi": "Bạn may mắn được đi xa. Ước gì tôi đi cùng bạn được.", "exp": "wish + could"},
+        {"pre": "Our flat is small. I wish it", "suf": "a bit bigger.", "hint": "be", "answer": "were", "alts": ["was"], "vi": "Căn hộ của chúng tôi nhỏ. Ước gì nó rộng hơn một chút.", "exp": "wish + were"},
+        {"pre": "I should have listened to you. I wish I", "suf": "your advice.", "hint": "take", "answer": "had taken", "alts": ["'d taken"], "vi": "Lẽ ra tôi nên nghe bạn. Ước gì tôi đã làm theo lời khuyên của bạn.", "exp": "wish + had + V3"},
+        {"pre": "You keep interrupting! I wish", "suf": ".", "hint": "you / listen", "answer": "you would listen", "vi": "Bạn cứ ngắt lời! Ước gì bạn chịu nghe.", "exp": "wish + would"},
+        {"pre": "You're always complaining. I wish", "suf": "all the time.", "hint": "you / not / complain", "answer": "you wouldn't complain", "vi": "Bạn lúc nào cũng phàn nàn. Ước gì bạn đừng phàn nàn mãi.", "exp": "wish + wouldn't"}
+      ]
+    }
+  ]
+}
