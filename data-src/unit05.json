@@ -1,0 +1,131 @@
+{
+  "id": 5,
+  "title": "Past simple (I did)",
+  "theory": {
+    "title": "Past simple (I did)",
+    "blocks": [
+      {
+        "h": "A · Công thức",
+        "table": {
+          "head": ["Dạng", "Cấu trúc", "Ví dụ"],
+          "rows": [
+            ["Khẳng định", "S + V-ed (hoặc V bất quy tắc)", "She **worked** late. / He **went** home."],
+            ["Phủ định", "S + did not (didn't) + V", "I **didn't enjoy** the film."],
+            ["Nghi vấn", "Did + S + V?", "**Did** you go out last night?"]
+          ]
+        }
+      },
+      {
+        "h": "B · Khi nào dùng?",
+        "p": "Dùng past simple cho hành động đã xảy ra và đã kết thúc ở một thời điểm trong quá khứ (yesterday, last week, in 2019, two years ago…).",
+        "ex": [
+          {"en": "Mozart **wrote** more than 600 pieces of music.", "vi": "Mozart đã viết hơn 600 tác phẩm âm nhạc."},
+          {"en": "We **didn't go** out last night. We stayed at home.", "vi": "Tối qua chúng tôi không đi đâu cả. Chúng tôi ở nhà."},
+          {"en": "**Did** the meeting **finish** on time?", "vi": "Cuộc họp có kết thúc đúng giờ không?"}
+        ]
+      },
+      {
+        "h": "C · Động từ có quy tắc (thêm -ed)",
+        "table": {
+          "head": ["Quy tắc", "Ví dụ"],
+          "rows": [
+            ["Hầu hết động từ: thêm -ed", "work → worked, start → started"],
+            ["Tận cùng -e: chỉ thêm -d", "live → lived, invite → invited"],
+            ["Phụ âm + y: đổi y thành -ied", "study → studied, try → tried"],
+            ["1 âm tiết, phụ âm + nguyên âm + phụ âm: gấp đôi phụ âm cuối", "stop → stopped, plan → planned"]
+          ]
+        }
+      },
+      {
+        "h": "D · Động từ bất quy tắc (irregular)",
+        "p": "Phải học thuộc. Một số động từ thường gặp:",
+        "table": {
+          "head": ["Nguyên mẫu", "Quá khứ"],
+          "rows": [
+            ["write, see, go", "wrote, saw, went"],
+            ["buy, catch, teach", "bought, caught, taught"],
+            ["fall, throw, fly", "fell, threw, flew"],
+            ["sell, spend, leave, sleep", "sold, spent, left, slept"],
+            ["hurt, cost, put, cut (không đổi)", "hurt, cost, put, cut"]
+          ]
+        }
+      },
+      {
+        "h": "E · was / were (quá khứ của be)",
+        "p": "**was** dùng với I / he / she / it; **were** dùng với we / you / they. Câu hỏi và phủ định của be **không** dùng did.",
+        "ex": [
+          {"en": "I **was** annoyed because they **were** late.", "vi": "Tôi bực vì họ đến muộn."},
+          {"en": "**Was** the weather good? — It **wasn't** bad.", "vi": "Thời tiết có tốt không? — Cũng không tệ."}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "5.1", "kind": "fill",
+      "title": "Laura's day yesterday",
+      "instr": "Điền dạng quá khứ của động từ trong ngoặc: khẳng định hoặc phủ định, theo ngữ cảnh.",
+      "items": [
+        {"pre": "Laura", "suf": "up at 7 o'clock.", "hint": "get", "answer": "got", "vi": "Laura thức dậy lúc 7 giờ.", "exp": "get up → got up (bất quy tắc)"},
+        {"pre": "She", "suf": "a big breakfast.", "hint": "have", "answer": "had", "vi": "Cô ấy ăn sáng thịnh soạn.", "exp": "have → had"},
+        {"pre": "It was a nice morning, so she", "suf": "to work.", "hint": "walk", "answer": "walked", "vi": "Buổi sáng đẹp trời nên cô ấy đi bộ đến chỗ làm.", "exp": "walk → walked (có quy tắc)"},
+        {"pre": "It", "suf": "her about half an hour to get to work.", "hint": "take", "answer": "took", "vi": "Cô ấy mất khoảng nửa tiếng để đến chỗ làm.", "exp": "take → took"},
+        {"pre": "She", "suf": "work at 8.45.", "hint": "start", "answer": "started", "vi": "Cô ấy bắt đầu làm việc lúc 8 giờ 45.", "exp": "start → started"},
+        {"pre": "She was very busy, so she", "suf": "lunch.", "hint": "not / have", "answer": "didn't have", "vi": "Cô ấy bận quá nên không ăn trưa.", "exp": "Phủ định: didn't + have (nguyên mẫu)"},
+        {"pre": "She", "suf": "work at 5 o'clock.", "hint": "finish", "answer": "finished", "vi": "Cô ấy tan làm lúc 5 giờ.", "exp": "finish → finished"},
+        {"pre": "She", "suf": "tired when she got home.", "hint": "be", "answer": "was", "vi": "Về đến nhà cô ấy thấy mệt.", "exp": "be → was (ngôi 3 số ít)"},
+        {"pre": "She", "suf": "a meal yesterday evening.", "hint": "cook", "answer": "cooked", "vi": "Tối qua cô ấy nấu bữa tối.", "exp": "cook → cooked"},
+        {"pre": "She was too tired, so she", "suf": "out yesterday evening.", "hint": "not / go", "answer": "didn't go", "vi": "Cô ấy mệt quá nên tối qua không đi đâu.", "exp": "Phủ định: didn't + go (không dùng went)"},
+        {"pre": "She", "suf": "to bed at 11 o'clock.", "hint": "go", "answer": "went", "vi": "Cô ấy đi ngủ lúc 11 giờ.", "exp": "go → went"},
+        {"pre": "She", "suf": "well last night.", "hint": "sleep", "answer": "slept", "vi": "Đêm qua cô ấy ngủ ngon.", "exp": "sleep → slept"}
+      ]
+    },
+    {
+      "id": "5.2", "kind": "fill",
+      "title": "Irregular verbs",
+      "instr": "Điền dạng quá khứ của một trong các động từ: buy, catch, cost, fall, hurt, sell, spend, teach, throw, write.",
+      "items": [
+        {"pre": "Mozart", "suf": "more than 600 pieces of music.", "hint": "write", "answer": "wrote", "vi": "Mozart đã viết hơn 600 tác phẩm âm nhạc.", "exp": "write → wrote"},
+        {"pre": "My father", "suf": "me to drive.", "hint": "teach", "answer": "taught", "vi": "Bố tôi dạy tôi lái xe.", "exp": "teach → taught"},
+        {"pre": "We couldn't afford to keep our car, so we", "suf": "it.", "hint": "sell", "answer": "sold", "vi": "Chúng tôi không đủ tiền giữ xe nên đã bán nó.", "exp": "sell → sold"},
+        {"pre": "Dave", "suf": "down the stairs and hurt his leg.", "hint": "fall", "answer": "fell", "vi": "Dave ngã cầu thang và bị đau chân.", "exp": "fall → fell"},
+        {"pre": "Joe", "suf": "the ball to Sue, who caught it.", "hint": "throw", "answer": "threw", "vi": "Joe ném quả bóng cho Sue, và Sue bắt được.", "exp": "throw → threw"},
+        {"pre": "Kate", "suf": "a lot of money yesterday.", "hint": "spend", "answer": "spent", "vi": "Hôm qua Kate đã tiêu rất nhiều tiền.", "exp": "spend → spent"},
+        {"pre": "She", "suf": "a dress that cost a lot.", "hint": "buy", "answer": "bought", "vi": "Cô ấy mua một chiếc váy rất đắt.", "exp": "buy → bought"},
+        {"pre": "Sam threw the ball to Joe, who", "suf": "it with one hand.", "hint": "catch", "answer": "caught", "vi": "Sam ném bóng cho Joe và Joe bắt được bằng một tay.", "exp": "catch → caught"},
+        {"pre": "The new laptop", "suf": "me £800.", "hint": "cost", "answer": "cost", "vi": "Chiếc laptop mới giá 800 bảng.", "exp": "cost → cost (không đổi)"},
+        {"pre": "I fell off my bike yesterday and", "suf": "my knee.", "hint": "hurt", "answer": "hurt", "vi": "Hôm qua tôi ngã xe đạp và bị đau đầu gối.", "exp": "hurt → hurt (không đổi)"}
+      ]
+    },
+    {
+      "id": "5.3", "kind": "write",
+      "title": "Questions about a holiday",
+      "instr": "James vừa đi nghỉ ở Mỹ về. Bạn hỏi anh ấy bằng past simple theo gợi ý.",
+      "items": [
+        {"context": "He went to the US, from San Francisco to Denver.", "hint": "where / go", "answer": "Where did you go?", "vi": "Bạn đã đi những đâu?", "exp": "Where + did + you + go?"},
+        {"context": "He hired a car in San Francisco.", "hint": "how / travel", "answer": "How did you travel?", "alts": ["How did you get around?"], "vi": "Bạn di chuyển bằng gì?", "exp": "How + did + you + travel?"},
+        {"context": "It took two weeks.", "hint": "how long / the trip / take", "answer": "How long did the trip take?", "alts": ["How long did it take?"], "vi": "Chuyến đi kéo dài bao lâu?", "exp": "How long + did + the trip + take?"},
+        {"context": "He stayed at small hotels and motels.", "hint": "where / you / stay", "answer": "Where did you stay?", "vi": "Bạn ở những đâu?", "exp": "Where + did + you + stay?"},
+        {"context": "The weather was great.", "hint": "the weather / good", "answer": "Was the weather good?", "alts": ["Was the weather nice?", "Was the weather great?"], "vi": "Thời tiết có tốt không?", "exp": "be dùng Was, không dùng did"},
+        {"context": "He visited the Grand Canyon.", "hint": "you / visit / the Grand Canyon", "answer": "Did you visit the Grand Canyon?", "vi": "Bạn có đến thăm Grand Canyon không?", "exp": "Did + you + visit …?"}
+      ]
+    },
+    {
+      "id": "5.4", "kind": "fill",
+      "title": "Positive or negative?",
+      "instr": "Đọc ngữ cảnh rồi điền động từ ở dạng khẳng định hoặc phủ định past simple.",
+      "items": [
+        {"pre": "It was warm, so I", "suf": "my coat.", "hint": "take off", "answer": "took off", "vi": "Trời ấm nên tôi cởi áo khoác ra.", "exp": "Khẳng định: take off → took off"},
+        {"pre": "The film wasn't very good. I", "suf": "it much.", "hint": "enjoy", "answer": "didn't enjoy", "vi": "Bộ phim không hay lắm. Tôi không thích nó mấy.", "exp": "Phủ định: phim không hay → didn't enjoy"},
+        {"pre": "I knew Sarah was busy, so I", "suf": "her.", "hint": "disturb", "answer": "didn't disturb", "vi": "Tôi biết Sarah đang bận nên không làm phiền cô ấy.", "exp": "Phủ định: didn't disturb"},
+        {"pre": "We were very tired, so we", "suf": "the party early.", "hint": "leave", "answer": "left", "vi": "Chúng tôi mệt quá nên rời bữa tiệc sớm.", "exp": "Khẳng định: leave → left"},
+        {"pre": "It was hard carrying the bags. They", "suf": "really heavy.", "hint": "be", "answer": "were", "vi": "Xách mấy cái túi rất vất vả. Chúng nặng thật.", "exp": "be → were (they)"},
+        {"pre": "The bed was very uncomfortable. I", "suf": "well.", "hint": "sleep", "answer": "didn't sleep", "vi": "Giường rất khó chịu nên tôi ngủ không ngon.", "exp": "Phủ định: didn't sleep"},
+        {"pre": "This watch wasn't expensive. It", "suf": "much.", "hint": "cost", "answer": "didn't cost", "vi": "Chiếc đồng hồ này không đắt. Nó không tốn bao nhiêu.", "exp": "Phủ định: didn't cost"},
+        {"pre": "The window was open and a bird", "suf": "into the room.", "hint": "fly", "answer": "flew", "vi": "Cửa sổ mở và một con chim bay vào phòng.", "exp": "Khẳng định: fly → flew"},
+        {"pre": "I was in a hurry, so I", "suf": "time to call you.", "hint": "have", "answer": "didn't have", "vi": "Tôi vội quá nên không có thời gian gọi cho bạn.", "exp": "Phủ định: didn't have"},
+        {"pre": "I didn't like the hotel. The room", "suf": "very clean.", "hint": "be", "answer": "wasn't", "vi": "Tôi không thích khách sạn đó. Phòng không sạch lắm.", "exp": "be phủ định → wasn't (không dùng didn't)", "alts": ["was not"]}
+      ]
+    }
+  ]
+}
