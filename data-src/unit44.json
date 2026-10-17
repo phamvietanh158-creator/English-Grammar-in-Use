@@ -1,0 +1,102 @@
+{
+  "id": 44,
+  "title": "Passive 3",
+  "theory": {
+    "title": "Passive 3",
+    "blocks": [
+      {
+        "h": "A · Động từ có hai tân ngữ: give, offer, show, tell, ask, pay",
+        "p": "Có thể chuyển một trong hai tân ngữ lên làm chủ ngữ. Thường ta chọn **người** làm chủ ngữ.",
+        "ex": [
+          {"en": "My grandfather gave me this watch. → I **was given** this watch.", "vi": "Ông tôi tặng tôi chiếc đồng hồ này. → Tôi được tặng chiếc đồng hồ này."},
+          {"en": "I've **been offered** the job, but I don't think I want it.", "vi": "Tôi được mời nhận việc đó nhưng tôi không nghĩ mình muốn."},
+          {"en": "You will **be given** plenty of time to decide.", "vi": "Bạn sẽ có nhiều thời gian để quyết định."},
+          {"en": "Tim **is paid** a lot of money to do very little.", "vi": "Tim được trả nhiều tiền để làm rất ít việc."}
+        ]
+      },
+      {
+        "h": "B · being + V3 (sau giới từ và một số động từ)",
+        "ex": [
+          {"en": "I don't like **being told** what to do.", "vi": "Tôi không thích bị người khác bảo phải làm gì."},
+          {"en": "I remember **being taken** to the zoo as a child.", "vi": "Tôi nhớ hồi nhỏ được đưa đi sở thú."},
+          {"en": "We climbed over the wall without **being seen**.", "vi": "Chúng tôi trèo qua tường mà không bị ai thấy."}
+        ]
+      },
+      {
+        "h": "C · be born",
+        "ex": [
+          {"en": "I **was born** in Chicago.", "vi": "Tôi sinh ra ở Chicago.", "note": "(quá khứ → was born)"},
+          {"en": "Where **were** you **born**?", "vi": "Bạn sinh ra ở đâu?"},
+          {"en": "How many babies **are born** every day?", "vi": "Mỗi ngày có bao nhiêu em bé chào đời?", "note": "(sự thật chung → are born)"}
+        ]
+      },
+      {
+        "h": "D · get + V3 (bị động thân mật)",
+        "p": "Dùng **get** cho sự việc xảy ra (không dùng cho trạng thái).",
+        "ex": [
+          {"en": "Nobody **got hurt**.", "vi": "Không ai bị thương."},
+          {"en": "I don't **get invited** to many parties.", "vi": "Tôi ít khi được mời đến tiệc."},
+          {"en": "Jessica **is liked** by everybody.", "vi": "Ai cũng quý Jessica.", "note": "(trạng thái → không dùng gets liked)"}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "44.1", "kind": "fill",
+      "title": "Two-object verbs in the passive",
+      "instr": "Điền dạng bị động của give, tell, pay, show, ask, offer.",
+      "items": [
+        {"pre": "Amy retired. She", "suf": "a present by her colleagues.", "hint": "give", "answer": "was given", "vi": "Amy nghỉ hưu. Cô ấy được đồng nghiệp tặng một món quà.", "exp": "was given"},
+        {"pre": "I didn't know there was a meeting yesterday. I", "suf": "about it.", "hint": "not / tell", "answer": "wasn't told", "alts": ["was not told"], "vi": "Tôi không biết hôm qua có cuộc họp. Không ai nói cho tôi biết.", "exp": "wasn't told"},
+        {"pre": "Sarah's salary is very low. I don't understand why she", "suf": "so little.", "hint": "pay", "answer": "is paid", "vi": "Lương của Sarah rất thấp. Tôi không hiểu sao cô ấy được trả ít vậy.", "exp": "is paid"},
+        {"pre": "You'll need to use this machine. Have you", "suf": "how it works?", "hint": "show", "answer": "been shown", "vi": "Bạn sẽ cần dùng máy này. Bạn đã được hướng dẫn cách vận hành chưa?", "exp": "have you been shown"},
+        {"pre": "I had an interview. I", "suf": "some very hard questions.", "hint": "ask", "answer": "was asked", "vi": "Tôi có buổi phỏng vấn. Tôi bị hỏi một số câu rất khó.", "exp": "was asked"},
+        {"pre": "They didn't tell us much about the project. We", "suf": "enough information.", "hint": "not / give", "answer": "weren't given", "alts": ["were not given"], "vi": "Họ không nói nhiều về dự án. Chúng tôi không được cung cấp đủ thông tin.", "exp": "weren't given"},
+        {"pre": "I was surprised to get the job. I didn't expect", "suf": "it.", "hint": "offer", "answer": "to be offered", "vi": "Tôi ngạc nhiên khi nhận được việc. Tôi không ngờ được mời.", "exp": "expect + to be + V3"}
+      ]
+    },
+    {
+      "id": "44.2", "kind": "fill",
+      "title": "being + verb",
+      "instr": "Điền being + V3: invited, given, knocked down, bitten, treated, stuck.",
+      "items": [
+        {"pre": "We went to the wedding without", "suf": ".", "hint": "invite", "answer": "being invited", "vi": "Chúng tôi đến đám cưới mà không được mời.", "exp": "without + being + V3"},
+        {"pre": "I like giving presents and I also like", "suf": "them.", "hint": "give", "answer": "being given", "vi": "Tôi thích tặng quà và cũng thích được tặng quà.", "exp": "like + being + V3"},
+        {"pre": "I don't like crossing that road. I'm afraid of", "suf": ".", "hint": "knock down", "answer": "being knocked down", "vi": "Tôi không thích băng qua con đường đó. Tôi sợ bị xe đâm.", "exp": "afraid of + being + V3"},
+        {"pre": "How do you avoid", "suf": "by mosquitoes?", "hint": "bite", "answer": "being bitten", "vi": "Làm sao bạn tránh bị muỗi đốt?", "exp": "avoid + being + V3"},
+        {"pre": "I'm an adult. I don't like", "suf": "like a child.", "hint": "treat", "answer": "being treated", "vi": "Tôi là người lớn. Tôi không thích bị đối xử như trẻ con.", "exp": "like + being + V3"},
+        {"pre": "You can't do anything about", "suf": "in a traffic jam.", "hint": "stick", "answer": "being stuck", "vi": "Bạn không thể làm gì được khi bị kẹt xe.", "exp": "about + being + V3"}
+      ]
+    },
+    {
+      "id": "44.3", "kind": "fill",
+      "title": "get + V3",
+      "instr": "Điền get/got + V3: stung, used, stolen, paid, broken, asked, stopped.",
+      "items": [
+        {"pre": "Alex", "suf": "by a bee in the garden.", "hint": "sting", "answer": "got stung", "vi": "Alex bị ong đốt ngoài vườn.", "exp": "got + V3"},
+        {"pre": "These tennis courts don't", "suf": "very often.", "hint": "use", "answer": "get used", "vi": "Những sân quần vợt này ít khi được sử dụng.", "exp": "don't get + V3"},
+        {"pre": "I used to have a bike, but it", "suf": "a few months ago.", "hint": "steal", "answer": "got stolen", "vi": "Trước đây tôi có một chiếc xe đạp nhưng mấy tháng trước nó bị trộm.", "exp": "got stolen"},
+        {"pre": "Rachel works hard, but she doesn't", "suf": "very much.", "hint": "pay", "answer": "get paid", "vi": "Rachel làm việc chăm chỉ nhưng không được trả nhiều.", "exp": "doesn't get paid"},
+        {"pre": "Please pack these carefully. I don't want anything to", "suf": ".", "hint": "break", "answer": "get broken", "vi": "Làm ơn đóng gói cẩn thận. Tôi không muốn thứ gì bị vỡ.", "exp": "get broken"},
+        {"pre": "People often ask what my job is. I", "suf": "that question a lot.", "hint": "ask", "answer": "get asked", "vi": "Mọi người hay hỏi tôi làm nghề gì. Tôi hay bị hỏi câu đó.", "exp": "get asked"},
+        {"pre": "Last night I", "suf": "by the police as I was driving home.", "hint": "stop", "answer": "got stopped", "vi": "Tối qua tôi bị cảnh sát chặn khi đang lái xe về nhà.", "exp": "got stopped"}
+      ]
+    },
+    {
+      "id": "44.4", "kind": "fill",
+      "title": "Complete the sentences",
+      "instr": "Điền một từ: were, given, lost, being, get, was, weren't.",
+      "items": [
+        {"pre": "Which year", "suf": "you born in?", "hint": "was / were", "answer": "were", "vi": "Bạn sinh năm nào?", "exp": "were you born"},
+        {"pre": "I haven't been", "suf": "any information yet.", "hint": "give", "answer": "given", "vi": "Tôi chưa được cung cấp thông tin gì.", "exp": "haven't been given"},
+        {"pre": "I didn't know the way, so I got", "suf": ".", "hint": "lose", "answer": "lost", "vi": "Tôi không biết đường nên bị lạc.", "exp": "get lost"},
+        {"pre": "He doesn't like", "suf": "interrupted when he's speaking.", "hint": "be", "answer": "being", "vi": "Anh ấy không thích bị ngắt lời khi đang nói.", "exp": "like + being + V3"},
+        {"pre": "How did the window", "suf": "broken? What happened?", "hint": "get", "answer": "get", "vi": "Cửa sổ vỡ như thế nào? Chuyện gì đã xảy ra?", "exp": "get broken"},
+        {"pre": "She's a voluntary worker. She doesn't", "suf": "paid.", "hint": "get", "answer": "get", "vi": "Cô ấy là tình nguyện viên. Cô ấy không được trả lương.", "exp": "doesn't get paid"},
+        {"pre": "I", "suf": "born in a small town in the north.", "hint": "was / am", "answer": "was", "vi": "Tôi sinh ra ở một thị trấn nhỏ phía bắc.", "exp": "was born"},
+        {"pre": "We had to do what we did. We", "suf": "given any choice.", "hint": "were / weren't", "answer": "weren't", "alts": ["were not"], "vi": "Chúng tôi buộc phải làm như vậy. Chúng tôi không có sự lựa chọn nào.", "exp": "weren't given"}
+      ]
+    }
+  ]
+}
