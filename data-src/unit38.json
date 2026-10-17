@@ -1,0 +1,86 @@
+{
+  "id": 38,
+  "title": "if I do ... and if I did ...",
+  "theory": {
+    "title": "if I do ... and if I did ...",
+    "blocks": [
+      {
+        "h": "A · if + present → will: việc có thể xảy ra",
+        "ex": [
+          {"en": "If we **take** the bus, it **will be** cheaper.", "vi": "Nếu chúng ta đi xe buýt thì sẽ rẻ hơn.", "note": "(có thể thật sự xảy ra)"},
+          {"en": "If I **see** Sarah, I'**ll tell** her to call you.", "vi": "Nếu gặp Sarah, tôi sẽ nhắn cô ấy gọi cho bạn.", "note": "(tôi hay gặp cô ấy)"}
+        ]
+      },
+      {
+        "h": "B · if + past → would: tưởng tượng, không có thật hoặc không kỳ vọng",
+        "ex": [
+          {"en": "If we **took** the bus, it **would be** cheaper.", "vi": "Nếu chúng ta đi xe buýt thì sẽ rẻ hơn.", "note": "(nhưng chúng ta không định đi)"},
+          {"en": "If you **found** a wallet, what **would you do**?", "vi": "Nếu bạn nhặt được một chiếc ví, bạn sẽ làm gì?"},
+          {"en": "I'd be scared if somebody **pointed** a gun at me.", "vi": "Tôi sẽ sợ nếu có ai chĩa súng vào tôi."}
+        ],
+        "p": "Không dùng would trong mệnh đề if: không nói “if I would go”."
+      },
+      {
+        "h": "C · could và might trong mệnh đề kết quả",
+        "ex": [
+          {"en": "If I **won** a lot of money, I **might buy** a house.", "vi": "Nếu trúng nhiều tiền, có thể tôi sẽ mua nhà.", "note": "(might = có lẽ sẽ)"},
+          {"en": "If it **stopped** raining, we **could go** out.", "vi": "Nếu tạnh mưa thì chúng ta có thể ra ngoài.", "note": "(could = có thể)"}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "38.1", "kind": "fill",
+      "title": "Complete with a past form",
+      "instr": "Điền dạng quá khứ của động từ: drop, lose, happen, go, do, be.",
+      "items": [
+        {"pre": "Be careful with that vase. If you", "suf": "it, it would break.", "hint": "drop", "answer": "dropped", "vi": "Cẩn thận cái bình đó. Nếu làm rơi nó sẽ vỡ.", "exp": "if + past simple"},
+        {"pre": "This notebook is important. I'd be upset if I", "suf": "it.", "hint": "lose", "answer": "lost", "vi": "Cuốn sổ này quan trọng. Tôi sẽ buồn nếu làm mất nó.", "exp": "if + past simple"},
+        {"pre": "If that", "suf": ", I'd have to find another job.", "hint": "happen", "answer": "happened", "vi": "Nếu chuyện đó xảy ra, tôi sẽ phải tìm việc khác.", "exp": "if + past simple"},
+        {"pre": "If we", "suf": "to Italy, would you come with us?", "hint": "go", "answer": "went", "vi": "Nếu chúng tôi đi Ý, bạn có đi cùng không?", "exp": "if + past simple"},
+        {"pre": "I'd be surprised if he", "suf": "the exam.", "hint": "fail", "answer": "failed", "vi": "Tôi sẽ ngạc nhiên nếu anh ấy trượt kỳ thi.", "exp": "if + past simple"},
+        {"pre": "If there", "suf": "a fire, would you know how to escape?", "hint": "be", "answer": "was", "alts": ["were"], "vi": "Nếu có hoả hoạn, bạn có biết cách thoát ra không?", "exp": "if + was/were"}
+      ]
+    },
+    {
+      "id": "38.2", "kind": "fill",
+      "title": "Real or unreal?",
+      "instr": "Điền dạng đúng: present simple (việc có thể xảy ra) hoặc past simple (tưởng tượng).",
+      "items": [
+        {"pre": "You're not going to sell your car. It's old. If I", "suf": "it, I wouldn't get much money.", "hint": "sell", "answer": "sold", "vi": "Tôi không định bán xe. Nó cũ rồi. Nếu bán, tôi cũng chẳng được bao nhiêu.", "exp": "Không định bán → if + past"},
+        {"pre": "I often see Sarah. If I", "suf": "her, I'll tell her to call you.", "hint": "see", "answer": "see", "vi": "Tôi hay gặp Sarah. Nếu gặp, tôi sẽ nhắn cô ấy gọi cho bạn.", "exp": "Có khả năng thật → if + present"},
+        {"pre": "You don't expect a fire in the building. What would you do if there", "suf": "a fire?", "hint": "be", "answer": "was", "alts": ["were"], "vi": "Bạn không nghĩ toà nhà sẽ cháy. Nếu có cháy bạn sẽ làm gì?", "exp": "Không kỳ vọng → if + past"},
+        {"pre": "You have never lost your passport. What would you do if you", "suf": "it?", "hint": "lose", "answer": "lost", "vi": "Bạn chưa từng mất hộ chiếu. Nếu mất bạn sẽ làm gì?", "exp": "Chỉ tưởng tượng → if + past"},
+        {"pre": "Someone asks the way to a bank. If you", "suf": "right at the lights, you'll see it.", "hint": "go", "answer": "go", "vi": "Có người hỏi đường đến ngân hàng. Nếu bạn rẽ phải ở đèn giao thông thì sẽ thấy nó.", "exp": "Chỉ đường thực tế → if + present"},
+        {"pre": "Nobody is going to press the emergency button. What would happen if somebody", "suf": "it?", "hint": "press", "answer": "pressed", "vi": "Chẳng ai định bấm nút khẩn cấp. Nếu có người bấm thì sẽ ra sao?", "exp": "Tưởng tượng → if + past"}
+      ]
+    },
+    {
+      "id": "38.3", "kind": "fill",
+      "title": "Complete the sentences",
+      "instr": "Điền dạng đúng của động từ trong ngoặc.",
+      "items": [
+        {"pre": "I can't afford a car. If I", "suf": "a car, I'd have to borrow money.", "hint": "buy", "answer": "bought", "vi": "Tôi không đủ tiền mua xe. Nếu mua xe, tôi sẽ phải vay tiền.", "exp": "if + past"},
+        {"pre": "If you had a party, who", "suf": "?", "hint": "you / invite", "answer": "would you invite", "vi": "Nếu bạn tổ chức tiệc, bạn sẽ mời ai?", "exp": "would + V"},
+        {"pre": "Don't lend James your car. If he", "suf": "me, I wouldn't lend him mine.", "hint": "ask", "answer": "asked", "vi": "Đừng cho James mượn xe. Nếu anh ta hỏi tôi, tôi sẽ không cho mượn.", "exp": "if + past"},
+        {"pre": "I don't think Gary and Emma will get married. I", "suf": "amazed if they did.", "hint": "be", "answer": "would be", "alts": ["'d be"], "vi": "Tôi không nghĩ Gary và Emma sẽ cưới. Tôi sẽ rất ngạc nhiên nếu họ cưới.", "exp": "would + V"},
+        {"pre": "If somebody", "suf": "me $20,000, I'd take a long holiday.", "hint": "give", "answer": "gave", "vi": "Nếu có ai cho tôi 20.000 đô, tôi sẽ đi nghỉ dài ngày.", "exp": "if + past"},
+        {"pre": "", "suf": "nervous if you met a famous person?", "hint": "you / be", "answer": "Would you be", "vi": "Bạn có hồi hộp nếu gặp một người nổi tiếng không?", "exp": "Would you be …?"}
+      ]
+    },
+    {
+      "id": "38.4", "kind": "write",
+      "title": "Write sentences beginning If …",
+      "instr": "Viết câu điều kiện với if + past, would + V theo gợi ý.",
+      "items": [
+        {"context": "We're not going to stay at a hotel.", "hint": "if / we / stay at a hotel / it / cost too much", "answer": "If we stayed at a hotel, it would cost too much.", "alts": ["If we stayed at a hotel, it'd cost too much."], "vi": "Nếu ở khách sạn thì sẽ tốn quá nhiều.", "exp": "if + past, would + V"},
+        {"context": "There's no point in telling you.", "hint": "if / I / tell you / you / not believe me", "answer": "If I told you, you wouldn't believe me.", "alts": ["If I told you, you would not believe me."], "vi": "Nếu tôi nói thì bạn cũng không tin.", "exp": "if + past, wouldn't + V"},
+        {"context": "Sally has no plans to leave her job.", "hint": "if / she / leave her job / it / be hard to find another one", "answer": "If she left her job, it would be hard to find another one.", "alts": ["If she left her job, it'd be hard to find another one.", "If she left her job, it would be hard to find another."], "vi": "Nếu cô ấy nghỉ việc thì khó tìm được việc khác.", "exp": "if + past, would be"},
+        {"context": "Kevin isn't going to apply for the job.", "hint": "if / he / apply / he / not get it", "answer": "If he applied, he wouldn't get it.", "alts": ["If he applied for the job, he wouldn't get it."], "vi": "Nếu anh ấy nộp đơn thì cũng không được nhận.", "exp": "if + past, wouldn't + V"},
+        {"context": "We're not going to take a taxi.", "hint": "if / we / take a taxi / it / be too expensive", "answer": "If we took a taxi, it would be too expensive.", "alts": ["If we took a taxi, it'd be too expensive."], "vi": "Nếu đi taxi thì sẽ quá đắt.", "exp": "if + past, would be"},
+        {"context": "I'm not going to ask him for help.", "hint": "if / I / ask him / he / say no", "answer": "If I asked him, he would say no.", "alts": ["If I asked him, he'd say no.", "If I asked him for help, he would say no.", "If I asked him for help, he'd say no."], "vi": "Nếu tôi nhờ anh ấy thì anh ấy sẽ từ chối.", "exp": "if + past, would + V"}
+      ]
+    }
+  ]
+}
