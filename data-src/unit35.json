@@ -1,0 +1,90 @@
+{
+  "id": 35,
+  "title": "I'd better / it's time",
+  "theory": {
+    "title": "I'd better / it's time",
+    "blocks": [
+      {
+        "h": "A · had better ('d better): lời khuyên cho tình huống cụ thể",
+        "p": "Dùng khi nếu không làm thì sẽ có hậu quả xấu. Sau had better là V nguyên mẫu **không có to**. Phủ định: **had better not**.",
+        "ex": [
+          {"en": "I'd **better go** now or I'll be late.", "vi": "Tôi nên đi ngay không thì sẽ muộn."},
+          {"en": "A: Shall I take an umbrella?  B: Yes, you'd better. It might rain.", "vi": "A: Tôi có nên mang ô không? B: Có, nên đấy. Có thể trời mưa."},
+          {"en": "I'd **better not** be late. It's an important meeting.", "vi": "Tôi không nên đến muộn. Đây là cuộc họp quan trọng."}
+        ]
+      },
+      {
+        "h": "B · should: lời khuyên chung chung",
+        "ex": [
+          {"en": "You're always at home. You **should** go out more often.", "vi": "Bạn lúc nào cũng ở nhà. Bạn nên ra ngoài nhiều hơn.", "note": "(chung chung → không dùng had better)"},
+          {"en": "It's a great film. You **should** go and see it.", "vi": "Phim hay lắm. Bạn nên đi xem.", "note": "(không có hậu quả nếu bạn không xem)"},
+          {"en": "The film starts at 8.30. You'd **better** go now or you'll miss it.", "vi": "Phim bắt đầu lúc 8 giờ rưỡi. Bạn nên đi ngay kẻo lỡ.", "note": "(tình huống cụ thể + hậu quả)"}
+        ]
+      },
+      {
+        "h": "C · It's time + quá khứ",
+        "p": "**It's time (somebody) did something** = đã đến lúc làm gì đó (thậm chí hơi muộn). Động từ ở quá khứ nhưng nghĩa là hiện tại. **It's about time** nhấn mạnh hơn.",
+        "ex": [
+          {"en": "It's late. It's time we **went** home.", "vi": "Muộn rồi. Đã đến lúc chúng ta về nhà.", "note": "(không nói “we go”)"},
+          {"en": "It's time they **were** here. Why are they so late?", "vi": "Giờ này lẽ ra họ phải ở đây rồi. Sao họ muộn thế?"},
+          {"en": "It's about time you **did** something about it.", "vi": "Đã đến lúc bạn phải làm gì đó về chuyện này rồi."}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "35.1", "kind": "write",
+      "title": "'d better or 'd better not",
+      "instr": "Viết lời khuyên với 'd better hoặc 'd better not theo tình huống.",
+      "items": [
+        {"context": "You and Kate plan to go to a restaurant tonight. It will be busy.", "hint": "we / reserve / a table", "answer": "We'd better reserve a table.", "alts": ["We had better reserve a table."], "vi": "Chúng ta nên đặt bàn trước.", "exp": "'d better + V"},
+        {"context": "Oliver has just cut himself and it's bleeding.", "hint": "you / put a plaster on it", "answer": "You'd better put a plaster on it.", "alts": ["You had better put a plaster on it."], "vi": "Bạn nên dán băng cá nhân vào đó.", "exp": "'d better + V"},
+        {"context": "Rebecca doesn't look well this morning.", "hint": "you / not / go to work", "answer": "You'd better not go to work.", "alts": ["You had better not go to work.", "You'd better not go to work this morning."], "vi": "Bạn không nên đi làm.", "exp": "'d better not + V"},
+        {"context": "You're going to the cinema but you're not sure what time the film starts.", "hint": "we / check what time it starts", "answer": "We'd better check what time it starts.", "alts": ["We had better check what time it starts.", "We'd better check what time the film starts."], "vi": "Chúng ta nên kiểm tra mấy giờ phim bắt đầu.", "exp": "'d better + V"},
+        {"context": "You need to talk to your boss but she's very busy right now.", "hint": "we / not / disturb her", "answer": "We'd better not disturb her.", "alts": ["We had better not disturb her.", "We'd better not disturb her right now."], "vi": "Chúng ta không nên làm phiền cô ấy lúc này.", "exp": "'d better not + V"}
+      ]
+    },
+    {
+      "id": "35.2", "kind": "fill",
+      "title": "had better or should?",
+      "instr": "Điền had better hoặc should cho hợp ngữ cảnh.",
+      "items": [
+        {"pre": "I have an appointment in ten minutes. I", "suf": "go now or I'll be late.", "hint": "had better / should", "answer": "had better", "alts": ["'d better"], "vi": "Mười phút nữa tôi có cuộc hẹn. Tôi nên đi ngay kẻo muộn.", "exp": "Tình huống cụ thể + hậu quả"},
+        {"pre": "Tourists", "suf": "visit the old town. It's beautiful.", "hint": "had better / should", "answer": "should", "vi": "Khách du lịch nên đến thăm phố cổ. Nơi đó rất đẹp.", "exp": "Lời khuyên chung"},
+        {"pre": "It looks like rain. You", "suf": "take an umbrella.", "hint": "had better / should", "answer": "had better", "alts": ["'d better"], "vi": "Trời có vẻ sắp mưa. Bạn nên mang ô.", "exp": "Tình huống cụ thể"},
+        {"pre": "I think everybody", "suf": "learn a foreign language.", "hint": "had better / should", "answer": "should", "vi": "Tôi nghĩ ai cũng nên học một ngoại ngữ.", "exp": "Lời khuyên chung"},
+        {"pre": "We've just missed the last bus. We", "suf": "get a taxi.", "hint": "had better / should", "answer": "had better", "alts": ["'d better"], "vi": "Chúng ta vừa lỡ chuyến xe buýt cuối. Nên bắt taxi thôi.", "exp": "Tình huống cụ thể"},
+        {"pre": "I'm glad you came to see us. You", "suf": "come more often.", "hint": "had better / should", "answer": "should", "vi": "Tôi mừng vì bạn đến thăm. Bạn nên đến thường xuyên hơn.", "exp": "Lời khuyên chung"},
+        {"pre": "Dinner is almost ready. You", "suf": "wash your hands.", "hint": "had better / should", "answer": "had better", "alts": ["'d better", "should"], "vi": "Bữa tối sắp xong rồi. Con nên đi rửa tay.", "exp": "Tình huống cụ thể"}
+      ]
+    },
+    {
+      "id": "35.3", "kind": "fill",
+      "title": "had better, should, it's time",
+      "instr": "Điền một từ còn thiếu: had, better, should, hadn't, were, did, was, I'd.",
+      "items": [
+        {"pre": "Ben needs to know. Somebody", "suf": "better tell him.", "hint": "had / better", "answer": "had", "vi": "Ben cần biết chuyện này. Ai đó nên nói với anh ấy.", "exp": "had better tell"},
+        {"pre": "You", "suf": "brush your teeth at least twice a day.", "hint": "had better / should", "answer": "should", "vi": "Bạn nên đánh răng ít nhất hai lần mỗi ngày.", "exp": "Lời khuyên chung"},
+        {"pre": "It's time they", "suf": "here. They promised.", "hint": "are / were", "answer": "were", "vi": "Giờ này lẽ ra họ phải ở đây rồi. Họ đã hứa.", "exp": "It's time + quá khứ"},
+        {"pre": "The window is open. You'd", "suf": "close it before you go out.", "hint": "better", "answer": "better", "vi": "Cửa sổ đang mở. Bạn nên đóng lại trước khi ra ngoài.", "exp": "'d better + V"},
+        {"pre": "We'd better leave as soon as possible,", "suf": "we?", "hint": "hadn't / shouldn't", "answer": "hadn't", "vi": "Chúng ta nên đi càng sớm càng tốt, đúng không?", "exp": "Câu hỏi đuôi của had better"},
+        {"pre": "It's time the government", "suf": "something about the problem.", "hint": "do / did", "answer": "did", "vi": "Đã đến lúc chính phủ làm gì đó về vấn đề này.", "exp": "It's time + quá khứ"},
+        {"pre": "It's time something", "suf": "done about the problem.", "hint": "is / was", "answer": "was", "vi": "Đã đến lúc phải làm gì đó về vấn đề này.", "exp": "It's time + quá khứ (bị động)"},
+        {"pre": "", "suf": "better not be late. It's an important meeting.", "hint": "I'd", "answer": "I'd", "alts": ["I had"], "vi": "Tôi không nên đến muộn. Đây là cuộc họp quan trọng.", "exp": "I'd better not + V"}
+      ]
+    },
+    {
+      "id": "35.4", "kind": "write",
+      "title": "It's time …",
+      "instr": "Viết câu với It's time + chủ ngữ + động từ quá khứ.",
+      "items": [
+        {"context": "You haven't had a holiday for a very long time.", "hint": "it's time / I / have a holiday", "answer": "It's time I had a holiday.", "alts": ["It is time I had a holiday."], "vi": "Đã đến lúc tôi đi nghỉ rồi.", "exp": "It's time + I had"},
+        {"context": "It's 10 o'clock. The children should be in bed.", "hint": "it's time / the children / be in bed", "answer": "It's time the children were in bed.", "alts": ["It's time the children went to bed.", "It is time the children were in bed."], "vi": "Đã đến lúc bọn trẻ phải đi ngủ.", "exp": "It's time + they were"},
+        {"context": "You didn't realise it was so late. You need to start cooking.", "hint": "it's time / I / start cooking dinner", "answer": "It's time I started cooking dinner.", "alts": ["It's time I started cooking.", "It is time I started cooking dinner."], "vi": "Đã đến lúc tôi phải nấu bữa tối.", "exp": "It's time + I started"},
+        {"context": "Kate is always complaining. She complains too much.", "hint": "it's time / she / stop complaining", "answer": "It's time she stopped complaining.", "alts": ["It's time she stopped complaining about everything.", "It is time she stopped complaining."], "vi": "Đã đến lúc cô ấy thôi phàn nàn.", "exp": "It's time + she stopped"},
+        {"context": "The company has been badly managed. Changes are needed.", "hint": "it's time / changes / be made", "answer": "It's time changes were made.", "alts": ["It's time changes were made in the way the company is run.", "It is time changes were made."], "vi": "Đã đến lúc phải có những thay đổi.", "exp": "It's time + changes were made"}
+      ]
+    }
+  ]
+}
