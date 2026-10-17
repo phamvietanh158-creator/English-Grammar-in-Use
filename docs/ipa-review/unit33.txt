@@ -1,0 +1,122 @@
+# unit33: IPA tự động (espeak en-GB → Cambridge). Soát nhanh các từ dưới đây.
+
+20	/ˈtwenti/
+a	/ə/
+about	/əˌbaʊt/
+and	/ænd/
+another	/əˈnʌðə/
+arrived	/əˈraɪvd/
+at	/æt/
+be	/biː/
+bed	/ˈbed/
+believe	/bɪˈliːv/
+best	/ˈbest/
+but	/ˌbʌt/
+by	/baɪ/
+cold	/ˈkəʊld/
+come	/ˈkʌm/
+computer	/kəmˈpjuːtə/
+cost	/ˈkɒst/
+difficult	/ˈdɪfɪkəlt/
+do	/ˈduː/
+documents	/ˈdɒkjuːmənts/
+don't	/ˈdəʊnt/
+driving	/ˈdraɪvɪŋ/
+enough	/ɪˈnʌf/
+everything	/ˈevrɪˌθɪŋ/
+fast	/fɑːst/
+find	/ˈfaɪnd/
+for	/fɔːr/
+get	/get/
+go	/ˌgəʊ/
+government	/ˈgʌvənmənt/
+hard	/ˈhɑːd/
+hasn't	/ˈhæzənt/
+he	/hiː/
+here	/ˈhiə/
+hotel	/həʊˈtel/
+i	/aɪ/
+i'm	/aɪm/
+improve	/ɪmˈpruːv/
+in	/ɪn/
+is	/ɪz/
+it	/ɪt/
+it's	/ɪts/
+job	/ˈdʒɒb/
+joe	/ˈdʒəʊ/
+late	/ˈleɪt/
+long	/ˈlɒŋ/
+look	/ˈlʊk/
+minutes	/ˈmɪnɪts/
+more	/ˈmɔː/
+much	/ˌmʌtʃ/
+now	/ˈnaʊ/
+of	/ɒv/
+often	/ˈɒfən/
+only	/ˈəʊnli/
+open	/ˈəʊpən/
+picture	/ˈpɪktʃə/
+position	/pəˈzɪʃən/
+pounds	/ˈpaʊndz/
+problem	/ˈprɒbləm/
+read	/ˈriːd/
+receive	/rɪˈsiːv/
+restarting	/rɪˈstɑːtɪŋ/
+schools	/ˈskuːlz/
+see	/ˈsiː/
+sent	/ˈsent/
+she	/ʃiː/
+should	/ˌʃʊd/
+shouldn't	/ˌʃʊdənt/
+so	/ˌsəʊ/
+solve	/ˈsɒlv/
+soon	/ˈsuːn/
+stay	/ˈsteɪ/
+take	/ˈteɪk/
+taxi	/ˈtæksi/
+team	/ˈtiːm/
+ten	/ˈten/
+than	/ðən/
+that	/ðæt/
+the	/ðə/
+them	/ˌðem/
+think	/ˈθɪŋk/
+this	/ðɪs/
+time	/ˈtaɪm/
+tina	/ˈtiːnə/
+tired	/ˈtaɪəd/
+to	/tə/
+today	/təˈdeɪ/
+tomorrow	/təˈmɒrəʊ/
+try	/ˈtraɪ/
+unusually	/ʌˈnjuːʒuːəli/
+up	/ˌʌp/
+us	/ˌʌs/
+warmer	/ˈwɔːmər/
+way	/ˈweɪ/
+we	/wiː/
+weather	/ˈweðər/
+what	/wɒt/
+where's	/ˌweəz/
+win	/ˈwɪn/
+worry	/ˈwʌri/
+year	/ˈjiə/
+yet	/ˈjet/
+you	/juː/
+
+# Câu không ghép được từng từ (có số/viết tắt) — soát cả câu:
+Helen has been studying hard. She should pass.
+You should have come to the party. It was great.
+I shouldn't have eaten so much.
+You went to bed very late. You should have gone earlier.
+He should put some pictures on the walls.
+The TV has been repaired. It should be working OK now.
+I'm sorry I didn't take your advice. I should have done what you said.
+We lost the game, but we were the better team. We should have won.
+We got lost. We should have turned right, not left.
+My exam results weren't good. I should have done better.
+We should have reserved a table.
+I should have written it down.
+I should have been looking where I was going.
+I shouldn't have gone to work.
+The driver in front shouldn't have stopped so suddenly.
