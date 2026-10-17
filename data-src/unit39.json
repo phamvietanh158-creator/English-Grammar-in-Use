@@ -1,0 +1,91 @@
+{
+  "id": 39,
+  "title": "if I knew ... / I wish I knew ...",
+  "theory": {
+    "title": "if I knew ... / I wish I knew ...",
+    "blocks": [
+      {
+        "h": "A · if + past: tưởng tượng điều không đúng ở hiện tại",
+        "ex": [
+          {"en": "I'd phone him if I **knew** his number.", "vi": "Tôi sẽ gọi cho anh ấy nếu biết số của anh ấy.", "note": "(nhưng tôi không biết)"},
+          {"en": "There are many things I'd do if I **had** more time.", "vi": "Có nhiều việc tôi sẽ làm nếu có thêm thời gian.", "note": "(nhưng tôi không có thời gian)"},
+          {"en": "If I **were** you, I wouldn't buy that coat.", "vi": "Nếu tôi là bạn, tôi sẽ không mua chiếc áo đó.", "note": "(was cũng được)"},
+          {"en": "If it **weren't** so cold, I'd go for a walk.", "vi": "Nếu trời không lạnh thế này, tôi đã đi dạo."}
+        ]
+      },
+      {
+        "h": "B · I wish + past: tiếc về hiện tại",
+        "ex": [
+          {"en": "I **wish I knew** Paul's phone number.", "vi": "Ước gì tôi biết số điện thoại của Paul.", "note": "(thực tế tôi không biết)"},
+          {"en": "Do you ever **wish you could fly**?", "vi": "Bạn có bao giờ ước mình bay được không?"},
+          {"en": "I **wish I didn't have to** work tomorrow.", "vi": "Ước gì ngày mai tôi không phải đi làm.", "note": "(thực tế tôi phải đi làm)"},
+          {"en": "I **wish I lived** here.", "vi": "Ước gì tôi sống ở đây.", "note": "(thực tế tôi không sống ở đây)"}
+        ]
+      },
+      {
+        "h": "C · were hay was?",
+        "ex": [
+          {"en": "If I **were** rich, I'd travel a lot. / If I **was** rich, …", "vi": "Nếu tôi giàu, tôi sẽ đi du lịch nhiều."},
+          {"en": "I wish Anna **were** here. / I wish Anna **was** here.", "vi": "Ước gì Anna ở đây."},
+          {"en": "I wish I **had** a car.", "vi": "Ước gì tôi có xe.", "note": "(không nói “I wish I would have”)"}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "39.1", "kind": "fill",
+      "title": "Put the verb into the correct form",
+      "instr": "Điền dạng đúng của động từ trong ngoặc.",
+      "items": [
+        {"pre": "", "suf": "you if I could, but I'm afraid I can't.", "hint": "I / help", "answer": "I'd help", "alts": ["I would help"], "vi": "Tôi sẽ giúp bạn nếu có thể, nhưng tiếc là tôi không thể.", "exp": "would + V"},
+        {"pre": "This soup isn't nice. It", "suf": "better if it wasn't so salty.", "hint": "taste", "answer": "would taste", "alts": ["'d taste"], "vi": "Món súp này không ngon. Nó sẽ ngon hơn nếu không mặn như thế.", "exp": "would + V"},
+        {"pre": "If we had the choice,", "suf": "in the country.", "hint": "we / live", "answer": "we'd live", "alts": ["we would live"], "vi": "Nếu được chọn, chúng tôi sẽ sống ở nông thôn.", "exp": "would + V"},
+        {"pre": "I'd make changes if", "suf": "the manager.", "hint": "I / be", "answer": "I were", "alts": ["I was"], "vi": "Tôi sẽ thay đổi nếu tôi là quản lý.", "exp": "if I were"},
+        {"pre": "I wouldn't call in the middle of the night if", "suf": "important.", "hint": "it / not / be", "answer": "it weren't", "alts": ["it wasn't"], "vi": "Tôi sẽ không gọi lúc nửa đêm nếu việc không quan trọng.", "exp": "if it weren't"},
+        {"pre": "If I were you,", "suf": ". I'd go now.", "hint": "I / not / wait", "answer": "I wouldn't wait", "alts": ["I would not wait"], "vi": "Nếu tôi là bạn, tôi sẽ không chờ. Tôi sẽ đi ngay.", "exp": "wouldn't + V"},
+        {"pre": "If there", "suf": "so many cars, there wouldn't be so much pollution.", "hint": "not / be", "answer": "weren't", "alts": ["wasn't"], "vi": "Nếu không có nhiều xe đến vậy, sẽ không ô nhiễm nhiều như thế.", "exp": "if there weren't"},
+        {"pre": "What", "suf": "if you didn't have to work?", "hint": "you / do", "answer": "would you do", "vi": "Bạn sẽ làm gì nếu không phải đi làm?", "exp": "would you do"}
+      ]
+    },
+    {
+      "id": "39.2", "kind": "write",
+      "title": "Write sentences with if",
+      "instr": "Viết một câu với if + past, would + V cho mỗi tình huống.",
+      "items": [
+        {"context": "I like these shoes but they're too expensive, so I'm not going to buy them.", "hint": "if / they / not / be so expensive / I / buy them", "answer": "If they weren't so expensive, I'd buy them.", "alts": ["If they weren't so expensive, I would buy them.", "If they were not so expensive, I would buy them.", "If they wasn't so expensive, I'd buy them."], "vi": "Nếu chúng không đắt thế, tôi đã mua.", "exp": "if + weren't, would + V"},
+        {"context": "We'd like to go on holiday, but we can't afford it.", "hint": "if / we / can afford it / we / go on holiday", "answer": "If we could afford it, we'd go on holiday.", "alts": ["If we could afford it, we would go on holiday."], "vi": "Nếu đủ tiền, chúng tôi sẽ đi nghỉ.", "exp": "if + could, would + V"},
+        {"context": "It would be nice to have lunch outside but it's raining.", "hint": "if / it / not / rain / we / have lunch outside", "answer": "If it weren't raining, we'd have lunch outside.", "alts": ["If it weren't raining, we would have lunch outside.", "If it wasn't raining, we'd have lunch outside.", "If it wasn't raining, we would have lunch outside."], "vi": "Nếu trời không mưa, chúng tôi đã ăn trưa ngoài trời.", "exp": "if + weren't raining"},
+        {"context": "I don't want his advice, so I'm not going to ask for it.", "hint": "if / I / want his advice / I / ask for it", "answer": "If I wanted his advice, I'd ask for it.", "alts": ["If I wanted his advice, I would ask for it."], "vi": "Nếu tôi muốn lời khuyên của anh ấy, tôi sẽ hỏi.", "exp": "if + wanted"},
+        {"context": "I don't have a car, so I can't drive you to the airport.", "hint": "if / I / have a car / I / drive you", "answer": "If I had a car, I'd drive you to the airport.", "alts": ["If I had a car, I would drive you to the airport.", "If I had a car, I'd drive you.", "If I had a car, I would drive you."], "vi": "Nếu có xe, tôi sẽ chở bạn ra sân bay.", "exp": "if + had, would + V"}
+      ]
+    },
+    {
+      "id": "39.3", "kind": "write",
+      "title": "I wish …",
+      "instr": "Viết câu với I wish + past theo tình huống.",
+      "items": [
+        {"context": "I don't have much free time.", "hint": "I wish / I / have more free time", "answer": "I wish I had more free time.", "vi": "Ước gì tôi có nhiều thời gian rảnh hơn.", "exp": "I wish + had"},
+        {"context": "Helen isn't here and I need to see her.", "hint": "I wish / Helen / be here", "answer": "I wish Helen were here.", "alts": ["I wish Helen was here."], "vi": "Ước gì Helen ở đây.", "exp": "I wish + were"},
+        {"context": "It's cold and I hate cold weather.", "hint": "I wish / it / not / be so cold", "answer": "I wish it weren't so cold.", "alts": ["I wish it wasn't so cold."], "vi": "Ước gì trời không lạnh thế này.", "exp": "I wish + weren't"},
+        {"context": "I live in a big city and I don't like it.", "hint": "I wish / I / not / live in a big city", "answer": "I wish I didn't live in a big city.", "vi": "Ước gì tôi không sống ở thành phố lớn.", "exp": "I wish + didn't live"},
+        {"context": "I can't find my phone.", "hint": "I wish / I / can find it", "answer": "I wish I could find my phone.", "alts": ["I wish I could find it."], "vi": "Ước gì tôi tìm được điện thoại.", "exp": "I wish + could"},
+        {"context": "I'm not feeling well.", "hint": "I wish / I / feel better", "answer": "I wish I were feeling better.", "alts": ["I wish I was feeling better.", "I wish I felt better."], "vi": "Ước gì tôi thấy khoẻ hơn.", "exp": "I wish + were feeling"},
+        {"context": "I have to get up early tomorrow.", "hint": "I wish / I / not / have to get up early", "answer": "I wish I didn't have to get up early.", "alts": ["I wish I didn't have to get up early tomorrow."], "vi": "Ước gì tôi không phải dậy sớm.", "exp": "I wish + didn't have to"},
+        {"context": "I don't know much about science.", "hint": "I wish / I / know more about science", "answer": "I wish I knew more about science.", "vi": "Ước gì tôi hiểu biết nhiều hơn về khoa học.", "exp": "I wish + knew"}
+      ]
+    },
+    {
+      "id": "39.4", "kind": "fill",
+      "title": "were, had, could, weren't",
+      "instr": "Điền từ đúng: were/was, had, could, weren't/wasn't.",
+      "items": [
+        {"pre": "If I", "suf": "rich, I'd travel a lot.", "hint": "were / was", "answer": "were", "alts": ["was"], "vi": "Nếu tôi giàu, tôi sẽ đi du lịch nhiều.", "exp": "if I were"},
+        {"pre": "I wish Anna", "suf": "here. She would know what to do.", "hint": "were / was", "answer": "were", "alts": ["was"], "vi": "Ước gì Anna ở đây. Cô ấy sẽ biết phải làm gì.", "exp": "I wish + were"},
+        {"pre": "I wish I", "suf": "a car. Then I wouldn't have to take the bus.", "hint": "had / have", "answer": "had", "vi": "Ước gì tôi có xe. Như vậy tôi không phải đi xe buýt.", "exp": "I wish + had"},
+        {"pre": "I wish I", "suf": "so tired. I could go out tonight.", "hint": "weren't / wasn't", "answer": "weren't", "alts": ["wasn't"], "vi": "Ước gì tôi không mệt thế này. Tôi đã có thể đi chơi tối nay.", "exp": "I wish + weren't"},
+        {"pre": "I wish I", "suf": "speak French. It would help me at work.", "hint": "could / can", "answer": "could", "vi": "Ước gì tôi nói được tiếng Pháp. Nó sẽ giúp ích cho công việc.", "exp": "I wish + could"}
+      ]
+    }
+  ]
+}
