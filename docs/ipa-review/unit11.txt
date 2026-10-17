@@ -1,0 +1,129 @@
+# unit11: IPA tự động (espeak en-GB → Cambridge). Soát nhanh các từ dưới đây.
+
+a	/ə/
+airport	/ˈeəpɔːt/
+all	/ˈɔːl/
+always	/ˈɔːlweɪz/
+an	/ən/
+at	/æt/
+australia	/ɒˈstreɪliə/
+b	/ˈbiː/
+been	/ˌbiːn/
+ben	/ˈben/
+car	/ˈkɑː/
+chicago	/ʃɪˈkɑːgəʊ/
+day	/ˈdeɪ/
+do	/ˈduː/
+don't	/ˈdəʊnt/
+each	/ˈiːtʃ/
+english	/ˈɪŋglɪʃ/
+feeling	/ˈfiːlɪŋ/
+for	/fɔː/
+friend	/ˈfrend/
+go	/ˌgəʊ/
+had	/hæd/
+has	/həz/
+have	/hæv/
+haven't	/ˈhævənt/
+headache	/ˈhedeɪk/
+her	/hɜː/
+here	/ˈhiə/
+him	/ˌhɪm/
+hospital	/ˈhɒspɪtəl/
+house	/ˈhaʊs/
+how	/ˌhaʊ/
+i	/aɪ/
+i'm	/aɪm/
+i've	/aɪv/
+ill	/ˈɪl/
+in	/ɪn/
+is	/ɪz/
+it's	/ɪts/
+jacket	/ˈdʒækɪt/
+jane	/ˈdʒeɪn/
+january	/ˈdʒænjuːəri/
+joe	/ˈdʒəʊ/
+katherine	/ˈkæθrɪn/
+know	/ˈnəʊ/
+known	/ˈnəʊn/
+last	/lɑːst/
+late	/ˈleɪt/
+learning	/ˈlɜːnɪŋ/
+like	/ˈlaɪk/
+lisa	/ˈliːsə/
+lived	/ˈlɪvd/
+living	/ˈlɪvɪŋ/
+long	/ˈlɒŋ/
+lot	/ˈlɒt/
+maria	/məˈriːər/
+mel	/ˈmel/
+met	/ˈmet/
+mine	/ˈmaɪn/
+monday	/ˈmʌndeɪ/
+months	/ˈmʌnθs/
+morning	/ˈmɔːnɪŋ/
+moved	/ˈmuːvd/
+need	/ˈniːd/
+new	/ˈnjuː/
+no	/ˈnəʊ/
+not	/ˌnɒt/
+now	/ˈnaʊ/
+of	/ɒv/
+often	/ˈɒfən/
+only	/ˈəʊnli/
+other	/ˈʌðər/
+paul	/ˈpɔːl/
+play	/ˈpleɪ/
+played	/ˈpleɪd/
+raining	/ˈreɪnɪŋ/
+recently	/ˈriːsəntli/
+see	/ˈsiː/
+seen	/ˈsiːn/
+since	/ˈsɪns/
+sister	/ˈsɪstə/
+sorry	/ˈsɒri/
+still	/ˈstɪl/
+street	/ˈstriːt/
+teaching	/ˈtiːtʃɪŋ/
+tennis	/ˈtenɪs/
+that	/ðæt/
+the	/ðɪ/
+their	/ðeə/
+they	/ðeɪ/
+three	/ˈθriː/
+time	/ˈtaɪm/
+to	/tə/
+tom	/ˈtɒm/
+tv	/ˌtiːˈviː/
+umbrella	/ʌmˈbrelər/
+very	/ˈveri/
+waiting	/ˈweɪtɪŋ/
+wanted	/ˈwɒntɪd/
+watch	/ˈwɒtʃ/
+watched	/ˈwɒtʃt/
+we	/wiː/
+we're	/wiə/
+we've	/wiːv/
+weekend	/wiːˈkend/
+well	/ˈwel/
+working	/ˈwɜːkɪŋ/
+would	/wʊd/
+years	/ˈjiəz/
+yes	/ˈjes/
+york	/ˈjɔːk/
+you	/juː/
+you'll	/juːl/
+your	/jɔː/
+
+# Câu không ghép được từng từ (có số/viết tắt) — soát cả câu:
+They have been married for 20 years.
+Paul has been in hospital since Monday.
+We've known each other for a long time.
+I've always lived in the country.
+The weather has been awful since I arrived here.
+Lisa is in Germany now. She has been there since Monday.
+That's a very old bike. How long have you had it?
+A: Paul is in hospital, isn't he? B: Yes, he has been in hospital since Monday.
+A: Is Paul married? B: Yes, he has been married for ten years.
+A: Are you waiting for the bus? B: Yes, I have been waiting for about 20 minutes.
+A: Is Joe watching TV? B: Yes, he has been watching TV all evening.
