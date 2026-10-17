@@ -1,0 +1,105 @@
+{
+  "id": 3,
+  "title": "Present continuous and present simple 1 (I am doing and I do)",
+  "theory": {
+    "title": "Present continuous and present simple 1",
+    "blocks": [
+      {
+        "h": "A · So sánh hai thì",
+        "table": {
+          "head": ["", "Present continuous (I am doing)", "Present simple (I do)"],
+          "rows": [
+            ["Dùng cho", "Việc đang xảy ra lúc nói hoặc trong giai đoạn này, thường tạm thời", "Thói quen, sự thật, điều lâu dài, nói chung"],
+            ["Ví dụ 1", "The water **is boiling**. Be careful.", "Water **boils** at 100 degrees Celsius."],
+            ["Ví dụ 2", "I'm **living** with friends until I find a flat.", "My parents **live** in London."],
+            ["Từ hay đi kèm", "now, at the moment, today, this week, these days", "always, usually, every day, often, never"]
+          ]
+        }
+      },
+      {
+        "h": "B · Đang xảy ra (tạm thời) và nói chung (lâu dài)",
+        "ex": [
+          {"en": "Kate **is learning** Italian.", "vi": "Kate đang học tiếng Ý.", "note": "(chưa học xong)"},
+          {"en": "Most people **learn** to swim as children.", "vi": "Hầu hết mọi người học bơi từ nhỏ.", "note": "(nói chung)"},
+          {"en": "You're **working** hard today.", "vi": "Hôm nay bạn làm việc chăm chỉ thật.", "note": "(so với mọi khi)"},
+          {"en": "What do you usually **do** at weekends?", "vi": "Cuối tuần bạn thường làm gì?"}
+        ]
+      },
+      {
+        "h": "C · I always do và I'm always doing",
+        "p": "**I always do** = làm thường xuyên, đó là thói quen bình thường. **I'm always doing** = làm quá thường xuyên, thường mang ý phàn nàn hoặc bực mình.",
+        "ex": [
+          {"en": "I **always go** to work by car.", "vi": "Tôi luôn đi làm bằng ô tô.", "note": "(thói quen bình thường)"},
+          {"en": "I'm **always losing** my keys.", "vi": "Tôi cứ làm mất chìa khoá hoài.", "note": "(hơi bực mình vì quá nhiều lần)"},
+          {"en": "Paul **is always complaining**.", "vi": "Paul lúc nào cũng phàn nàn.", "note": "(= phàn nàn quá nhiều)"}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "3.1", "kind": "fill",
+      "title": "Present continuous or present simple?",
+      "instr": "Điền dạng đúng của động từ trong ngoặc: present simple hoặc present continuous.",
+      "items": [
+        {"pre": "Water", "suf": "at 100 degrees Celsius.", "hint": "boil", "answer": "boils", "vi": "Nước sôi ở 100 độ C.", "exp": "Sự thật khoa học → present simple"},
+        {"pre": "How often", "suf": "to the cinema?", "hint": "you / go", "answer": "do you go", "vi": "Bạn đi xem phim bao lâu một lần?", "exp": "Hỏi về tần suất → present simple"},
+        {"pre": "Ben", "suf": "to find a job, but he hasn't had any luck yet.", "hint": "try", "answer": "is trying", "vi": "Ben đang cố tìm việc nhưng vẫn chưa gặp may.", "exp": "Đang cố gắng trong giai đoạn này → present continuous"},
+        {"pre": "Martina", "suf": "her mother every day.", "hint": "phone", "answer": "phones", "vi": "Martina gọi điện cho mẹ mỗi ngày.", "exp": "every day → thói quen → present simple"},
+        {"pre": "The moon", "suf": "round the earth in about 27 days.", "hint": "go", "answer": "goes", "vi": "Mặt trăng quay quanh trái đất trong khoảng 27 ngày.", "exp": "Sự thật khoa học → present simple"},
+        {"pre": "Listen to those two. What", "suf": "about?", "hint": "they / talk", "answer": "are they talking", "vi": "Nghe hai người kia kìa. Họ đang nói về chuyện gì vậy?", "exp": "Việc đang xảy ra ngay lúc nói → present continuous"},
+        {"pre": "What", "suf": "in your spare time?", "hint": "you / do", "answer": "do you do", "vi": "Lúc rảnh bạn làm gì?", "exp": "Hỏi về thói quen → present simple"},
+        {"pre": "Sarah is a vegetarian. She", "suf": "meat.", "hint": "not / eat", "answer": "doesn't eat", "vi": "Sarah ăn chay. Cô ấy không ăn thịt.", "exp": "Điều lâu dài, nói chung → present simple"},
+        {"pre": "I must go now.", "suf": "late.", "hint": "it / get", "answer": "It's getting", "vi": "Tôi phải đi đây. Trời đang muộn dần rồi.", "exp": "Sự thay đổi đang diễn ra → present continuous"},
+        {"pre": "A: Come on! It's time to leave. B: OK,", "suf": ".", "hint": "I / come", "answer": "I'm coming", "vi": "A: Nhanh lên! Đến giờ đi rồi. B: Được rồi, tôi đến đây.", "exp": "Việc đang xảy ra ngay lúc nói → present continuous"},
+        {"pre": "They don't get on well.", "suf": ".", "hint": "they / always / argue", "answer": "They're always arguing", "vi": "Họ không hợp nhau. Lúc nào họ cũng cãi nhau.", "exp": "always + V-ing → xảy ra quá nhiều, mang ý phàn nàn"},
+        {"pre": "My parents", "suf": "in London.", "hint": "live", "answer": "live", "vi": "Bố mẹ tôi sống ở Luân Đôn.", "exp": "Điều lâu dài → present simple"}
+      ]
+    },
+    {
+      "id": "3.2", "kind": "fill",
+      "title": "Two situations, two tenses",
+      "instr": "Mỗi cặp câu a/b dùng cùng một động từ. Chọn present simple hoặc present continuous cho từng câu.",
+      "items": [
+        {"pre": "I usually", "suf": "hungry in the afternoon.", "hint": "get", "answer": "get", "vi": "Buổi chiều tôi thường thấy đói.", "exp": "usually → thói quen → present simple"},
+        {"pre": "", "suf": "hungry. Let's go and eat something.", "hint": "I / get", "answer": "I'm getting", "vi": "Tôi đang thấy đói dần. Mình đi ăn chút gì đi.", "exp": "Đang xảy ra lúc nói → present continuous"},
+        {"pre": "A:", "suf": "to the radio? B: No, you can turn it off.", "hint": "you / listen", "answer": "Are you listening", "vi": "A: Bạn đang nghe đài à? B: Không, bạn tắt đi cũng được.", "exp": "Hỏi việc đang xảy ra → present continuous"},
+        {"pre": "A:", "suf": "to the radio a lot? B: No, not very often.", "hint": "you / listen", "answer": "Do you listen", "vi": "A: Bạn có hay nghe đài không? B: Không, không thường xuyên lắm.", "exp": "a lot = tần suất → present simple"},
+        {"pre": "The River Nile", "suf": "into the Mediterranean.", "hint": "flow", "answer": "flows", "vi": "Sông Nile chảy ra Địa Trung Hải.", "exp": "Sự thật địa lý → present simple"},
+        {"pre": "Be careful! The river", "suf": "very fast today.", "hint": "flow", "answer": "is flowing", "vi": "Cẩn thận! Hôm nay nước sông chảy rất xiết.", "exp": "today (khác mọi khi) → present continuous"},
+        {"pre": "I'm not very active. I", "suf": "any sport.", "hint": "not / do", "answer": "don't do", "vi": "Tôi không năng động lắm. Tôi không chơi môn thể thao nào.", "exp": "Nói chung → present simple"},
+        {"pre": "What", "suf": "at weekends?", "hint": "you / usually / do", "answer": "do you usually do", "vi": "Cuối tuần bạn thường làm gì?", "exp": "usually + weekends → thói quen → present simple"},
+        {"pre": "Rachel is in New York right now. She", "suf": "at the Park Hotel.", "hint": "stay", "answer": "is staying", "vi": "Rachel đang ở New York. Cô ấy đang ở khách sạn Park.", "exp": "right now, tạm thời → present continuous"},
+        {"pre": "Rachel travels a lot. She", "suf": "at the Park Hotel when she's in New York.", "hint": "always / stay", "answer": "always stays", "vi": "Rachel đi công tác nhiều. Mỗi lần đến New York cô ấy đều ở khách sạn Park.", "exp": "always + hành động lặp lại → present simple"}
+      ]
+    },
+    {
+      "id": "3.3", "kind": "fill",
+      "title": "At work",
+      "instr": "Present simple hay present continuous? Điền dạng đúng của động từ trong ngoặc.",
+      "items": [
+        {"pre": "Mr Lee isn't in his office. He", "suf": "a client at the moment.", "hint": "meet", "answer": "is meeting", "vi": "Ông Lee không có ở văn phòng. Lúc này ông đang gặp khách hàng.", "exp": "at the moment → present continuous"},
+        {"pre": "Our company", "suf": "electronic parts. We export to ten countries.", "hint": "make", "answer": "makes", "vi": "Công ty chúng tôi sản xuất linh kiện điện tử. Chúng tôi xuất khẩu sang mười nước.", "exp": "Hoạt động thường xuyên của công ty → present simple"},
+        {"pre": "I", "suf": "the report right now. Can I call you back?", "hint": "write", "answer": "am writing", "vi": "Tôi đang viết báo cáo. Tôi gọi lại cho bạn sau được không?", "exp": "right now → present continuous", "alts": ["I'm writing"]},
+        {"pre": "Anna usually goes to work by bus, but this week she", "suf": "because the bus drivers are on strike.", "hint": "cycle", "answer": "is cycling", "vi": "Anna thường đi làm bằng xe buýt, nhưng tuần này cô ấy đạp xe vì tài xế xe buýt đình công.", "exp": "this week (tạm thời, khác thường lệ) → present continuous"},
+        {"pre": "The number of online customers", "suf": "quickly this year.", "hint": "grow", "answer": "is growing", "vi": "Năm nay số khách hàng mua trực tuyến đang tăng nhanh.", "exp": "Sự thay đổi đang diễn ra → present continuous"},
+        {"pre": "Our team", "suf": "a meeting every Monday morning.", "hint": "have", "answer": "has", "vi": "Nhóm chúng tôi họp vào sáng thứ Hai hằng tuần.", "exp": "every Monday → thói quen → present simple"},
+        {"pre": "I", "suf": "the answer to your question. Let me check.", "hint": "not / know", "answer": "don't know", "vi": "Tôi không biết câu trả lời cho câu hỏi của bạn. Để tôi kiểm tra đã.", "exp": "know là động từ chỉ trạng thái → không dùng continuous"},
+        {"pre": "We", "suf": "a new office this year. It will open in June.", "hint": "build", "answer": "are building", "vi": "Năm nay chúng tôi đang xây văn phòng mới. Văn phòng sẽ mở cửa vào tháng Sáu.", "exp": "Đang diễn ra, chưa xong → present continuous"}
+      ]
+    },
+    {
+      "id": "3.4", "kind": "write",
+      "title": "Always -ing",
+      "instr": "Trả lời bằng \"always + V-ing\" để nói điều xảy ra quá thường xuyên và làm bạn bực mình.",
+      "items": [
+        {"context": "Why are you so annoyed with Tom?", "hint": "he / always / leave / his things everywhere", "answer": "He's always leaving his things everywhere.", "alts": ["He is always leaving his things everywhere."], "vi": "Anh ta cứ để đồ lung tung khắp nơi.", "exp": "always + V-ing diễn tả điều xảy ra quá nhiều"},
+        {"context": "You've lost your keys again!", "hint": "I / always / lose / them", "answer": "I'm always losing them.", "alts": ["I'm always losing my keys.", "I am always losing them."], "vi": "Tôi cứ làm mất chúng hoài.", "exp": "I'm always + V-ing"},
+        {"context": "I don't like working with Sam.", "hint": "he / always / complain", "answer": "He's always complaining.", "alts": ["He is always complaining."], "vi": "Anh ta lúc nào cũng than phiền.", "exp": "He's always + V-ing"},
+        {"context": "Is your car OK?", "hint": "it / always / break down", "answer": "It's always breaking down.", "alts": ["It is always breaking down."], "vi": "Nó cứ hỏng suốt.", "exp": "It's always + V-ing"},
+        {"context": "Why do you want a new phone?", "hint": "mine / always / run out of battery", "answer": "Mine is always running out of battery.", "alts": ["Mine's always running out of battery.", "It's always running out of battery.", "It is always running out of battery."], "vi": "Cái điện thoại của tôi lúc nào cũng hết pin.", "exp": "always + V-ing"},
+        {"context": "Does your sister wear your clothes?", "hint": "she / always / borrow / my clothes", "answer": "She's always borrowing my clothes.", "alts": ["She is always borrowing my clothes."], "vi": "Cô ấy cứ mượn quần áo của tôi hoài.", "exp": "She's always + V-ing"}
+      ]
+    }
+  ]
+}
