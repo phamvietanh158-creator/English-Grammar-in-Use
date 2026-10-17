@@ -1,0 +1,118 @@
+# unit27: IPA tự động (espeak en-GB → Cambridge). Soát nhanh các từ dưới đây.
+
+a	/ə/
+agree	/əˈgriː/
+amy's	/ˈeɪmiz/
+angry	/ˈæŋgri/
+ann	/ˈæn/
+b	/ˈbiː/
+be	/biː/
+birthday	/ˈbɜːθdeɪ/
+book	/ˈbʊk/
+bored	/ˈbɔːd/
+brown	/ˈbraʊn/
+busy	/ˈbɪzi/
+but	/ˌbʌt/
+can	/kæn/
+careful	/ˈkeəfəl/
+cinema	/ˈsɪnəmə/
+climbing	/ˈklaɪmɪŋ/
+come	/ˈkʌm/
+company	/ˈkʌmpəni/
+could	/kʊd/
+couldn't	/ˌkʊdənt/
+dinner	/ˈdɪnə/
+do	/ˈduː/
+doing	/ˌduːɪŋ/
+don't	/ˈdəʊnt/
+fall	/ˈfɔːl/
+for	/fɔː/
+from	/frɒm/
+get	/get/
+give	/ˈgɪv/
+go	/ˌgəʊ/
+hat	/ˈhæt/
+have	/hæv/
+hear	/ˈhiər/
+her	/hɜː/
+him	/ˌhɪm/
+hotel	/həʊˈtel/
+i	/aɪ/
+i'm	/aɪm/
+if	/ɪf/
+important	/ɪmˈpɔːtənt/
+is	/ɪz/
+isn't	/ˌɪzənt/
+it	/ɪt/
+it's	/ɪts/
+job	/ˈdʒɒb/
+kill	/ˈkɪl/
+know	/ˈnəʊ/
+laugh	/lɑːf/
+letter	/ˈletə/
+like	/ˈlaɪk/
+lose	/ˈluːz/
+meet	/ˈmiːt/
+my	/maɪ/
+need	/ˈniːd/
+noise	/ˈnɔɪz/
+now	/ˈnaʊ/
+of	/ɒv/
+office	/ˈɒfɪs/
+open	/ˈəʊpən/
+party	/ˈpɑːti/
+people	/ˈpiːpəl/
+phone	/ˈfəʊn/
+picture	/ˈpɪktʃə/
+point	/ˈpɔɪnt/
+put	/ˌpʊt/
+ringing	/ˈrɪŋɪŋ/
+sarah	/ˈseərə/
+sea	/ˈsiː/
+see	/ˈsiː/
+shall	/ˌʃæl/
+she	/ʃiː/
+so	/ˌsəʊ/
+sometime	/ˈsʌmtaɪm/
+story	/ˈstɔːri/
+strange	/ˈstreɪndʒ/
+suit	/ˈsuːt/
+that	/ðæt/
+the	/ðə/
+this	/ðɪs/
+to	/tə/
+tomorrow	/təˈmɒrəʊ/
+too	/ˈtuː/
+tree	/ˈtriː/
+true	/ˈtruː/
+understand	/ˌʌndəˈstænd/
+vicky	/ˈvɪki/
+view	/ˈvjuː/
+we	/wiː/
+wear	/ˈweə/
+wedding	/ˈwedɪŋ/
+well	/ˈwel/
+what	/wɒt/
+where	/ˌweə/
+window	/ˈwɪndəʊ/
+with	/wɪð/
+would	/wʊd/
+yes	/ˈjes/
+you	/juː/
+your	/jɔː/
+
+# Câu không ghép được từng từ (có số/viết tắt) — soát cả câu:
+We could go away somewhere for the weekend.
+Why did you walk? You could have taken a taxi.
+You could have left your phone at work.
+We had a great holiday. It couldn't have been better.
+I couldn't have managed without your help.
+We could hang it in the kitchen.
+We could have fish.
+Why did you stay at home? You could have come out with us.
+Why did you walk? You could have taken a taxi.
+I can't find my phone. I could have left it at work.
+We had a great holiday. It couldn't have been better.
+You helped me a lot. I couldn't have managed without you.
+The hotel staff were great. They couldn't have been more helpful.
+Jack prepared as well as he could. He couldn't have studied harder.
