@@ -15,7 +15,7 @@ Trao đổi với người dùng bằng **tiếng Việt**.
 4. `uv run tools/build.py N` rồi `uv run tools/check.py N` đến 0 lỗi; mở `docs/ipa-review/unitNN.txt` soát IPA. Nếu không chắc một từ, **liệt kê cho người dùng tra lại, không đoán**; không tự ý thêm vào `ipa_overrides.json` những từ chưa chắc.
 5. Xem thử bằng Edge không giao diện hoặc `tools/serve.ps1` (cổng 8765): không lỗi console, điền đáp án mẫu và chấm được.
 6. Báo người dùng: kết quả `check.py`, các từ IPA cần tra, các câu dịch còn băn khoăn.
-7. Chỉ commit file của unit mình. Không push, không tạo PR khi người dùng chưa yêu cầu. **Ngoại lệ:** khi người dùng bảo làm theo `docs/GIAO_VIEC.md` thì được tự gộp vào `main` và push đúng quy trình trong file đó (và chỉ cho các việc trong file đó).
+7. Chỉ commit file của unit mình. Không push, không tạo PR khi người dùng chưa yêu cầu. **Ngoại lệ:** khi người dùng bảo làm theo `docs/GIAO_VIEC.md` (giai đoạn 1) hoặc `docs/GIAO_VIEC_2.md` (giai đoạn 2) thì được tự gộp vào `main` và push đúng quy trình trong file đó (và chỉ cho các việc trong file đó). Giai đoạn 2 còn cho phép sửa engine/tools/index trong Pha 1.
 
 ## Lưu ý kỹ thuật
 - Máy Windows: chạy Python bằng `uv run` (lệnh `python` trong PATH là bản giả của Microsoft Store). Console cp1252: script đã `reconfigure(encoding="utf-8")`.
