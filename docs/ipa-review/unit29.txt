@@ -1,0 +1,105 @@
+# unit29: IPA tự động (espeak en-GB → Cambridge). Soát nhanh các từ dưới đây.
+
+a	/ə/
+about	/əˌbaʊt/
+anna	/ˈænə/
+answer	/ˈɑːnsə/
+anywhere	/ˈenɪˌweə/
+are	/ɑː/
+ask	/ɑːsk/
+at	/æt/
+b	/ˈbiː/
+be	/biː/
+belong	/bɪˈlɒŋ/
+bookshop	/ˈbʊkʃɒp/
+but	/ˌbʌt/
+call	/ˈkɔːl/
+can	/kæn/
+could	/kʊd/
+doesn't	/ˈdʌzənt/
+don't	/ˈdəʊnt/
+else	/ˈels/
+emma	/ˈemə/
+from	/frɒm/
+gary	/ˈgæri/
+george	/ˈdʒɔːdʒ/
+he	/hiː/
+he'd	/hiːd/
+he's	/hiːz/
+help	/ˈhelp/
+her	/hɜː/
+here	/ˈhiə/
+his	/hɪz/
+holiday	/ˈhɒlɪˌdeɪ/
+home	/ˈhəʊm/
+hope	/ˈhəʊp/
+i	/aɪ/
+i'll	/aɪl/
+i'm	/aɪm/
+in	/ɪn/
+is	/ɪz/
+isn't	/ˌɪzənt/
+it	/ɪt/
+it's	/ɪts/
+know	/ˈnəʊ/
+knows	/ˈnəʊz/
+let's	/ˈlets/
+may	/ˈmeɪ/
+maybe	/ˈmeɪbiː/
+me	/ˌmiː/
+meet	/ˈmiːt/
+might	/ˌmaɪt/
+mine	/ˈmaɪn/
+mood	/ˈmuːd/
+near	/ˌniə/
+nobody	/ˈnəʊbɒdi/
+not	/ˌnɒt/
+on	/ˌɒn/
+outside	/aʊtˈsaɪd/
+people	/ˈpiːpəl/
+phone	/ˈfəʊn/
+possible	/ˈpɒsɪbəl/
+said	/ˈsed/
+she	/ʃiː/
+sleeping	/ˈsliːpɪŋ/
+somebody	/ˈsʌmbɒdi/
+something	/ˈsʌmθɪŋ/
+strange	/ˈstreɪndʒ/
+sure	/ˈʃʊə/
+there	/ðeər/
+they	/ðeɪ/
+think	/ˈθɪŋk/
+this	/ðɪs/
+those	/ðəʊz/
+to	/tə/
+true	/ˈtruː/
+try	/ˈtraɪ/
+tv	/ˌtiːˈviː/
+us	/ˌʌs/
+waiting	/ˈweɪtɪŋ/
+watching	/ˈwɒtʃɪŋ/
+where	/ˌweər/
+where's	/ˌweəz/
+whose	/ˌhuːz/
+why	/ˌwaɪ/
+work	/ˈwɜːk/
+worrying	/ˈwʌriɪŋ/
+you	/juː/
+
+# Câu không ghép được từng từ (có số/viết tắt) — soát cả câu:
+A: Why didn't Kate answer? B: She may have been asleep.
+A: I can't find my phone. B: You might have left it at work.
+She might not have known about it.
+A: Does Rachel have a key? B: She might have, but I'm not sure.
+A: Who was the guy with Anna? B: It may have been her brother.
+A: Is Ellie here? B: She may not have arrived yet.
+A: How did John know you'd lost your job? B: Sam may have told him.
+A: Is Jeff still in the office? B: He might have gone home.
+A: Does Max have sisters? B: He may have a younger sister.
+A: I can't find my umbrella. B: You may have left it in the restaurant.
+A: Dan didn't answer the door. B: He might not have heard the doorbell.
+A: Hannah is 20 minutes late. B: She may have forgotten.
+He might not have wanted to come.
+It couldn't have been an accident.
+He couldn't have tried very hard.
+He might not have been American.
