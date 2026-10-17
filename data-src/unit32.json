@@ -1,0 +1,104 @@
+{
+  "id": 32,
+  "title": "must mustn't needn't",
+  "theory": {
+    "title": "must mustn't needn't",
+    "blocks": [
+      {
+        "h": "A · must và mustn't",
+        "ex": [
+          {"en": "We **must** hurry. We don't have much time.", "vi": "Chúng ta phải nhanh lên. Không còn nhiều thời gian."},
+          {"en": "You **mustn't** tell anyone. It's a secret.", "vi": "Bạn không được nói với ai. Đó là bí mật.", "note": "(= đừng nói với ai)"},
+          {"en": "We must be very quiet. We **mustn't** make any noise.", "vi": "Chúng ta phải thật yên lặng. Không được gây tiếng động."}
+        ]
+      },
+      {
+        "h": "B · needn't / don't need to: không cần",
+        "ex": [
+          {"en": "We have plenty of time. We **needn't** hurry.", "vi": "Chúng ta còn nhiều thời gian. Không cần vội."},
+          {"en": "We **don't need to** hurry.", "vi": "Không cần vội đâu.", "note": "(needn't + V; don't need **to** + V)"},
+          {"en": "You **needn't** tell Steve. / You **mustn't** tell Steve.", "vi": "Bạn không cần nói với Steve. / Bạn không được nói với Steve.", "note": "(khác nghĩa hoàn toàn)"}
+        ]
+      },
+      {
+        "h": "C · needn't have done: đã làm mà hoá ra không cần",
+        "ex": [
+          {"en": "They **needn't have reserved** a table. The restaurant was empty.", "vi": "Lẽ ra họ không cần đặt bàn. Nhà hàng vắng tanh.", "note": "(họ đã đặt, nhưng thật ra không cần)"},
+          {"en": "You **needn't have worried**. Everything was OK.", "vi": "Bạn không cần lo đâu. Mọi chuyện đều ổn."},
+          {"en": "He **didn't need to** get up early.", "vi": "Anh ấy không cần dậy sớm.", "note": "(không cho biết anh ấy có dậy sớm hay không)"}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "32.1", "kind": "match",
+      "title": "Same meaning",
+      "instr": "Nối câu với must ở cột A với câu có nghĩa tương đương dùng mustn't ở cột B (chọn số 1–6).",
+      "left": [
+        {"k": "a", "en": "You must remember your password.", "vi": "Bạn phải nhớ mật khẩu."},
+        {"k": "b", "en": "You must be brave.", "vi": "Bạn phải dũng cảm."},
+        {"k": "c", "en": "You must be on time.", "vi": "Bạn phải đúng giờ."},
+        {"k": "d", "en": "You must leave the furniture as it is.", "vi": "Bạn phải để đồ đạc như cũ."},
+        {"k": "e", "en": "You must go away.", "vi": "Bạn phải đi đi."},
+        {"k": "f", "en": "You must forget what happened.", "vi": "Bạn phải quên chuyện đã xảy ra."}
+      ],
+      "right": [
+        {"n": "1", "en": "You mustn't stay here.", "vi": "Bạn không được ở lại đây."},
+        {"n": "2", "en": "You mustn't be afraid.", "vi": "Bạn không được sợ."},
+        {"n": "3", "en": "You mustn't think about it.", "vi": "Bạn không được nghĩ về nó."},
+        {"n": "4", "en": "You mustn't forget it.", "vi": "Bạn không được quên nó."},
+        {"n": "5", "en": "You mustn't be late.", "vi": "Bạn không được đến muộn."},
+        {"n": "6", "en": "You mustn't move anything.", "vi": "Bạn không được di chuyển thứ gì."}
+      ],
+      "ans": {"a": "4", "b": "2", "c": "5", "d": "6", "e": "1", "f": "3"}
+    },
+    {
+      "id": "32.2", "kind": "fill",
+      "title": "must, mustn't or needn't?",
+      "instr": "Điền must, mustn't, needn't hoặc don't need to.",
+      "items": [
+        {"pre": "I have to talk to Gary. I", "suf": "remember to call him.", "hint": "must / mustn't", "answer": "must", "vi": "Tôi phải nói chuyện với Gary. Tôi phải nhớ gọi cho anh ấy.", "exp": "Cần làm → must"},
+        {"pre": "I have to talk to Gary. I", "suf": "forget to call him.", "hint": "must / mustn't", "answer": "mustn't", "vi": "Tôi phải nói chuyện với Gary. Tôi không được quên gọi cho anh ấy.", "exp": "Không được quên → mustn't"},
+        {"pre": "There's plenty of time. You", "suf": "decide now.", "hint": "needn't / don't need to", "answer": "don't need to", "alts": ["needn't"], "vi": "Còn nhiều thời gian. Bạn không cần quyết định ngay.", "exp": "Không cần"},
+        {"pre": "These are important documents. We", "suf": "lose them.", "hint": "mustn't / needn't", "answer": "mustn't", "vi": "Đây là những tài liệu quan trọng. Chúng ta không được làm mất.", "exp": "Cấm/tuyệt đối không"},
+        {"pre": "You", "suf": "wait for me. You can go on ahead.", "hint": "mustn't / needn't", "answer": "needn't", "alts": ["don't need to"], "vi": "Bạn không cần đợi tôi. Cứ đi trước đi.", "exp": "Không cần"},
+        {"pre": "This is dangerous. We", "suf": "do anything stupid.", "hint": "mustn't / needn't", "answer": "mustn't", "vi": "Việc này nguy hiểm. Chúng ta không được làm điều dại dột.", "exp": "Cấm"},
+        {"pre": "You", "suf": "explain any further. I understand perfectly.", "hint": "mustn't / needn't", "answer": "needn't", "alts": ["don't need to"], "vi": "Bạn không cần giải thích thêm. Tôi hiểu hết rồi.", "exp": "Không cần"},
+        {"pre": "The house", "suf": "be big. That's not so important. But it must have a nice garden.", "hint": "mustn't / needn't", "answer": "needn't", "vi": "Ngôi nhà không cần to. Điều đó không quan trọng lắm. Nhưng phải có vườn đẹp.", "exp": "Không cần thiết"}
+      ]
+    },
+    {
+      "id": "32.3", "kind": "fill",
+      "title": "needn't + verb",
+      "instr": "Điền needn't + động từ: come, walk, keep, worry.",
+      "items": [
+        {"pre": "I can manage alone. You", "suf": "with me.", "hint": "come", "answer": "needn't come", "vi": "Tôi tự lo được. Bạn không cần đi cùng.", "exp": "needn't + V"},
+        {"pre": "We", "suf": "all the way home. We can get a taxi.", "hint": "walk", "answer": "needn't walk", "vi": "Chúng ta không cần đi bộ cả quãng đường. Có thể bắt taxi.", "exp": "needn't + V"},
+        {"pre": "You can delete these emails. You", "suf": "them.", "hint": "keep", "answer": "needn't keep", "vi": "Bạn có thể xoá những email này. Không cần giữ chúng.", "exp": "needn't + V"},
+        {"pre": "I'll be all right. You", "suf": "about me.", "hint": "worry", "answer": "needn't worry", "vi": "Tôi sẽ ổn thôi. Bạn không cần lo cho tôi.", "exp": "needn't + V"}
+      ]
+    },
+    {
+      "id": "32.4", "kind": "write",
+      "title": "needn't have … and could have …",
+      "instr": "Viết hai câu: một câu với needn't have + V3 (đã làm nhưng không cần), một câu với could have + V3 (lẽ ra có thể làm cách khác).",
+      "items": [
+        {"context": "Why did you walk home? Why didn't you take a taxi?", "hint": "walk / take a taxi", "answer": "You needn't have walked. You could have taken a taxi.", "vi": "Lẽ ra bạn không cần đi bộ. Bạn có thể bắt taxi.", "exp": "needn't have walked / could have taken"},
+        {"context": "Why did they stay at a hotel? Why didn't they stay with us?", "hint": "stay at a hotel / stay with us", "answer": "They needn't have stayed at a hotel. They could have stayed with us.", "vi": "Lẽ ra họ không cần ở khách sạn. Họ có thể ở với chúng tôi.", "exp": "needn't have stayed / could have stayed"},
+        {"context": "Why did she phone at 3 am? Why didn't she wait until morning?", "hint": "phone at 3 am / wait until morning", "answer": "She needn't have phoned at 3 am. She could have waited until morning.", "alts": ["She needn't have phoned at 3am. She could have waited until morning."], "vi": "Lẽ ra cô ấy không cần gọi lúc 3 giờ sáng. Cô ấy có thể đợi đến sáng.", "exp": "needn't have phoned / could have waited"},
+        {"context": "Why did you shout at me? Why weren't you more patient?", "hint": "shout / be more patient", "answer": "You needn't have shouted. You could have been more patient.", "vi": "Lẽ ra bạn không cần hét lên. Bạn có thể kiên nhẫn hơn.", "exp": "needn't have shouted / could have been"}
+      ]
+    },
+    {
+      "id": "32.5", "kind": "write",
+      "title": "Correct the mistakes",
+      "instr": "Mỗi câu có lỗi. Viết lại câu đúng.",
+      "items": [
+        {"context": "We have plenty of time. We don't need hurry.", "hint": "don't need to", "answer": "We don't need to hurry.", "alts": ["We needn't hurry."], "vi": "Chúng ta còn nhiều thời gian. Không cần vội.", "exp": "don't need TO + V"},
+        {"context": "You needn't to shout. I can hear you.", "hint": "needn't", "answer": "You needn't shout.", "alts": ["You needn't shout. I can hear you.", "You don't need to shout."], "vi": "Bạn không cần hét lên. Tôi nghe được.", "exp": "needn't + V (không có to)"},
+        {"context": "Keep it a secret. You needn't tell anybody.", "hint": "mustn't", "answer": "You mustn't tell anybody.", "alts": ["Keep it a secret. You mustn't tell anybody."], "vi": "Hãy giữ bí mật. Bạn không được nói với ai.", "exp": "Cấm nói → mustn't (không phải needn't)"}
+      ]
+    }
+  ]
+}
