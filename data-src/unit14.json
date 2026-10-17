@@ -1,0 +1,94 @@
+{
+  "id": 14,
+  "title": "Present perfect and past simple 2",
+  "theory": {
+    "title": "Present perfect and past simple 2",
+    "blocks": [
+      {
+        "h": "A · Thời gian còn tiếp diễn đến bây giờ → present perfect",
+        "ex": [
+          {"en": "I've done a lot of work **today**.", "vi": "Hôm nay tôi đã làm rất nhiều việc.", "note": "(hôm nay chưa hết)"},
+          {"en": "It **hasn't rained this week**.", "vi": "Tuần này trời chưa mưa.", "note": "(tuần này chưa kết thúc)"},
+          {"en": "**Have** you seen Anna **this morning**?", "vi": "Sáng nay bạn có thấy Anna không?", "note": "(vẫn đang là buổi sáng)"},
+          {"en": "I've been working here **since 2010**.", "vi": "Tôi làm ở đây từ năm 2010.", "note": "(vẫn còn làm)"}
+        ]
+      },
+      {
+        "h": "B · Thời gian đã kết thúc → past simple",
+        "ex": [
+          {"en": "I **did** a lot of work **yesterday**.", "vi": "Hôm qua tôi đã làm rất nhiều việc."},
+          {"en": "It **didn't rain last week**.", "vi": "Tuần trước trời không mưa."},
+          {"en": "**Did** you see Anna **this morning**?", "vi": "Sáng nay bạn có thấy Anna không?", "note": "(bây giờ đã là buổi chiều)"},
+          {"en": "I **worked** here **from 2010 to 2014**.", "vi": "Tôi từng làm ở đây từ 2010 đến 2014.", "note": "(không còn làm)"}
+        ]
+      },
+      {
+        "h": "C · Dấu hiệu của past simple",
+        "p": "Khi có mốc thời gian đã qua như **yesterday, last week, ago, in 2010, when I was a child**, ta dùng past simple, không dùng present perfect. Với **when** (hỏi thời điểm) cũng vậy.",
+        "ex": [
+          {"en": "Paul and Lucy **arrived** ten minutes **ago**.", "vi": "Paul và Lucy đến cách đây mười phút.", "note": "(không nói “have arrived … ago”)"},
+          {"en": "**When did** your friends arrive?", "vi": "Bạn của bạn đến khi nào?"},
+          {"en": "Jack **lived** in New York for ten years. **Now** he lives in Los Angeles.", "vi": "Jack từng sống ở New York mười năm. Giờ anh ấy sống ở Los Angeles."}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "14.1", "kind": "write",
+      "title": "Correct the mistakes",
+      "instr": "Mỗi câu dùng sai thì. Viết lại thành câu đúng.",
+      "items": [
+        {"context": "Have you eaten a lot of sweets when you were a child?", "hint": "eat", "answer": "Did you eat a lot of sweets when you were a child?", "vi": "Hồi nhỏ bạn có ăn nhiều kẹo không?", "exp": "when you were a child → past simple"},
+        {"context": "I've bought a new car last week.", "hint": "buy", "answer": "I bought a new car last week.", "vi": "Tuần trước tôi đã mua xe mới.", "exp": "last week → past simple"},
+        {"context": "Where have you been yesterday evening?", "hint": "be", "answer": "Where were you yesterday evening?", "vi": "Tối qua bạn ở đâu?", "exp": "yesterday evening → past simple"},
+        {"context": "Maria has left school in 1999.", "hint": "leave", "answer": "Maria left school in 1999.", "vi": "Maria rời trường năm 1999.", "exp": "in 1999 → past simple"},
+        {"context": "When has this bridge been built?", "hint": "build / passive", "answer": "When was this bridge built?", "vi": "Cây cầu này được xây khi nào?", "exp": "When hỏi thời điểm → past simple"},
+        {"context": "Paul and Lucy have arrived ten minutes ago.", "hint": "arrive", "answer": "Paul and Lucy arrived ten minutes ago.", "vi": "Paul và Lucy đến cách đây mười phút.", "exp": "ago → past simple"}
+      ]
+    },
+    {
+      "id": "14.2", "kind": "write",
+      "title": "Make sentences",
+      "instr": "Viết một câu hoàn chỉnh (present perfect hoặc past simple) từ các từ gợi ý.",
+      "items": [
+        {"context": "It's Wednesday.", "hint": "it / not / rain / this week", "answer": "It hasn't rained this week.", "alts": ["It has not rained this week."], "vi": "Tuần này trời chưa mưa.", "exp": "this week chưa kết thúc → present perfect"},
+        {"context": "The weather is cold these days.", "hint": "the weather / be / cold / recently", "answer": "The weather has been cold recently.", "alts": ["The weather's been cold recently."], "vi": "Gần đây thời tiết lạnh.", "exp": "recently → present perfect"},
+        {"context": "Last week was cold too.", "hint": "it / be / cold / last week", "answer": "It was cold last week.", "vi": "Tuần trước trời cũng lạnh.", "exp": "last week → past simple"},
+        {"context": "You didn't eat fruit yesterday.", "hint": "I / not / eat / any fruit / yesterday", "answer": "I didn't eat any fruit yesterday.", "alts": ["I did not eat any fruit yesterday."], "vi": "Hôm qua tôi không ăn trái cây.", "exp": "yesterday → past simple"},
+        {"context": "It's still today and you haven't eaten fruit.", "hint": "I / not / eat / any fruit / today", "answer": "I haven't eaten any fruit today.", "alts": ["I have not eaten any fruit today."], "vi": "Hôm nay tôi chưa ăn trái cây.", "exp": "today chưa hết → present perfect"},
+        {"context": "Emily is a salesperson. This year is going very well.", "hint": "Emily / earn / a lot of money / this year", "answer": "Emily has earned a lot of money this year.", "alts": ["Emily's earned a lot of money this year."], "vi": "Năm nay Emily kiếm được rất nhiều tiền.", "exp": "this year chưa hết → present perfect"},
+        {"context": "Last year she earned less.", "hint": "she / not / earn / so much / last year", "answer": "She didn't earn so much last year.", "alts": ["She did not earn so much last year."], "vi": "Năm ngoái cô ấy không kiếm được nhiều như vậy.", "exp": "last year → past simple"}
+      ]
+    },
+    {
+      "id": "14.3", "kind": "fill",
+      "title": "Present perfect or past simple?",
+      "instr": "Điền dạng đúng của động từ trong ngoặc.",
+      "items": [
+        {"pre": "Paul and Lucy", "suf": "about ten minutes ago.", "hint": "arrive", "answer": "arrived", "vi": "Paul và Lucy đến cách đây khoảng mười phút.", "exp": "ago → past simple"},
+        {"pre": "I'm tired. I", "suf": "well last night.", "hint": "not / sleep", "answer": "didn't sleep", "vi": "Tôi mệt. Tối qua tôi ngủ không ngon.", "exp": "last night → past simple"},
+        {"pre": "A: Did you go to the cinema last night? B: Yes, but the film", "suf": "awful.", "hint": "be", "answer": "was", "vi": "A: Tối qua bạn có đi xem phim không? B: Có, nhưng phim dở tệ.", "exp": "last night → past simple"},
+        {"pre": "Edward", "suf": "in a bank for 15 years. Then he gave it up.", "hint": "work", "answer": "worked", "vi": "Edward làm ở ngân hàng mười lăm năm. Sau đó anh ấy nghỉ.", "exp": "Giai đoạn đã kết thúc → past simple"},
+        {"pre": "Mary", "suf": "there all her life.", "hint": "live", "answer": "has lived", "vi": "Mary sống ở đó cả đời.", "exp": "all her life, còn đến bây giờ → present perfect"},
+        {"pre": "My grandfather", "suf": "before I was born. I've never met him.", "hint": "die", "answer": "died", "vi": "Ông tôi mất trước khi tôi sinh ra. Tôi chưa từng gặp ông.", "exp": "before I was born → past simple"},
+        {"pre": "I don't know Karen's husband. I", "suf": "him.", "hint": "never / meet", "answer": "have never met", "alts": ["'ve never met"], "vi": "Tôi không biết chồng của Karen. Tôi chưa gặp anh ấy bao giờ.", "exp": "never, trải nghiệm đến nay → present perfect"},
+        {"pre": "I", "suf": "Martin all morning. I wonder where he is.", "hint": "not / see", "answer": "haven't seen", "alts": ["have not seen"], "vi": "Cả buổi sáng tôi chưa thấy Martin. Không biết anh ấy ở đâu.", "exp": "all morning (chưa hết) → present perfect"},
+        {"pre": "There", "suf": "a bus strike last week.", "hint": "be", "answer": "was", "vi": "Tuần trước có cuộc đình công của xe buýt.", "exp": "last week → past simple"}
+      ]
+    },
+    {
+      "id": "14.4", "kind": "fill",
+      "title": "Time words",
+      "instr": "Điền từ thời gian phù hợp: this, last, today, ago, since, from.",
+      "items": [
+        {"pre": "It's Wednesday. It hasn't rained", "suf": "week.", "hint": "this / last", "answer": "this", "vi": "Hôm nay là thứ Tư. Tuần này trời chưa mưa.", "exp": "Tuần vẫn đang diễn ra → this week + present perfect"},
+        {"pre": "It's Wednesday. It didn't rain", "suf": "week.", "hint": "this / last", "answer": "last", "vi": "Hôm nay là thứ Tư. Tuần trước trời không mưa.", "exp": "Tuần đã qua → last week + past simple"},
+        {"pre": "I've worked hard", "suf": "and I'm exhausted.", "hint": "today / yesterday", "answer": "today", "vi": "Hôm nay tôi làm việc vất vả và kiệt sức rồi.", "exp": "today + present perfect"},
+        {"pre": "Paul and Lucy arrived ten minutes", "suf": ".", "hint": "ago / since", "answer": "ago", "vi": "Paul và Lucy đến cách đây mười phút.", "exp": "ago + past simple"},
+        {"pre": "I've known her", "suf": "2015.", "hint": "since / from", "answer": "since", "vi": "Tôi quen cô ấy từ năm 2015.", "exp": "since + mốc thời gian + present perfect"},
+        {"pre": "I lived there", "suf": "2015 to 2018.", "hint": "since / from", "answer": "from", "vi": "Tôi từng sống ở đó từ năm 2015 đến 2018.", "exp": "from … to … → giai đoạn đã kết thúc → past simple"}
+      ]
+    }
+  ]
+}
