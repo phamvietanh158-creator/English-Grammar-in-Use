@@ -31,11 +31,11 @@
 | Unit | File | Nội dung | Nhóm | Đợt | Người làm | Trạng thái |
 |:---:|------|----------|------|:---:|-----------|:---------:|
 | 1 | unit1.html | Present continuous (I am doing) | Present and past | 0 | | ✅ |
-| 2 | unit2.html | Present simple (I do) | Present and past | 1 | | ⬜ |
-| 3 | unit3.html | Present continuous and present simple 1 | Present and past | 1 | | ⬜ |
-| 4 | unit4.html | Present continuous and present simple 2 | Present and past | 1 | | ⬜ |
-| 5 | unit5.html | Past simple (I did) | Present and past | 1 | | ⬜ |
-| 6 | unit6.html | Past continuous (I was doing) | Present and past | 1 | | ⬜ |
+| 2 | unit2.html | Present simple (I do) | Present and past | 1 | Máy 2 | 🟡 |
+| 3 | unit3.html | Present continuous and present simple 1 | Present and past | 1 | Máy 2 | 🟡 |
+| 4 | unit4.html | Present continuous and present simple 2 | Present and past | 1 | Máy 2 | 🟡 |
+| 5 | unit5.html | Past simple (I did) | Present and past | 1 | Máy 2 | 🟡 |
+| 6 | unit6.html | Past continuous (I was doing) | Present and past | 1 | Máy 2 | 🟡 |
 | 7 | unit7.html | Present perfect 1 (I have done) | Present perfect and past | 1 | | ⬜ |
 | 8 | unit8.html | Present perfect 2 (I have done) | Present perfect and past | 1 | | ⬜ |
 | 9 | unit9.html | Present perfect continuous (I have been doing) | Present perfect and past | 1 | | ⬜ |
