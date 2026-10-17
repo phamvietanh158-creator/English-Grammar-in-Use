@@ -1,0 +1,96 @@
+{
+  "id": 45,
+  "title": "it is said that ... / he is said to ...",
+  "theory": {
+    "title": "it is said that ... / he is said to ...",
+    "blocks": [
+      {
+        "h": "A · It is said that … và He is said to …",
+        "p": "Hai cấu trúc cùng nghĩa, hay gặp trong báo chí. Động từ thường dùng: say, think, believe, expect, report, know, consider, allege, understand.",
+        "ex": [
+          {"en": "It is said that he is 108 years old. = He **is said to be** 108 years old.", "vi": "Người ta nói ông ấy 108 tuổi."},
+          {"en": "It is expected that the strike will end soon. = The strike **is expected to end** soon.", "vi": "Người ta dự kiến cuộc đình công sẽ sớm kết thúc."},
+          {"en": "It is alleged that he stole a car. = He **is alleged to have stolen** a car.", "vi": "Người ta cáo buộc anh ta đã lấy trộm một chiếc xe.", "note": "(việc đã xảy ra → to have + V3)"}
+        ]
+      },
+      {
+        "h": "B · supposed to: được cho là, được dự định",
+        "ex": [
+          {"en": "I want to see that film. It's **supposed to be** good.", "vi": "Tôi muốn xem phim đó. Nghe nói phim hay.", "note": "(= người ta nói)"},
+          {"en": "What are you doing here? You're **supposed to be** on holiday.", "vi": "Bạn làm gì ở đây? Lẽ ra bạn phải đang đi nghỉ chứ.", "note": "(= theo kế hoạch)"},
+          {"en": "Our guests **were supposed to come** at 7.30, but they were late.", "vi": "Khách của chúng tôi lẽ ra đến lúc 7 giờ rưỡi nhưng họ đến muộn."}
+        ]
+      },
+      {
+        "h": "C · not supposed to: không được phép",
+        "ex": [
+          {"en": "You're **not supposed to park** here. It's private.", "vi": "Bạn không được đỗ xe ở đây. Đây là đất tư.", "note": ""},
+          {"en": "Joe **isn't supposed to exercise** too hard after his illness.", "vi": "Joe không nên tập luyện quá sức sau khi ốm."}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "45.1", "kind": "write",
+      "title": "Rewrite with is said to / is reported to …",
+      "instr": "Viết lại câu bắt đầu bằng chủ ngữ cho sẵn.",
+      "items": [
+        {"context": "It is reported that many people are homeless after the floods.", "hint": "Many people ...", "answer": "Many people are reported to be homeless after the floods.", "vi": "Nhiều người được báo cáo là không còn nhà cửa sau trận lụt.", "exp": "are reported to be"},
+        {"context": "It is thought that the thieves got in through a window in the roof.", "hint": "The thieves ...", "answer": "The thieves are thought to have got in through a window in the roof.", "alts": ["The thieves are thought to have gotten in through a window in the roof."], "vi": "Người ta cho rằng bọn trộm đã vào qua cửa sổ trên mái nhà.", "exp": "are thought to have + V3"},
+        {"context": "It is alleged that the driver was driving at 110 miles an hour.", "hint": "The driver ...", "answer": "The driver is alleged to have been driving at 110 miles an hour.", "vi": "Người ta cáo buộc tài xế đã lái xe với tốc độ 110 dặm một giờ.", "exp": "is alleged to have been driving"},
+        {"context": "It is reported that the building has been badly damaged by the fire.", "hint": "The building ...", "answer": "The building is reported to have been badly damaged by the fire.", "vi": "Tòa nhà được báo cáo là đã bị hỏa hoạn tàn phá nặng.", "exp": "is reported to have been damaged"},
+        {"context": "It is said that the company is losing a lot of money.", "hint": "The company ...", "answer": "The company is said to be losing a lot of money.", "vi": "Nghe nói công ty đang lỗ rất nhiều tiền.", "exp": "is said to be losing"},
+        {"context": "It is believed that the company lost a lot of money last year.", "hint": "The company ...", "answer": "The company is believed to have lost a lot of money last year.", "vi": "Người ta tin rằng năm ngoái công ty đã lỗ rất nhiều.", "exp": "is believed to have lost"},
+        {"context": "It is expected that the company will make a loss this year.", "hint": "The company ...", "answer": "The company is expected to make a loss this year.", "vi": "Dự kiến năm nay công ty sẽ thua lỗ.", "exp": "is expected to make"}
+      ]
+    },
+    {
+      "id": "45.2", "kind": "fill",
+      "title": "supposed to be / supposed to have been",
+      "instr": "Điền supposed to + dạng thích hợp.",
+      "items": [
+        {"pre": "A: Are those jewels valuable? B: I'm not sure, but", "suf": "very valuable.", "hint": "they / be", "answer": "they're supposed to be", "alts": ["they are supposed to be"], "vi": "A: Những món trang sức đó có giá trị không? B: Tôi không chắc, nhưng nghe nói chúng rất đáng giá.", "exp": "supposed to be = nghe nói"},
+        {"pre": "A: This looks an interesting building. B: Yes,", "suf": "a prison a long time ago.", "hint": "it / be", "answer": "it's supposed to have been", "alts": ["it is supposed to have been"], "vi": "A: Toà nhà này trông thú vị. B: Ừ, nghe nói ngày xưa nó là nhà tù.", "exp": "supposed to have been = nghe nói đã từng là"},
+        {"pre": "A: Did your neighbours win the lottery? B: Yes,", "suf": "a lot of money.", "hint": "they / win", "answer": "they're supposed to have won", "alts": ["they are supposed to have won"], "vi": "A: Hàng xóm của bạn trúng xổ số à? B: Ừ, nghe nói họ trúng rất nhiều tiền.", "exp": "supposed to have won"},
+        {"pre": "A: Can you climb to the top of the tower? B: Yes,", "suf": "very nice.", "hint": "the view / be", "answer": "the view is supposed to be", "vi": "A: Có leo lên đỉnh tháp được không? B: Có, nghe nói cảnh ở đó rất đẹp.", "exp": "supposed to be"},
+        {"pre": "A: I heard Laura has gone away. B: Yes,", "suf": "in London now.", "hint": "she / live", "answer": "she's supposed to be living", "alts": ["she is supposed to be living"], "vi": "A: Tôi nghe nói Laura đã đi xa. B: Ừ, nghe nói giờ cô ấy đang sống ở Luân Đôn.", "exp": "supposed to be living"}
+      ]
+    },
+    {
+      "id": "45.3", "kind": "write",
+      "title": "supposed to be",
+      "instr": "Viết câu với supposed to be theo tình huống.",
+      "items": [
+        {"context": "You shouldn't criticise me all the time.", "hint": "you / supposed to / my friend", "answer": "You're supposed to be my friend.", "alts": ["You are supposed to be my friend."], "vi": "Bạn lẽ ra phải là bạn của tôi chứ.", "exp": "supposed to be = nghĩa vụ/kỳ vọng"},
+        {"context": "I shouldn't be eating this cake really.", "hint": "I / supposed to / on a diet", "answer": "I'm supposed to be on a diet.", "alts": ["I am supposed to be on a diet."], "vi": "Lẽ ra tôi phải đang ăn kiêng.", "exp": "supposed to be"},
+        {"context": "I'm sorry. I was trying to be funny.", "hint": "it / supposed to / a joke", "answer": "It was supposed to be a joke.", "vi": "Đó lẽ ra là một câu đùa.", "exp": "was supposed to be"},
+        {"context": "What's this drawing? Is it a tree?", "hint": "it / supposed to / a flower", "answer": "It's supposed to be a flower.", "alts": ["It is supposed to be a flower."], "vi": "Nó là một bông hoa đấy.", "exp": "supposed to be"},
+        {"context": "You shouldn't be playing a game now.", "hint": "you / supposed to / working", "answer": "You're supposed to be working.", "alts": ["You are supposed to be working."], "vi": "Lẽ ra bạn phải đang làm việc chứ.", "exp": "supposed to be working"},
+        {"context": "The museum seems to be closed. That's strange.", "hint": "it / supposed to / open every day", "answer": "It's supposed to be open every day.", "alts": ["It is supposed to be open every day."], "vi": "Lẽ ra nó mở cửa mỗi ngày chứ.", "exp": "supposed to be open"}
+      ]
+    },
+    {
+      "id": "45.4", "kind": "write",
+      "title": "supposed to / not supposed to",
+      "instr": "Viết câu với supposed to hoặc not supposed to theo gợi ý.",
+      "items": [
+        {"context": "We start work at 8.15, but rarely do anything before 8.30.", "hint": "we / supposed to / start / at 8.15", "answer": "We're supposed to start at 8.15.", "alts": ["We are supposed to start at 8.15."], "vi": "Lẽ ra chúng tôi bắt đầu làm việc lúc 8 giờ 15.", "exp": "supposed to + V"},
+        {"context": "I forgot to phone Helen last night.", "hint": "I / supposed to / phone Helen last night", "answer": "I was supposed to phone Helen last night.", "vi": "Lẽ ra tối qua tôi phải gọi cho Helen.", "exp": "was supposed to"},
+        {"context": "This door is a fire exit. Don't put anything in front of it.", "hint": "we / not supposed to / put anything in front of it", "answer": "We're not supposed to put anything in front of it.", "alts": ["We are not supposed to put anything in front of it.", "We aren't supposed to put anything in front of it."], "vi": "Chúng ta không được để thứ gì trước cửa này.", "exp": "not supposed to + V"},
+        {"context": "My flight was meant to leave at 10.15, but it didn't leave until 11.30.", "hint": "my flight / supposed to / depart / at 10.15", "answer": "My flight was supposed to depart at 10.15.", "alts": ["My flight was supposed to leave at 10.15."], "vi": "Chuyến bay của tôi lẽ ra cất cánh lúc 10 giờ 15.", "exp": "was supposed to"},
+        {"context": "Jonathan has a back problem.", "hint": "he / not supposed to / lift anything heavy", "answer": "He isn't supposed to lift anything heavy.", "alts": ["He is not supposed to lift anything heavy.", "He's not supposed to lift anything heavy."], "vi": "Anh ấy không được nâng vật nặng.", "exp": "isn't supposed to + V"}
+      ]
+    },
+    {
+      "id": "45.5", "kind": "fill",
+      "title": "More practice",
+      "instr": "Điền một từ còn thiếu.",
+      "items": [
+        {"pre": "It is said that he is 108. He is", "suf": "to be 108 years old.", "hint": "said / supposed", "answer": "said", "vi": "Người ta nói ông ấy 108 tuổi.", "exp": "is said to be"},
+        {"pre": "The strike is", "suf": "to end soon.", "hint": "expected / said", "answer": "expected", "alts": ["said", "thought", "believed"], "vi": "Cuộc đình công dự kiến sẽ sớm kết thúc.", "exp": "is expected to + V"},
+        {"pre": "You're not", "suf": "to park here. It's private.", "hint": "supposed", "answer": "supposed", "vi": "Bạn không được đỗ xe ở đây. Đây là đất tư.", "exp": "not supposed to + V"}
+      ]
+    }
+  ]
+}
