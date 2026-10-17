@@ -1,0 +1,106 @@
+{
+  "id": 37,
+  "title": "can/could/would you ...? (Requests, offers)",
+  "theory": {
+    "title": "can/could/would you ...? (Requests, offers)",
+    "blocks": [
+      {
+        "h": "A · Nhờ ai làm gì",
+        "table": {
+          "head": ["Mức độ", "Ví dụ"],
+          "rows": [
+            ["Thân mật", "**Can you** wait a moment, please?"],
+            ["Lịch sự hơn", "**Could you** wait a moment, please?"],
+            ["Rất lịch sự", "**Do you think you could** take me to the airport?"]
+          ]
+        },
+        "p": "Không nói “Do you think you can …?” khi muốn thật lịch sự."
+      },
+      {
+        "h": "B · Xin một thứ gì đó / xin phép",
+        "ex": [
+          {"en": "**Can I have** these postcards? / **Could I have** …? / **May I have** …?", "vi": "Cho tôi lấy những tấm bưu thiếp này được không?"},
+          {"en": "**Could I use** your phone?", "vi": "Tôi dùng điện thoại của bạn được không?"},
+          {"en": "**Do you mind if I** sit here? / **Is it OK if I** …?", "vi": "Bạn có phiền nếu tôi ngồi ở đây không?"},
+          {"en": "**May I** ask you a question?", "vi": "Tôi xin phép hỏi bạn một câu được không?", "note": "(trang trọng)"}
+        ]
+      },
+      {
+        "h": "C · Đề nghị và mời",
+        "ex": [
+          {"en": "**Can I help** you?", "vi": "Tôi có thể giúp gì cho bạn?"},
+          {"en": "**Would you like** some coffee?", "vi": "Bạn có muốn uống cà phê không?", "note": "(không nói “Do you like” khi mời)"},
+          {"en": "**Would you like to** eat with us tonight?", "vi": "Tối nay bạn đi ăn với chúng tôi nhé?"},
+          {"en": "**I'd like** some information, please.", "vi": "Cho tôi xin ít thông tin.", "note": "(I'd like lịch sự hơn I want)"}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "37.1", "kind": "match",
+      "title": "Question and answer",
+      "instr": "Nối câu hỏi/đề nghị ở cột A với câu trả lời phù hợp ở cột B (chọn số 1–8).",
+      "left": [
+        {"k": "a", "en": "Could you pass the sugar?", "vi": "Bạn đưa giúp tôi lọ đường được không?"},
+        {"k": "b", "en": "Would you like to go to the cinema?", "vi": "Bạn có muốn đi xem phim không?"},
+        {"k": "c", "en": "Can I use your toilet?", "vi": "Tôi dùng nhà vệ sinh của bạn được không?"},
+        {"k": "d", "en": "Do you mind if I leave work early?", "vi": "Bạn có phiền nếu tôi về sớm không?"},
+        {"k": "e", "en": "Can you do me a favour?", "vi": "Bạn giúp tôi một việc được không?"},
+        {"k": "f", "en": "Would you like something to eat?", "vi": "Bạn có muốn ăn gì không?"},
+        {"k": "g", "en": "Can I give you a hand?", "vi": "Để tôi giúp bạn một tay nhé?"},
+        {"k": "h", "en": "I'd like some fresh air.", "vi": "Tôi muốn hít thở không khí trong lành."}
+      ],
+      "right": [
+        {"n": "1", "en": "No, it's all right. I can manage, thanks.", "vi": "Không sao, tôi tự lo được, cảm ơn."},
+        {"n": "2", "en": "Me too. Let's go out for a walk.", "vi": "Tôi cũng vậy. Mình ra ngoài đi dạo đi."},
+        {"n": "3", "en": "Yes, here you are.", "vi": "Được, đây này."},
+        {"n": "4", "en": "No, that's fine.", "vi": "Không, không sao."},
+        {"n": "5", "en": "Sure. It's the door on the left.", "vi": "Được. Cửa bên trái."},
+        {"n": "6", "en": "It depends what you want me to do.", "vi": "Tùy bạn muốn tôi làm gì."},
+        {"n": "7", "en": "No, thanks. I'm not hungry.", "vi": "Không, cảm ơn. Tôi không đói."},
+        {"n": "8", "en": "Maybe. What's on?", "vi": "Có thể. Có phim gì?"}
+      ],
+      "ans": {"a": "3", "b": "8", "c": "5", "d": "4", "e": "6", "f": "7", "g": "1", "h": "2"}
+    },
+    {
+      "id": "37.2", "kind": "fill",
+      "title": "Complete the sentences",
+      "instr": "Điền cụm lịch sự phù hợp: Would you like, I'd like, Can I, Is it OK, Would you like to…",
+      "items": [
+        {"pre": "You're making a cold drink for a guest.", "suf": "ice in your drink?", "hint": "Would you like / Do you like", "answer": "Would you like", "vi": "Bạn có muốn cho đá vào đồ uống không?", "exp": "Would you like + noun = mời"},
+        {"pre": "You're ordering in a café.", "suf": "a chicken salad, please.", "hint": "I'd like / I like", "answer": "I'd like", "alts": ["I would like"], "vi": "Cho tôi một đĩa salad gà.", "exp": "I'd like + noun = gọi món lịch sự"},
+        {"pre": "You have an extra concert ticket.", "suf": "to a concert tomorrow night?", "hint": "Would you like to come", "answer": "Would you like to come", "vi": "Tối mai bạn có muốn đi nghe hoà nhạc cùng không?", "exp": "Would you like to + V = mời"},
+        {"pre": "Lisa isn't here. Someone is calling for her.", "suf": "a message?", "hint": "Can I take", "answer": "Can I take", "alts": ["Can I take"], "vi": "Lisa không có ở đây. Bạn có muốn để lại lời nhắn không?", "exp": "Can I take a message? = đề nghị giúp"},
+        {"pre": "You phone the dentist.", "suf": "to make an appointment, please.", "hint": "I'd like", "answer": "I'd like", "alts": ["I would like"], "vi": "Tôi muốn đặt lịch hẹn.", "exp": "I'd like to + V"},
+        {"pre": "You work in a shoe shop. A customer is looking at shoes.", "suf": "them on?", "hint": "Would you like to try", "answer": "Would you like to try", "vi": "Bạn có muốn thử không?", "exp": "Would you like to + V = mời"},
+        {"pre": "You see friends in a café and want to sit with them.", "suf": "I join you?", "hint": "Is it OK if", "answer": "Is it OK if", "alts": ["Is it okay if", "Do you mind if"], "vi": "Tôi ngồi cùng các bạn có được không?", "exp": "Is it OK if I …? = xin phép"}
+      ]
+    },
+    {
+      "id": "37.3", "kind": "write",
+      "title": "What would you say?",
+      "instr": "Viết một câu lịch sự cho mỗi tình huống, dùng Could you / Can I / I'd like / Would you like.",
+      "items": [
+        {"context": "You've finished your meal and want the bill.", "hint": "could I / have the bill", "answer": "Could I have the bill, please?", "alts": ["Can I have the bill, please?", "Could I have the bill?", "Can I have the bill?", "Could I have the check, please?"], "vi": "Cho tôi xin hoá đơn được không?", "exp": "Could I have …? = xin lịch sự"},
+        {"context": "You want your friend to check some forms written in English.", "hint": "could you / check these forms for me", "answer": "Could you check these forms for me, please?", "alts": ["Could you check these forms for me?", "Can you check these forms for me, please?"], "vi": "Bạn kiểm tra giúp tôi những mẫu đơn này được không?", "exp": "Could you + V = nhờ lịch sự"},
+        {"context": "The woman next door is playing very loud music.", "hint": "could you / turn the music down", "answer": "Could you turn the music down, please?", "alts": ["Could you turn the music down?", "Could you please turn the music down?"], "vi": "Chị vặn nhỏ nhạc xuống giúp được không?", "exp": "Could you + V"},
+        {"context": "You're on a bus. An elderly man is standing.", "hint": "would you like / sit down", "answer": "Would you like to sit down?", "alts": ["Would you like my seat?", "Would you like to sit here?"], "vi": "Ông có muốn ngồi không ạ?", "exp": "Would you like to + V"},
+        {"context": "You are a tourist and want to get to the station.", "hint": "could you / tell me / how to get to the station", "answer": "Could you tell me how to get to the station?", "alts": ["Could you tell me how to get to the station, please?"], "vi": "Bạn chỉ giúp tôi đường đến nhà ga được không?", "exp": "Could you tell me how …?"},
+        {"context": "You see trousers you like in a shop.", "hint": "I'd like / try these trousers on", "answer": "I'd like to try these trousers on, please.", "alts": ["I'd like to try these trousers on.", "I would like to try these trousers on, please.", "I would like to try these trousers on."], "vi": "Tôi muốn thử chiếc quần này.", "exp": "I'd like to + V"},
+        {"context": "You meet a famous person.", "hint": "could I / have your autograph", "answer": "Could I have your autograph, please?", "alts": ["Could I have your autograph?", "Can I have your autograph, please?", "Can I have your autograph?"], "vi": "Tôi xin chữ ký của bạn được không?", "exp": "Could I have …?"}
+      ]
+    },
+    {
+      "id": "37.4", "kind": "fill",
+      "title": "More polite phrases",
+      "instr": "Điền một từ phù hợp: Would, Could, Can, mind.",
+      "items": [
+        {"pre": "", "suf": "you like some coffee?", "hint": "Would / Do", "answer": "Would", "vi": "Bạn có muốn uống cà phê không?", "exp": "Would you like …?"},
+        {"pre": "", "suf": "you help me with this, please?", "hint": "Could / Would", "answer": "Could", "alts": ["Can", "Would"], "vi": "Bạn giúp tôi việc này được không?", "exp": "Could you …?"},
+        {"pre": "", "suf": "I use your pen for a moment?", "hint": "Can / Would", "answer": "Can", "alts": ["Could", "May"], "vi": "Tôi dùng bút của bạn một chút được không?", "exp": "Can/Could I …?"},
+        {"pre": "Do you", "suf": "if I open the window?", "hint": "mind / like", "answer": "mind", "vi": "Bạn có phiền nếu tôi mở cửa sổ không?", "exp": "Do you mind if I …?"}
+      ]
+    }
+  ]
+}
