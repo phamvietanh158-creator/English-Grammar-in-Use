@@ -1,0 +1,79 @@
+# unit16: IPA tự động (espeak en-GB → Cambridge). Soát nhanh các từ dưới đây.
+
+24	/ˈfɔːr/
+all	/ˈɔːl/
+an	/ən/
+at	/æt/
+because	/bɪˈkɒz/
+been	/ˌbiːn/
+before	/bɪˌfɔː/
+bike	/ˈbaɪk/
+day	/ˈdeɪ/
+dirty	/ˈdɜːti/
+each	/ˈiːtʃ/
+end	/ˈend/
+extremely	/ekˈstriːmli/
+for	/fɔː/
+got	/gɒt/
+had	/hæd/
+half	/hɑːf/
+hands	/ˈhændz/
+hard	/ˈhɑːd/
+he	/hiː/
+he'd	/hiːd/
+home	/ˈhəʊm/
+hour	/ˈaʊə/
+hours	/ˈaʊəz/
+i'd	/aɪd/
+it	/ɪt/
+journey	/ˈdʒɜːni/
+known	/ˈnəʊn/
+married	/ˈmærid/
+more	/ðən/
+my	/maɪ/
+of	/ɒv/
+other	/ˈʌðə/
+our	/ˌaʊə/
+playing	/ˈpleɪɪŋ/
+rain	/ˈreɪn/
+repairing	/rɪˈpeərɪŋ/
+she'd	/ʃiːd/
+started	/ˈstɑːtɪd/
+tennis	/ˈtenɪs/
+than	/ˈtwenti/
+the	/ðɪ/
+tired	/ˈtaɪəd/
+to	/tə/
+tom	/ˈtɒm/
+travelling	/fɔː/
+was	/wɒz/
+we	/wiː/
+we'd	/wiːd/
+were	/wɜː/
+when	/wen/
+working	/ˈwɜːkɪŋ/
+years	/ˈjiəz/
+
+# Câu không ghép được từng từ (có số/viết tắt) — soát cả câu:
+Katherine was lying on the sofa.
+They had been playing football.
+I had been looking forward to it.
+She had been having a bad dream.
+He had been watching a film.
+They had been waiting a long time.
+He had been cleaning the garage.
+At last the bus came. I had been waiting for 20 minutes.
+Sarah worked in the company for twelve years. When it closed down, she had been working there for twelve years.
+The orchestra had been playing for about ten minutes when a man suddenly started shouting.
+James was out of breath. He had been running.
+Tom was tired when he got home. He had been working hard all day.
+My hands were dirty because I had been repairing my bike.
+The ground was wet. It had been raining.
+James was on his hands and knees on the floor. He was looking for his contact lens.
+Sue was sitting on the ground, out of breath. She had been running.
+I was sad when I sold my car. I had had it for a very long time.
+I was sad when my local café closed. I had been going there for many years.
+I'm running a marathon next month. I have been training for it every day.
+When I arrived, Kate was annoyed because she had been waiting such a long time.
+When I started the job, Joe had been working there for two years already.
+Joe still works for the company. He has been working there a long time now.
