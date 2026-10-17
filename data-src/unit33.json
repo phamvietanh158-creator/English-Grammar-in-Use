@@ -1,0 +1,90 @@
+{
+  "id": 33,
+  "title": "should 1",
+  "theory": {
+    "title": "should 1",
+    "blocks": [
+      {
+        "h": "A · should: lời khuyên, ý kiến",
+        "ex": [
+          {"en": "You look tired. You **should go** to bed.", "vi": "Trông bạn mệt. Bạn nên đi ngủ."},
+          {"en": "The government **should do** more to improve schools.", "vi": "Chính phủ nên làm nhiều hơn để cải thiện trường học."},
+          {"en": "You **shouldn't believe** everything you read.", "vi": "Bạn không nên tin mọi thứ mình đọc."}
+        ],
+        "p": "should nhẹ hơn must / have to: nói điều nên làm, nhưng không bắt buộc. **ought to** có nghĩa tương tự: You ought to apologise."
+      },
+      {
+        "h": "B · should: điều được mong đợi, điều đáng lẽ phải như vậy",
+        "ex": [
+          {"en": "Where's Tina? She **should be** here by now.", "vi": "Tina đâu rồi? Lẽ ra giờ này cô ấy phải ở đây."},
+          {"en": "Helen has been studying hard. She **should pass**.", "vi": "Helen học chăm. Chắc cô ấy sẽ đỗ."},
+          {"en": "It **shouldn't be** hard to find a hotel.", "vi": "Chắc không khó tìm khách sạn đâu."}
+        ]
+      },
+      {
+        "h": "C · should have done: lẽ ra đã nên làm",
+        "ex": [
+          {"en": "You **should have come** to the party. It was great.", "vi": "Lẽ ra bạn nên đến dự tiệc. Tiệc rất vui.", "note": "(bạn đã không đến)"},
+          {"en": "I **shouldn't have eaten** so much.", "vi": "Lẽ ra tôi không nên ăn nhiều như vậy.", "note": "(tôi đã ăn nhiều)"},
+          {"en": "You went to bed very late. You **should have gone** earlier.", "vi": "Bạn đi ngủ rất muộn. Lẽ ra bạn nên đi sớm hơn."}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "33.1", "kind": "write",
+      "title": "should or shouldn't",
+      "instr": "Viết lời khuyên với should hoặc shouldn't theo gợi ý.",
+      "items": [
+        {"context": "Your friend's salary is very low.", "hint": "you / look for another job", "answer": "You should look for another job.", "vi": "Bạn nên tìm một công việc khác.", "exp": "should + V"},
+        {"context": "Jack always finds it hard to get up in the morning.", "hint": "he / stay up so late", "answer": "He shouldn't stay up so late.", "vi": "Anh ấy không nên thức khuya như vậy.", "exp": "shouldn't + V"},
+        {"context": "What a beautiful view!", "hint": "you / take a picture", "answer": "You should take a picture.", "vi": "Bạn nên chụp một tấm ảnh.", "exp": "should + V"},
+        {"context": "Laura is always anxious.", "hint": "she / worry so much", "answer": "She shouldn't worry so much.", "vi": "Cô ấy không nên lo lắng nhiều như vậy.", "exp": "shouldn't + V"},
+        {"context": "Dan's room isn't very nice.", "hint": "he / put some pictures on the walls", "answer": "He should put some pictures on the walls.", "vi": "Anh ấy nên treo vài bức tranh lên tường.", "exp": "should + V"}
+      ]
+    },
+    {
+      "id": "33.2", "kind": "fill",
+      "title": "Expectations",
+      "instr": "Điền should (not) + động từ: be, pass, cost, take, receive, solve.",
+      "items": [
+        {"pre": "Joe hasn't arrived yet, but he", "suf": "here soon.", "hint": "be", "answer": "should be", "vi": "Joe chưa đến, nhưng chắc anh ấy sắp tới.", "exp": "Kỳ vọng"},
+        {"pre": "The TV has been repaired. It", "suf": "working OK now.", "hint": "be", "answer": "should be", "vi": "Tivi đã được sửa rồi. Chắc giờ nó chạy bình thường.", "exp": "Kỳ vọng"},
+        {"pre": "It", "suf": "long to get to the hotel. It's only about 20 minutes.", "hint": "not / take", "answer": "shouldn't take", "vi": "Đến khách sạn chắc không lâu đâu. Chỉ khoảng 20 phút.", "exp": "Kỳ vọng phủ định"},
+        {"pre": "I sent the documents today, so you", "suf": "them tomorrow.", "hint": "receive", "answer": "should receive", "vi": "Hôm nay tôi đã gửi tài liệu, nên ngày mai bạn sẽ nhận được.", "exp": "Kỳ vọng"},
+        {"pre": "The weather is unusually cold. It", "suf": "much warmer at this time of year.", "hint": "be", "answer": "should be", "vi": "Thời tiết lạnh bất thường. Giờ này trong năm lẽ ra phải ấm hơn nhiều.", "exp": "Điều lẽ ra phải như vậy"},
+        {"pre": "The best way is by taxi. It", "suf": "more than ten pounds.", "hint": "not / cost", "answer": "shouldn't cost", "vi": "Cách tốt nhất là đi taxi. Chắc không tốn quá mười bảng.", "exp": "Kỳ vọng phủ định"},
+        {"pre": "Try restarting the computer. That", "suf": "the problem.", "hint": "solve", "answer": "should solve", "vi": "Hãy thử khởi động lại máy tính. Việc đó sẽ giải quyết được vấn đề.", "exp": "Kỳ vọng"}
+      ]
+    },
+    {
+      "id": "33.3", "kind": "fill",
+      "title": "should or should have?",
+      "instr": "Điền should + V hoặc should have + V3.",
+      "items": [
+        {"pre": "I'm in a difficult position. What do you think I", "suf": "now?", "hint": "do", "answer": "should do", "vi": "Tôi đang ở thế khó. Theo bạn bây giờ tôi nên làm gì?", "exp": "Hiện tại → should do"},
+        {"pre": "I'm sorry I didn't take your advice. I", "suf": "what you said.", "hint": "do", "answer": "should have done", "vi": "Xin lỗi vì tôi không nghe lời khuyên của bạn. Lẽ ra tôi nên làm theo lời bạn.", "exp": "Quá khứ → should have done"},
+        {"pre": "We lost the game, but we were the better team. We", "suf": ".", "hint": "win", "answer": "should have won", "vi": "Chúng tôi thua trận, nhưng chúng tôi chơi hay hơn. Lẽ ra chúng tôi đã thắng.", "exp": "should have won"},
+        {"pre": "We don't see you enough. You", "suf": "and see us more often.", "hint": "come", "answer": "should come", "vi": "Chúng tôi ít gặp bạn quá. Bạn nên đến chơi thường xuyên hơn.", "exp": "Lời khuyên → should come"},
+        {"pre": "We got lost. We", "suf": "right, not left.", "hint": "turn", "answer": "should have turned", "vi": "Chúng tôi bị lạc. Lẽ ra chúng tôi phải rẽ phải, không phải rẽ trái.", "exp": "should have turned"},
+        {"pre": "My exam results weren't good. I", "suf": "better.", "hint": "do", "answer": "should have done", "vi": "Kết quả thi của tôi không tốt. Lẽ ra tôi phải làm tốt hơn.", "exp": "should have done"}
+      ]
+    },
+    {
+      "id": "33.4", "kind": "write",
+      "title": "Comment on the situation",
+      "instr": "Đọc tình huống rồi viết nhận xét với should / shouldn't / should have / shouldn't have.",
+      "items": [
+        {"context": "When we got to the restaurant, there were no free tables. We hadn't reserved one.", "hint": "we / reserve / a table", "answer": "We should have reserved a table.", "vi": "Lẽ ra chúng tôi nên đặt bàn trước.", "exp": "should have + V3"},
+        {"context": "Laura told me her address, but I didn't write it down.", "hint": "I / write it down", "answer": "I should have written it down.", "vi": "Lẽ ra tôi nên ghi lại.", "exp": "should have written"},
+        {"context": "The shop is open every day from 8.30. It is 9 o'clock but the shop is closed.", "hint": "it / be open", "answer": "It should be open.", "vi": "Giờ này lẽ ra nó phải mở cửa rồi.", "exp": "should be (điều đáng lẽ phải như vậy)"},
+        {"context": "I wasn't looking where I was going and walked into a wall.", "hint": "I / look / where I was going", "answer": "I should have been looking where I was going.", "alts": ["I should have looked where I was going."], "vi": "Lẽ ra tôi nên nhìn đường.", "exp": "should have been looking"},
+        {"context": "Kate is driving at 50 mph. The limit is 30 mph.", "hint": "she / not / drive so fast", "answer": "She shouldn't be driving so fast.", "alts": ["She shouldn't drive so fast."], "vi": "Cô ấy không nên lái nhanh như vậy.", "exp": "shouldn't be driving"},
+        {"context": "I wasn't feeling well but I went to work. Now I feel worse.", "hint": "I / not / go to work", "answer": "I shouldn't have gone to work.", "vi": "Lẽ ra tôi không nên đi làm.", "exp": "shouldn't have gone"},
+        {"context": "Team A are much better than Team B. They play tomorrow.", "hint": "Team A / win", "answer": "Team A should win.", "vi": "Chắc đội A sẽ thắng.", "exp": "should + V = kỳ vọng"},
+        {"context": "The car in front stopped suddenly and I drove into it. It wasn't my fault.", "hint": "the driver in front / not / stop so suddenly", "answer": "The driver in front shouldn't have stopped so suddenly.", "vi": "Lẽ ra tài xế phía trước không nên dừng đột ngột như vậy.", "exp": "shouldn't have stopped"}
+      ]
+    }
+  ]
+}
