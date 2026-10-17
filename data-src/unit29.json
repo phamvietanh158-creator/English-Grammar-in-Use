@@ -1,0 +1,97 @@
+{
+  "id": 29,
+  "title": "may and might 1",
+  "theory": {
+    "title": "may and might 1",
+    "blocks": [
+      {
+        "h": "A · may / might: có thể (không chắc)",
+        "ex": [
+          {"en": "It **may be** true. / It **might be** true.", "vi": "Có thể điều đó đúng."},
+          {"en": "She **might know**. / She **may know**.", "vi": "Có thể cô ấy biết."},
+          {"en": "It **may not** be true. / She **might not** know.", "vi": "Có thể điều đó không đúng. / Có thể cô ấy không biết.", "note": "(phủ định: may not, might not)"}
+        ],
+        "p": "Chú ý: **may be** (hai từ, là động từ) khác **maybe** (một từ, là trạng từ = có lẽ). Ví dụ: A: Is it true? B: **Maybe.** I'm not sure."
+      },
+      {
+        "h": "B · may have / might have + V3: có thể đã (quá khứ)",
+        "ex": [
+          {"en": "A: Why didn't Kate answer?  B: She **may have been** asleep.", "vi": "A: Sao Kate không trả lời? B: Có thể cô ấy đã ngủ."},
+          {"en": "A: I can't find my phone.  B: You **might have left** it at work.", "vi": "A: Tôi không tìm thấy điện thoại. B: Có thể bạn để quên ở chỗ làm."},
+          {"en": "She **might not have known** about it.", "vi": "Có thể cô ấy không biết chuyện đó."}
+        ]
+      },
+      {
+        "h": "C · may / might + be + V-ing; could",
+        "ex": [
+          {"en": "Where's Emma? She **might be watching** TV.", "vi": "Emma đâu rồi? Có thể cô ấy đang xem tivi."},
+          {"en": "It **could be** true. (= may/might)", "vi": "Có thể điều đó đúng."}
+        ]
+      },
+      {
+        "h": "D · might not have và couldn't have",
+        "table": {
+          "head": ["might not have (không chắc)", "couldn't have (chắc chắn không)"],
+          "rows": [
+            ["She might not have received it. (có thể cô ấy chưa nhận được)", "She couldn't have received it. (chắc chắn cô ấy không thể đã nhận)"]
+          ]
+        }
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "29.1", "kind": "fill",
+      "title": "may / might + verb",
+      "instr": "Điền may hoặc might + động từ gợi ý (be, know, belong, have, be sleeping, be worrying).",
+      "items": [
+        {"pre": "A: Is there a bookshop near here? B: Ask Anna. She", "suf": ".", "hint": "know", "answer": "may know", "alts": ["might know"], "vi": "A: Gần đây có hiệu sách không? B: Hỏi Anna đi. Có thể cô ấy biết.", "exp": "may/might + V"},
+        {"pre": "A: Where are those people from? B: I don't know. They", "suf": "from anywhere.", "hint": "be", "answer": "might be", "alts": ["may be"], "vi": "A: Những người đó từ đâu đến? B: Tôi không biết. Họ có thể từ bất cứ đâu.", "exp": "might be"},
+        {"pre": "A: I hope you can help me. B: I'll try, but it", "suf": "possible.", "hint": "not / be", "answer": "may not be", "alts": ["might not be"], "vi": "A: Mong bạn giúp tôi. B: Tôi sẽ cố, nhưng có thể không được.", "exp": "may not be"},
+        {"pre": "A: Whose phone is this? B: It's not mine. It", "suf": "to somebody else.", "hint": "belong", "answer": "might belong", "alts": ["may belong"], "vi": "A: Điện thoại của ai đây? B: Không phải của tôi. Có thể của ai đó khác.", "exp": "might belong"},
+        {"pre": "A: Why doesn't George answer his phone? B: He", "suf": ".", "hint": "sleep", "answer": "might be sleeping", "alts": ["may be sleeping"], "vi": "A: Sao George không nghe máy? B: Có thể anh ấy đang ngủ.", "exp": "might be + V-ing"},
+        {"pre": "A: Does Rachel have a key? B: She", "suf": ", but I'm not sure.", "hint": "have", "answer": "might have", "alts": ["may have"], "vi": "A: Rachel có chìa khoá không? B: Có thể có, nhưng tôi không chắc.", "exp": "might have (sở hữu)"},
+        {"pre": "A: Gary is in a strange mood. B: He", "suf": "about something.", "hint": "worry", "answer": "might be worrying", "alts": ["may be worrying"], "vi": "A: Gary đang có tâm trạng lạ. B: Có thể anh ấy đang lo chuyện gì đó.", "exp": "might be + V-ing"}
+      ]
+    },
+    {
+      "id": "29.2", "kind": "fill",
+      "title": "may / might + be, be -ing, have done",
+      "instr": "Điền phần còn lại của câu với động từ trong ngoặc.",
+      "items": [
+        {"pre": "A: Who was the guy with Anna? B: It may", "suf": "her brother.", "hint": "be", "answer": "have been", "vi": "A: Người đi cùng Anna là ai? B: Có thể là anh trai cô ấy.", "exp": "Quá khứ → may have been"},
+        {"pre": "A: Is Ellie here? B: She may not", "suf": "yet.", "hint": "arrive", "answer": "have arrived", "vi": "A: Ellie đã đến chưa? B: Có thể cô ấy chưa đến.", "exp": "may not have arrived"},
+        {"pre": "Gary said he'd meet us but he isn't here. He might", "suf": "outside.", "hint": "wait", "answer": "be waiting", "vi": "Gary nói sẽ gặp chúng ta nhưng không thấy. Có thể anh ấy đang đợi bên ngoài.", "exp": "Đang diễn ra → be waiting"},
+        {"pre": "A: How did John know you'd lost your job? B: Sam may", "suf": "him.", "hint": "tell", "answer": "have told", "vi": "A: Sao John biết bạn mất việc? B: Có thể Sam đã nói với anh ấy.", "exp": "may have told"},
+        {"pre": "A: Is Jeff still in the office? B: He might", "suf": "home.", "hint": "go", "answer": "have gone", "vi": "A: Jeff còn ở văn phòng không? B: Có thể anh ấy đã về nhà.", "exp": "might have gone"},
+        {"pre": "A: Where's Emma? B: She might", "suf": "TV.", "hint": "watch", "answer": "be watching", "vi": "A: Emma đâu rồi? B: Có thể cô ấy đang xem tivi.", "exp": "might be watching"},
+        {"pre": "A: Does Max have sisters? B: He may", "suf": "a younger sister.", "hint": "have", "answer": "have", "vi": "A: Max có chị em gái không? B: Có thể anh ấy có một em gái.", "exp": "may have (sở hữu)"},
+        {"pre": "A: I can't find my umbrella. B: You may", "suf": "it in the restaurant.", "hint": "leave", "answer": "have left", "vi": "A: Tôi không tìm thấy ô. B: Có thể bạn để quên ở nhà hàng.", "exp": "may have left"},
+        {"pre": "A: Dan didn't answer the door. B: He might not", "suf": "the doorbell.", "hint": "hear", "answer": "have heard", "vi": "A: Dan không ra mở cửa. B: Có thể anh ấy không nghe tiếng chuông.", "exp": "might not have heard"},
+        {"pre": "A: Hannah is 20 minutes late. B: She may", "suf": ".", "hint": "forget", "answer": "have forgotten", "vi": "A: Hannah trễ 20 phút rồi. B: Có thể cô ấy quên.", "exp": "may have forgotten"}
+      ]
+    },
+    {
+      "id": "29.3", "kind": "write",
+      "title": "might not have or couldn't have?",
+      "instr": "Viết câu: might not have (không chắc) hoặc couldn't have (chắc chắn không).",
+      "items": [
+        {"context": "Tom didn't come to the party. Perhaps he didn't want to.", "hint": "he / might not / want to come", "answer": "He might not have wanted to come.", "vi": "Có thể anh ấy không muốn đến.", "exp": "Không chắc → might not have"},
+        {"context": "The police say the fire wasn't an accident.", "hint": "it / couldn't / be an accident", "answer": "It couldn't have been an accident.", "vi": "Chắc chắn đó không phải là tai nạn.", "exp": "Chắc chắn không → couldn't have"},
+        {"context": "Mike says he tried to find you. But you were in your office all day.", "hint": "he / couldn't / try very hard", "answer": "He couldn't have tried very hard.", "vi": "Chắc anh ta không cố gắng lắm.", "exp": "couldn't have"},
+        {"context": "The man you spoke to: are you sure he was American?", "hint": "he / might not / be American", "answer": "He might not have been American.", "vi": "Có thể anh ta không phải người Mỹ.", "exp": "might not have been"}
+      ]
+    },
+    {
+      "id": "29.4", "kind": "fill",
+      "title": "may be or maybe?",
+      "instr": "Điền may be (hai từ), maybe hoặc might be.",
+      "items": [
+        {"pre": "A: Is it true? B:", "suf": ". I'm not sure.", "hint": "maybe / may be", "answer": "Maybe", "vi": "A: Có đúng không? B: Có lẽ. Tôi không chắc.", "exp": "maybe (một từ) đứng độc lập"},
+        {"pre": "It", "suf": "true. Nobody knows.", "hint": "maybe / may be", "answer": "may be", "alts": ["might be"], "vi": "Có thể đó là sự thật. Không ai biết.", "exp": "may be (hai từ) là động từ"},
+        {"pre": "", "suf": "she is at home. Let's call her.", "hint": "Maybe / May be", "answer": "Maybe", "vi": "Có lẽ cô ấy ở nhà. Mình gọi cho cô ấy đi.", "exp": "Maybe đầu câu"},
+        {"pre": "He", "suf": "at work, but I think he's on holiday.", "hint": "may be / maybe", "answer": "may be", "alts": ["might be"], "vi": "Có thể anh ấy đang ở chỗ làm, nhưng tôi nghĩ anh ấy đi nghỉ.", "exp": "may be (hai từ)"}
+      ]
+    }
+  ]
+}
