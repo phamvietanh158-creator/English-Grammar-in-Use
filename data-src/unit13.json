@@ -1,0 +1,95 @@
+{
+  "id": 13,
+  "title": "Present perfect and past simple 1",
+  "theory": {
+    "title": "Present perfect and past simple 1",
+    "blocks": [
+      {
+        "h": "A · Present perfect: nối với hiện tại",
+        "p": "Việc xảy ra trong quá khứ nhưng **kết quả vẫn còn ở hiện tại**.",
+        "ex": [
+          {"en": "Tom **has lost** his key.", "vi": "Tom làm mất chìa khoá rồi.", "note": "(bây giờ anh ấy không có chìa)"},
+          {"en": "They've **gone** away. They'll be back on Friday.", "vi": "Họ đi vắng rồi. Thứ Sáu họ sẽ về."},
+          {"en": "It **has stopped** raining. We don't need the umbrella.", "vi": "Trời tạnh mưa rồi. Mình không cần ô nữa."}
+        ]
+      },
+      {
+        "h": "B · Past simple: việc đã xong, không nối với hiện tại",
+        "ex": [
+          {"en": "Tom **lost** his key yesterday. He **couldn't** get in.", "vi": "Hôm qua Tom làm mất chìa khoá. Anh ấy không vào nhà được."},
+          {"en": "It **stopped** raining for a while, but now it's raining again.", "vi": "Trời đã tạnh một lúc nhưng giờ lại mưa."},
+          {"en": "Mozart **wrote** more than 600 pieces of music.", "vi": "Mozart đã viết hơn 600 tác phẩm.", "note": "(Mozart đã mất → past simple)"}
+        ]
+      },
+      {
+        "h": "C · Lưu ý",
+        "p": "Khi hỏi **ai/cái gì/khi nào/ở đâu** về một sự kiện đã xảy ra vào thời điểm xác định (kể cả lịch sử, người đã mất, nơi sinh…), dùng **past simple**.",
+        "ex": [
+          {"en": "Who **invented** the telephone?", "vi": "Ai phát minh ra điện thoại?", "note": "(không nói “has invented”)"},
+          {"en": "Where **were** you born?", "vi": "Bạn sinh ra ở đâu?"}
+        ]
+      },
+      {
+        "h": "D · Giới thiệu tin bằng present perfect, kể tiếp bằng past simple",
+        "ex": [
+          {"en": "A: Ow! I've **burnt** myself.  B: How **did** you do that?  A: I **picked up** a hot dish.", "vi": "A: Ui! Tôi bị bỏng rồi. B: Sao bạn bị vậy? A: Tôi cầm vào một cái đĩa nóng."}
+        ]
+      }
+    ]
+  },
+  "exercises": [
+    {
+      "id": "13.1", "kind": "fill",
+      "title": "What has happened?",
+      "instr": "Điền present perfect của động từ trong ngoặc để nói về kết quả ở hiện tại.",
+      "items": [
+        {"pre": "Tom", "suf": "his key. He can't get into his flat.", "hint": "lose", "answer": "has lost", "vi": "Tom làm mất chìa khoá. Anh ấy không vào nhà được.", "exp": "Kết quả hiện tại: không vào được → present perfect"},
+        {"pre": "The town is very different now. It", "suf": "a lot.", "hint": "change", "answer": "has changed", "vi": "Giờ thị trấn khác nhiều rồi. Nó đã thay đổi rất nhiều.", "exp": "Kết quả hiện tại: khác rồi"},
+        {"pre": "I studied German at school, but I", "suf": "most of it now.", "hint": "forget", "answer": "have forgotten", "alts": ["'ve forgotten"], "vi": "Tôi từng học tiếng Đức ở trường nhưng giờ quên gần hết.", "exp": "Bây giờ vẫn không nhớ → present perfect"},
+        {"pre": "What do you think of my English? Do you think", "suf": "?", "hint": "it / improve", "answer": "it has improved", "alts": ["it's improved"], "vi": "Bạn thấy tiếng Anh của tôi thế nào? Bạn có thấy nó tiến bộ không?", "exp": "Kết quả hiện tại → present perfect"},
+        {"pre": "Are you ready to go?", "suf": "your coffee?", "hint": "you / finish", "answer": "Have you finished", "vi": "Bạn sẵn sàng đi chưa? Bạn uống xong cà phê chưa?", "exp": "Hỏi về kết quả bây giờ"},
+        {"pre": "Quick! We need an ambulance.", "suf": "an accident.", "hint": "there / be", "answer": "There has been", "alts": ["There's been"], "vi": "Nhanh lên! Cần xe cấp cứu. Vừa có tai nạn.", "exp": "Tin vừa xảy ra, còn liên quan hiện tại"},
+        {"pre": "Ben won't be able to play tennis. He", "suf": "his arm.", "hint": "break", "answer": "has broken", "alts": ["'s broken"], "vi": "Ben không chơi quần vợt được. Anh ấy bị gãy tay.", "exp": "Kết quả hiện tại: không chơi được"}
+      ]
+    },
+    {
+      "id": "13.2", "kind": "write",
+      "title": "Correct the mistakes",
+      "instr": "Mỗi câu dùng sai thì. Viết lại thành câu đúng.",
+      "items": [
+        {"context": "My mother has grown up in Italy.", "hint": "grow up", "answer": "My mother grew up in Italy.", "vi": "Mẹ tôi lớn lên ở Ý.", "exp": "Việc đã xong trong quá khứ → past simple"},
+        {"context": "How many plays has William Shakespeare written?", "hint": "write", "answer": "How many plays did William Shakespeare write?", "vi": "William Shakespeare đã viết bao nhiêu vở kịch?", "exp": "Shakespeare đã mất → past simple"},
+        {"context": "Who has invented paper?", "hint": "invent", "answer": "Who invented paper?", "vi": "Ai đã phát minh ra giấy?", "exp": "Sự kiện lịch sử → past simple"},
+        {"context": "Where have you been born?", "hint": "be born", "answer": "Where were you born?", "vi": "Bạn sinh ra ở đâu?", "exp": "Nơi sinh là sự kiện đã xong → past simple"},
+        {"context": "Albert Einstein has been the scientist who has developed the theory of relativity.", "hint": "be / develop", "answer": "Albert Einstein was the scientist who developed the theory of relativity.", "vi": "Albert Einstein là nhà khoa học đã phát triển thuyết tương đối.", "exp": "Einstein đã mất → past simple"},
+        {"context": "Mozart has written more than 600 pieces of music.", "hint": "write", "answer": "Mozart wrote more than 600 pieces of music.", "vi": "Mozart đã viết hơn 600 tác phẩm âm nhạc.", "exp": "Người đã mất → past simple"}
+      ]
+    },
+    {
+      "id": "13.3", "kind": "fill",
+      "title": "Present perfect or past simple?",
+      "instr": "Điền present perfect hoặc past simple của động từ trong ngoặc.",
+      "items": [
+        {"pre": "It", "suf": "raining for a while, but now it's raining again.", "hint": "stop", "answer": "stopped", "vi": "Trời đã tạnh một lúc, nhưng giờ lại mưa.", "exp": "Việc đã kết thúc rồi lại bắt đầu → past simple"},
+        {"pre": "The police", "suf": "three people, but later let them go.", "hint": "arrest", "answer": "arrested", "vi": "Cảnh sát bắt ba người nhưng sau đó thả họ.", "exp": "Sự việc hoàn toàn trong quá khứ"},
+        {"pre": "I", "suf": "for a job as a tour guide, but I wasn't successful.", "hint": "apply", "answer": "applied", "vi": "Tôi đã xin làm hướng dẫn viên du lịch nhưng không thành công.", "exp": "wasn't successful → cả câu ở quá khứ"},
+        {"pre": "Where's my bike? It", "suf": "outside, but it's not there now.", "hint": "be", "answer": "was", "vi": "Xe đạp của tôi đâu? Lúc nãy nó ở ngoài, giờ không thấy.", "exp": "Lúc trước ở đó, giờ không → past simple"},
+        {"pre": "A: Ow! I've burnt myself. B: How", "suf": "that?", "hint": "you / do", "answer": "did you do", "vi": "A: Ui! Tôi bị bỏng rồi. B: Sao bạn bị vậy?", "exp": "Hỏi chi tiết sau khi giới thiệu tin → past simple"},
+        {"pre": "A: Ben has broken his arm. B: How", "suf": "?", "hint": "that / happen", "answer": "did that happen", "vi": "A: Ben bị gãy tay. B: Sao lại thế?", "exp": "Hỏi chi tiết → past simple"},
+        {"pre": "A: How did that happen? B: He", "suf": "off a ladder.", "hint": "fall", "answer": "fell", "vi": "A: Sao lại thế? B: Anh ấy bị ngã từ thang xuống.", "exp": "Kể lại sự kiện → past simple"}
+      ]
+    },
+    {
+      "id": "13.4", "kind": "fill",
+      "title": "At work",
+      "instr": "Present perfect hay past simple? Điền dạng đúng của động từ trong ngoặc.",
+      "items": [
+        {"pre": "I", "suf": "the sales figures to your manager. You can ask her about them.", "hint": "send", "answer": "have sent", "alts": ["'ve sent"], "vi": "Tôi đã gửi số liệu bán hàng cho quản lý của bạn. Bạn có thể hỏi cô ấy.", "exp": "Kết quả hiện tại → present perfect"},
+        {"pre": "The system", "suf": "down, so nobody can log in at the moment.", "hint": "go", "answer": "has gone", "alts": ["'s gone"], "vi": "Hệ thống bị sập nên lúc này không ai đăng nhập được.", "exp": "Kết quả hiện tại → present perfect"},
+        {"pre": "The system", "suf": "down yesterday and we lost two hours.", "hint": "go", "answer": "went", "vi": "Hôm qua hệ thống bị sập và chúng tôi mất hai tiếng.", "exp": "yesterday → past simple"},
+        {"pre": "Mr Park", "suf": "to Singapore. He'll be back on Friday.", "hint": "go", "answer": "has gone", "alts": ["'s gone"], "vi": "Ông Park đi Singapore rồi. Thứ Sáu ông ấy sẽ về.", "exp": "Hiện giờ ông ấy đang ở đó → has gone"},
+        {"pre": "Last year our team", "suf": "twelve new clients.", "hint": "win", "answer": "won", "vi": "Năm ngoái nhóm chúng tôi giành được mười hai khách hàng mới.", "exp": "last year → past simple"}
+      ]
+    }
+  ]
+}
